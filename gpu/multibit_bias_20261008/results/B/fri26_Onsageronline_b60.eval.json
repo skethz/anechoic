@@ -1,0 +1,39 @@
+{
+ "prefix": "fri26_Onsageronline_b60",
+ "B": 60,
+ "batches": 128,
+ "trials": 7680,
+ "t_batch_ms": 14.9972175453125,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0004999398857044752
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.029136956273508416
+ ],
+ "feasible": 6239,
+ "feasibility": 0.8123697916666667,
+ "feasibility_wilson95": [
+  0.8034827732675797,
+  0.820944477829867
+ ],
+ "mean_quality": 0.3714778479142075,
+ "mean_quality_feasible": 0.4572767866615024,
+ "best_value": 1373,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  2335.6458956927386,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  2301.8592014450405,
+  Infinity
+ ]
+}

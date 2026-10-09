@@ -1,0 +1,214 @@
+{
+ "mcp_sets": {
+  "all ten methods": {
+   "instances": [],
+   "geo": {
+    "SA": null,
+    "SCA": null,
+    "TEC": null,
+    "APC-SCA": null,
+    "ReAIM ASA": null,
+    "aSB": null,
+    "bSB": null,
+    "dSB": null,
+    "Onsager-kT": null,
+    "Onsager-online": null
+   }
+  },
+  "all methods except TEC (0/20) and aSB": {
+   "instances": [
+    "G6",
+    "G7",
+    "G8",
+    "G9",
+    "G10",
+    "G20"
+   ],
+   "geo": {
+    "SA": 5181.055980101305,
+    "SCA": 6147.397432062828,
+    "TEC": null,
+    "APC-SCA": 6210.405288477655,
+    "ReAIM ASA": 198521.92478653294,
+    "aSB": null,
+    "bSB": 2956.965400750811,
+    "dSB": 3355.7029606291967,
+    "Onsager-kT": 2727.6503809166093,
+    "Onsager-online": 2130.1371324921483
+   }
+  },
+  "SA, dSB, Onsager-online (C3)": {
+   "instances": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8",
+    "G9",
+    "G10",
+    "G11",
+    "G12",
+    "G13",
+    "G14",
+    "G15",
+    "G16",
+    "G17",
+    "G18",
+    "G19",
+    "G20"
+   ],
+   "geo": {
+    "SA": 2260.5768147234176,
+    "SCA": null,
+    "TEC": null,
+    "APC-SCA": null,
+    "ReAIM ASA": null,
+    "aSB": null,
+    "bSB": null,
+    "dSB": 2432.101370712016,
+    "Onsager-kT": 4030.840957868074,
+    "Onsager-online": 5150.298199326606
+   }
+  },
+  "A1 common set (11)": {
+   "instances": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8",
+    "G9",
+    "G10",
+    "G16"
+   ],
+   "geo": {
+    "SA": 1096.0352053079068,
+    "SCA": null,
+    "TEC": null,
+    "APC-SCA": null,
+    "ReAIM ASA": 18151.980459453207,
+    "aSB": null,
+    "bSB": 594.1942355684497,
+    "dSB": 1136.234885091621,
+    "Onsager-kT": 1396.7814947625636,
+    "Onsager-online": 1681.330785893611
+   }
+  }
+ },
+ "C3": {
+  "online_over_SA_all20": 2.278311520220005,
+  "online_over_dSB_all20": 2.1176330318085457,
+  "online_over_SA_A1set": 1.5340116610773267,
+  "online_over_dSB_A1set": 1.479738747642866,
+  "kT_over_SA_all20": 1.7831028486246103,
+  "kT_over_dSB_all20": 1.6573490753339837
+ },
+ "paired": {
+  "SA/Onsager-kT": {
+   "geo": 0.5608201460568284,
+   "n": 20,
+   "onsager_fewer": 8
+  },
+  "SA/Onsager-online": {
+   "geo": 0.4389215395370673,
+   "n": 20,
+   "onsager_fewer": 8
+  },
+  "SCA/Onsager-kT": {
+   "geo": 3.5997249929299837,
+   "n": 11,
+   "onsager_fewer": 11
+  },
+  "SCA/Onsager-online": {
+   "geo": 3.7456806962371934,
+   "n": 11,
+   "onsager_fewer": 11
+  },
+  "TEC/Onsager-kT": {
+   "geo": null,
+   "n": 0,
+   "onsager_fewer": 0
+  },
+  "TEC/Onsager-online": {
+   "geo": null,
+   "n": 0,
+   "onsager_fewer": 0
+  },
+  "APC-SCA/Onsager-kT": {
+   "geo": 1.5124864057223046,
+   "n": 15,
+   "onsager_fewer": 12
+  },
+  "APC-SCA/Onsager-online": {
+   "geo": 1.3213052297355394,
+   "n": 15,
+   "onsager_fewer": 9
+  },
+  "ReAIM ASA/Onsager-kT": {
+   "geo": 25.378912126565776,
+   "n": 16,
+   "onsager_fewer": 16
+  },
+  "ReAIM ASA/Onsager-online": {
+   "geo": 19.91382191865084,
+   "n": 16,
+   "onsager_fewer": 16
+  },
+  "aSB/Onsager-kT": {
+   "geo": 5.320178906729737,
+   "n": 7,
+   "onsager_fewer": 7
+  },
+  "aSB/Onsager-online": {
+   "geo": 6.261681932759433,
+   "n": 7,
+   "onsager_fewer": 5
+  },
+  "bSB/Onsager-kT": {
+   "geo": 0.6829602076527937,
+   "n": 17,
+   "onsager_fewer": 2
+  },
+  "bSB/Onsager-online": {
+   "geo": 0.5281667666897342,
+   "n": 17,
+   "onsager_fewer": 1
+  },
+  "dSB/Onsager-kT": {
+   "geo": 0.6033731908882765,
+   "n": 20,
+   "onsager_fewer": 7
+  },
+  "dSB/Onsager-online": {
+   "geo": 0.4722253501806965,
+   "n": 20,
+   "onsager_fewer": 7
+  },
+  "Onsager-kT/Onsager-kT": {
+   "geo": 1.0,
+   "n": 20,
+   "onsager_fewer": 0
+  },
+  "Onsager-kT/Onsager-online": {
+   "geo": 0.7826422474712438,
+   "n": 20,
+   "onsager_fewer": 6
+  },
+  "Onsager-online/Onsager-kT": {
+   "geo": 1.2777229995327368,
+   "n": 20,
+   "onsager_fewer": 14
+  },
+  "Onsager-online/Onsager-online": {
+   "geo": 1.0,
+   "n": 20,
+   "onsager_fewer": 0
+  }
+ }
+}

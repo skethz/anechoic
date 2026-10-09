@@ -1,0 +1,110 @@
+Mean final cut / P(cut >= 33,000) / MCS99, final state, 256 runs (ours: frozen finals)
+--- S = 250
+bSB                    mean cut   33143.9  p 0.992  MCS99       237  | best-visited p 0.992  cfg {'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 250}
+TEC-T (ours)           mean cut   32977.1  p 0.441  MCS99      1977  cfg {'family': 'tecT', 'kappa': 2.0, 'q': 6.0, 'T0': 15.0, 'ramp': True, 'S': 250}
+Onsager SCA (ours)     mean cut   32943.2  p 0.383  MCS99      2386  cfg {'family': 'onsager', 'lam': 0.9, 'q': 6.0, 'T0': 15.0, 'ramp': True, 'S': 250}
+dSB                    mean cut   32822.1  p 0.129  MCS99      8342  | best-visited p 0.133  cfg {'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 250}
+SCA (STATICA)          mean cut   32599.6  p 0.012  MCS99     97667  | best-visited p 0.012  cfg {'family': 'plain', 'q': 4.0, 'T0': 50.0, 'S': 250}
+SA (Neal)              mean cut   32539.6  p 0.012  MCS99     97667  | best-visited p 0.012  cfg {'family': 'SA_neal', 'S': 250, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+APC-SCA (published)    mean cut   32102.6  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 250}
+ReAIM ASA              mean cut   31322.0  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 250}
+TEC (published)        mean cut   30694.1  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 250}
+TEC on STATICA         mean cut   25762.7  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 250}
+aSB                    mean cut      -inf  p 0.000  MCS99       inf  | best-visited p 0.055  cfg {'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 250}
+--- S = 500
+bSB                    mean cut   33184.8  p 1.000  MCS99       500  | best-visited p 1.000  cfg {'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 500}
+TEC-T (ours)           mean cut   33098.8  p 0.867  MCS99      1141  cfg {'family': 'tecT', 'kappa': 2.0, 'q': 6.0, 'T0': 15.0, 'ramp': True, 'S': 500}
+Onsager SCA (ours)     mean cut   33079.4  p 0.816  MCS99      1358  cfg {'family': 'onsager', 'lam': 0.9, 'q': 6.0, 'T0': 20.0, 'ramp': True, 'S': 500}
+dSB                    mean cut   32993.0  p 0.500  MCS99      3322  | best-visited p 0.500  cfg {'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 500}
+SCA (STATICA)          mean cut   32869.8  p 0.156  MCS99     13553  | best-visited p 0.195  cfg {'family': 'plain', 'q': 4.0, 'T0': 40.0, 'S': 500}
+SA (Neal)              mean cut   32774.0  p 0.078  MCS99     28306  | best-visited p 0.078  cfg {'family': 'SA_neal', 'S': 500, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+APC-SCA (published)    mean cut   32462.1  p 0.004  MCS99    588310  | best-visited p 0.004  cfg {'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 500}
+ReAIM ASA              mean cut   32126.8  p 0.008  MCS99    293578  | best-visited p 0.016  cfg {'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 500}
+TEC on STATICA         mean cut   31615.6  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 500}
+TEC (published)        mean cut   31472.6  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 500}
+aSB                    mean cut      -inf  p 0.000  MCS99       inf  | best-visited p 0.070  cfg {'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 500}
+--- S = 1000
+bSB                    mean cut   33207.8  p 1.000  MCS99      1000  | best-visited p 1.000  cfg {'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 1000}
+TEC-T (ours)           mean cut   33185.3  p 0.996  MCS99       830  cfg {'family': 'tecT', 'kappa': 2.0, 'q': 8.0, 'T0': 15.0, 'ramp': True, 'S': 1000}
+Onsager SCA (ours)     mean cut   33138.0  p 0.934  MCS99      1698  cfg {'family': 'onsager', 'lam': 1.05, 'q': 8.0, 'T0': 12.0, 'ramp': True, 'S': 1000}
+dSB                    mean cut   33104.7  p 0.844  MCS99      2481  | best-visited p 0.848  cfg {'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 1000}
+SCA (STATICA)          mean cut   33022.3  p 0.578  MCS99      5336  | best-visited p 0.645  cfg {'family': 'plain', 'q': 4.0, 'T0': 40.0, 'S': 1000}
+SA (Neal)              mean cut   32963.7  p 0.402  MCS99      8947  | best-visited p 0.402  cfg {'family': 'SA_neal', 'S': 1000, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+APC-SCA (published)    mean cut   32694.3  p 0.074  MCS99     59716  | best-visited p 0.074  cfg {'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 1000}
+TEC on STATICA         mean cut   32522.3  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 1000}
+ReAIM ASA              mean cut   32519.6  p 0.031  MCS99    145051  | best-visited p 0.086  cfg {'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 1000}
+TEC (published)        mean cut   32043.0  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 1000}
+aSB                    mean cut      -inf  p 0.000  MCS99       inf  | best-visited p 0.023  cfg {'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 1000}
+--- S = 2000
+bSB                    mean cut   33209.0  p 1.000  MCS99      2000  | best-visited p 1.000  cfg {'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 2000}
+Onsager SCA (ours)     mean cut   33204.9  p 0.996  MCS99      1661  cfg {'family': 'onsager', 'lam': 0.9, 'q': 6.0, 'T0': 20.0, 'ramp': True, 'S': 2000}
+TEC-T (ours)           mean cut   33204.1  p 1.000  MCS99      2000  cfg {'family': 'tecT', 'kappa': 2.0, 'q': 6.0, 'T0': 20.0, 'ramp': True, 'S': 2000}
+dSB                    mean cut   33174.7  p 0.988  MCS99      2071  | best-visited p 0.988  cfg {'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 2000}
+SCA (STATICA)          mean cut   33120.2  p 0.902  MCS99      3959  | best-visited p 0.930  cfg {'family': 'plain', 'q': 4.0, 'T0': 40.0, 'S': 2000}
+SA (Neal)              mean cut   33081.9  p 0.770  MCS99      6276  | best-visited p 0.773  cfg {'family': 'SA_neal', 'S': 2000, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+APC-SCA (published)    mean cut   32888.1  p 0.223  MCS99     36567  | best-visited p 0.223  cfg {'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 2000}
+TEC on STATICA         mean cut   32826.7  p 0.117  MCS99     73894  | best-visited p 0.117  cfg {'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 2000}
+ReAIM ASA              mean cut   32730.2  p 0.168  MCS99     50087  | best-visited p 0.297  cfg {'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 2000}
+TEC (published)        mean cut   32464.5  p 0.012  MCS99    781335  | best-visited p 0.012  cfg {'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 2000}
+aSB                    mean cut      -inf  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 2000}
+--- S = 4000
+TEC-T (ours)           mean cut   33236.4  p 1.000  MCS99      4000  cfg {'family': 'tecT', 'kappa': 1.75, 'q': 8.0, 'T0': 15.0, 'ramp': True, 'S': 4000}
+Onsager SCA (ours)     mean cut   33232.7  p 1.000  MCS99      4000  cfg {'family': 'onsager', 'lam': 1.05, 'q': 8.0, 'T0': 12.0, 'ramp': True, 'S': 4000}
+dSB                    mean cut   33218.6  p 1.000  MCS99      4000  | best-visited p 1.000  cfg {'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 4000}
+bSB                    mean cut   33209.0  p 1.000  MCS99      4000  | best-visited p 1.000  cfg {'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 4000}
+SA (Neal)              mean cut   33155.6  p 0.949  MCS99      6181  | best-visited p 0.957  cfg {'family': 'SA_neal', 'S': 4000, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+SCA (STATICA)          mean cut   33153.0  p 0.969  MCS99      5315  | best-visited p 0.969  cfg {'family': 'plain', 'q': 4.0, 'T0': 30.0, 'S': 4000}
+APC-SCA (published)    mean cut   33018.3  p 0.586  MCS99     20891  | best-visited p 0.586  cfg {'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 4000}
+TEC on STATICA         mean cut   32991.5  p 0.473  MCS99     28787  | best-visited p 0.477  cfg {'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 4000}
+ReAIM ASA              mean cut   32986.1  p 0.512  MCS99     25696  | best-visited p 0.656  cfg {'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 4000}
+TEC (published)        mean cut   32707.0  p 0.016  MCS99   1169689  | best-visited p 0.016  cfg {'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 4000}
+aSB                    mean cut      -inf  p 0.000  MCS99       inf  | best-visited p 0.000  cfg {'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 4000}
+
+Claim (a): among discrete methods (all but aSB, bSB, dSB), do both forms reach lower mean energy than every baseline?
+S=250: best discrete baseline SCA (STATICA) 32599.6; ours 32977.1 / 32943.2 -> YES; overall best bSB
+S=500: best discrete baseline SCA (STATICA) 32869.8; ours 33098.8 / 33079.4 -> YES; overall best bSB
+S=1000: best discrete baseline SCA (STATICA) 33022.3; ours 33185.3 / 33138.0 -> YES; overall best bSB
+S=2000: best discrete baseline SCA (STATICA) 33120.2; ours 33204.1 / 33204.9 -> YES; overall best bSB
+S=4000: best discrete baseline SA (Neal) 33155.6; ours 33236.4 / 33232.7 -> YES; overall best TEC-T (ours)
+Claim (a) holds at every budget: True
+
+Claim (b): P(cut >= 33,000) at S = 500: SA (Neal) 0.078, SCA (STATICA) 0.156, TEC (published) 0.000, TEC on STATICA 0.000, APC-SCA (published) 0.004, ReAIM ASA 0.008, aSB 0.000, bSB 1.000, dSB 0.500, TEC-T (ours) 0.867, Onsager SCA (ours) 0.816
+
+Claim (c): steps to solution, min over S (final state)
+bSB                          237 at S = 250
+TEC-T (ours)                 830 at S = 1000
+Onsager SCA (ours)          1358 at S = 500
+dSB                         2071 at S = 2000
+SCA (STATICA)               3959 at S = 2000
+SA (Neal)                   6181 at S = 4000
+APC-SCA (published)        20891 at S = 4000
+ReAIM ASA                  25696 at S = 4000
+TEC on STATICA             28787 at S = 4000
+TEC (published)           781335 at S = 2000
+aSB                          inf at S = 250
+Most step-efficient discrete method: TEC-T (ours); overall: bSB
+
+Sensitivity: all published values (finals), min over S of MCS99 and mean cut at S = 1000
+SA (Neal)              k=0 cfg@1000={'family': 'SA_neal', 'S': 1000, 'beta_range': [0.00017337348188092679, 6.103036322765087]}: min MCS99 6181 (S=4000); p by S 0.01 0.08 0.40 0.77 0.95; selected k=[0, 0, 0, 0, 0]
+SCA (STATICA)          k=0 cfg@1000={'family': 'plain', 'q': 4.0, 'T0': 30.0, 'S': 1000}: min MCS99 5315 (S=4000); p by S 0.00 0.09 0.41 0.72 0.97; selected k=[2, 1, 1, 1, 0]
+SCA (STATICA)          k=1 cfg@1000={'family': 'plain', 'q': 4.0, 'T0': 40.0, 'S': 1000}: min MCS99 3796 (S=4000); p by S 0.02 0.16 0.58 0.90 0.99; selected k=[2, 1, 1, 1, 0]
+SCA (STATICA)          k=2 cfg@1000={'family': 'plain', 'q': 4.0, 'T0': 50.0, 'S': 1000}: min MCS99 3396 (S=2000); p by S 0.01 0.13 0.56 0.93 0.99; selected k=[2, 1, 1, 1, 0]
+TEC (published)        k=0 cfg@1000={'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 1000}: min MCS99 781335 (S=2000); p by S 0.00 0.00 0.00 0.01 0.02; selected k=[0, 0, 0, 0, 0]
+TEC on STATICA         k=0 cfg@1000={'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 30.0, 'S': 1000}: min MCS99 inf (S=250); p by S 0.00 0.00 0.00 0.00 0.00; selected k=[2, 2, 2, 2, 2]
+TEC on STATICA         k=1 cfg@1000={'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 40.0, 'S': 1000}: min MCS99 159030 (S=4000); p by S 0.00 0.00 0.00 0.00 0.11; selected k=[2, 2, 2, 2, 2]
+TEC on STATICA         k=2 cfg@1000={'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 1000}: min MCS99 28787 (S=4000); p by S 0.00 0.00 0.00 0.12 0.47; selected k=[2, 2, 2, 2, 2]
+APC-SCA (published)    k=0 cfg@1000={'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 1000}: min MCS99 20891 (S=4000); p by S 0.00 0.00 0.07 0.22 0.59; selected k=[0, 0, 0, 0, 0]
+ReAIM ASA              k=0 cfg@1000={'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 1000}: min MCS99 25696 (S=4000); p by S 0.00 0.01 0.03 0.17 0.51; selected k=[0, 0, 0, 0, 0]
+aSB                    k=0 cfg@1000={'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 1000}: min MCS99 inf (S=250); p by S 0.00 0.00 0.00 0.00 0.00; selected k=[0, 0, 0, 0, 0]
+bSB                    k=0 cfg@1000={'family': 'bSB', 'dt': 0.25, 'xi': 1.0, 'S': 1000}: min MCS99 1376 (S=1000); p by S 0.00 0.44 0.96 0.99 1.00; selected k=[4, 4, 4, 4, 4]
+bSB                    k=1 cfg@1000={'family': 'bSB', 'dt': 0.5, 'xi': 1.0, 'S': 1000}: min MCS99 773 (S=500); p by S 0.39 0.95 1.00 1.00 1.00; selected k=[4, 4, 4, 4, 4]
+bSB                    k=2 cfg@1000={'family': 'bSB', 'dt': 0.75, 'xi': 1.0, 'S': 1000}: min MCS99 475 (S=500); p by S 0.85 0.99 1.00 1.00 1.00; selected k=[4, 4, 4, 4, 4]
+bSB                    k=3 cfg@1000={'family': 'bSB', 'dt': 1.0, 'xi': 1.0, 'S': 1000}: min MCS99 434 (S=250); p by S 0.93 1.00 1.00 1.00 1.00; selected k=[4, 4, 4, 4, 4]
+bSB                    k=4 cfg@1000={'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 1000}: min MCS99 237 (S=250); p by S 0.99 1.00 1.00 1.00 1.00; selected k=[4, 4, 4, 4, 4]
+dSB                    k=0 cfg@1000={'family': 'dSB', 'dt': 0.25, 'xi': 1.0, 'S': 1000}: min MCS99 7225 (S=4000); p by S 0.00 0.00 0.13 0.55 0.92; selected k=[4, 4, 4, 4, 4]
+dSB                    k=1 cfg@1000={'family': 'dSB', 'dt': 0.5, 'xi': 1.0, 'S': 1000}: min MCS99 4027 (S=2000); p by S 0.00 0.20 0.56 0.90 0.99; selected k=[4, 4, 4, 4, 4]
+dSB                    k=2 cfg@1000={'family': 'dSB', 'dt': 0.75, 'xi': 1.0, 'S': 1000}: min MCS99 2658 (S=2000); p by S 0.04 0.32 0.79 0.97 1.00; selected k=[4, 4, 4, 4, 4]
+dSB                    k=3 cfg@1000={'family': 'dSB', 'dt': 1.0, 'xi': 1.0, 'S': 1000}: min MCS99 2071 (S=2000); p by S 0.13 0.48 0.86 0.99 1.00; selected k=[4, 4, 4, 4, 4]
+dSB                    k=4 cfg@1000={'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 1000}: min MCS99 2071 (S=2000); p by S 0.13 0.50 0.84 0.99 1.00; selected k=[4, 4, 4, 4, 4]
+TEC-T (ours)           k=0 cfg@1000={'family': 'tecT', 'kappa': 2.0, 'q': 8.0, 'T0': 15.0, 'ramp': True, 'S': 1000}: min MCS99 1279 (S=1000); p by S 0.45 0.81 0.97 1.00 1.00; selected k=[0, 0, 0, 0, 0]
+Onsager SCA (ours)     k=0 cfg@1000={'family': 'onsager', 'lam': 1.05, 'q': 8.0, 'T0': 12.0, 'ramp': True, 'S': 1000}: min MCS99 1427 (S=500); p by S 0.39 0.80 0.95 1.00 1.00; selected k=[0, 0, 0, 0, 0]

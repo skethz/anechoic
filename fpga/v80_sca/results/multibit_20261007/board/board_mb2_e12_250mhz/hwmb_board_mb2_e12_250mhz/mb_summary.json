@@ -1,0 +1,511 @@
+{
+  "clock_mhz": 249.99999975,
+  "logic_uuid": "257f202a432b4f4914f0c933fe037434",
+  "cycle_model": [
+    0.1424,
+    18.09,
+    886.0
+  ],
+  "verify": {
+    "G22a": {
+      "trials": 24,
+      "exact": 24,
+      "engines": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G22"
+    },
+    "G22b": {
+      "trials": 12,
+      "exact": 12,
+      "engines": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G22"
+    },
+    "G32a": {
+      "trials": 24,
+      "exact": 24,
+      "engines": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G32"
+    },
+    "G32b": {
+      "trials": 12,
+      "exact": 12,
+      "engines": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G32"
+    },
+    "W1": {
+      "trials": 12,
+      "exact": 12,
+      "engines": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "matrix": "k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin"
+    },
+    "W2": {
+      "trials": 24,
+      "exact": 24,
+      "engines": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "matrix": "k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin"
+    },
+    "W3": {
+      "trials": 12,
+      "exact": 12,
+      "engines": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "matrix": "k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin"
+    },
+    "W4": {
+      "trials": 12,
+      "exact": 12,
+      "engines": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "matrix": "k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin"
+    }
+  },
+  "rounds": {
+    "O4": {
+      "trials": 2052,
+      "engines": 12,
+      "hits": 668,
+      "p": 0.3255360623781676,
+      "p_wilson95": [
+        0.30560407761881947,
+        0.3461200629959048
+      ],
+      "rounds": 171,
+      "P_round": 0.9941520467836257,
+      "P_round_pred": 0.9911385497384626,
+      "M2_pass": true,
+      "t_round_ms": 0.05901477652960301,
+      "tts99_ms": 0.05285703477489629,
+      "tts99_ci95": [
+        0.05271897372671296,
+        0.06733626728340117
+      ],
+      "tts99_ind_ms": 0.05750539796589593,
+      "tts99_whole_ms": 0.05901477652960301,
+      "mean_flips": 45369.494639376215,
+      "mean_launch_cycles": 13817.133823529412,
+      "model_ratio": 0.9969186606762258,
+      "integrity_failures": 0,
+      "target": 33000,
+      "matrix": "k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin",
+      "corr_scale": 1,
+      "steps": 360
+    },
+    "X5": {
+      "trials": 2052,
+      "engines": 12,
+      "hits": 694,
+      "p": 0.3382066276803119,
+      "p_wilson95": [
+        0.31805577336147833,
+        0.35896214475050064
+      ],
+      "rounds": 171,
+      "P_round": 1.0,
+      "P_round_pred": 0.9929422062623436,
+      "M2_pass": true,
+      "t_round_ms": 0.05034701181505289,
+      "tts99_ms": 0.05034701181505289,
+      "tts99_ci95": [
+        0.050303573218518235,
+        0.05039150882232133
+      ],
+      "tts99_ind_ms": 0.04680545292850832,
+      "tts99_whole_ms": 0.05034701181505289,
+      "mean_flips": 47445.646686159846,
+      "mean_launch_cycles": 12373.994117647058,
+      "model_ratio": 0.9737712190177451,
+      "integrity_failures": 0,
+      "target": 33000,
+      "matrix": "k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin",
+      "corr_scale": 1,
+      "steps": 280
+    }
+  },
+  "gset": {
+    "G22_ons": {
+      "trials": 2052,
+      "engines": 12,
+      "hits": 925,
+      "p": 0.45077972709551656,
+      "p_wilson95": [
+        0.4293626783499308,
+        0.4723807244491952
+      ],
+      "rounds": 171,
+      "P_round": 1.0,
+      "P_round_pred": 0.9992467160480404,
+      "M2_pass": true,
+      "t_round_ms": 0.12183378835712791,
+      "tts99_ms": 0.12183378835712791,
+      "tts99_ci95": [
+        0.10494029126421103,
+        0.14426720482262978
+      ],
+      "tts99_ind_ms": 0.07802252820227605,
+      "tts99_whole_ms": 0.12183378835712791,
+      "mean_flips": 23479.219298245614,
+      "mean_launch_cycles": 26438.435294117648,
+      "model_ratio": 1.1618273047011864,
+      "integrity_failures": 3,
+      "target": 13226,
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G22",
+      "corr_scale": 0.009995,
+      "steps": 1024,
+      "G1_pass": true,
+      "G2_model_t_round_ms": 0.10139700810139701,
+      "G2_ratio": 1.2015521033450427,
+      "G2_pass": false,
+      "G3_band_ms": [
+        0.054684014012637575,
+        0.11153670880000001
+      ],
+      "G3_pass": false
+    },
+    "G22_plain": {
+      "trials": 2052,
+      "engines": 12,
+      "hits": 769,
+      "p": 0.37475633528265107,
+      "p_wilson95": [
+        0.35406430486126983,
+        0.3959164329543283
+      ],
+      "rounds": 171,
+      "P_round": 1.0,
+      "P_round_pred": 0.9964306297528165,
+      "M2_pass": true,
+      "t_round_ms": 0.10332590598567885,
+      "tts99_ms": 0.10332590598567885,
+      "tts99_ci95": [
+        0.10329086394918009,
+        0.10336688844186019
+      ],
+      "tts99_ind_ms": 0.08443699543796968,
+      "tts99_whole_ms": 0.10332590598567885,
+      "mean_flips": 18739.266081871345,
+      "mean_launch_cycles": 25729.745588235295,
+      "model_ratio": 1.165369531925497,
+      "integrity_failures": 0,
+      "target": 13226,
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G22",
+      "corr_scale": 1,
+      "steps": 1024,
+      "G1_pass": true,
+      "G2_model_t_round_ms": 0.10139700810139701,
+      "G2_ratio": 1.0190232228780651,
+      "G2_pass": true,
+      "G3_band_ms": [
+        0.057655739573320416,
+        0.11153670880000001
+      ],
+      "G3_pass": true
+    },
+    "G22_tecT": {
+      "trials": 2052,
+      "engines": 12,
+      "hits": 871,
+      "p": 0.4244639376218324,
+      "p_wilson95": [
+        0.40323888119767914,
+        0.44597129141484115
+      ],
+      "rounds": 171,
+      "P_round": 1.0,
+      "P_round_pred": 0.9986790983153034,
+      "M2_pass": true,
+      "t_round_ms": 0.1036118118683177,
+      "tts99_ms": 0.1036118118683177,
+      "tts99_ci95": [
+        0.10358308672209013,
+        0.10364514630247557
+      ],
+      "tts99_ind_ms": 0.07197440174569945,
+      "tts99_whole_ms": 0.1036118118683177,
+      "mean_flips": 19409.622319688107,
+      "mean_launch_cycles": 25800.45882352941,
+      "model_ratio": 1.163536955512966,
+      "integrity_failures": 0,
+      "target": 13226,
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G22",
+      "corr_scale": 0.009995,
+      "steps": 1024,
+      "G1_pass": true,
+      "G2_model_t_round_ms": 0.10139700810139701,
+      "G2_ratio": 1.0218428907163206,
+      "G2_pass": true,
+      "G3_band_ms": [
+        0.05834768794697469,
+        0.11153670880000001
+      ],
+      "G3_pass": true
+    },
+    "G32_ons": {
+      "trials": 2052,
+      "engines": 12,
+      "hits": 13,
+      "p": 0.006335282651072124,
+      "p_wilson95": [
+        0.0037061047520572233,
+        0.01080941045105959
+      ],
+      "rounds": 171,
+      "P_round": 0.07602339181286549,
+      "P_round_pred": 0.07342957900428493,
+      "M2_pass": true,
+      "t_round_ms": 0.4026482356967659,
+      "tts99_ms": 23.45135041052693,
+      "tts99_ci95": [
+        14.905914183262768,
+        51.90882365842488
+      ],
+      "tts99_ind_ms": 24.31335596371837,
+      "tts99_whole_ms": 23.756245906109186,
+      "mean_flips": 118096.22904483431,
+      "mean_launch_cycles": 100157.29215686275,
+      "model_ratio": 1.0910670591134048,
+      "integrity_failures": 0,
+      "target": 1396,
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G32",
+      "corr_scale": 0.002,
+      "steps": 4096,
+      "G1_pass": true,
+      "G2_model_t_round_ms": 0.38743707238743713,
+      "G2_ratio": 1.0392609907348196,
+      "G2_pass": true,
+      "G3_band_ms": [
+        12.120711583318649,
+        474.1923810179125
+      ],
+      "G3_pass": true
+    },
+    "G32_plain": {
+      "trials": 2052,
+      "engines": 12,
+      "hits": 30,
+      "p": 0.014619883040935672,
+      "p_wilson95": [
+        0.01025977772819851,
+        0.02079397660773865
+      ],
+      "rounds": 171,
+      "P_round": 0.16374269005847952,
+      "P_round_pred": 0.1619970686900355,
+      "M2_pass": true,
+      "t_round_ms": 0.5298617181769206,
+      "tts99_ms": 13.645666253091456,
+      "tts99_ci95": [
+        9.708875602293098,
+        20.714217367986052
+      ],
+      "tts99_ind_ms": 13.80666876865225,
+      "tts99_whole_ms": 13.776404672599936,
+      "mean_flips": 409474.6150097466,
+      "mean_launch_cycles": 131436.9980392157,
+      "model_ratio": 0.9860695516882053,
+      "integrity_failures": 0,
+      "target": 1396,
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G32",
+      "corr_scale": 1,
+      "steps": 4096,
+      "G1_pass": true,
+      "G2_model_t_round_ms": 0.5515623202824005,
+      "G2_ratio": 0.9606561193404779,
+      "G2_pass": true,
+      "G3_band_ms": [
+        8.315202185392204,
+        55.622118193817606
+      ],
+      "G3_pass": true
+    },
+    "G32_tecT": {
+      "trials": 2052,
+      "engines": 12,
+      "hits": 29,
+      "p": 0.014132553606237816,
+      "p_wilson95": [
+        0.009857839768170118,
+        0.02022307697171879
+      ],
+      "rounds": 171,
+      "P_round": 0.16374269005847952,
+      "P_round_pred": 0.15701020739922888,
+      "M2_pass": true,
+      "t_round_ms": 0.531473671119709,
+      "tts99_ms": 13.687179295303036,
+      "tts99_ci95": [
+        10.035459726247108,
+        20.785255463617595
+      ],
+      "tts99_ind_ms": 14.32974561247639,
+      "tts99_whole_ms": 13.818315449112434,
+      "mean_flips": 412362.87573099416,
+      "mean_launch_cycles": 131807.38578431372,
+      "model_ratio": 0.9858299346876527,
+      "integrity_failures": 0,
+      "target": 1396,
+      "matrix": "gset:/scratch/USER/sca_v80_20261003/data/gset/G32",
+      "corr_scale": 0.002,
+      "steps": 4096,
+      "G1_pass": true,
+      "G2_model_t_round_ms": 0.5532568281901225,
+      "G2_ratio": 0.9606274049220992,
+      "G2_pass": true,
+      "G3_band_ms": [
+        7.450770934906779,
+        43.29611737220984
+      ],
+      "G3_pass": true
+    }
+  },
+  "R1": {
+    "O4": {
+      "common_trials": 2052,
+      "mismatches": 0,
+      "first_mismatches": [],
+      "launch_cycle_ratio": 1.0002156781860039,
+      "identical_launch_cycles": 1020,
+      "launches_compared": 2040,
+      "v64_tts99_ms": 0.05284592862029558
+    },
+    "X5": {
+      "common_trials": 2052,
+      "mismatches": 0,
+      "first_mismatches": [],
+      "launch_cycle_ratio": 1.0002428198164428,
+      "identical_launch_cycles": 1020,
+      "launches_compared": 2040,
+      "v64_tts99_ms": 0.05033378828562791
+    }
+  },
+  "exact_gate_pass": true,
+  "R1_verify": {
+    "W1": {
+      "common_trials": 12,
+      "mismatches": 0
+    },
+    "W2": {
+      "common_trials": 24,
+      "mismatches": 0
+    },
+    "W3": {
+      "common_trials": 12,
+      "mismatches": 0
+    },
+    "W4": {
+      "common_trials": 12,
+      "mismatches": 0
+    }
+  },
+  "R1_pass": true,
+  "verdicts": {
+    "E1": true,
+    "R1": true,
+    "C1": true,
+    "T1": true,
+    "M2": true,
+    "G1": true,
+    "G2": false,
+    "G3": false
+  }
+}

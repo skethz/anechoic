@@ -1,0 +1,3049 @@
+{
+ "G1": {
+  "N": 800,
+  "nnz_offdiag": 639200,
+  "density": 1.0,
+  "maxabs_J": 4.0,
+  "distinct_absJ_levels": 2,
+  "absJ_levels": [
+   3.0,
+   4.0
+  ],
+  "mean_rowsq": 12448.42,
+  "max_rowabs": 3169.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 3169.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 4,
+  "bits_b_signed": 1,
+  "bits_field_signed": 13,
+  "sigmaJ_goto": 3.9471508711981103,
+  "lam_factor": 15.568309154577287,
+  "kappa_factor": 259.6666666666667,
+  "kind": "gpp",
+  "penalty": {
+   "P": 4,
+   "A": 1.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.25,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 0.75,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 1.75,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     5.0,
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 7.75,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     23.0,
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 31.75,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     95.0,
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 18,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G2": {
+  "N": 800,
+  "nnz_offdiag": 639200,
+  "density": 1.0,
+  "maxabs_J": 4.0,
+  "distinct_absJ_levels": 2,
+  "absJ_levels": [
+   3.0,
+   4.0
+  ],
+  "mean_rowsq": 12448.42,
+  "max_rowabs": 3168.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 3168.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 4,
+  "bits_b_signed": 1,
+  "bits_field_signed": 13,
+  "sigmaJ_goto": 3.9471508711981103,
+  "lam_factor": 15.568309154577287,
+  "kappa_factor": 259.6666666666667,
+  "kind": "gpp",
+  "penalty": {
+   "P": 4,
+   "A": 1.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.25,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 0.75,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 1.75,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     5.0,
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 7.75,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     23.0,
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 31.75,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     95.0,
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 18,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G3": {
+  "N": 800,
+  "nnz_offdiag": 639200,
+  "density": 1.0,
+  "maxabs_J": 4.0,
+  "distinct_absJ_levels": 2,
+  "absJ_levels": [
+   3.0,
+   4.0
+  ],
+  "mean_rowsq": 12448.42,
+  "max_rowabs": 3166.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 3166.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 4,
+  "bits_b_signed": 1,
+  "bits_field_signed": 13,
+  "sigmaJ_goto": 3.9471508711981103,
+  "lam_factor": 15.568309154577287,
+  "kappa_factor": 259.6666666666667,
+  "kind": "gpp",
+  "penalty": {
+   "P": 4,
+   "A": 1.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.25,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 0.75,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 1.75,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     5.0,
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 7.75,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     23.0,
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 31.75,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     95.0,
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 18,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G4": {
+  "N": 800,
+  "nnz_offdiag": 639200,
+  "density": 1.0,
+  "maxabs_J": 4.0,
+  "distinct_absJ_levels": 2,
+  "absJ_levels": [
+   3.0,
+   4.0
+  ],
+  "mean_rowsq": 12448.42,
+  "max_rowabs": 3167.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 3167.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 4,
+  "bits_b_signed": 1,
+  "bits_field_signed": 13,
+  "sigmaJ_goto": 3.9471508711981103,
+  "lam_factor": 15.568309154577287,
+  "kappa_factor": 259.6666666666667,
+  "kind": "gpp",
+  "penalty": {
+   "P": 4,
+   "A": 1.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.25,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 0.75,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 1.75,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     5.0,
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 7.75,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     23.0,
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 31.75,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     95.0,
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 18,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G5": {
+  "N": 800,
+  "nnz_offdiag": 639200,
+  "density": 1.0,
+  "maxabs_J": 4.0,
+  "distinct_absJ_levels": 2,
+  "absJ_levels": [
+   3.0,
+   4.0
+  ],
+  "mean_rowsq": 12448.42,
+  "max_rowabs": 3166.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 3166.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 4,
+  "bits_b_signed": 1,
+  "bits_field_signed": 13,
+  "sigmaJ_goto": 3.9471508711981103,
+  "lam_factor": 15.568309154577287,
+  "kappa_factor": 259.6666666666667,
+  "kind": "gpp",
+  "penalty": {
+   "P": 4,
+   "A": 1.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.25,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 0.75,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 1.75,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     5.0,
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 7.75,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     23.0,
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 31.75,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     95.0,
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 18,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G6": {
+  "N": 800,
+  "nnz_offdiag": 38352,
+  "density": 0.06,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 47.94,
+  "max_rowabs": 67.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 67.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 8,
+  "sigmaJ_goto": 0.2449489742783178,
+  "lam_factor": 0.05995497748874437,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 15,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G7": {
+  "N": 800,
+  "nnz_offdiag": 38352,
+  "density": 0.06,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 47.94,
+  "max_rowabs": 66.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 66.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 8,
+  "sigmaJ_goto": 0.2449489742783178,
+  "lam_factor": 0.05995497748874437,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 12,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 15,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G8": {
+  "N": 800,
+  "nnz_offdiag": 38352,
+  "density": 0.06,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 47.94,
+  "max_rowabs": 69.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 69.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 8,
+  "sigmaJ_goto": 0.2449489742783178,
+  "lam_factor": 0.05995497748874437,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 15,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G9": {
+  "N": 800,
+  "nnz_offdiag": 38352,
+  "density": 0.06,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 47.94,
+  "max_rowabs": 75.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 75.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 8,
+  "sigmaJ_goto": 0.2449489742783178,
+  "lam_factor": 0.05995497748874437,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 15,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G10": {
+  "N": 800,
+  "nnz_offdiag": 38352,
+  "density": 0.06,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 47.94,
+  "max_rowabs": 70.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 70.0,
+  "sigma_T": 6.923871749245504,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 8,
+  "sigmaJ_goto": 0.2449489742783178,
+  "lam_factor": 0.05995497748874437,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 15,
+    "nnz_offdiag": 38352,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G11": {
+  "N": 800,
+  "nnz_offdiag": 3200,
+  "density": 0.0050062578222778474,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 4.0,
+  "max_rowabs": 4.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 4.0,
+  "sigma_T": 2.0,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 4,
+  "sigmaJ_goto": 0.0707549137677225,
+  "lam_factor": 0.0050025012506253125,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 4,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 5,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 6,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G12": {
+  "N": 800,
+  "nnz_offdiag": 3200,
+  "density": 0.0050062578222778474,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 4.0,
+  "max_rowabs": 4.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 4.0,
+  "sigma_T": 2.0,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 4,
+  "sigmaJ_goto": 0.0707549137677225,
+  "lam_factor": 0.0050025012506253125,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 4,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 5,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 6,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G13": {
+  "N": 800,
+  "nnz_offdiag": 3200,
+  "density": 0.0050062578222778474,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 4.0,
+  "max_rowabs": 4.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 4.0,
+  "sigma_T": 2.0,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 4,
+  "sigmaJ_goto": 0.0707549137677225,
+  "lam_factor": 0.0050025012506253125,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 4,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 5,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 6,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 3200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G14": {
+  "N": 800,
+  "nnz_offdiag": 639200,
+  "density": 1.0,
+  "maxabs_J": 4.0,
+  "distinct_absJ_levels": 2,
+  "absJ_levels": [
+   3.0,
+   4.0
+  ],
+  "mean_rowsq": 12701.855,
+  "max_rowabs": 3191.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 3191.0,
+  "sigma_T": 3.4256386265921277,
+  "bits_J_signed": 4,
+  "bits_b_signed": 1,
+  "bits_field_signed": 13,
+  "sigmaJ_goto": 3.9871280688983703,
+  "lam_factor": 15.885261380690343,
+  "kappa_factor": 1082.3907115466552,
+  "kind": "gpp",
+  "penalty": {
+   "P": 4,
+   "A": 1.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.25,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 0.75,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 1.75,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     5.0,
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 7.75,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     23.0,
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 31.75,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     95.0,
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 18,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G15": {
+  "N": 800,
+  "nnz_offdiag": 639200,
+  "density": 1.0,
+  "maxabs_J": 4.0,
+  "distinct_absJ_levels": 2,
+  "absJ_levels": [
+   3.0,
+   4.0
+  ],
+  "mean_rowsq": 12702.4325,
+  "max_rowabs": 3192.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 3192.0,
+  "sigma_T": 3.413575837739657,
+  "bits_J_signed": 4,
+  "bits_b_signed": 1,
+  "bits_field_signed": 13,
+  "sigmaJ_goto": 3.987218706851975,
+  "lam_factor": 15.885983616808405,
+  "kappa_factor": 1090.1036258313666,
+  "kind": "gpp",
+  "penalty": {
+   "P": 4,
+   "A": 1.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.25,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 0.75,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 1.75,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     5.0,
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 7.75,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     23.0,
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 31.75,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     95.0,
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 18,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G16": {
+  "N": 800,
+  "nnz_offdiag": 639200,
+  "density": 1.0,
+  "maxabs_J": 4.0,
+  "distinct_absJ_levels": 2,
+  "absJ_levels": [
+   3.0,
+   4.0
+  ],
+  "mean_rowsq": 12702.24,
+  "max_rowabs": 3191.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 3191.0,
+  "sigma_T": 3.4176014981270124,
+  "bits_J_signed": 4,
+  "bits_b_signed": 1,
+  "bits_field_signed": 13,
+  "sigmaJ_goto": 3.987188494429708,
+  "lam_factor": 15.885742871435717,
+  "kappa_factor": 1087.5205479452054,
+  "kind": "gpp",
+  "penalty": {
+   "P": 4,
+   "A": 1.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.25,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 0.75,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 1.75,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     5.0,
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 7.75,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     23.0,
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 31.75,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     95.0,
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 18,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G17": {
+  "N": 800,
+  "nnz_offdiag": 639200,
+  "density": 1.0,
+  "maxabs_J": 4.0,
+  "distinct_absJ_levels": 2,
+  "absJ_levels": [
+   3.0,
+   4.0
+  ],
+  "mean_rowsq": 12702.3275,
+  "max_rowabs": 3191.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 3191.0,
+  "sigma_T": 3.415772240650714,
+  "bits_J_signed": 4,
+  "bits_b_signed": 1,
+  "bits_field_signed": 13,
+  "sigmaJ_goto": 3.9872022273773,
+  "lam_factor": 15.885852301150575,
+  "kappa_factor": 1088.6931647739445,
+  "kind": "gpp",
+  "penalty": {
+   "P": 4,
+   "A": 1.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.25,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 0.75,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 1.75,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     5.0,
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 7.75,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     23.0,
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 31.75,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 2,
+    "absJ_levels": [
+     95.0,
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 18,
+    "nnz_offdiag": 639200,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G18": {
+  "N": 800,
+  "nnz_offdiag": 9388,
+  "density": 0.014687108886107634,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 11.735,
+  "max_rowabs": 132.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 132.0,
+  "sigma_T": 3.4256386265921277,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 9,
+  "sigmaJ_goto": 0.12119038281195267,
+  "lam_factor": 0.01467608804402201,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 9388,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 9388,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 9388,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 9388,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 9388,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G19": {
+  "N": 800,
+  "nnz_offdiag": 9322,
+  "density": 0.014583854818523154,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 11.6525,
+  "max_rowabs": 153.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 153.0,
+  "sigma_T": 3.413575837739657,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 9,
+  "sigmaJ_goto": 0.12076363201942526,
+  "lam_factor": 0.014572911455727864,
+  "kappa_factor": 0.9999999999999999,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 9322,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 9322,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 12,
+    "nnz_offdiag": 9322,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 9322,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 9322,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "G20": {
+  "N": 800,
+  "nnz_offdiag": 9344,
+  "density": 0.014618272841051314,
+  "maxabs_J": 1.0,
+  "distinct_absJ_levels": 1,
+  "absJ_levels": [
+   1.0
+  ],
+  "mean_rowsq": 11.68,
+  "max_rowabs": 123.0,
+  "max_abs_b": 0.0,
+  "distinct_b": 1,
+  "field_bound": 123.0,
+  "sigma_T": 3.4176014981270124,
+  "bits_J_signed": 2,
+  "bits_b_signed": 1,
+  "bits_field_signed": 8,
+  "sigmaJ_goto": 0.120906049646208,
+  "lam_factor": 0.014607303651825913,
+  "kappa_factor": 1.0,
+  "kind": "mcp",
+  "penalty": {},
+  "quantized": {
+   "2": {
+    "alpha": 1.0,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 9344,
+    "lost_couplings": 0
+   },
+   "3": {
+    "alpha": 3.0,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     3.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 9344,
+    "lost_couplings": 0
+   },
+   "4": {
+    "alpha": 7.0,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     7.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 9344,
+    "lost_couplings": 0
+   },
+   "6": {
+    "alpha": 31.0,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     31.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 9344,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 127.0,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     127.0
+    ],
+    "max_abs_b": 0.0,
+    "bits_b_signed": 1,
+    "bits_field_signed": 15,
+    "nnz_offdiag": 9344,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "gr17": {
+  "N": 289,
+  "nnz_offdiag": 18496,
+  "density": 0.2222222222222222,
+  "maxabs_J": 1490.0,
+  "distinct_absJ_levels": 124,
+  "absJ_levels": [
+   27.0,
+   29.0,
+   34.0,
+   35.0,
+   36.0,
+   47.0,
+   53.0,
+   55.0,
+   57.0,
+   61.0,
+   63.0,
+   68.0,
+   70.0,
+   74.0,
+   77.0,
+   80.0,
+   83.0,
+   84.0,
+   91.0,
+   95.0,
+   96.0,
+   105.0,
+   108.0,
+   110.0,
+   112.0,
+   120.0,
+   121.0,
+   123.0,
+   134.0,
+   140.0,
+   142.0,
+   145.0,
+   150.0,
+   153.0,
+   154.0,
+   157.0,
+   165.0,
+   169.0,
+   175.0,
+   182.0,
+   184.0,
+   189.0,
+   191.0,
+   196.0,
+   199.0,
+   202.0,
+   207.0,
+   208.0,
+   211.0,
+   227.0,
+   228.0,
+   232.0,
+   236.0,
+   237.0,
+   238.0,
+   239.0,
+   240.0,
+   243.0,
+   246.0,
+   249.0,
+   250.0,
+   254.0,
+   257.0,
+   259.0
+  ],
+  "mean_rowsq": 74304635.29411764,
+  "max_rowabs": 63642.0,
+  "max_abs_b": 60662.0,
+  "distinct_b": 17,
+  "field_bound": 124304.0,
+  "sigma_T": 745.0,
+  "bits_J_signed": 12,
+  "bits_b_signed": 17,
+  "bits_field_signed": 18,
+  "sigmaJ_goto": 507.9391753766911,
+  "lam_factor": 257238.08372739187,
+  "kappa_factor": 133.87619529591936,
+  "kind": "tsp",
+  "penalty": {
+   "P": 1490,
+   "A": 745.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.0006711409395973154,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 41.0,
+    "bits_b_signed": 7,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 9316,
+    "lost_couplings": 9180
+   },
+   "3": {
+    "alpha": 0.0020134228187919465,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 3,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 122.0,
+    "bits_b_signed": 8,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 14008,
+    "lost_couplings": 4488
+   },
+   "4": {
+    "alpha": 0.004697986577181208,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 4,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     7.0
+    ],
+    "max_abs_b": 285.0,
+    "bits_b_signed": 10,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 16864,
+    "lost_couplings": 1632
+   },
+   "6": {
+    "alpha": 0.02080536912751678,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 16,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     16.0,
+     31.0
+    ],
+    "max_abs_b": 1262.0,
+    "bits_b_signed": 12,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 18496,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 0.08523489932885905,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 52,
+    "absJ_levels": [
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0
+    ],
+    "max_abs_b": 5171.0,
+    "bits_b_signed": 14,
+    "bits_field_signed": 15,
+    "nnz_offdiag": 18496,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "gr21": {
+  "N": 441,
+  "nnz_offdiag": 35280,
+  "density": 0.18181818181818182,
+  "maxabs_J": 1730.0,
+  "distinct_absJ_levels": 119,
+  "absJ_levels": [
+   27.0,
+   29.0,
+   36.0,
+   48.0,
+   63.0,
+   67.0,
+   68.0,
+   77.0,
+   78.0,
+   81.0,
+   87.0,
+   90.0,
+   91.0,
+   96.0,
+   97.0,
+   100.0,
+   105.0,
+   110.0,
+   120.0,
+   125.0,
+   130.0,
+   140.0,
+   150.0,
+   155.0,
+   160.0,
+   165.0,
+   170.0,
+   175.0,
+   180.0,
+   185.0,
+   190.0,
+   200.0,
+   205.0,
+   215.0,
+   220.0,
+   225.0,
+   230.0,
+   235.0,
+   240.0,
+   245.0,
+   250.0,
+   255.0,
+   265.0,
+   270.0,
+   280.0,
+   285.0,
+   290.0,
+   295.0,
+   300.0,
+   305.0,
+   310.0,
+   315.0,
+   320.0,
+   340.0,
+   345.0,
+   350.0,
+   355.0,
+   360.0,
+   365.0,
+   370.0,
+   375.0,
+   380.0,
+   385.0,
+   390.0
+  ],
+  "mean_rowsq": 126414977.52380952,
+  "max_rowabs": 91520.0,
+  "max_abs_b": 88060.0,
+  "distinct_b": 21,
+  "field_bound": 179580.0,
+  "sigma_T": 865.0,
+  "bits_J_signed": 12,
+  "bits_b_signed": 18,
+  "bits_field_signed": 19,
+  "sigmaJ_goto": 536.01004384206,
+  "lam_factor": 286798.6771703528,
+  "kappa_factor": 168.95315917512715,
+  "kind": "tsp",
+  "penalty": {
+   "P": 1730,
+   "A": 865.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.0005780346820809249,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 51.0,
+    "bits_b_signed": 7,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 17724,
+    "lost_couplings": 17556
+   },
+   "3": {
+    "alpha": 0.0017341040462427746,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 3,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 153.0,
+    "bits_b_signed": 9,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 28392,
+    "lost_couplings": 6888
+   },
+   "4": {
+    "alpha": 0.004046242774566474,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 4,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     7.0
+    ],
+    "max_abs_b": 356.0,
+    "bits_b_signed": 10,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 33516,
+    "lost_couplings": 1764
+   },
+   "6": {
+    "alpha": 0.017919075144508672,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 17,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0
+    ],
+    "max_abs_b": 1578.0,
+    "bits_b_signed": 12,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 35196,
+    "lost_couplings": 84
+   },
+   "8": {
+    "alpha": 0.07341040462427746,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 54,
+    "absJ_levels": [
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0
+    ],
+    "max_abs_b": 6465.0,
+    "bits_b_signed": 14,
+    "bits_field_signed": 15,
+    "nnz_offdiag": 35280,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "gr24": {
+  "N": 576,
+  "nnz_offdiag": 52992,
+  "density": 0.16,
+  "maxabs_J": 778.0,
+  "distinct_absJ_levels": 174,
+  "absJ_levels": [
+   22.0,
+   25.0,
+   27.0,
+   29.0,
+   30.0,
+   31.0,
+   32.0,
+   34.0,
+   35.0,
+   36.0,
+   37.0,
+   39.0,
+   40.0,
+   42.0,
+   43.0,
+   46.0,
+   47.0,
+   49.0,
+   50.0,
+   53.0,
+   54.0,
+   55.0,
+   56.0,
+   57.0,
+   58.0,
+   59.0,
+   60.0,
+   62.0,
+   63.0,
+   64.0,
+   68.0,
+   69.0,
+   70.0,
+   71.0,
+   74.0,
+   76.0,
+   77.0,
+   79.0,
+   80.0,
+   81.0,
+   82.0,
+   83.0,
+   84.0,
+   86.0,
+   88.0,
+   89.0,
+   90.0,
+   91.0,
+   92.0,
+   95.0,
+   96.0,
+   97.0,
+   98.0,
+   99.0,
+   101.0,
+   103.0,
+   104.0,
+   105.0,
+   108.0,
+   109.0,
+   110.0,
+   112.0,
+   114.0,
+   115.0
+  ],
+  "mean_rowsq": 29094285.166666668,
+  "max_rowabs": 46158.0,
+  "max_abs_b": 44602.0,
+  "distinct_b": 24,
+  "field_bound": 90760.0,
+  "sigma_T": 389.0,
+  "bits_J_signed": 11,
+  "bits_b_signed": 17,
+  "bits_field_signed": 18,
+  "sigmaJ_goto": 224.94167424377858,
+  "lam_factor": 50536.17983760399,
+  "kappa_factor": 192.26865515471525,
+  "kind": "tsp",
+  "penalty": {
+   "P": 778,
+   "A": 389.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.0012853470437017994,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 57.0,
+    "bits_b_signed": 7,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 26592,
+    "lost_couplings": 26400
+   },
+   "3": {
+    "alpha": 0.0038560411311053984,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 3,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 172.0,
+    "bits_b_signed": 9,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 41376,
+    "lost_couplings": 11616
+   },
+   "4": {
+    "alpha": 0.008997429305912597,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 5,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     7.0
+    ],
+    "max_abs_b": 401.0,
+    "bits_b_signed": 10,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 50208,
+    "lost_couplings": 2784
+   },
+   "6": {
+    "alpha": 0.03984575835475578,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 17,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0
+    ],
+    "max_abs_b": 1777.0,
+    "bits_b_signed": 12,
+    "bits_field_signed": 13,
+    "nnz_offdiag": 52992,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 0.16323907455012854,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 50,
+    "absJ_levels": [
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0,
+     19.0
+    ],
+    "max_abs_b": 7281.0,
+    "bits_b_signed": 14,
+    "bits_field_signed": 15,
+    "nnz_offdiag": 52992,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "fri26": {
+  "N": 676,
+  "nnz_offdiag": 67600,
+  "density": 0.14814814814814814,
+  "maxabs_J": 560.0,
+  "distinct_absJ_levels": 159,
+  "absJ_levels": [
+   9.0,
+   11.0,
+   13.0,
+   15.0,
+   18.0,
+   20.0,
+   22.0,
+   23.0,
+   24.0,
+   26.0,
+   27.0,
+   29.0,
+   30.0,
+   31.0,
+   32.0,
+   33.0,
+   34.0,
+   35.0,
+   36.0,
+   37.0,
+   38.0,
+   39.0,
+   40.0,
+   42.0,
+   43.0,
+   44.0,
+   46.0,
+   47.0,
+   49.0,
+   50.0,
+   51.0,
+   52.0,
+   53.0,
+   54.0,
+   55.0,
+   56.0,
+   58.0,
+   59.0,
+   61.0,
+   62.0,
+   63.0,
+   64.0,
+   65.0,
+   66.0,
+   67.0,
+   68.0,
+   70.0,
+   71.0,
+   72.0,
+   73.0,
+   74.0,
+   75.0,
+   76.0,
+   77.0,
+   78.0,
+   79.0,
+   80.0,
+   81.0,
+   82.0,
+   83.0,
+   84.0,
+   85.0,
+   86.0,
+   87.0
+  ],
+  "mean_rowsq": 16374940.153846154,
+  "max_rowabs": 37666.0,
+  "max_abs_b": 36546.0,
+  "distinct_b": 26,
+  "field_bound": 74212.0,
+  "sigma_T": 280.0,
+  "bits_J_signed": 11,
+  "bits_b_signed": 17,
+  "bits_field_signed": 18,
+  "sigmaJ_goto": 155.7535572572601,
+  "lam_factor": 24235.401952227818,
+  "kappa_factor": 208.86403257456828,
+  "kind": "tsp",
+  "penalty": {
+   "P": 560,
+   "A": 280.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.0017857142857142857,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 65.0,
+    "bits_b_signed": 8,
+    "bits_field_signed": 8,
+    "nnz_offdiag": 33904,
+    "lost_couplings": 33696
+   },
+   "3": {
+    "alpha": 0.005357142857142857,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 3,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 196.0,
+    "bits_b_signed": 9,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 50024,
+    "lost_couplings": 17576
+   },
+   "4": {
+    "alpha": 0.0125,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 5,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     7.0
+    ],
+    "max_abs_b": 457.0,
+    "bits_b_signed": 10,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 63440,
+    "lost_couplings": 4160
+   },
+   "6": {
+    "alpha": 0.055357142857142855,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 17,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0
+    ],
+    "max_abs_b": 2023.0,
+    "bits_b_signed": 12,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 67496,
+    "lost_couplings": 104
+   },
+   "8": {
+    "alpha": 0.22678571428571428,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 58,
+    "absJ_levels": [
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0
+    ],
+    "max_abs_b": 8288.0,
+    "bits_b_signed": 15,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 67600,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "bayg29": {
+  "N": 841,
+  "nnz_offdiag": 94192,
+  "density": 0.13333333333333333,
+  "maxabs_J": 772.0,
+  "distinct_absJ_levels": 219,
+  "absJ_levels": [
+   25.0,
+   32.0,
+   34.0,
+   36.0,
+   38.0,
+   39.0,
+   41.0,
+   42.0,
+   46.0,
+   47.0,
+   48.0,
+   49.0,
+   50.0,
+   51.0,
+   52.0,
+   53.0,
+   56.0,
+   57.0,
+   58.0,
+   60.0,
+   61.0,
+   63.0,
+   64.0,
+   65.0,
+   66.0,
+   67.0,
+   68.0,
+   69.0,
+   71.0,
+   72.0,
+   74.0,
+   75.0,
+   78.0,
+   79.0,
+   81.0,
+   82.0,
+   83.0,
+   84.0,
+   85.0,
+   86.0,
+   87.0,
+   88.0,
+   89.0,
+   90.0,
+   91.0,
+   93.0,
+   94.0,
+   95.0,
+   96.0,
+   97.0,
+   98.0,
+   100.0,
+   102.0,
+   103.0,
+   104.0,
+   105.0,
+   106.0,
+   107.0,
+   110.0,
+   111.0,
+   112.0,
+   113.0,
+   114.0,
+   115.0
+  ],
+  "mean_rowsq": 35198204.0,
+  "max_rowabs": 55790.0,
+  "max_abs_b": 54246.0,
+  "distinct_b": 29,
+  "field_bound": 110036.0,
+  "sigma_T": 386.0,
+  "bits_J_signed": 11,
+  "bits_b_signed": 17,
+  "bits_field_signed": 18,
+  "sigmaJ_goto": 204.7013038784165,
+  "lam_factor": 41873.73591670983,
+  "kappa_factor": 236.2358989503074,
+  "kind": "tsp",
+  "penalty": {
+   "P": 772,
+   "A": 386.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.0012953367875647669,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 70.0,
+    "bits_b_signed": 8,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 47212,
+    "lost_couplings": 46980
+   },
+   "3": {
+    "alpha": 0.0038860103626943004,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 3,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 211.0,
+    "bits_b_signed": 9,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 76908,
+    "lost_couplings": 17284
+   },
+   "4": {
+    "alpha": 0.009067357512953367,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 4,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     7.0
+    ],
+    "max_abs_b": 492.0,
+    "bits_b_signed": 10,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 91176,
+    "lost_couplings": 3016
+   },
+   "6": {
+    "alpha": 0.04015544041450777,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 16,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     31.0
+    ],
+    "max_abs_b": 2178.0,
+    "bits_b_signed": 13,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 94192,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 0.1645077720207254,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 56,
+    "absJ_levels": [
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0,
+     19.0
+    ],
+    "max_abs_b": 8924.0,
+    "bits_b_signed": 15,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 94192,
+    "lost_couplings": 0
+   }
+  }
+ },
+ "bays29": {
+  "N": 841,
+  "nnz_offdiag": 94192,
+  "density": 0.13333333333333333,
+  "maxabs_J": 1018.0,
+  "distinct_absJ_levels": 257,
+  "absJ_levels": [
+   28.0,
+   35.0,
+   38.0,
+   39.0,
+   41.0,
+   42.0,
+   43.0,
+   44.0,
+   45.0,
+   46.0,
+   55.0,
+   56.0,
+   57.0,
+   59.0,
+   60.0,
+   61.0,
+   62.0,
+   65.0,
+   66.0,
+   67.0,
+   68.0,
+   69.0,
+   70.0,
+   72.0,
+   74.0,
+   75.0,
+   76.0,
+   77.0,
+   79.0,
+   80.0,
+   81.0,
+   85.0,
+   86.0,
+   88.0,
+   89.0,
+   92.0,
+   93.0,
+   95.0,
+   97.0,
+   98.0,
+   100.0,
+   101.0,
+   103.0,
+   104.0,
+   105.0,
+   106.0,
+   107.0,
+   108.0,
+   110.0,
+   111.0,
+   112.0,
+   113.0,
+   116.0,
+   117.0,
+   118.0,
+   120.0,
+   121.0,
+   122.0,
+   124.0,
+   125.0,
+   127.0,
+   128.0,
+   129.0,
+   131.0
+  ],
+  "mean_rowsq": 60967226.75862069,
+  "max_rowabs": 74194.0,
+  "max_abs_b": 72158.0,
+  "distinct_b": 29,
+  "field_bound": 146352.0,
+  "sigma_T": 509.0,
+  "bits_J_signed": 11,
+  "bits_b_signed": 18,
+  "bits_field_signed": 19,
+  "sigmaJ_goto": 269.40681479038506,
+  "lam_factor": 72529.99479361641,
+  "kappa_factor": 235.32110327897718,
+  "kind": "tsp",
+  "penalty": {
+   "P": 1018,
+   "A": 509.0
+  },
+  "quantized": {
+   "2": {
+    "alpha": 0.0009823182711198428,
+    "maxabs_J": 1.0,
+    "distinct_absJ_levels": 1,
+    "absJ_levels": [
+     1.0
+    ],
+    "max_abs_b": 71.0,
+    "bits_b_signed": 8,
+    "bits_field_signed": 9,
+    "nnz_offdiag": 47212,
+    "lost_couplings": 46980
+   },
+   "3": {
+    "alpha": 0.0029469548133595285,
+    "maxabs_J": 3.0,
+    "distinct_absJ_levels": 3,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "max_abs_b": 213.0,
+    "bits_b_signed": 9,
+    "bits_field_signed": 10,
+    "nnz_offdiag": 75052,
+    "lost_couplings": 19140
+   },
+   "4": {
+    "alpha": 0.0068762278978389,
+    "maxabs_J": 7.0,
+    "distinct_absJ_levels": 5,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     7.0
+    ],
+    "max_abs_b": 496.0,
+    "bits_b_signed": 10,
+    "bits_field_signed": 11,
+    "nnz_offdiag": 90248,
+    "lost_couplings": 3944
+   },
+   "6": {
+    "alpha": 0.030451866404715127,
+    "maxabs_J": 31.0,
+    "distinct_absJ_levels": 16,
+    "absJ_levels": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     15.0,
+     16.0,
+     31.0
+    ],
+    "max_abs_b": 2197.0,
+    "bits_b_signed": 13,
+    "bits_field_signed": 14,
+    "nnz_offdiag": 94192,
+    "lost_couplings": 0
+   },
+   "8": {
+    "alpha": 0.12475442043222004,
+    "maxabs_J": 127.0,
+    "distinct_absJ_levels": 56,
+    "absJ_levels": [
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0
+    ],
+    "max_abs_b": 9002.0,
+    "bits_b_signed": 15,
+    "bits_field_signed": 16,
+    "nnz_offdiag": 94192,
+    "lost_couplings": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+K 1 matrix k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin maxabs 1 sumw -1040 fingerprint afdd54db55116453 auto_scale 0.9995
+case 0 plain_S40 S 40 t0 30 t1 5 q 4 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 3 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 21955 flips 24665
+  trial 1001 cut 20218 flips 26151
+  trial 1002 cut 24020 flips 21290
+case 1 onsager_ramp_S40 S 40 t0 20 t1 5 q 4 lambda 0.7 ramp 1 jv 0 kappa 0 scale 1 trials 3 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 31507 flips 17069
+  trial 1101 cut 31493 flips 16727
+  trial 1102 cut 32193 flips 17313
+case 2 tec_S40 S 40 t0 20 t1 5 q 8 lambda 0 ramp 0 jv -8 kappa 0 scale 1 trials 2 trace 0 keep 0 seed 12648432 offset 1200
+  trial 1200 cut 31329 flips 9008
+  trial 1201 cut 31336 flips 8557
+case 3 tec_S40_keep S 40 t0 20 t1 5 q 8 lambda 0 ramp 0 jv -8 kappa 0 scale 1 trials 2 trace 1 keep 1 seed 12648433 offset 1300
+  trial 1300 cut 31497 flips 8547
+  trial 1301 cut 31618 flips 8668

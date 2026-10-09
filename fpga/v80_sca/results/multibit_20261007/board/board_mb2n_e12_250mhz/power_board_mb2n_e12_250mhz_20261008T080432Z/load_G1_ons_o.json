@@ -1,0 +1,1 @@
+{"action":"--power-run","engines":12,"per_launch":512,"rounds":5614,"trials":34492416,"seconds":150.014473,"device_busy_seconds":149.153817,"device_busy_fraction":0.994262844,"host_submit_to_done_seconds":149.294508,"host_over_device":1.00094326,"matrix":"gset:/scratch/USER/sca_v80_20261003/data/gset/G1","K":2,"n":800,"bias_mode":false}

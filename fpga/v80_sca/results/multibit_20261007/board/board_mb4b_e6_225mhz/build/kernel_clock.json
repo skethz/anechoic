@@ -1,0 +1,1 @@
+{"requested_mhz":225,"routed_period_ns":4.444,"actual_mhz":224.999999775,"clock":"clock_reset_clk_usr_0","frequency_source":"Configured nominal CIPS clock and routed MMCM dividers; not an external frequency measurement","input_mhz":33.333333300,"feedback_multiplier":94.500000000,"input_divider":1,"output_divider":14}

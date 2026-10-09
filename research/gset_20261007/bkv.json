@@ -1,0 +1,892 @@
+{
+ "sources": {
+  "A": {
+   "citation": "U. Benlic and J.-K. Hao, Breakout local search for the Max-Cut problem, Engineering Applications of Artificial Intelligence 26(3):1162-1173, 2013. doi:10.1016/j.engappai.2012.09.001",
+   "read_from": "authors' accepted manuscript (3 Sept 2012), https://leria-info.univ-angers.fr/~jinkao.hao/papers/BenlicHaoMaxCut2012.pdf, Table 2",
+   "local_copy": "sources/BenlicHaoMaxCut2012.pdf"
+  },
+  "B": {
+   "citation": "F. Ma and J.-K. Hao, A multiple search operator heuristic for the max-k-cut problem, Annals of Operations Research 248(1-2):365-403, 2017. doi:10.1007/s10479-016-2234-0",
+   "read_from": "arXiv:1510.09156v1 (30 Oct 2015), Table 5 (f_pre, MOH)",
+   "local_copy": "sources/MaHao_maxkcut_arXiv1510.09156.pdf"
+  }
+ },
+ "rule": "BKV = max(A.f_best, B.f_pre, B.MOH); target = ceil(0.99*BKV). Both tables were read from preprint versions; the published versions were not accessible (paywalled) and were not compared.",
+ "instances": {
+  "G1": {
+   "N": 800,
+   "A_f_prev": 11624,
+   "A_f_best": 11624,
+   "B_f_pre": 11624,
+   "B_MOH": 11624,
+   "BKV": 11624,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 11508,
+   "flags": [],
+   "A_line": "G1           800            11624          11624(9)      11612.4       11.16         13",
+   "B_line": "G1           800        11624      11624      11624        11624          11624        11624         11624   11624"
+  },
+  "G2": {
+   "N": 800,
+   "A_f_prev": 11620,
+   "A_f_best": 11620,
+   "B_f_pre": 11620,
+   "B_MOH": 11620,
+   "BKV": 11620,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 11504,
+   "flags": [],
+   "A_line": "G2           800            11620          11620(11)     11615         5.74          41",
+   "B_line": "G2           800        11620      11620      11620        11620          11620        11620         11617   11620"
+  },
+  "G3": {
+   "N": 800,
+   "A_f_prev": 11622,
+   "A_f_best": 11622,
+   "B_f_pre": 11622,
+   "B_MOH": 11622,
+   "BKV": 11622,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 11506,
+   "flags": [],
+   "A_line": "G3           800            11622          11622(19)     11621.1       3.92          83",
+   "B_line": "G3           800        11622      11622      11622        11622          11620        11620         11621   11622"
+  },
+  "G4": {
+   "N": 800,
+   "A_f_prev": 11646,
+   "A_f_best": 11646,
+   "B_f_pre": 11646,
+   "B_MOH": 11646,
+   "BKV": 11646,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 11530,
+   "flags": [],
+   "A_line": "G4           800            11646          11646(16)     11642.8       6.65          214",
+   "B_line": "G4           800        11646      11646      11646            -          11646        11646         11646   11646"
+  },
+  "G5": {
+   "N": 800,
+   "A_f_prev": 11631,
+   "A_f_best": 11631,
+   "B_f_pre": 11631,
+   "B_MOH": 11631,
+   "BKV": 11631,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 11515,
+   "flags": [],
+   "A_line": "G5           800            11631          11631(20)     11631         0             14",
+   "B_line": "G5           800        11631      11631      11631            -          11631        11631         11631   11631"
+  },
+  "G6": {
+   "N": 800,
+   "A_f_prev": 2178,
+   "A_f_best": 2178,
+   "B_f_pre": 2178,
+   "B_MOH": 2178,
+   "BKV": 2178,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 2157,
+   "flags": [],
+   "A_line": "G6           800            2178           2178(20)      2178          0             18",
+   "B_line": "G6           800         2178       2178       2178            -           2178         2178          2177    2178"
+  },
+  "G7": {
+   "N": 800,
+   "A_f_prev": 2006,
+   "A_f_best": 2006,
+   "B_f_pre": 2006,
+   "B_MOH": 2006,
+   "BKV": 2006,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 1986,
+   "flags": [],
+   "A_line": "G7           800            2006           2006(12)      2001.05       6.55          317",
+   "B_line": "G7           800         2006       2006       2006            -           2006         2006          2002    2006"
+  },
+  "G8": {
+   "N": 800,
+   "A_f_prev": 2005,
+   "A_f_best": 2005,
+   "B_f_pre": 2005,
+   "B_MOH": 2005,
+   "BKV": 2005,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 1985,
+   "flags": [],
+   "A_line": "G8           800            2005           2005(18)      2004.4        1.8           195",
+   "B_line": "G8           800         2005       2005       2005            -           2005         2005          2004    2005"
+  },
+  "G9": {
+   "N": 800,
+   "A_f_prev": 2054,
+   "A_f_best": 2054,
+   "B_f_pre": 2054,
+   "B_MOH": 2054,
+   "BKV": 2054,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 2034,
+   "flags": [],
+   "A_line": "G9           800            2054           2054(14)      2049.95       6.22          97",
+   "B_line": "G9           800         2054       2054       2054            -           2054         2054          2052    2054"
+  },
+  "G10": {
+   "N": 800,
+   "A_f_prev": 2000,
+   "A_f_best": 2000,
+   "B_f_pre": 2000,
+   "B_MOH": 2000,
+   "BKV": 2000,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 1980,
+   "flags": [],
+   "A_line": "G10          800            2000           2000(13)      1996.05       5.84          79",
+   "B_line": "G10          800         2000       2000       2000            -           2000         2000          1998    2000"
+  },
+  "G11": {
+   "N": 800,
+   "A_f_prev": 564,
+   "A_f_best": 564,
+   "B_f_pre": 564,
+   "B_MOH": 564,
+   "BKV": 564,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 559,
+   "flags": [],
+   "A_line": "G11          800            564            564(20)       564           0             1",
+   "B_line": "G11          800          564        564        564          564            564          564           564     564"
+  },
+  "G12": {
+   "N": 800,
+   "A_f_prev": 556,
+   "A_f_best": 556,
+   "B_f_pre": 556,
+   "B_MOH": 556,
+   "BKV": 556,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 551,
+   "flags": [],
+   "A_line": "G12          800            556            556(20)       556           0             2",
+   "B_line": "G12          800          556        556        556          556            556          556           556     556"
+  },
+  "G13": {
+   "N": 800,
+   "A_f_prev": 582,
+   "A_f_best": 582,
+   "B_f_pre": 582,
+   "B_MOH": 582,
+   "BKV": 582,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 577,
+   "flags": [],
+   "A_line": "G13          800            582            582(20)       582           0             2",
+   "B_line": "G13          800          582        582        582          582            580          582           582     582"
+  },
+  "G14": {
+   "N": 800,
+   "A_f_prev": 3064,
+   "A_f_best": 3064,
+   "B_f_pre": 3064,
+   "B_MOH": 3064,
+   "BKV": 3064,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3034,
+   "flags": [],
+   "A_line": "G14          800            3064           3064(6)       3062.85       0.91          119",
+   "B_line": "G14          800         3064       3064       3064         3064           3061         3063          3062    3064"
+  },
+  "G15": {
+   "N": 800,
+   "A_f_prev": 3050,
+   "A_f_best": 3050,
+   "B_f_pre": 3050,
+   "B_MOH": 3050,
+   "BKV": 3050,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3020,
+   "flags": [],
+   "A_line": "G15          800            3050           3050(20)      3050          0             43",
+   "B_line": "G15          800         3050       3050       3050         3050           3050         3050          3050    3050"
+  },
+  "G16": {
+   "N": 800,
+   "A_f_prev": 3052,
+   "A_f_best": 3052,
+   "B_f_pre": 3052,
+   "B_MOH": 3052,
+   "BKV": 3052,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3022,
+   "flags": [],
+   "A_line": "G16          800            3052           3052(8)       3051.1        1.14          70",
+   "B_line": "G16          800         3052       3052       3052         3052           3052         3052          3052    3052"
+  },
+  "G17": {
+   "N": 800,
+   "A_f_prev": 3047,
+   "A_f_best": 3047,
+   "B_f_pre": 3047,
+   "B_MOH": 3047,
+   "BKV": 3047,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3017,
+   "flags": [],
+   "A_line": "G17          800            3047           3047(16)      3046.7        0.64          96",
+   "B_line": "G17          800         3047       3047       3047            -           3046         3047          3047    3047"
+  },
+  "G18": {
+   "N": 800,
+   "A_f_prev": 992,
+   "A_f_best": 992,
+   "B_f_pre": 992,
+   "B_MOH": 992,
+   "BKV": 992,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 983,
+   "flags": [],
+   "A_line": "G18          800            992            992(14)       991.7         0.46          106",
+   "B_line": "G18          800          992        992        992            -            991          992           992     992"
+  },
+  "G19": {
+   "N": 800,
+   "A_f_prev": 906,
+   "A_f_best": 906,
+   "B_f_pre": 906,
+   "B_MOH": 906,
+   "BKV": 906,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 897,
+   "flags": [],
+   "A_line": "G19          800            906            906(6)        904.55        1.56          20",
+   "B_line": "G19          800          906        906        906            -            904          906           905     906"
+  },
+  "G20": {
+   "N": 800,
+   "A_f_prev": 941,
+   "A_f_best": 941,
+   "B_f_pre": 941,
+   "B_MOH": 941,
+   "BKV": 941,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 932,
+   "flags": [],
+   "A_line": "G20          800            941            941(20)       941           0             9",
+   "B_line": "G20          800          941        941        941            -            941          941           941     941"
+  },
+  "G21": {
+   "N": 800,
+   "A_f_prev": 931,
+   "A_f_best": 931,
+   "B_f_pre": 931,
+   "B_MOH": 931,
+   "BKV": 931,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 922,
+   "flags": [],
+   "A_line": "G21          800            931            931(14)       930.2         1.29          42",
+   "B_line": "G21          800          931        931        931            -            930          931           930     931"
+  },
+  "G22": {
+   "N": 2000,
+   "A_f_prev": 13359,
+   "A_f_best": 13359,
+   "B_f_pre": 13359,
+   "B_MOH": 13359,
+   "BKV": 13359,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 13226,
+   "flags": [],
+   "A_line": "G22          2000           13359          13359(1)      13344.45      16.14         560",
+   "B_line": "G22          2000       13359      13359      13359        13359          13359        13349         13359   13359"
+  },
+  "G23": {
+   "N": 2000,
+   "A_f_prev": 13354,
+   "A_f_best": 13344,
+   "B_f_pre": 13344,
+   "B_MOH": 13344,
+   "BKV": 13344,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 13211,
+   "flags": [
+    "A.f_prev = 13354 exceeds every other listed value (A.f_best 13344, B.f_pre 13344, B.MOH 13344); not used. Sensitivity target ceil(0.99*13354) = 13221 is also reported."
+   ],
+   "A_line": "G23          2000           13354          13344(10)     13340.6       4.08          278",
+   "B_line": "G23          2000       13344      13342      13344        13344          13342        13332         13344   13344"
+  },
+  "G24": {
+   "N": 2000,
+   "A_f_prev": 13337,
+   "A_f_best": 13337,
+   "B_f_pre": 13337,
+   "B_MOH": 13337,
+   "BKV": 13337,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 13204,
+   "flags": [],
+   "A_line": "G24          2000           13337          13337(5)      13329.8       6.76          311",
+   "B_line": "G24          2000       13337      13337      13337        13337          13337        13324         13336   13337"
+  },
+  "G25": {
+   "N": 2000,
+   "A_f_prev": 13326,
+   "A_f_best": 13340,
+   "B_f_pre": 13340,
+   "B_MOH": 13340,
+   "BKV": 13340,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 13207,
+   "flags": [],
+   "A_line": "G25          2000           13326          13340(1)      13333.4       3.68          148",
+   "B_line": "G25          2000       13340      13340      13340            -          13332        13326         13340   13340"
+  },
+  "G26": {
+   "N": 2000,
+   "A_f_prev": 13314,
+   "A_f_best": 13328,
+   "B_f_pre": 13328,
+   "B_MOH": 13328,
+   "BKV": 13328,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 13195,
+   "flags": [],
+   "A_line": "G26          2000           13314          13328(3)      13320         6.98          429",
+   "B_line": "G26          2000       13328      13328      13328            -          13328        13313         13328   13328"
+  },
+  "G27": {
+   "N": 2000,
+   "A_f_prev": 3325,
+   "A_f_best": 3341,
+   "B_f_pre": 3341,
+   "B_MOH": 3341,
+   "BKV": 3341,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3308,
+   "flags": [],
+   "A_line": "G27          2000           3325           3341(10)      3332.25       9.79          449",
+   "B_line": "G27          2000        3341       3341       3341            -           3336         3325          3341    3341"
+  },
+  "G28": {
+   "N": 2000,
+   "A_f_prev": 3287,
+   "A_f_best": 3298,
+   "B_f_pre": 3298,
+   "B_MOH": 3298,
+   "BKV": 3298,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3266,
+   "flags": [],
+   "A_line": "G28          2000           3287           3298(8)       3293.85       5.31          432",
+   "B_line": "G28          2000        3298       3298       3298            -           3295         3287          3298    3298"
+  },
+  "G29": {
+   "N": 2000,
+   "A_f_prev": 3394,
+   "A_f_best": 3405,
+   "B_f_pre": 3405,
+   "B_MOH": 3405,
+   "BKV": 3405,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3371,
+   "flags": [],
+   "A_line": "G29          2000           3394           3405(1)       3388.2        5.94          17",
+   "B_line": "G29          2000        3405       3405       3405            -           3391         3394          3403    3405"
+  },
+  "G30": {
+   "N": 2000,
+   "A_f_prev": 3403,
+   "A_f_best": 3412,
+   "B_f_pre": 3413,
+   "B_MOH": 3413,
+   "BKV": 3413,
+   "BKV_from": [
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3379,
+   "flags": [
+    "improved after BLS (A.f_best 3412 < B.f_pre 3413)"
+   ],
+   "A_line": "G30          2000           3403           3412(10)      3404.85       9.61          283",
+   "B_line": "G30          2000        3413       3413       3412            -           3403         3402          3412    3413"
+  },
+  "G31": {
+   "N": 2000,
+   "A_f_prev": 3299,
+   "A_f_best": 3309,
+   "B_f_pre": 3310,
+   "B_MOH": 3310,
+   "BKV": 3310,
+   "BKV_from": [
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3277,
+   "flags": [
+    "improved after BLS (A.f_best 3309 < B.f_pre 3310)"
+   ],
+   "A_line": "G31          2000           3299           3309(8)       3305.3        4.79          285",
+   "B_line": "G31          2000        3310       3310       3309            -           3288         3299          3309    3310"
+  },
+  "G32": {
+   "N": 2000,
+   "A_f_prev": 1410,
+   "A_f_best": 1410,
+   "B_f_pre": 1410,
+   "B_MOH": 1410,
+   "BKV": 1410,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 1396,
+   "flags": [],
+   "A_line": "G32          2000           1410           1410(13)      1409.3        0.95          336",
+   "B_line": "G32          2000        1410       1410       1410         1410           1406         1406          1410    1410"
+  },
+  "G33": {
+   "N": 2000,
+   "A_f_prev": 1382,
+   "A_f_best": 1382,
+   "B_f_pre": 1382,
+   "B_MOH": 1382,
+   "BKV": 1382,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 1369,
+   "flags": [],
+   "A_line": "G33          2000           1382           1382(1)       1380.1        0.44          402",
+   "B_line": "G33          2000        1382       1382       1382         1382           1378         1374          1382    1382"
+  },
+  "G34": {
+   "N": 2000,
+   "A_f_prev": 1384,
+   "A_f_best": 1384,
+   "B_f_pre": 1384,
+   "B_MOH": 1384,
+   "BKV": 1384,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 1371,
+   "flags": [],
+   "A_line": "G34          2000           1384           1384(20)      1384          0             170",
+   "B_line": "G34          2000        1384       1384       1384         1384           1378         1376          1384    1384"
+  },
+  "G35": {
+   "N": 2000,
+   "A_f_prev": 7684,
+   "A_f_best": 7684,
+   "B_f_pre": 7686,
+   "B_MOH": 7687,
+   "BKV": 7687,
+   "BKV_from": [
+    "B.MOH"
+   ],
+   "target": 7611,
+   "flags": [
+    "improved after BLS (A.f_best 7684 < B.f_pre 7686)",
+    "improved by MOH (7687 > f_pre 7686)"
+   ],
+   "A_line": "G35          2000           7684           7684(2)       7680.85       0.57          442",
+   "B_line": "G35          2000        7686       7686       7684         7686           7678         7661          7686    7687"
+  },
+  "G36": {
+   "N": 2000,
+   "A_f_prev": 7677,
+   "A_f_best": 7678,
+   "B_f_pre": 7680,
+   "B_MOH": 7680,
+   "BKV": 7680,
+   "BKV_from": [
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 7604,
+   "flags": [
+    "improved after BLS (A.f_best 7678 < B.f_pre 7680)"
+   ],
+   "A_line": "G36          2000           7677           7678(1)       7673.6        1.37          604",
+   "B_line": "G36          2000        7680       7680       7678         7679           7670         7660          7678    7680"
+  },
+  "G37": {
+   "N": 2000,
+   "A_f_prev": 7689,
+   "A_f_best": 7689,
+   "B_f_pre": 7691,
+   "B_MOH": 7691,
+   "BKV": 7691,
+   "BKV_from": [
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 7615,
+   "flags": [
+    "improved after BLS (A.f_best 7689 < B.f_pre 7691)"
+   ],
+   "A_line": "G37          2000           7689           7689(1)       7685.85       2.1           444",
+   "B_line": "G37          2000        7691       7691       7689         7690           7682         7670          7689    7691"
+  },
+  "G38": {
+   "N": 2000,
+   "A_f_prev": 7681,
+   "A_f_best": 7687,
+   "B_f_pre": 7688,
+   "B_MOH": 7688,
+   "BKV": 7688,
+   "BKV_from": [
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 7612,
+   "flags": [
+    "improved after BLS (A.f_best 7687 < B.f_pre 7688)"
+   ],
+   "A_line": "G38          2000           7681           7687(4)       7684.95       2.33          461",
+   "B_line": "G38          2000        7688       7687       7687            -           7683         7670          7688    7688"
+  },
+  "G39": {
+   "N": 2000,
+   "A_f_prev": 2397,
+   "A_f_best": 2408,
+   "B_f_pre": 2408,
+   "B_MOH": 2408,
+   "BKV": 2408,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 2384,
+   "flags": [],
+   "A_line": "G39          2000           2397           2408(13)      2405.35       3.72          251",
+   "B_line": "G39          2000        2408       2408       2408            -           2397         2397          2408    2408"
+  },
+  "G40": {
+   "N": 2000,
+   "A_f_prev": 2392,
+   "A_f_best": 2400,
+   "B_f_pre": 2400,
+   "B_MOH": 2400,
+   "BKV": 2400,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 2376,
+   "flags": [],
+   "A_line": "G40          2000           2392           2400(1)       2394.6        4.65          431",
+   "B_line": "G40          2000        2400       2400       2400            -           2390         2392          2400    2400"
+  },
+  "G41": {
+   "N": 2000,
+   "A_f_prev": 2398,
+   "A_f_best": 2405,
+   "B_f_pre": 2405,
+   "B_MOH": 2405,
+   "BKV": 2405,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 2381,
+   "flags": [],
+   "A_line": "G41          2000    2398       2405(17)   2403       4.98      73",
+   "B_line": "G41          2000        2405       2405       2405            -           2400         2398          2405    2405"
+  },
+  "G42": {
+   "N": 2000,
+   "A_f_prev": 2474,
+   "A_f_best": 2481,
+   "B_f_pre": 2481,
+   "B_MOH": 2481,
+   "BKV": 2481,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 2457,
+   "flags": [],
+   "A_line": "G42          2000    2474       2481(2)    2475.4     2.97      183",
+   "B_line": "G42          2000        2481       2481       2481            -           2469         2474          2481    2481"
+  },
+  "G43": {
+   "N": 1000,
+   "A_f_prev": 6660,
+   "A_f_best": 6660,
+   "B_f_pre": 6660,
+   "B_MOH": 6660,
+   "BKV": 6660,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 6594,
+   "flags": [],
+   "A_line": "G43          1000    6660       6660(18)   6658.15    5.57      26",
+   "B_line": "G43          1000        6660       6660       6660         6660           6660         6660          6659    6660"
+  },
+  "G44": {
+   "N": 1000,
+   "A_f_prev": 6650,
+   "A_f_best": 6650,
+   "B_f_pre": 6650,
+   "B_MOH": 6650,
+   "BKV": 6650,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 6584,
+   "flags": [],
+   "A_line": "G44          1000    6650       6650(14)   6647.7     3.66      43",
+   "B_line": "G44          1000        6650       6650       6650         6650           6639         6649          6650    6650"
+  },
+  "G45": {
+   "N": 1000,
+   "A_f_prev": 6654,
+   "A_f_best": 6654,
+   "B_f_pre": 6654,
+   "B_MOH": 6654,
+   "BKV": 6654,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 6588,
+   "flags": [],
+   "A_line": "G45          1000    6654       6654(15)   6652.15    4.67      104",
+   "B_line": "G45          1000        6654       6654       6654         6654           6652         6654          6654    6654"
+  },
+  "G46": {
+   "N": 1000,
+   "A_f_prev": 6649,
+   "A_f_best": 6649,
+   "B_f_pre": 6649,
+   "B_MOH": 6649,
+   "BKV": 6649,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 6583,
+   "flags": [],
+   "A_line": "G46          1000    6649       6649(13)   6647.75    2.26      67",
+   "B_line": "G46          1000        6649       6649       6649            -           6649         6649          6649    6649"
+  },
+  "G47": {
+   "N": 1000,
+   "A_f_prev": 6656,
+   "A_f_best": 6657,
+   "B_f_pre": 6657,
+   "B_MOH": 6657,
+   "BKV": 6657,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 6591,
+   "flags": [],
+   "A_line": "G47          1000    6656       6657(11)   6654.35    3.53      102",
+   "B_line": "G47          1000        6657       6657       6657            -           6656         6656          6657    6657"
+  },
+  "G51": {
+   "N": 1000,
+   "A_f_prev": 3847,
+   "A_f_best": 3848,
+   "B_f_pre": 3848,
+   "B_MOH": 3848,
+   "BKV": 3848,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3810,
+   "flags": [],
+   "A_line": "G51          1000    3847       3848(17)   3847.85    0.36      81",
+   "B_line": "G51          1000        3848       3848       3848            -           3847         3847          3847    3848"
+  },
+  "G52": {
+   "N": 1000,
+   "A_f_prev": 3850,
+   "A_f_best": 3851,
+   "B_f_pre": 3851,
+   "B_MOH": 3851,
+   "BKV": 3851,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3813,
+   "flags": [],
+   "A_line": "G52          1000    3850       3851(19)   3850.85    0.65      78",
+   "B_line": "G52          1000        3851       3851       3851            -           3849         3850          3851    3851"
+  },
+  "G53": {
+   "N": 1000,
+   "A_f_prev": 3848,
+   "A_f_best": 3850,
+   "B_f_pre": 3850,
+   "B_MOH": 3850,
+   "BKV": 3850,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3812,
+   "flags": [],
+   "A_line": "G53          1000    3848       3850(13)   3849.5     0.74      117",
+   "B_line": "G53          1000        3850       3850       3850            -           3848         3848          3850    3850"
+  },
+  "G54": {
+   "N": 1000,
+   "A_f_prev": 3850,
+   "A_f_best": 3852,
+   "B_f_pre": 3852,
+   "B_MOH": 3852,
+   "BKV": 3852,
+   "BKV_from": [
+    "A.f_best",
+    "B.f_pre",
+    "B.MOH"
+   ],
+   "target": 3814,
+   "flags": [],
+   "A_line": "G54          1000    3850       3852(10)   3850.6     1.74      131",
+   "B_line": "G54          1000        3852       3852       3852            -           3851         3850          3851    3852"
+  }
+ }
+}

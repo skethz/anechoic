@@ -1,0 +1,1 @@
+{"action":"--power-run","engines":6,"per_launch":512,"rounds":5350,"trials":16435200,"seconds":150.026676,"device_busy_seconds":149.604467,"device_busy_fraction":0.997185773,"host_submit_to_done_seconds":149.676713,"host_over_device":1.00048291,"matrix":"k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin","K":4,"n":2000,"bias_mode":false}

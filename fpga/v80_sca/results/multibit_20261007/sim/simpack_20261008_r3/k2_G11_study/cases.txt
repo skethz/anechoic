@@ -1,0 +1,9 @@
+K 2 matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G11 n 800 nfield 800 bias_mode 0 maxabs 1 sumw 34 field_bound 4 fingerprint 9b8362648d6c52a3 auto_scale 0.005
+case 0 G11_plain_S4000 S 4000 t0 1.8 t1 0.224 q 0.72 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 560 flips 130516 energy2 -2172
+case 1 G11_tec_S4000 S 4000 t0 1.8 t1 0.224 q 0.36 lambda 0 ramp 0 jv 0.09 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 558 flips 242047 energy2 -2164
+case 2 G11_tecT_S2000 S 2000 t0 0.9 t1 0.224 q 0.36 lambda 0 ramp 1 jv 0 kappa 1 scale 1 trials 1 trace 1 keep 0 seed 12648432 offset 1200
+  trial 1200 cut 552 flips 94945 energy2 -2140
+case 3 G11_ons_S1000 S 1000 t0 1.8 t1 0.224 q 0.36 lambda 0.00250125 ramp 1 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648433 offset 1300
+  trial 1300 cut 548 flips 117086 energy2 -2124

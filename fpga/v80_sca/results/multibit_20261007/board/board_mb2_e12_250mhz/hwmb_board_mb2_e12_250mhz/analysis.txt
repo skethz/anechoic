@@ -1,0 +1,22 @@
+verdicts {"E1": true, "R1": true, "C1": true, "T1": true, "M2": true, "G1": true, "G2": false, "G3": false}
+clock 250.000 MHz uuid 257f202a432b4f4914f0c933fe037434
+verify G22a: exact 24/24 engines 12 gset:/scratch/USER/sca_v80_20261003/data/gset/G22
+verify G22b: exact 12/12 engines 12 gset:/scratch/USER/sca_v80_20261003/data/gset/G22
+verify G32a: exact 24/24 engines 12 gset:/scratch/USER/sca_v80_20261003/data/gset/G32
+verify G32b: exact 12/12 engines 12 gset:/scratch/USER/sca_v80_20261003/data/gset/G32
+verify W1: exact 12/12 engines 12 k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin
+verify W2: exact 24/24 engines 12 k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin
+verify W3: exact 12/12 engines 12 k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin
+verify W4: exact 12/12 engines 12 k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin
+exact gate PASS
+R1 O4: 0 mismatches of 2052; launch cycle ratio 1.0002156781860039; identical launch cycles 1020/2040; v6.4 TTS99 0.0528 ms
+R1 X5: 0 mismatches of 2052; launch cycle ratio 1.0002428198164428; identical launch cycles 1020/2040; v6.4 TTS99 0.0503 ms
+key            p      [95%]            P_round(pred)    t_round ms  TTS99 ms [95%]                 ind ms   model
+O4             0.326 [0.306,0.346] 0.994(0.991)ok 0.0590     0.0529 [0.0527,0.0673]  0.0575  0.9969186606762258
+X5             0.338 [0.318,0.359] 1.000(0.993)ok 0.0503     0.0503 [0.0503,0.0504]  0.0468  0.9737712190177451
+G22_ons        0.451 [0.429,0.472] 1.000(0.999)ok 0.1218     0.1218 [0.1049,0.1443]  0.0780  1.1618273047011864
+G22_plain      0.375 [0.354,0.396] 1.000(0.996)ok 0.1033     0.1033 [0.1033,0.1034]  0.0844  1.165369531925497
+G22_tecT       0.424 [0.403,0.446] 1.000(0.999)ok 0.1036     0.1036 [0.1036,0.1036]  0.0720  1.163536955512966
+G32_ons        0.006 [0.004,0.011] 0.076(0.073)ok 0.4026     23.4514 [14.9059,51.9088]  24.3134  1.0910670591134048
+G32_plain      0.015 [0.010,0.021] 0.164(0.162)ok 0.5299     13.6457 [9.7089,20.7142]  13.8067  0.9860695516882053
+G32_tecT       0.014 [0.010,0.020] 0.164(0.157)ok 0.5315     13.6872 [10.0355,20.7853]  14.3297  0.9858299346876527

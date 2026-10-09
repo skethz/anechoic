@@ -1,0 +1,123 @@
+A1-E exact gate True {'VG22': '12/12', 'VG23': '12/12', 'VG24': '12/12', 'VG25': '12/12', 'VG26': '12/12', 'VG27': '12/12', 'VG28': '12/12', 'VG29': '12/12', 'VG30': '12/12', 'VG31': '12/12', 'VG32': '12/12', 'VG33': '12/12', 'VG34': '12/12', 'VG35': '12/12', 'VG36': '12/12', 'VG37': '12/12', 'VG38': '12/12', 'VG39': '12/12', 'VG40': '12/12', 'VG41': '12/12', 'VG42': '12/12'}
+A1-P fraction 1.000 pass True; A1-T median TTS ratio 0.9998394360478526 pass True
+G22_plain_o        S   500 p 0.658 (study 0.692) ok t_R 0.0801 TTS99 0.0801 ms (study 0.0798) M2 ok
+G22_tec_o          S   250 p 0.281 (study 0.293) ok t_R 0.0338 TTS99 0.0385 ms (study 0.0372) M2 ok
+G22_tecT_o         S   250 p 0.329 (study 0.345) ok t_R 0.0361 TTS99 0.0374 ms (study 0.0328) M2 ok
+G22_ons_o          S   500 p 0.853 (study 0.848) ok t_R 0.0645 TTS99 0.0645 ms (study 0.0625) M2 ok
+G23_plain_o        S   250 p 0.208 (study 0.188) ok t_R 0.0422 TTS99 0.0685 ms (study 0.0784) M2 ok
+G23_tec_o          S   250 p 0.714 (study 0.736) ok t_R 0.0381 TTS99 0.0381 ms (study 0.0390) M2 ok
+G23_tecT_o         S   250 p 0.626 (study 0.645) ok t_R 0.0361 TTS99 0.0361 ms (study 0.0361) M2 ok
+G23_ons_o          S   250 p 0.388 (study 0.410) ok t_R 0.0346 TTS99 0.0346 ms (study 0.0340) M2 ok
+G24_plain_o        S   500 p 0.873 (study 0.900) ok t_R 0.0572 TTS99 0.0572 ms (study 0.0543) M2 ok
+G24_tec_o          S   250 p 0.580 (study 0.572) ok t_R 0.0337 TTS99 0.0337 ms (study 0.0336) M2 ok
+G24_tecT_o         S   250 p 0.557 (study 0.567) ok t_R 0.0444 TTS99 0.0444 ms (study 0.0453) M2 ok
+G24_ons_o          S   250 p 0.353 (study 0.369) ok t_R 0.0346 TTS99 0.0310 ms (study 0.0340) M2 ok
+G25_plain_o        S   250 p 0.163 (study 0.168) ok t_R 0.0309 TTS99 0.0631 ms (study 0.0622) M2 ok
+G25_tec_o          S   250 p 0.672 (study 0.680) ok t_R 0.0381 TTS99 0.0381 ms (study 0.0391) M2 ok
+G25_tecT_o         S   250 p 0.618 (study 0.619) ok t_R 0.0361 TTS99 0.0361 ms (study 0.0361) M2 ok
+G25_ons_o          S   250 p 0.258 (study 0.268) ok t_R 0.0323 TTS99 0.0368 ms (study 0.0388) M2 ok
+G26_plain_o        S   500 p 0.911 (study 0.916) ok t_R 0.0573 TTS99 0.0573 ms (study 0.0544) M2 ok
+G26_tec_o          S   250 p 0.637 (study 0.646) ok t_R 0.0338 TTS99 0.0338 ms (study 0.0337) M2 ok
+G26_tecT_o         S   250 p 0.617 (study 0.641) ok t_R 0.0362 TTS99 0.0362 ms (study 0.0362) M2 ok
+G26_ons_o          S   250 p 0.386 (study 0.417) ok t_R 0.0346 TTS99 0.0346 ms (study 0.0340) M2 ok
+G27_plain_o        S  1000 p 0.548 (study 0.562) ok t_R 0.2367 TTS99 0.2367 ms (study 0.2467) M2 ok
+G27_tec_o          S   500 p 0.233 (study 0.258) ok t_R 0.1150 TTS99 0.1411 ms (study 0.1550) M2 ok
+G27_tec_x          S  1000 p 0.649 (study 0.653) ok t_R 0.2192 TTS99 0.2192 ms (study 0.2288) M2 ok
+G27_tecT_o         S   500 p 0.447 (study 0.471) ok t_R 0.0987 TTS99 0.0987 ms (study 0.1021) M2 ok
+G27_ons_o          S   500 p 0.512 (study 0.494) ok t_R 0.1369 TTS99 0.1369 ms (study 0.1417) M2 ok
+G28_plain_o        S  1000 p 0.703 (study 0.724) ok t_R 0.2401 TTS99 0.2401 ms (study 0.2493) M2 ok
+G28_tec_o          S   500 p 0.333 (study 0.326) ok t_R 0.1155 TTS99 0.1155 ms (study 0.1177) M2 ok
+G28_tecT_o         S   250 p 0.196 (study 0.196) ok t_R 0.0539 TTS99 0.1047 ms (study 0.0987) M2 ok
+G28_ons_o          S   500 p 0.539 (study 0.534) ok t_R 0.1393 TTS99 0.1393 ms (study 0.1445) M2 ok
+G29_plain_o        S  1000 p 0.379 (study 0.373) ok t_R 0.2384 TTS99 0.2384 ms (study 0.2490) M2 ok
+G29_tec_o          S  1000 p 0.439 (study 0.444) ok t_R 0.2195 TTS99 0.2195 ms (study 0.2291) M2 ok
+G29_tecT_o         S   500 p 0.326 (study 0.326) ok t_R 0.0985 TTS99 0.0883 ms (study 0.0991) M2 ok
+G29_ons_o          S   500 p 0.243 (study 0.230) ok t_R 0.1375 TTS99 0.2068 ms (study 0.2087) M2 ok
+G30_plain_o        S   500 p 0.196 (study 0.182) ok t_R 0.1060 TTS99 0.2005 ms (study 0.2094) M2 ok
+G30_tec_o          S   500 p 0.346 (study 0.316) ok t_R 0.1149 TTS99 0.1149 ms (study 0.1212) M2 ok
+G30_tecT_o         S   250 p 0.184 (study 0.194) ok t_R 0.0536 TTS99 0.1015 ms (study 0.0989) M2 ok
+G30_ons_o          S   500 p 0.456 (study 0.450) ok t_R 0.1357 TTS99 0.1357 ms (study 0.1400) M2 ok
+G31_plain_o        S   500 p 0.168 (study 0.201) ok t_R 0.1065 TTS99 0.2603 ms (study 0.1883) M2 ok
+G31_tec_o          S   500 p 0.313 (study 0.333) ok t_R 0.1155 TTS99 0.1034 ms (study 0.1146) M2 ok
+G31_tecT_o         S   500 p 0.566 (study 0.572) ok t_R 0.0990 TTS99 0.0990 ms (study 0.1025) M2 ok
+G31_ons_o          S   500 p 0.476 (study 0.487) ok t_R 0.1398 TTS99 0.1398 ms (study 0.1445) M2 ok
+G32_plain_o        S  4000 p 0.011 (study 0.011) ok t_R 0.6495 TTS99 20.7058 ms (study 24.3643) M2 ok
+G32_tec_o          S  2000 p 0.003 (study 0.001) ok t_R 0.3165 TTS99 34.8765 ms (study 129.9119) M2 ok
+G32_tec_x          S  4000 p 0.012 (study 0.011) ok t_R 0.7358 TTS99 25.8622 ms (study 26.9646) M2 ok
+G32_tecT_o         S  4000 p 0.072 (study 0.089) ok t_R 0.5233 TTS99 2.4914 ms (study 2.2743) M2 ok
+G32_tecT_x         S  2000 p 0.019 (study 0.020) ok t_R 0.2666 TTS99 5.1947 ms (study 5.4735) M2 ok
+G32_ons_o          S  2000 p 0.009 (study 0.008) ok t_R 0.4313 TTS99 17.8595 ms (study 22.3996) M2 ok
+G33_plain_o        S  4000 p 0.010 (study 0.004) ok t_R 0.6493 TTS99 22.8199 ms (study 66.9459) M2 ok
+G33_plain_x        S  4000 p 0.008 (study 0.003) ok t_R 0.6750 TTS99 33.8566 ms (study 90.8550) M2 ok
+G33_tec_o          S  4000 p 0.006 (study 0.012) ok t_R 0.6218 TTS99 39.3541 ms (study 21.0642) M2 ok
+G33_tecT_o         S  4000 p 0.048 (study 0.044) ok t_R 0.5240 TTS99 3.8252 ms (study 4.7059) M2 ok
+G33_ons_o          S  4000 p 0.024 (study 0.017) ok t_R 0.8513 TTS99 14.3015 ms (study 20.6088) M2 ok
+G33_ons_x          S  4000 p 0.017 (study 0.013) ok t_R 1.0615 TTS99 24.4400 ms (study 33.8127) M2 ok
+G34_plain_o        S  4000 p 0.013 (study 0.017) ok t_R 0.6552 TTS99 19.9523 ms (study 15.5070) M2 ok
+G34_tec_o          S  4000 p 0.016 (study 0.020) ok t_R 0.6004 TTS99 13.8239 ms (study 11.7998) M2 ok
+G34_tecT_o         S  4000 p 0.070 (study 0.063) ok t_R 0.5312 TTS99 2.5697 ms (study 3.1938) M2 ok
+G34_ons_o          S  4000 p 0.041 (study 0.038) ok t_R 0.8517 TTS99 7.4493 ms (study 8.7436) M2 ok
+G35_plain_o        S  4000 p 0.749 (study 0.741) ok t_R 0.4535 TTS99 0.4535 ms (study 0.4110) M2 ok
+G35_tec_o          S  2000 p 0.673 (study 0.662) ok t_R 0.3211 TTS99 0.3211 ms (study 0.2615) M2 ok
+G35_tecT_o         S  1000 p 0.280 (study 0.277) ok t_R 0.1919 TTS99 0.1986 ms (study 0.1898) M2 ok
+G35_tecT_x         S  1000 p 0.343 (study 0.360) ok t_R 0.1026 TTS99 0.0919 ms (study 0.0932) M2 ok
+G35_ons_o          S  2000 p 0.634 (study 0.600) ok t_R 0.5868 TTS99 0.5868 ms (study 0.5685) M2 ok
+G35_ons_x          S  4000 p 0.675 (study 0.683) ok t_R 0.4764 TTS99 0.4764 ms (study 0.4364) M2 ok
+G36_plain_o        S  2000 p 0.185 (study 0.183) ok t_R 0.2287 TTS99 0.3964 ms (study 0.3955) M2 ok
+G36_tec_o          S  2000 p 0.687 (study 0.688) ok t_R 0.2504 TTS99 0.2504 ms (study 0.2267) M2 ok
+G36_tecT_o         S  1000 p 0.253 (study 0.273) ok t_R 0.1453 TTS99 0.1894 ms (study 0.1751) M2 ok
+G36_tecT_x         S  1000 p 0.336 (study 0.355) ok t_R 0.1026 TTS99 0.0919 ms (study 0.0814) M2 ok
+G36_ons_o          S  2000 p 0.592 (study 0.598) ok t_R 0.4689 TTS99 0.4689 ms (study 0.4618) M2 ok
+G37_plain_o        S  4000 p 0.709 (study 0.703) ok t_R 0.4535 TTS99 0.4535 ms (study 0.4111) M2 ok
+G37_tec_o          S  2000 p 0.647 (study 0.618) ok t_R 0.3138 TTS99 0.3138 ms (study 0.2848) M2 ok
+G37_tecT_o         S  1000 p 0.643 (study 0.642) ok t_R 0.3334 TTS99 0.3334 ms (study 0.3534) M2 ok
+G37_tecT_x         S  1000 p 0.308 (study 0.304) ok t_R 0.1026 TTS99 0.1338 ms (study 0.0989) M2 ok
+G37_ons_o          S  1000 p 0.101 (study 0.103) ok t_R 0.2785 TTS99 0.9931 ms (study 0.9849) M2 ok
+G38_plain_o        S  4000 p 0.758 (study 0.750) ok t_R 0.4535 TTS99 0.4535 ms (study 0.4109) M2 ok
+G38_tec_o          S   500 p 0.241 (study 0.257) ok t_R 0.1533 TTS99 0.2487 ms (study 0.2123) M2 ok
+G38_tecT_o         S  1000 p 0.279 (study 0.279) ok t_R 0.1696 TTS99 0.1756 ms (study 0.2102) M2 ok
+G38_tecT_x         S  1000 p 0.364 (study 0.335) ok t_R 0.1026 TTS99 0.0919 ms (study 0.0876) M2 ok
+G38_ons_o          S  2000 p 0.594 (study 0.600) ok t_R 0.5494 TTS99 0.5494 ms (study 0.5765) M2 ok
+G38_ons_x          S  4000 p 0.729 (study 0.758) ok t_R 0.4642 TTS99 0.4642 ms (study 0.4228) M2 ok
+G39_plain_o        S  4000 p 0.136 (study 0.170) ok t_R 0.9416 TTS99 2.3493 ms (study 2.0131) M2 ok
+G39_plain_x        S  4000 p 0.152 (study 0.148) ok t_R 0.8474 TTS99 2.2422 ms (study 2.0864) M2 ok
+G39_tec_o          S  4000 p 0.193 (study 0.156) ok t_R 0.7624 TTS99 1.1923 ms (study 1.7690) M2 ok
+G39_tec_x          S  4000 p 0.153 (study 0.159) ok t_R 0.9788 TTS99 2.5403 ms (study 2.2459) M2 ok
+G39_tecT_o         S  4000 p 0.219 (study 0.229) ok t_R 0.9144 TTS99 1.7775 ms (study 1.4009) M2 X
+G39_ons_o          S  1000 p 0.063 (study 0.071) ok t_R 0.2545 TTS99 1.5431 ms (study 1.3743) M2 ok
+G40_plain_o        S  4000 p 0.117 (study 0.095) ok t_R 0.7164 TTS99 2.0423 ms (study 2.8176) M2 ok
+G40_tec_o          S  4000 p 0.130 (study 0.146) ok t_R 0.7819 TTS99 2.1487 ms (study 1.9653) M2 ok
+G40_tec_x          S  2000 p 0.049 (study 0.065) ok t_R 0.3989 TTS99 3.0162 ms (study 2.3325) M2 ok
+G40_tecT_o         S  2000 p 0.070 (study 0.069) ok t_R 0.4531 TTS99 2.4512 ms (study 2.5035) M2 ok
+G40_ons_o          S  2000 p 0.106 (study 0.088) ok t_R 0.4823 TTS99 1.8359 ms (study 2.0887) M2 ok
+G41_plain_o        S  4000 p 0.085 (study 0.084) ok t_R 0.7302 TTS99 3.2622 ms (study 3.2626) M2 ok
+G41_tec_o          S  2000 p 0.045 (study 0.056) ok t_R 0.4071 TTS99 3.3066 ms (study 2.8263) M2 ok
+G41_tecT_o         S  2000 p 0.089 (study 0.090) ok t_R 0.3569 TTS99 1.4960 ms (study 1.4887) M2 ok
+G41_ons_o          S  2000 p 0.088 (study 0.071) ok t_R 0.4957 TTS99 1.9806 ms (study 2.6764) M2 ok
+G42_plain_o        S  2000 p 0.056 (study 0.062) ok t_R 0.3676 TTS99 2.3031 ms (study 2.2668) M2 ok
+G42_plain_x        S  4000 p 0.100 (study 0.114) ok t_R 0.7226 TTS99 2.7507 ms (study 2.3314) M2 ok
+G42_tec_o          S  4000 p 0.127 (study 0.122) ok t_R 0.7908 TTS99 2.2957 ms (study 2.4016) M2 ok
+G42_tec_x          S  4000 p 0.110 (study 0.114) ok t_R 1.0760 TTS99 3.2946 ms (study 3.5616) M2 ok
+G42_tecT_o         S  4000 p 0.175 (study 0.187) ok t_R 1.0999 TTS99 2.6343 ms (study 2.1330) M2 ok
+G42_ons_o          S  2000 p 0.116 (study 0.107) ok t_R 0.4905 TTS99 1.4758 ms (study 1.7160) M2 ok
+best G22 {'key': 'G22_tecT_o', 'tts99_ms': 0.03741273757222213}
+best G23 {'key': 'G23_ons_o', 'tts99_ms': 0.034559835328677485}
+best G24 {'key': 'G24_ons_o', 'tts99_ms': 0.03100145020141917}
+best G25 {'key': 'G25_tecT_o', 'tts99_ms': 0.03612315297729963}
+best G26 {'key': 'G26_tec_o', 'tts99_ms': 0.03378905885731847}
+best G27 {'key': 'G27_tecT_o', 'tts99_ms': 0.09874268245168387}
+best G28 {'key': 'G28_tecT_o', 'tts99_ms': 0.1046941101966823}
+best G29 {'key': 'G29_tecT_o', 'tts99_ms': 0.08825142221828522}
+best G30 {'key': 'G30_tecT_o', 'tts99_ms': 0.10148670261747947}
+best G31 {'key': 'G31_tecT_o', 'tts99_ms': 0.0990457883343399}
+best G32 {'key': 'G32_tecT_o', 'tts99_ms': 2.491383180071073}
+best G33 {'key': 'G33_tecT_o', 'tts99_ms': 3.8252006504301}
+best G34 {'key': 'G34_tecT_o', 'tts99_ms': 2.5697344737140213}
+best G35 {'key': 'G35_tecT_x', 'tts99_ms': 0.09190848715219502}
+best G36 {'key': 'G36_tecT_x', 'tts99_ms': 0.09191211193130568}
+best G37 {'key': 'G37_tecT_x', 'tts99_ms': 0.13379850538067684}
+best G38 {'key': 'G38_tecT_x', 'tts99_ms': 0.0918806480056532}
+best G39 {'key': 'G39_tec_o', 'tts99_ms': 1.1923487705071232}
+best G40 {'key': 'G40_ons_o', 'tts99_ms': 1.835925500800874}
+best G41 {'key': 'G41_tecT_o', 'tts99_ms': 1.495970640353112}
+best G42 {'key': 'G42_ons_o', 'tts99_ms': 1.475791114096524}

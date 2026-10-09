@@ -1,0 +1,309 @@
+{
+ "variant": "ext_budget",
+ "subset": [],
+ "engine_all51": {
+  "250": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 2.2991002654858517,
+    "best_gap": 1.0319497089276366,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 2.0081154117390874,
+    "best_gap": 0.7812194603783988,
+    "bkv_instances": 1,
+    "wins": 8.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 1.6694161860879857,
+    "best_gap": 0.6562750657244932,
+    "bkv_instances": 4,
+    "wins": 37.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 1.9770178631180688,
+    "best_gap": 0.8084554722020393,
+    "bkv_instances": 2,
+    "wins": 6.0
+   }
+  },
+  "500": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 1.705372487802888,
+    "best_gap": 0.6553246225409354,
+    "bkv_instances": 3,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 1.570394643400981,
+    "best_gap": 0.5431389197228618,
+    "bkv_instances": 0,
+    "wins": 6.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 1.260886125098881,
+    "best_gap": 0.42439408649371224,
+    "bkv_instances": 7,
+    "wins": 38.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 1.53611431412772,
+    "best_gap": 0.5264738243226387,
+    "bkv_instances": 4,
+    "wins": 7.0
+   }
+  },
+  "1000": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 1.2911043560816453,
+    "best_gap": 0.4241728883304485,
+    "bkv_instances": 7,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 1.1547206674774302,
+    "best_gap": 0.35900141882585046,
+    "bkv_instances": 10,
+    "wins": 9.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 1.019603190643412,
+    "best_gap": 0.2979052486984144,
+    "bkv_instances": 9,
+    "wins": 32.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 1.1904596076938077,
+    "best_gap": 0.3565431778964628,
+    "bkv_instances": 8,
+    "wins": 10.0
+   }
+  },
+  "2000": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 1.0335353213414329,
+    "best_gap": 0.3154023517561493,
+    "bkv_instances": 11,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 0.9091312607112142,
+    "best_gap": 0.254669911839532,
+    "bkv_instances": 14,
+    "wins": 12.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 0.833736848472932,
+    "best_gap": 0.1872613394567089,
+    "bkv_instances": 16,
+    "wins": 28.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 1.1205524236827131,
+    "best_gap": 0.2600226187946354,
+    "bkv_instances": 8,
+    "wins": 11.0
+   }
+  },
+  "4000": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 0.8351332914134845,
+    "best_gap": 0.20554279977491483,
+    "bkv_instances": 15,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 0.7347699267152151,
+    "best_gap": 0.17444587976709255,
+    "bkv_instances": 18,
+    "wins": 12.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 0.6473550569984774,
+    "best_gap": 0.14520173721842738,
+    "bkv_instances": 18,
+    "wins": 29.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 0.7944422124038227,
+    "best_gap": 0.21275295105289233,
+    "bkv_instances": 17,
+    "wins": 10.0
+   }
+  }
+ },
+ "all_methods_subset": {},
+ "engine_by_group_S4000": {
+  "Random, +1": {
+   "SCA": {
+    "n": 15,
+    "mean_gap": 0.4298075947830846,
+    "best_gap": 0.017585608548776534,
+    "bkv_instances": 6,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 15,
+    "mean_gap": 0.2158712857487336,
+    "best_gap": 0.009571199816231802,
+    "bkv_instances": 8,
+    "wins": 10.0
+   },
+   "Onsager-kT": {
+    "n": 15,
+    "mean_gap": 0.23746866815825834,
+    "best_gap": 0.014997582369929825,
+    "bkv_instances": 8,
+    "wins": 5.0
+   },
+   "Onsager-online": {
+    "n": 15,
+    "mean_gap": 0.5036313841416591,
+    "best_gap": 0.04691344755169846,
+    "bkv_instances": 6,
+    "wins": 0.0
+   }
+  },
+  "Random, \u00b11": {
+   "SCA": {
+    "n": 10,
+    "mean_gap": 0.48456522507480493,
+    "best_gap": 0.016909127265153104,
+    "bkv_instances": 6,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 10,
+    "mean_gap": 0.4713835059030501,
+    "best_gap": 0.013887979228899328,
+    "bkv_instances": 6,
+    "wins": 1.0
+   },
+   "Onsager-kT": {
+    "n": 10,
+    "mean_gap": 0.3674427143330731,
+    "best_gap": 0.020025558430326735,
+    "bkv_instances": 6,
+    "wins": 5.0
+   },
+   "Onsager-online": {
+    "n": 10,
+    "mean_gap": 0.3646385152195885,
+    "best_gap": 0.005951121666491105,
+    "bkv_instances": 8,
+    "wins": 4.0
+   }
+  },
+  "Toroidal, \u00b11": {
+   "SCA": {
+    "n": 6,
+    "mean_gap": 1.690875755909128,
+    "best_gap": 0.47597220424096814,
+    "bkv_instances": 1,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 6,
+    "mean_gap": 1.6451340814193032,
+    "best_gap": 0.4406187706962745,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "Onsager-kT": {
+    "n": 6,
+    "mean_gap": 1.4106087680066468,
+    "best_gap": 0.34465406357455647,
+    "bkv_instances": 2,
+    "wins": 5.0
+   },
+   "Onsager-online": {
+    "n": 6,
+    "mean_gap": 1.555939192716953,
+    "best_gap": 0.4997204255426102,
+    "bkv_instances": 1,
+    "wins": 1.0
+   }
+  },
+  "Planar-like, +1": {
+   "SCA": {
+    "n": 12,
+    "mean_gap": 0.8916524169072808,
+    "best_gap": 0.4015336336733384,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 12,
+    "mean_gap": 0.7966757684318003,
+    "best_gap": 0.3472635797553676,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "Onsager-kT": {
+    "n": 12,
+    "mean_gap": 0.6804636461842808,
+    "best_gap": 0.2370208483622458,
+    "bkv_instances": 0,
+    "wins": 12.0
+   },
+   "Onsager-online": {
+    "n": 12,
+    "mean_gap": 0.9260088332326747,
+    "best_gap": 0.4267431937105472,
+    "bkv_instances": 0,
+    "wins": 0.0
+   }
+  },
+  "Planar-like, \u00b11": {
+   "SCA": {
+    "n": 8,
+    "mean_gap": 1.306743518906407,
+    "best_gap": 0.2969463197639508,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 8,
+    "mean_gap": 1.2613060259396307,
+    "best_gap": 0.22542706216839908,
+    "bkv_instances": 2,
+    "wins": 1.0
+   },
+   "Onsager-kT": {
+    "n": 8,
+    "mean_gap": 1.1436792973708108,
+    "best_gap": 0.2584868395616617,
+    "bkv_instances": 2,
+    "wins": 2.0
+   },
+   "Onsager-online": {
+    "n": 8,
+    "mean_gap": 1.1084944703975474,
+    "best_gap": 0.24599333699686185,
+    "bkv_instances": 2,
+    "wins": 5.0
+   }
+  }
+ }
+}

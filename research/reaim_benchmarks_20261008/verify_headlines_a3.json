@@ -1,0 +1,393 @@
+{
+ "stat_mismatches": [],
+ "rerun": [
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "SA",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "SCA",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "TEC",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "APC-SCA",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "ReAIM ASA",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "aSB",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "bSB",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "dSB",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "Onsager-kT",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "mcp",
+   "inst": "G14",
+   "method": "Onsager-online",
+   "S": 250,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "SA",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "SCA",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "TEC",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "APC-SCA",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "ReAIM ASA",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "aSB",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "bSB",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "dSB",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "Onsager-kT",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "gpp",
+   "inst": "G1",
+   "method": "Onsager-online",
+   "S": 256,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "SA",
+   "S": 512,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "SCA",
+   "S": 512,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "TEC",
+   "S": 512,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "APC-SCA",
+   "S": 512,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "ReAIM ASA",
+   "S": 512,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "aSB",
+   "S": 512,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "bSB",
+   "S": 512,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "dSB",
+   "S": 512,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "Onsager-kT",
+   "S": 512,
+   "identical": true
+  },
+  {
+   "prob": "tsp",
+   "inst": "gr17",
+   "method": "Onsager-online",
+   "S": 512,
+   "identical": true
+  }
+ ],
+ "headline": {
+  "mcp/SA": {
+   "quality": 0.9953579356728405,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "mcp/SCA": {
+   "quality": 0.5423302975636037,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "mcp/TEC": {
+   "quality": -0.004056336212557477,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "mcp/APC-SCA": {
+   "quality": 0.7437954806768411,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "mcp/ReAIM ASA": {
+   "quality": 0.9775744882553379,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "mcp/aSB": {
+   "quality": 0.14760346863629797,
+   "feasible": 0.1505859375,
+   "matches_analysis": true
+  },
+  "mcp/bSB": {
+   "quality": 0.9886011841396659,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "mcp/dSB": {
+   "quality": 0.9951820402399806,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "mcp/Onsager-kT": {
+   "quality": 0.9939649971733454,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "mcp/Onsager-online": {
+   "quality": 0.9901459755403254,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "gpp/SA": {
+   "quality": 0.9790116832235074,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "gpp/SCA": {
+   "quality": 0.0,
+   "feasible": 0.0,
+   "matches_analysis": true
+  },
+  "gpp/TEC": {
+   "quality": 0.0,
+   "feasible": 0.0,
+   "matches_analysis": true
+  },
+  "gpp/APC-SCA": {
+   "quality": 0.0,
+   "feasible": 0.0,
+   "matches_analysis": true
+  },
+  "gpp/ReAIM ASA": {
+   "quality": 0.6967645267540684,
+   "feasible": 0.7252604166666666,
+   "matches_analysis": true
+  },
+  "gpp/aSB": {
+   "quality": 0.0,
+   "feasible": 0.0,
+   "matches_analysis": true
+  },
+  "gpp/bSB": {
+   "quality": 0.6346593092285236,
+   "feasible": 0.6519097222222222,
+   "matches_analysis": true
+  },
+  "gpp/dSB": {
+   "quality": 0.0,
+   "feasible": 0.0,
+   "matches_analysis": true
+  },
+  "gpp/Onsager-kT": {
+   "quality": 0.026006474573173167,
+   "feasible": 0.047309027777777776,
+   "matches_analysis": true
+  },
+  "gpp/Onsager-online": {
+   "quality": 0.026208249244717693,
+   "feasible": 0.043402777777777776,
+   "matches_analysis": true
+  },
+  "tsp/SA": {
+   "quality": 0.5279129287014186,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "tsp/SCA": {
+   "quality": 0.0,
+   "feasible": 0.0,
+   "matches_analysis": true
+  },
+  "tsp/TEC": {
+   "quality": 0.0,
+   "feasible": 0.0,
+   "matches_analysis": true
+  },
+  "tsp/APC-SCA": {
+   "quality": 0.5217095075093997,
+   "feasible": 0.9908854166666666,
+   "matches_analysis": true
+  },
+  "tsp/ReAIM ASA": {
+   "quality": 0.02201873421634196,
+   "feasible": 0.044921875,
+   "matches_analysis": true
+  },
+  "tsp/aSB": {
+   "quality": 0.0,
+   "feasible": 0.0,
+   "matches_analysis": true
+  },
+  "tsp/bSB": {
+   "quality": 0.9418599006067577,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "tsp/dSB": {
+   "quality": 0.539990614587651,
+   "feasible": 0.9967447916666666,
+   "matches_analysis": true
+  },
+  "tsp/Onsager-kT": {
+   "quality": 0.47606365825323477,
+   "feasible": 0.9993489583333334,
+   "matches_analysis": true
+  },
+  "tsp/Onsager-online": {
+   "quality": 0.47446485414053724,
+   "feasible": 1.0,
+   "matches_analysis": true
+  },
+  "mcp_common_set": [],
+  "mcp_steps_common_geo": {
+   "SA": null,
+   "SCA": null,
+   "TEC": null,
+   "APC-SCA": null,
+   "ReAIM ASA": null,
+   "aSB": null,
+   "bSB": null,
+   "dSB": null,
+   "Onsager-kT": null,
+   "Onsager-online": null
+  },
+  "mcp_solved": {
+   "SA": 20,
+   "SCA": 11,
+   "TEC": 0,
+   "APC-SCA": 15,
+   "ReAIM ASA": 15,
+   "aSB": 7,
+   "bSB": 17,
+   "dSB": 20,
+   "Onsager-kT": 20,
+   "Onsager-online": 20
+  }
+ },
+ "all_ok": true
+}

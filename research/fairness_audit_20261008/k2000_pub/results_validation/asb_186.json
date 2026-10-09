@@ -1,0 +1,7 @@
+{
+ "case": "asb_186",
+ "runs": 1024,
+ "diverged": 6,
+ "k": 20,
+ "mean_cut_nondiverged": 32756.41453831041
+}

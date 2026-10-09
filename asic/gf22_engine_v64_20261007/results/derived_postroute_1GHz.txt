@@ -1,0 +1,6 @@
+v6.4b post-route 1.0 GHz (X5 TCF power, die area): f = 1.000 GHz, P_engine = 1261.0 mW, A_engine = 3.330 mm2
+X5 (board mean)  cycles  12371  t_trial 12.371 us  E_trial 15.600 uJ
+O4 (board mean)  cycles  13814  t_trial 13.814 us  E_trial 17.419 uJ
+12-engine: area 39.96 mm2, power 15.13 W, TTS99 12.58 us (= 0.05033 ms x 250 MHz / f), energy-to-solution 190.4 uJ
+cycle model check: X5 S=280, flips 47,446 (board mean) -> 12708; O4 S=360, flips 45,370 -> 13859
+O4 with its own post-route O4 TCF power (1215 mW, same flow): E_trial = 1.215 W x 13.814 us = 16.78 uJ (replaces the X5-power O4 line above)

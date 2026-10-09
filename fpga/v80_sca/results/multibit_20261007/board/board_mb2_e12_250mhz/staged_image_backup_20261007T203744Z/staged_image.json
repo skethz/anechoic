@@ -1,0 +1,8 @@
+{
+  "source_manifest": "/scratch/USER/sca_v80_20261003/build/board_v64_e12_250mhz/image_manifest.json",
+  "logic_uuid": "8669ad38a456bcdf17ad8485fa0cec7a",
+  "sha256": "67e591f351985531c3b8340f9c25bb80bc6add80c98e026ef26ca75f21f770b4",
+  "bytes": 97949968,
+  "project": "sca_v80_20261003",
+  "programmed": false
+}

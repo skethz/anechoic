@@ -1,0 +1,200 @@
+{
+ "hashes": {
+  "PROTOCOL.md": "47405a3693ad1fdd86088e4a0ae5c634a00c0e248b37f36fc86da8178f4b76b9",
+  "sca_fast.py": "6d26d050eebe678d3db4ca4031e72b997c27f9cc89065479b4a5a076d0ecd014",
+  "study.py": "145c82672bf8ae53e44aa5e8973511cf9889e7270e1de9b52f388ebce54735c0"
+ },
+ "selection": {
+  "family": "onsager",
+  "T0": 12.0,
+  "q": 8.0,
+  "lam": 1.05,
+  "ramp": true,
+  "T1": 4.0,
+  "S": 8000,
+  "pa": "gibbs",
+  "K": 4,
+  "alpha": 0.25
+ },
+ "results": {
+  "gibbs": {
+   "cfg": {
+    "family": "onsager",
+    "T0": 12.0,
+    "q": 8.0,
+    "lam": 1.05,
+    "ramp": true,
+    "T1": 4.0,
+    "S": 8000,
+    "pa": "gibbs",
+    "K": 4,
+    "alpha": 0.25
+   },
+   "R": 12,
+   "populations": 1024,
+   "events": 3,
+   "mean_copied_per_event": 7.7578125,
+   "single_replica_k33337": 541,
+   "single_replica_n": 12288,
+   "mean_final_cut": 33282.5244140625,
+   "mean_pop_max": 33291.087890625,
+   "mean_distinct_parents_per_event": 7.765625,
+   "k33000": 1024,
+   "kbest33000": 1024,
+   "kgreedy33000": 1024,
+   "k33200": 1024,
+   "kbest33200": 1024,
+   "kgreedy33200": 1024,
+   "k33300": 305,
+   "kbest33300": 305,
+   "kgreedy33300": 305,
+   "k33320": 73,
+   "kbest33320": 73,
+   "kgreedy33320": 73,
+   "k33337": 73,
+   "kbest33337": 73,
+   "kgreedy33337": 73,
+   "pop_cycles": {
+    "main": 238209.8041125,
+    "copy0": 235551.8041125,
+    "copy4x_host5us": 246183.8041125
+   },
+   "P_pop": 0.0712890625,
+   "P_pop_lo": 0.05707964573022763,
+   "P_pop_hi": 0.08870301124939693,
+   "tts": {
+    "main|V80_250MHz": {
+     "t_pop_ms": 0.95283921645,
+     "tts_ms": 59.330998627529695,
+     "tts_ms_lo": 47.240341405866026,
+     "tts_ms_hi": 74.65932347484735,
+     "multiplex": 1
+    },
+    "main|ASIC_1.0GHz": {
+     "t_pop_ms": 0.2382098041125,
+     "tts_ms": 14.832749656882424,
+     "tts_ms_lo": 11.810085351466507,
+     "tts_ms_hi": 18.66483086871184,
+     "multiplex": 1
+    },
+    "main|ASIC_1.25GHz": {
+     "t_pop_ms": 0.19056784329,
+     "tts_ms": 11.86619972550594,
+     "tts_ms_lo": 9.448068281173207,
+     "tts_ms_hi": 14.93186469496947,
+     "multiplex": 1
+    },
+    "copy0|V80_250MHz": {
+     "t_pop_ms": 0.9422072164499999,
+     "tts_ms": 58.668969644551744,
+     "tts_ms_lo": 46.71322276805592,
+     "tts_ms_hi": 73.82625750371534,
+     "multiplex": 1
+    },
+    "copy0|ASIC_1.0GHz": {
+     "t_pop_ms": 0.23555180411249999,
+     "tts_ms": 14.667242411137936,
+     "tts_ms_lo": 11.67830569201398,
+     "tts_ms_hi": 18.456564375928835,
+     "multiplex": 1
+    },
+    "copy0|ASIC_1.25GHz": {
+     "t_pop_ms": 0.18844144329,
+     "tts_ms": 11.73379392891035,
+     "tts_ms_lo": 9.342644553611185,
+     "tts_ms_hi": 14.76525150074307,
+     "multiplex": 1
+    },
+    "copy4x_host5us|V80_250MHz": {
+     "t_pop_ms": 0.99973521645,
+     "tts_ms": 62.251099378633306,
+     "tts_ms_lo": 49.565374855710125,
+     "tts_ms_hi": 78.33384019627383,
+     "multiplex": 1
+    },
+    "copy4x_host5us|ASIC_1.0GHz": {
+     "t_pop_ms": 0.2611838041125,
+     "tts_ms": 16.26328519628567,
+     "tts_ms_lo": 12.949101866237879,
+     "tts_ms_hi": 20.46494915509132,
+     "multiplex": 1
+    },
+    "copy4x_host5us|ASIC_1.25GHz": {
+     "t_pop_ms": 0.21194704329,
+     "tts_ms": 13.197430917462496,
+     "tts_ms_lo": 10.508017000273066,
+     "tts_ms_hi": 16.607023085679153,
+     "multiplex": 1
+    }
+   },
+   "sec": 132.2591049671173
+  },
+  "IND": {
+   "cfg": {
+    "family": "onsager",
+    "T0": 12.0,
+    "q": 8.0,
+    "lam": 1.05,
+    "ramp": true,
+    "T1": 4.0,
+    "S": 8000,
+    "pa": "IND",
+    "K": 1,
+    "alpha": 0.0
+   },
+   "R": 12,
+   "populations": 1024,
+   "events": 0,
+   "mean_copied_per_event": 0.0,
+   "single_replica_k33337": 67,
+   "single_replica_n": 12288,
+   "mean_final_cut": 33246.797119140625,
+   "mean_pop_max": 33295.6044921875,
+   "k33000": 1024,
+   "kbest33000": 1024,
+   "kgreedy33000": 1024,
+   "k33200": 1024,
+   "kbest33200": 1024,
+   "kgreedy33200": 1024,
+   "k33300": 358,
+   "kbest33300": 365,
+   "kgreedy33300": 358,
+   "k33320": 81,
+   "kbest33320": 81,
+   "kgreedy33320": 81,
+   "k33337": 64,
+   "kbest33337": 78,
+   "kgreedy33337": 64,
+   "pop_cycles": {
+    "main": 235107.441575
+   },
+   "P_pop": 0.0625,
+   "P_pop_lo": 0.04924679278261251,
+   "P_pop_hi": 0.07902343575240298,
+   "tts": {
+    "main|V80_250MHz": {
+     "t_pop_ms": 0.9404297663,
+     "tts_ms": 67.1047158417038,
+     "tts_ms_lo": 52.60936433483889,
+     "tts_ms_hi": 85.7579019128322,
+     "multiplex": 1
+    },
+    "main|ASIC_1.0GHz": {
+     "t_pop_ms": 0.235107441575,
+     "tts_ms": 16.77617896042595,
+     "tts_ms_lo": 13.152341083709722,
+     "tts_ms_hi": 21.43947547820805,
+     "multiplex": 1
+    },
+    "main|ASIC_1.25GHz": {
+     "t_pop_ms": 0.18808595326000002,
+     "tts_ms": 13.420943168340761,
+     "tts_ms_lo": 10.52187286696778,
+     "tts_ms_hi": 17.15158038256644,
+     "multiplex": 1
+    }
+   },
+   "sec": 134.22644209861755
+  }
+ }
+}

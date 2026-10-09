@@ -1,0 +1,1 @@
+{"burn_seconds_wall":40.06864544,"batches":3392,"chains":240,"kbits":2,"instance":"data/gset/G13","bias":"","wide":false,"r":2,"preg":2,"cs":8,"groups":4,"steps":4000,"device_ms_total":40015.41797,"device_ms_per_batch":11.79699822,"gpu_before":"1 %, 45828 MiB, 145.78 W, 332.30 W, 1980 MHz","gpu_after":"100 %, 45652 MiB, 354.70 W, 615.92 W, 1980 MHz"}

@@ -1,0 +1,48 @@
+{
+ "checks": [
+  {
+   "check": "engine_sig_best",
+   "problem": "v_gpp40",
+   "same_dynamics": true,
+   "best_is_trajectory_min": true
+  },
+  {
+   "check": "engine_sig_best",
+   "problem": "v_tsp5",
+   "same_dynamics": true,
+   "best_is_trajectory_min": true
+  },
+  {
+   "check": "engine_sig_best",
+   "problem": "G11",
+   "same_dynamics": true,
+   "best_is_trajectory_min": true
+  },
+  {
+   "check": "reaim_best",
+   "problem": "gpp",
+   "instance": 14,
+   "same_dynamics": true,
+   "best_matches": true
+  },
+  {
+   "check": "reaim_best",
+   "problem": "tsp",
+   "instance": "gr17",
+   "same_dynamics": true,
+   "best_matches": true
+  },
+  {
+   "check": "reaim_best",
+   "problem": "mcp",
+   "instance": 1,
+   "same_dynamics": true,
+   "best_matches": true
+  }
+ ],
+ "all_ok": true,
+ "platform": {
+  "node": "gpu-host",
+  "machine": "aarch64"
+ }
+}

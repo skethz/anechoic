@@ -1,0 +1,9 @@
+K 2 matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G51 n 1000 nfield 1000 bias_mode 0 maxabs 1 sumw 5909 field_bound 156 fingerprint cd2ca04527d3bf51 auto_scale 0.011818
+case 0 G51_plain_S2000 S 2000 t0 6.18792 t1 2.31016 q 7.4255 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 3805 flips 52674 energy2 -3402
+case 1 G51_tec_S2000 S 2000 t0 3.09396 t1 2.31016 q 4.95033 lambda 0 ramp 0 jv -0.309396 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 3805 flips 12607 energy2 -3402
+case 2 G51_tecT_S1000 S 1000 t0 3.09396 t1 2.31016 q 4.95033 lambda 0 ramp 1 jv 0 kappa 0.25 scale 1 trials 1 trace 1 keep 0 seed 12648432 offset 1200
+  trial 1200 cut 3804 flips 12445 energy2 -3398
+case 3 G51_ons_S1000 S 1000 t0 3.09396 t1 2.31016 q 4.95033 lambda 0.0118239 ramp 1 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648433 offset 1300
+  trial 1300 cut 3803 flips 10776 energy2 -3394

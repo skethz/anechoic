@@ -1,0 +1,6 @@
+K 4 matrix rand:20261007:0.500000:7 maxabs 7 sumw -4376 fingerprint 2a24a47fe5d8ec57 auto_scale 9.990642
+case 0 onsager_ramp_S400 S 400 t0 150 t1 10 q 10 lambda 0.9 ramp 1 jv 0 kappa 0 scale 9.990642 trials 2 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 104125 flips 222845
+  trial 1001 cut 103871 flips 223309
+case 1 tecT_ramp_S300 S 300 t0 150 t1 10 q 20 lambda 0 ramp 1 jv 0 kappa 1.5 scale 9.990642 trials 1 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 102054 flips 264494

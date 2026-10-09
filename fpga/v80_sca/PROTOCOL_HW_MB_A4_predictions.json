@@ -1,0 +1,82 @@
+{
+ "cohorts": {
+  "gr17_plain": {
+   "problem": "gr17",
+   "kind": "tsp",
+   "n": 289,
+   "S": 8192,
+   "seed": 20263008,
+   "ref_trials": 1024,
+   "ref_p_feasible": 0.9697265625,
+   "ref_feasible": 993,
+   "ref_p_target": 0.0,
+   "ref_mean_quality": 0.570131047764987,
+   "args": "--t0 27.999999999999996 --t1 2.0999999999999996 --steps 8192 --q 41.99999999999999 --lambda 0 --corr-scale 1 --bias-mode 1"
+  },
+  "gr21_plain": {
+   "problem": "gr21",
+   "kind": "tsp",
+   "n": 441,
+   "S": 8192,
+   "seed": 20263018,
+   "ref_trials": 1024,
+   "ref_p_feasible": 0.5810546875,
+   "ref_feasible": 595,
+   "ref_p_target": 0.0,
+   "ref_mean_quality": 0.2806717217889836,
+   "args": "--t0 27.999999999999996 --t1 0.5249999999999999 --steps 8192 --q 41.99999999999999 --lambda 0 --corr-scale 1 --bias-mode 1"
+  },
+  "gr24_plain": {
+   "problem": "gr24",
+   "kind": "tsp",
+   "n": 576,
+   "S": 8192,
+   "seed": 20263028,
+   "ref_trials": 1024,
+   "ref_p_feasible": 0.951171875,
+   "ref_feasible": 974,
+   "ref_p_target": 0.0,
+   "ref_mean_quality": 0.4575311543769456,
+   "args": "--t0 28.0 --t1 2.1 --steps 8192 --q 42.0 --lambda 0 --corr-scale 1 --bias-mode 1"
+  },
+  "fri26_plain": {
+   "problem": "fri26",
+   "kind": "tsp",
+   "n": 676,
+   "S": 8192,
+   "seed": 20263038,
+   "ref_trials": 1024,
+   "ref_p_feasible": 0.82421875,
+   "ref_feasible": 844,
+   "ref_p_target": 0.0,
+   "ref_mean_quality": 0.3831571664474408,
+   "args": "--t0 28.0 --t1 2.1 --steps 8192 --q 42.0 --lambda 0 --corr-scale 1 --bias-mode 1"
+  },
+  "bayg29_plain": {
+   "problem": "bayg29",
+   "kind": "tsp",
+   "n": 841,
+   "S": 8192,
+   "seed": 20263048,
+   "ref_trials": 1024,
+   "ref_p_feasible": 0.154296875,
+   "ref_feasible": 158,
+   "ref_p_target": 0.0,
+   "ref_mean_quality": 0.07033201255467206,
+   "args": "--t0 55.99999999999999 --t1 2.0999999999999996 --steps 8192 --q 55.99999999999999 --lambda 0 --corr-scale 1 --bias-mode 1"
+  },
+  "bays29_plain": {
+   "problem": "bays29",
+   "kind": "tsp",
+   "n": 841,
+   "S": 8192,
+   "seed": 20263058,
+   "ref_trials": 1024,
+   "ref_p_feasible": 0.662109375,
+   "ref_feasible": 678,
+   "ref_p_target": 0.0,
+   "ref_mean_quality": 0.2968485035815996,
+   "args": "--t0 56.0 --t1 2.1 --steps 8192 --q 56.0 --lambda 0 --corr-scale 1 --bias-mode 1"
+  }
+ }
+}

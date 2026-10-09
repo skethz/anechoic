@@ -1,0 +1,5 @@
+# ternary Max-Cut short suite for N = 800 / 1000 instances (degree-scaled q as gen_vectors_mb ternary short)
+plain_S40 4 0.5 40 6 0 0 0 0 1 3 1 0
+onsager_ramp_S40 4 0.5 40 6 0.9 1 0 0 auto 3 1 0
+tec_S40 4 0.5 40 6 0 0 -1 0 1 2 0 0
+tec_S40_keep 4 0.5 40 6 0 0 -1 0 1 2 1 1

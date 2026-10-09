@@ -1,0 +1,1 @@
+{"action":"--power-run","engines":12,"per_launch":512,"rounds":5925,"trials":36403200,"seconds":150.024624,"device_busy_seconds":149.143527,"device_busy_fraction":0.994126988,"host_submit_to_done_seconds":149.294405,"host_over_device":1.00101163}

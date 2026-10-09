@@ -1,0 +1,39 @@
+{
+ "prefix": "G16_OnsagerkT",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 6.195962041875,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 83,
+ "feasibility": 0.0810546875,
+ "feasibility_wilson95": [
+  0.06586242701394963,
+  0.09937848379301832
+ ],
+ "mean_quality": 0.03758883586360249,
+ "mean_quality_feasible": 0.46374660149793895,
+ "best_value": 2191,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  251.68575156455128,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  238.13408948497425,
+  Infinity
+ ]
+}

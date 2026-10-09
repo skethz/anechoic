@@ -1,0 +1,12 @@
+K 2 matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G22 n 2000 nfield 2000 bias_mode 0 maxabs 1 sumw 19990 field_bound 37 fingerprint f890a4d8f50b47f9 auto_scale 0.009995
+case 0 plain_q1_S40 S 40 t0 3 t1 0.3 q 1 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 3 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 0 flips 75104 energy2 39980
+  trial 1001 cut 0 flips 73661 energy2 39980
+  trial 1002 cut 0 flips 67892 energy2 39980
+case 1 onsager_q1_S40 S 40 t0 2 t1 0.3 q 1 lambda 0.9 ramp 1 jv 0 kappa 0 scale 0.009995 trials 3 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 0 flips 75532 energy2 39980
+  trial 1101 cut 0 flips 76844 energy2 39980
+  trial 1102 cut 0 flips 76492 energy2 39980
+case 2 tec_q1_S40 S 40 t0 2 t1 0.3 q 1 lambda 0 ramp 0 jv -0.5 kappa 0 scale 1 trials 2 trace 0 keep 0 seed 12648432 offset 1200
+  trial 1200 cut 0 flips 75067 energy2 39980
+  trial 1201 cut 0 flips 73391 energy2 39980

@@ -1,0 +1,57 @@
+{
+ "geom": {
+  "0.0": {
+   "first_cycle": 743,
+   "final_mean_cut": 33120.875
+  },
+  "30.0": {
+   "first_cycle": 583,
+   "final_mean_cut": 32579.0625
+  },
+  "ratio": 1.2744425385934819
+ },
+ "lin": {
+  "0.0": {
+   "first_cycle": 2440,
+   "final_mean_cut": 33141.5625
+  },
+  "30.0": {
+   "first_cycle": 2133,
+   "final_mean_cut": 32873.09375
+  },
+  "ratio": 1.1439287388654478
+ },
+ "geom_b1": {
+  "0.0": {
+   "first_cycle": 1042,
+   "final_mean_cut": 33095.1875
+  },
+  "30.0": {
+   "first_cycle": 878,
+   "final_mean_cut": 32668.0
+  },
+  "ratio": 1.1867881548974943
+ },
+ "lin_b1": {
+  "0.0": {
+   "first_cycle": 2734,
+   "final_mean_cut": 33032.96875
+  },
+  "30.0": {
+   "first_cycle": 2590,
+   "final_mean_cut": 32674.625
+  },
+  "ratio": 1.0555984555984557
+ },
+ "geom_a05": {
+  "0.0": {
+   "first_cycle": 779,
+   "final_mean_cut": 32907.03125
+  },
+  "30.0": {
+   "first_cycle": 650,
+   "final_mean_cut": 32224.4375
+  },
+  "ratio": 1.1984615384615385
+ }
+}

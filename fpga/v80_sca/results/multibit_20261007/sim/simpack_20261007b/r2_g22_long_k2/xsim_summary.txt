@@ -1,0 +1,12 @@
+beats 66740 words 1902 DRAIN 2 K 2
+trial start: cycle 70584
+trial out: cycle 85035
+trial end: word 33 cycle 85135 flips 1266
+trial start: cycle 86937
+trial out: cycle 101390
+trial end: word 667 cycle 101490 flips 1291
+trial start: cycle 103931
+trial out: cycle 118351
+trial end: word 1301 cycle 118452 flips 1079
+DONE: 1902 words, 0 errors, 0 residue violations, cycle 120251
+TESTBENCH PASSED

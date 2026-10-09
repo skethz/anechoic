@@ -1,0 +1,6 @@
+K=2 post-route 1.25 GHz (Innovus X5/G22 TCF power, die area): f = 1.250 GHz, die 5.816 mm2 per engine
+  X5 (K2000): P = 2856 mW, E_trial = 28.27 uJ (12371 cycles, 9.90 us)
+  12 engines, X5: area 69.79 mm2, power 34.27 W, TTS99 10.07 us (V80 MB 0.0503 ms x 250 MHz / f), energy to solution 345.1 uJ
+    vs V80 MB K=2 board (124.3 W, 6.26 mJ): 5.0x faster, 18.1x less energy (6.8x vs dynamic-only 2.36 mJ), 3.6x less power
+    vs V80 v6.4 headline (108.2 W, 0.0503 ms, 5.45 mJ): 5.0x faster, 15.8x less energy
+  12 engines, G22_ons: power 17.36 W, TTS99 24.37 us (V80 MB 0.1218 ms x 250 MHz / f), energy to solution 423.1 uJ; vs V80 MB board (95.3 W, 11.6 mJ): 27.4x less energy (4.5x vs dynamic-only 1.90 mJ)

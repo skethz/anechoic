@@ -1,0 +1,39 @@
+{
+ "prefix": "G17_TEC",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 0.78785299878125,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 87,
+ "feasibility": 0.0849609375,
+ "feasibility_wilson95": [
+  0.06939598674595028,
+  0.10362822559195504
+ ],
+ "mean_quality": 0.038822614799053634,
+ "mean_quality_feasible": 0.4569466385543785,
+ "best_value": 2236,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  32.0033229352448,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  30.280149433582427,
+  Infinity
+ ]
+}

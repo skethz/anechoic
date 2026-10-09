@@ -1,0 +1,67 @@
+\begin{figure*}[t]
+\centering
+\definecolor{figtext}{HTML}{374D5C}\definecolor{figblue}{HTML}{DAE8FC}\definecolor{figgreen}{HTML}{D5E8D4}%
+\definecolor{figorange}{HTML}{FFE6CC}\definecolor{figpurple}{HTML}{E1D5E7}\definecolor{figred}{HTML}{F8CECC}\definecolor{figredline}{HTML}{B85450}\definecolor{figyellow}{HTML}{FFF2CC}\definecolor{figgray}{HTML}{F5F5F5}%
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  font=\fontfamily{phv}\selectfont\footnotesize, >=Latex, text=figtext,
+  blk/.style={draw=figtext, rounded corners=2pt, align=center, inner sep=2.5pt, fill=white, line width=0.5pt},
+  lab/.style={align=center, font=\fontfamily{phv}\selectfont\scriptsize},
+  bus/.style={->, line width=0.7pt, draw=figtext},
+  bc/.style={->, line width=0.9pt, draw=figredline}
+]
+\node[anchor=north west, font=\fontfamily{phv}\selectfont\footnotesize\bfseries] at (0,0.3) {(a) AMD Alveo V80};
+\draw[figtext, line width=0.6pt, rounded corners=2pt, fill=white] (0,-0.12) rectangle (3.7,-6.65);
+\foreach \s/\k in {2/0,1/1,0/2} {
+  \pgfmathsetmacro{\yt}{-0.62-\k*1.6}
+  \draw[figtext, dashed, line width=0.5pt, fill=figgray] (0.15,\yt) rectangle (3.55,\yt-1.42);
+  \node[anchor=north west, lab] at (0.18,\yt) {SLR\s};
+  \foreach \e in {0,1,2,3} {
+    \pgfmathtruncatemacro{\n}{4*\s+\e}
+    \node[blk, fill=figorange, minimum width=0.66cm, minimum height=0.62cm, lab] (E\n) at (0.62+\e*0.76,\yt-0.86) {\n};
+  }
+}
+\node[blk, fill=figgreen, minimum width=3.4cm, minimum height=0.7cm] at (1.85,-6.05) {NoC $\cdot$ HBM $\cdot$ PCIe};
+\draw[figtext, line width=1.2pt, rounded corners=2pt] (E7.south west) rectangle (E7.north east);
+\draw[gray!55, line width=0.4pt] (E7.north east) -- (4.1,-0.12);
+\draw[gray!55, line width=0.4pt] (E7.south east) -- (4.1,-6.65);
+\node[anchor=north west, font=\fontfamily{phv}\selectfont\footnotesize\bfseries] at (4.1,0.3) {(b) One engine: 32 groups, 256 decision lanes, 8 flip extractors};
+\draw[figtext, line width=0.6pt, rounded corners=2pt, fill=white] (4.1,-0.12) rectangle (15.15,-6.65);
+\node[blk, fill=figgreen, text width=2.0cm] (fe) at (5.3,-1.5) {HLS front end\\{\scriptsize AXI4 to HBM, timer}};
+\node[blk, fill=figpurple, text width=2.0cm] (ld) at (5.3,-2.8) {Loader\\{\scriptsize header, $J$, tables}};
+\node[blk, fill=figpurple, text width=2.0cm] (tab) at (5.3,-4.1) {Step tables\\{\scriptsize $4T_t$, $q_t$, $\gamma_t$, constant}};
+\node[blk, fill=figpurple, text width=2.0cm] (sc) at (5.3,-5.4) {Score and output\\{\scriptsize $\sum_i s_ih_i$, cut, spins}};
+\draw[bus] (fe) -- (ld);
+\draw[bus] (ld) -- (tab);
+\foreach \o in {0.28,0.14} \draw[figtext, line width=0.5pt, rounded corners=2pt, fill=figblue] (7.2+\o,-1.2+\o) rectangle (11.4+\o,-6.0+\o);
+\draw[figtext, line width=0.6pt, rounded corners=2pt, fill=figblue] (7.2,-1.2) rectangle (11.4,-6.0);
+\node[anchor=north west, font=\fontfamily{phv}\selectfont\scriptsize\bfseries] at (7.25,-1.23) {group $b$};
+\draw[figtext, line width=0.6pt, decorate, decoration={brace, amplitude=5pt}] (7.2,-0.84) -- (11.68,-0.84);
+\node[anchor=south, font=\fontfamily{phv}\selectfont\footnotesize\bfseries] at (9.44,-0.66) {$\times$32};
+\node[blk, text width=3.6cm] (cb) at (9.3,-2.03) {Coupling bank, $2048\times64$\,b\\{\scriptsize 4 copies, 8 reads per cycle}};
+\node[blk, fill=figred, text width=3.6cm] (pc) at (9.3,-3.13) {Population-count adder\\{\scriptsize $\sum_e 2\sigma_e J_{x_e y}$, no multipliers}};
+\node[blk, text width=3.6cm] (fd) at (9.3,-4.23) {64 fields $h_y$, $y=b+32j$\\{\scriptsize 12 bit each}};
+\node[blk, text width=3.6cm] (ln) at (9.3,-5.33) {8 decision lanes\\{\scriptsize PRNG, threshold, linear flag}};
+\draw[bus] (cb) -- node[right, lab]{8 rows} (pc);
+\draw[bus] (pc) -- (fd);
+\draw[bus] (fd) -- (ln);
+\draw[bus] (ld.east) -- ++(0.35,0) |- (cb.west);
+\node[lab, anchor=east] at (6.7,-2.2) {$J$};
+\draw[bus] (tab.east) -- ++(0.35,0) |- (ln.west);
+\node[lab, anchor=east] at (6.7,-4.75) {constants};
+\draw[bus] (7.2,-5.65) -- (sc.east|-0,-5.65);
+\node[blk, fill=figyellow, text width=2.45cm, minimum height=1.3cm] (ex) at (13.55,-3.6) {8 flip extractors\\{\scriptsize priority encoders,\\up to 8 flips per cycle}};
+\node[blk, fill=figyellow, text width=2.45cm] (nl) at (13.55,-5.3) {$n_{\mathrm{lin}}$ counter\\{\scriptsize population count $\to c(t)$}};
+\draw[bus] (11.19,-5.15) -- (11.85,-5.15) -- (11.85,-3.9) -- (ex.west|-0,-3.9);
+\node[lab, anchor=west] at (11.95,-4.55) {flip bits};
+\draw[bus] (11.19,-5.48) -- (nl.west|-0,-5.48);
+\draw[bus] (nl.south) -- (13.55,-6.2) -- (10.3,-6.2) -- (10.3,-5.74);
+\node[lab, anchor=north] at (11.95,-6.24) {$c(t)$ for the correction};
+\draw[bc] (ex.north) -- (13.55,-2.03) -- (cb.east);
+\node[lab, anchor=south] at (12.65,-2.0) {8 flips/cycle\\$(x_e,\sigma_e)$ to\\all 32 groups};
+\end{tikzpicture}}
+\caption{(a)~Twelve engines, four per SLR, share the NoC and HBM of the AVED shell~\cite{amd_aved}, which connects to the host through PCIe. (b)~One engine. Each of the 32 groups (one shown) owns a coupling bank, 64 fields $h_y$ with $y=b+32j$ and 8 decision lanes, so coupling reads and field updates stay in the group. Eight extractors drain the flip bits while later rounds are still deciding and broadcast up to eight flipped spins $(x_e,\sigma_e)$ per cycle to all groups, which add $2\sigma_e J_{x_e y}$ to their fields by population counts. The count $n_{\mathrm{lin}}$ of linear decisions gives the coefficient $c(t)$ of the correction. PRNG: pseudorandom number generator.}
+\Description{Left: a V80 device with three super logic regions, each holding four numbered engines, and a NoC, HBM and PCIe bar; engine 7 is highlighted and connected by zoom lines to the right panel. Right: one engine, with a front end, loader, step tables and score unit on the left; a stack of 32 group cards in the middle, the front card showing a coupling bank, a population-count adder, 64 fields and 8 decision lanes connected top to bottom; on the right, eight flip extractors that broadcast flipped spins back to the coupling banks of all groups, and an n_lin counter that returns the correction coefficient to the lanes.}
+\label{fig:arch}
+\vspace{-0.6em}%
+\end{figure*}

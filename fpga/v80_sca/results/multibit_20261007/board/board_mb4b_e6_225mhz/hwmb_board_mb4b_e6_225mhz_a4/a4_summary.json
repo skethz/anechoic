@@ -1,0 +1,552 @@
+{
+ "clock_mhz": 224.999999775,
+ "verify": {
+  "R2048_ons": {
+   "trials": 12,
+   "exact": 12,
+   "engines": 6,
+   "n": 2048,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -371500
+  },
+  "R2048_tecT": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 2048,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -371218
+  },
+  "R777_ons": {
+   "trials": 12,
+   "exact": 12,
+   "engines": 6,
+   "n": 777,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -122612
+  },
+  "R777_tec": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 777,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -122222
+  },
+  "VG1": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 800,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": 2198848
+  },
+  "VG14": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 800,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": 2227812
+  },
+  "VG17": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 800,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": 2227866
+  },
+  "Vbayg29": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 841,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -188909
+  },
+  "Vbays29": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 841,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -187247
+  },
+  "Vfri26": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 676,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -131512
+  },
+  "Vgr17": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 289,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -34789
+  },
+  "Vgr21": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 441,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -69071
+  },
+  "Vgr24": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 576,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -102960
+  },
+  "W1": {
+   "trials": 12,
+   "exact": 12,
+   "engines": 6,
+   "n": 2000,
+   "bias_mode": false,
+   "padding_zero": true,
+   "best_energy": null
+  },
+  "W1b0": {
+   "trials": 12,
+   "exact": 12,
+   "engines": 6,
+   "n": 2000,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -62574
+  },
+  "W2": {
+   "trials": 12,
+   "exact": 12,
+   "engines": 6,
+   "n": 2000,
+   "bias_mode": false,
+   "padding_zero": true,
+   "best_energy": null
+  },
+  "W3": {
+   "trials": 6,
+   "exact": 6,
+   "engines": 6,
+   "n": 2000,
+   "bias_mode": false,
+   "padding_zero": true,
+   "best_energy": null
+  },
+  "W4": {
+   "trials": 12,
+   "exact": 12,
+   "engines": 6,
+   "n": 2000,
+   "bias_mode": false,
+   "padding_zero": true,
+   "best_energy": null
+  },
+  "W4b0": {
+   "trials": 12,
+   "exact": 12,
+   "engines": 6,
+   "n": 2000,
+   "bias_mode": true,
+   "padding_zero": true,
+   "best_energy": -67436
+  }
+ },
+ "R": {
+  "W1": {
+   "common": 12,
+   "mismatches": 0
+  },
+  "W2": {
+   "common": 12,
+   "mismatches": 0
+  },
+  "W3": {
+   "common": 6,
+   "mismatches": 0
+  },
+  "W4": {
+   "common": 12,
+   "mismatches": 0
+  },
+  "X5": {
+   "common": 2052,
+   "mismatches": 0,
+   "first": [],
+   "launch_cycle_ratio": 0.9994744187262896,
+   "tts99_ms": 0.09806662946904067,
+   "v64_tts99_ms": 0.05033378828562791,
+   "engines": 6
+  },
+  "O4": {
+   "common": 2052,
+   "mismatches": 0,
+   "first": [],
+   "launch_cycle_ratio": 0.9995286874520397,
+   "tts99_ms": 0.11709168995840144,
+   "v64_tts99_ms": 0.05284592862029558,
+   "engines": 6
+  }
+ },
+ "rounds": {
+  "X5": {
+   "trials": 2052,
+   "engines": 6,
+   "hits": 694,
+   "p": 0.3382066276803119,
+   "p_wilson95": [
+    0.31805577336147833,
+    0.35896214475050064
+   ],
+   "rounds": 342,
+   "P_round": 0.9269005847953217,
+   "P_round_pred": 0.9159893236686173,
+   "M2_pass": true,
+   "t_round_ms": 0.055706067178547376,
+   "tts99_ms": 0.09806662946904067,
+   "tts99_ci95": [
+    0.08376558467091219,
+    0.11257002093356407
+   ],
+   "tts99_ind_ms": 0.10357507272669039,
+   "tts99_whole_ms": 0.11141213435709475,
+   "mean_flips": 47445.646686159846,
+   "mean_launch_cycles": 12364.338709677419,
+   "model_ratio": 0.9730180418769068,
+   "integrity_failures": 0,
+   "target": 33000,
+   "matrix": "k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin",
+   "corr_scale": 1,
+   "steps": 280
+  },
+  "O4": {
+   "trials": 2052,
+   "engines": 6,
+   "hits": 668,
+   "p": 0.3255360623781676,
+   "p_wilson95": [
+    0.30560407761881947,
+    0.3461200629959048
+   ],
+   "rounds": 342,
+   "P_round": 0.9210526315789473,
+   "P_round_pred": 0.9058647236072611,
+   "M2_pass": true,
+   "t_round_ms": 0.06455629853311283,
+   "tts99_ms": 0.11709168995840144,
+   "tts99_ci95": [
+    0.1009580585850266,
+    0.13391836753428013
+   ],
+   "tts99_ind_ms": 0.1258103768804294,
+   "tts99_whole_ms": 0.12911259706622566,
+   "mean_flips": 45369.494639376215,
+   "mean_launch_cycles": 13806.96138807429,
+   "model_ratio": 0.9962398093034052,
+   "integrity_failures": 0,
+   "target": 33000,
+   "matrix": "k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin",
+   "corr_scale": 1,
+   "steps": 360
+  }
+ },
+ "cohorts": {
+  "gr17_plain": {
+   "trials": 1026,
+   "engines": 6,
+   "hits": 0,
+   "p": 0.0,
+   "p_wilson95": [
+    0.0,
+    0.003730282404595037
+   ],
+   "rounds": 171,
+   "P_round": 0.0,
+   "P_round_pred": 0.0,
+   "M2_pass": true,
+   "t_round_ms": 0.8398824845000132,
+   "tts99_ms": Infinity,
+   "tts99_ci95": [
+    Infinity,
+    Infinity
+   ],
+   "tts99_ind_ms": Infinity,
+   "tts99_whole_ms": Infinity,
+   "mean_flips": 1951.453216374269,
+   "mean_launch_cycles": 188966.42352941175,
+   "model_ratio": 1.265198617749211,
+   "integrity_failures": 0,
+   "target": null,
+   "matrix": "jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/gr17_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/gr17_K4.bias.bin",
+   "corr_scale": 1,
+   "steps": 8192,
+   "best_energy": -34809,
+   "median_energy": -34785,
+   "n": 289,
+   "valid_tours_all": 995,
+   "trials_all": 1026,
+   "valid_tours_ref_ids": 993,
+   "ref_valid_tours": 993,
+   "ref_p_feasible": 0.9697265625,
+   "ref_mean_quality": 0.570131047764987,
+   "ref_p_target": 0.0,
+   "A4_F_pass": true
+  },
+  "gr21_plain": {
+   "trials": 1026,
+   "engines": 6,
+   "hits": 0,
+   "p": 0.0,
+   "p_wilson95": [
+    0.0,
+    0.003730282404595037
+   ],
+   "rounds": 171,
+   "P_round": 0.0,
+   "P_round_pred": 0.0,
+   "M2_pass": true,
+   "t_round_ms": 0.8413070073772547,
+   "tts99_ms": Infinity,
+   "tts99_ci95": [
+    Infinity,
+    Infinity
+   ],
+   "tts99_ind_ms": Infinity,
+   "tts99_whole_ms": Infinity,
+   "mean_flips": 4013.2992202729047,
+   "mean_launch_cycles": 189145.72156862746,
+   "model_ratio": 1.2639140570400795,
+   "integrity_failures": 0,
+   "target": null,
+   "matrix": "jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/gr21_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/gr21_K4.bias.bin",
+   "corr_scale": 1,
+   "steps": 8192,
+   "best_energy": -69095,
+   "median_energy": -69067,
+   "n": 441,
+   "valid_tours_all": 596,
+   "trials_all": 1026,
+   "valid_tours_ref_ids": 595,
+   "ref_valid_tours": 595,
+   "ref_p_feasible": 0.5810546875,
+   "ref_mean_quality": 0.2806717217889836,
+   "ref_p_target": 0.0,
+   "A4_F_pass": true
+  },
+  "gr24_plain": {
+   "trials": 1026,
+   "engines": 6,
+   "hits": 0,
+   "p": 0.0,
+   "p_wilson95": [
+    0.0,
+    0.003730282404595037
+   ],
+   "rounds": 171,
+   "P_round": 0.0,
+   "P_round_pred": 0.0,
+   "M2_pass": true,
+   "t_round_ms": 0.8508227459488619,
+   "tts99_ms": Infinity,
+   "tts99_ci95": [
+    Infinity,
+    Infinity
+   ],
+   "tts99_ind_ms": Infinity,
+   "tts99_whole_ms": Infinity,
+   "mean_flips": 20265.374269005846,
+   "mean_launch_cycles": 190649.12156862745,
+   "model_ratio": 1.254583928684394,
+   "integrity_failures": 0,
+   "target": null,
+   "matrix": "jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/gr24_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/gr24_K4.bias.bin",
+   "corr_scale": 1,
+   "steps": 8192,
+   "best_energy": -102980,
+   "median_energy": -102948,
+   "n": 576,
+   "valid_tours_all": 976,
+   "trials_all": 1026,
+   "valid_tours_ref_ids": 974,
+   "ref_valid_tours": 974,
+   "ref_p_feasible": 0.951171875,
+   "ref_mean_quality": 0.4575311543769456,
+   "ref_p_target": 0.0,
+   "A4_F_pass": true
+  },
+  "fri26_plain": {
+   "trials": 1026,
+   "engines": 6,
+   "hits": 0,
+   "p": 0.0,
+   "p_wilson95": [
+    0.0,
+    0.003730282404595037
+   ],
+   "rounds": 171,
+   "P_round": 0.0,
+   "P_round_pred": 0.0,
+   "M2_pass": true,
+   "t_round_ms": 0.8629062230851283,
+   "tts99_ms": Infinity,
+   "tts99_ci95": [
+    Infinity,
+    Infinity
+   ],
+   "tts99_ind_ms": Infinity,
+   "tts99_whole_ms": Infinity,
+   "mean_flips": 46234.99512670565,
+   "mean_launch_cycles": 193316.94411764707,
+   "model_ratio": 1.2419244168356112,
+   "integrity_failures": 0,
+   "target": null,
+   "matrix": "jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/fri26_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/fri26_K4.bias.bin",
+   "corr_scale": 1,
+   "steps": 8192,
+   "best_energy": -131528,
+   "median_energy": -131492,
+   "n": 676,
+   "valid_tours_all": 845,
+   "trials_all": 1026,
+   "valid_tours_ref_ids": 844,
+   "ref_valid_tours": 844,
+   "ref_p_feasible": 0.82421875,
+   "ref_mean_quality": 0.3831571664474408,
+   "ref_p_target": 0.0,
+   "A4_F_pass": true
+  },
+  "bayg29_plain": {
+   "trials": 1026,
+   "engines": 6,
+   "hits": 0,
+   "p": 0.0,
+   "p_wilson95": [
+    0.0,
+    0.003730282404595037
+   ],
+   "rounds": 171,
+   "P_round": 0.0,
+   "P_round_pred": 0.0,
+   "M2_pass": true,
+   "t_round_ms": 0.9421321578048772,
+   "tts99_ms": Infinity,
+   "tts99_ci95": [
+    Infinity,
+    Infinity
+   ],
+   "tts99_ind_ms": Infinity,
+   "tts99_whole_ms": Infinity,
+   "mean_flips": 207682.2076023392,
+   "mean_launch_cycles": 211021.71568627452,
+   "model_ratio": 1.1812034376762206,
+   "integrity_failures": 0,
+   "target": null,
+   "matrix": "jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/bayg29_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/bayg29_K4.bias.bin",
+   "corr_scale": 1,
+   "steps": 8192,
+   "best_energy": -188929,
+   "median_energy": -188893,
+   "n": 841,
+   "valid_tours_all": 158,
+   "trials_all": 1026,
+   "valid_tours_ref_ids": 158,
+   "ref_valid_tours": 158,
+   "ref_p_feasible": 0.154296875,
+   "ref_mean_quality": 0.07033201255467206,
+   "ref_p_target": 0.0,
+   "A4_F_pass": true
+  },
+  "bays29_plain": {
+   "trials": 1026,
+   "engines": 6,
+   "hits": 0,
+   "p": 0.0,
+   "p_wilson95": [
+    0.0,
+    0.003730282404595037
+   ],
+   "rounds": 171,
+   "P_round": 0.0,
+   "P_round_pred": 0.0,
+   "M2_pass": true,
+   "t_round_ms": 0.9429231643416159,
+   "tts99_ms": Infinity,
+   "tts99_ci95": [
+    Infinity,
+    Infinity
+   ],
+   "tts99_ind_ms": Infinity,
+   "tts99_whole_ms": Infinity,
+   "mean_flips": 209011.3304093567,
+   "mean_launch_cycles": 211196.58039215687,
+   "model_ratio": 1.18089046601813,
+   "integrity_failures": 0,
+   "target": null,
+   "matrix": "jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/bays29_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/bays29_K4.bias.bin",
+   "corr_scale": 1,
+   "steps": 8192,
+   "best_energy": -187263,
+   "median_energy": -187231,
+   "n": 841,
+   "valid_tours_all": 679,
+   "trials_all": 1026,
+   "valid_tours_ref_ids": 678,
+   "ref_valid_tours": 678,
+   "ref_p_feasible": 0.662109375,
+   "ref_mean_quality": 0.2968485035815996,
+   "ref_p_target": 0.0,
+   "A4_F_pass": true
+  }
+ },
+ "A4_E": true,
+ "A4_R": true,
+ "A4_C": true,
+ "A4_F": true,
+ "verdicts": {
+  "A4_E": true,
+  "A4_R": true,
+  "A4_C": true,
+  "A4_F": true
+ },
+ "gset": {
+  "gr17_plain": {
+   "tts99_ms": Infinity
+  },
+  "gr21_plain": {
+   "tts99_ms": Infinity
+  },
+  "gr24_plain": {
+   "tts99_ms": Infinity
+  },
+  "fri26_plain": {
+   "tts99_ms": Infinity
+  },
+  "bayg29_plain": {
+   "tts99_ms": Infinity
+  },
+  "bays29_plain": {
+   "tts99_ms": Infinity
+  }
+ }
+}

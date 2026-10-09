@@ -1,0 +1,55 @@
+beats 65664 words 660 DRAIN 1 K 2
+launch start: beat 0 cycle 20
+launch start: beat 1 cycle 21
+trial start: cycle 69982
+trial out: cycle 74381
+MISMATCH word 0: got b992da8402a49c9e expected f7969a8462bc1c8d (cycle 74386)
+MISMATCH word 1: got 94fff1c2c41e89de expected f4c7f1cbd4b6c897 (cycle 74389)
+MISMATCH word 2: got a912e1673e72ae2c expected 80b2c8a737fbae28 (cycle 74393)
+MISMATCH word 3: got 93e039a02befd9dd expected d7e07828abeecddd (cycle 74395)
+MISMATCH word 4: got fcd42fc9bffbbd79 expected cdd59ee3f3e92259 (cycle 74398)
+MISMATCH word 5: got ddd389be244a1f3f expected 9d33e8f847dabb97 (cycle 74401)
+MISMATCH word 6: got 54cd4e0f12d7e314 expected 564fcac5b0d7e314 (cycle 74404)
+MISMATCH word 7: got dff057cf954293b4 expected fff016cfa583339d (cycle 74407)
+MISMATCH word 8: got 92dab09f326d27d3 expected 96bb251c326f6297 (cycle 74410)
+MISMATCH word 9: got 44f395eed129e386 expected 65f3b34c54a86bc6 (cycle 74413)
+MISMATCH word 10: got e2cd161602728ed6 expected eacd93960a568e46 (cycle 74416)
+MISMATCH word 11: got d7ed0b1c4d2d11b5 expected d22d1b580db51691 (cycle 74419)
+MISMATCH word 12: got 5ff7ede767db93ea expected 5fffa567644997c3 (cycle 74422)
+MISMATCH word 13: got b429efdf6a5c9cbb expected b129abfe7a749ebb (cycle 74425)
+MISMATCH word 14: got 856aadbbf88bce89 expected 593a8dbac889ece9 (cycle 74428)
+MISMATCH word 15: got 0d11030b2c0990c6 expected 2f310f024c5d80c7 (cycle 74431)
+MISMATCH word 16: got c962fdabd25d5d52 expected b960f78ade5e7e57 (cycle 74434)
+MISMATCH word 17: got 5a01757fd0ccd13d expected db25f45bd8dcc13d (cycle 74437)
+MISMATCH word 18: got 7bceb2c4b8e72418 expected 79eeb6f01847141c (cycle 74440)
+MISMATCH word 19: got db9d8405684230ef expected c79d8323f87639cf (cycle 74443)
+trial end: word 33 cycle 74481 flips 23965
+trial start: cycle 74603
+trial out: cycle 79308
+trial end: word 107 cycle 79408 flips 26569
+trial start: cycle 79530
+trial out: cycle 83721
+trial end: word 181 cycle 83821 flips 22450
+trial start: cycle 83987
+trial out: cycle 87546
+trial end: word 255 cycle 87647 flips 17532
+trial start: cycle 87768
+trial out: cycle 91248
+trial end: word 329 cycle 91348 flips 16784
+trial start: cycle 91470
+trial out: cycle 95092
+trial end: word 403 cycle 95192 flips 17671
+trial start: cycle 95358
+trial out: cycle 97783
+trial end: word 477 cycle 97884 flips 9001
+trial start: cycle 97885
+trial out: cycle 100240
+trial end: word 511 cycle 100341 flips 8128
+trial start: cycle 100345
+trial out: cycle 102690
+trial end: word 545 cycle 102790 flips 8236
+trial start: cycle 102912
+trial out: cycle 105254
+trial end: word 619 cycle 105354 flips 8190
+DONE: 660 words, 652 errors, 0 residue violations, cycle 105474
+TESTBENCH FAILED

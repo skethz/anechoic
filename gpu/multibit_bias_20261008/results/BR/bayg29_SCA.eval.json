@@ -1,0 +1,39 @@
+{
+ "prefix": "bayg29_SCA",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 12.5694410875,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 158,
+ "feasibility": 0.154296875,
+ "feasibility_wilson95": [
+  0.133467407106902,
+  0.17771040740514152
+ ],
+ "mean_quality": 0.07033201255467206,
+ "mean_quality_feasible": 0.45582266364546953,
+ "best_value": 2812,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  510.58240923252106,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  483.090824068548,
+  Infinity
+ ]
+}

@@ -1,0 +1,6 @@
+# small bias problems (graph partition n = 20, TSP n = 16 / 25): plain, Onsager (scale auto), TEC-T, TEC + resident tables
+plain_S300 40 1 300 8 0 0 0 0 1 3 1 0
+ons_ramp_S300 40 1 300 8 0.5 1 0 0 auto 3 1 0
+tecT_ramp_S300 40 1 300 8 0 1 0 1.0 auto 2 1 0
+tec_S100 40 1 100 8 0 0 -1 0 1 2 1 0
+tec_S100_keep 40 1 100 8 0 0 -1 0 1 2 1 1

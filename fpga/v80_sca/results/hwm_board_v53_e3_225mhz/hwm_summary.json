@@ -1,0 +1,233 @@
+{
+  "clock_mhz": 224.999999775,
+  "logic_uuid": "730d57ff5762ef0970d64b4b60fab8f8",
+  "verify": {
+    "W1": {
+      "trials": 9,
+      "exact": 9,
+      "engines": [
+        0,
+        1,
+        2
+      ]
+    },
+    "W2": {
+      "trials": 12,
+      "exact": 12,
+      "engines": [
+        0,
+        1,
+        2
+      ]
+    },
+    "W3": {
+      "trials": 3,
+      "exact": 3,
+      "engines": [
+        0,
+        1,
+        2
+      ]
+    },
+    "W4": {
+      "trials": 9,
+      "exact": 9,
+      "engines": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "rounds": {
+    "P1": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.6617933723196882,
+      "rounds": 342,
+      "P_round": 0.956140350877193,
+      "P_round_pred": 0.9613146667803212,
+      "M2_pass": true,
+      "t_round_ms": 0.515252864640375,
+      "t_round_max_ms": 0.5297688894186577,
+      "tts99_ms": 0.7588771519907874,
+      "tts99_whole_ms": 1.03050572928075,
+      "integrity_failures": 0
+    },
+    "P2": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.5516569200779727,
+      "rounds": 342,
+      "P_round": 0.9122807017543859,
+      "P_round_pred": 0.9098778772276551,
+      "M2_pass": true,
+      "t_round_ms": 0.4567008802220968,
+      "t_round_max_ms": 0.4664088893552978,
+      "tts99_ms": 0.8642232640801895,
+      "tts99_whole_ms": 0.9134017604441936,
+      "integrity_failures": 0
+    },
+    "P3": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.4337231968810916,
+      "rounds": 342,
+      "P_round": 0.8333333333333334,
+      "P_round_pred": 0.818412347258205,
+      "M2_pass": true,
+      "t_round_ms": 0.41484151230796634,
+      "t_round_max_ms": 0.4216444448660889,
+      "tts99_ms": 1.0662233392375617,
+      "tts99_whole_ms": 1.244524536923899,
+      "integrity_failures": 0
+    },
+    "P4": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.20857699805068225,
+      "rounds": 342,
+      "P_round": 0.5058479532163743,
+      "P_round_pred": 0.5042919114739283,
+      "M2_pass": true,
+      "t_round_ms": 0.2612665105251961,
+      "t_round_max_ms": 0.26588888915477776,
+      "tts99_ms": 1.7068466802650413,
+      "tts99_whole_ms": 1.8288655736763728,
+      "integrity_failures": 0
+    },
+    "T1": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.6559454191033138,
+      "rounds": 342,
+      "P_round": 0.956140350877193,
+      "P_round_pred": 0.959273036270462,
+      "M2_pass": true,
+      "t_round_ms": 0.46390687566755634,
+      "t_round_max_ms": 0.4762177782539955,
+      "tts99_ms": 0.6832535105675822,
+      "tts99_whole_ms": 0.9278137513351127,
+      "integrity_failures": 0
+    },
+    "T2": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.3762183235867446,
+      "rounds": 342,
+      "P_round": 0.7660818713450293,
+      "P_round_pred": 0.7572843166759105,
+      "M2_pass": true,
+      "t_round_ms": 0.29111382238300043,
+      "t_round_max_ms": 0.2990711114101822,
+      "tts99_ms": 0.9227996736493144,
+      "tts99_whole_ms": 1.1644552895320017,
+      "integrity_failures": 0
+    },
+    "T3": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.21052631578947367,
+      "rounds": 342,
+      "P_round": 0.5233918128654971,
+      "P_round_pred": 0.5079457646887301,
+      "M2_pass": true,
+      "t_round_ms": 0.37784354550655,
+      "t_round_max_ms": 0.3845955559401511,
+      "tts99_ms": 2.3480319698660512,
+      "tts99_whole_ms": 2.64490481854585,
+      "integrity_failures": 0
+    },
+    "O1": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.928849902534113,
+      "rounds": 342,
+      "P_round": 1.0,
+      "P_round_pred": 0.9996398142739117,
+      "M2_pass": true,
+      "t_round_ms": 0.33737114403238583,
+      "t_round_max_ms": 0.41173777818951557,
+      "tts99_ms": 0.33737114403238583,
+      "tts99_whole_ms": 0.33737114403238583,
+      "integrity_failures": 0
+    },
+    "O2": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.7573099415204678,
+      "rounds": 342,
+      "P_round": 0.9883040935672515,
+      "P_round_pred": 0.9857059282098295,
+      "M2_pass": true,
+      "t_round_ms": 0.2041745847594043,
+      "t_round_max_ms": 0.21812000021812,
+      "tts99_ms": 0.2113645609029034,
+      "tts99_whole_ms": 0.4083491695188086,
+      "integrity_failures": 0
+    },
+    "O3": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.5194931773879142,
+      "rounds": 342,
+      "P_round": 0.9035087719298246,
+      "P_round_pred": 0.8890573141887487,
+      "M2_pass": true,
+      "t_round_ms": 0.16860703829177418,
+      "t_round_max_ms": 0.18285777796063554,
+      "tts99_ms": 0.3320630592271593,
+      "tts99_whole_ms": 0.33721407658354835,
+      "integrity_failures": 0
+    },
+    "O4": {
+      "trials": 1026,
+      "engines": 3,
+      "p": 0.32651072124756336,
+      "rounds": 342,
+      "P_round": 0.6988304093567251,
+      "P_round_pred": 0.6945134739388071,
+      "M2_pass": true,
+      "t_round_ms": 0.11979238851992272,
+      "t_round_max_ms": 0.13253777791031554,
+      "tts99_ms": 0.4596889642365791,
+      "tts99_whole_ms": 0.47916955407969086,
+      "integrity_failures": 0
+    }
+  },
+  "concurrency": {
+    "launches": 15,
+    "ratio_mean": 0.9840433230203504,
+    "ratio_min": 0.9835085545259853,
+    "ratio_max": 0.9846315480358178,
+    "M1_pass": true,
+    "p": 0.9366319444444444
+  },
+  "primary": {
+    "best_onsager": "O2",
+    "best_onsager_tts_ms": 0.2113645609029034,
+    "vs": {
+      "P": {
+        "best_key": "P1",
+        "best_tts_ms": 0.7588771519907874,
+        "speedup": 3.590370820676037,
+        "ci95": [
+          2.7793843498057544,
+          4.809853465689304
+        ]
+      },
+      "T": {
+        "best_key": "T1",
+        "best_tts_ms": 0.6832535105675822,
+        "speedup": 3.232583114448666,
+        "ci95": [
+          2.481096756733642,
+          4.3427833851740445
+        ]
+      }
+    },
+    "M3_pass": true,
+    "M3_threshold_ms": 0.2777777780555556,
+    "M4_pass": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+ "prefix": "gr24_TEC_b60",
+ "B": 60,
+ "batches": 128,
+ "trials": 7680,
+ "t_batch_ms": 12.603667215625,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0004999398857044752
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.029136956273508416
+ ],
+ "feasible": 7430,
+ "feasibility": 0.9674479166666666,
+ "feasibility_wilson95": [
+  0.9632394323601895,
+  0.9711890092570815
+ ],
+ "mean_quality": 0.4658656202931764,
+ "mean_quality_feasible": 0.48154077575391585,
+ "best_value": 1639,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  1962.8776814038179,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  1934.4833309633152,
+  Infinity
+ ]
+}

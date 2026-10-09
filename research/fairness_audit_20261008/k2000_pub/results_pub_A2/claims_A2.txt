@@ -1,0 +1,75 @@
+A2 (COP-aligned readings): mean cut / p33000 / MCS99 per budget
+--- S = 250
+bSB                  mean   33143.9  p 0.992  MCS99       237   [Goto 2021, dt 1.25 (COP reading)]
+TEC-T (ours)         mean   32977.1  p 0.441  MCS99      1977   [frozen]
+Onsager SCA (ours)   mean   32943.2  p 0.383  MCS99      2386   [frozen]
+dSB                  mean   32825.5  p 0.129  MCS99      8342   [Goto 2021, dt 1.0 (COP reading)]
+aSB                  mean   32800.5  p 0.027  MCS99     41526   [Goto 2019 dt 0.9, M 2 (A1 per run; provisional)]
+SCA                  mean   32604.0  p 0.016  MCS99     73106   [STATICA q 4, T 40 -> 5]
+SA                   mean   32539.6  p 0.012  MCS99     97667   [Neal defaults]
+APC-SCA              mean   32102.9  p 0.000  MCS99       inf   [APC Alg. 2, r_q 0.45, q_limit 0, T 10 -> 0.1]
+ReAIM ASA            mean   31330.5  p 0.000  MCS99       inf   [ReAIM T 1 -> 0.1, F max, k {128..1024}]
+TEC                  mean   30694.1  p 0.000  MCS99       inf   [TEC Glauber SA, J_v 30, T 100 -> 0.1 (provisional)]
+--- S = 500
+bSB                  mean   33184.8  p 1.000  MCS99       500   [Goto 2021, dt 1.25 (COP reading)]
+TEC-T (ours)         mean   33098.8  p 0.867  MCS99      1141   [frozen]
+Onsager SCA (ours)   mean   33079.4  p 0.816  MCS99      1358   [frozen]
+dSB                  mean   32994.9  p 0.480  MCS99      3516   [Goto 2021, dt 1.0 (COP reading)]
+SCA                  mean   32869.8  p 0.156  MCS99     13553   [STATICA q 4, T 40 -> 5]
+SA                   mean   32774.0  p 0.078  MCS99     28306   [Neal defaults]
+aSB                  mean   32632.1  p 0.016  MCS99    146211   [Goto 2019 dt 0.9, M 2 (A1 per run; provisional)]
+APC-SCA              mean   32462.6  p 0.004  MCS99    588310   [APC Alg. 2, r_q 0.45, q_limit 0, T 10 -> 0.1]
+ReAIM ASA            mean   32154.1  p 0.008  MCS99    293578   [ReAIM T 1 -> 0.1, F max, k {128..1024}]
+TEC                  mean   31472.6  p 0.000  MCS99       inf   [TEC Glauber SA, J_v 30, T 100 -> 0.1 (provisional)]
+--- S = 1000
+bSB                  mean   33216.0  p 1.000  MCS99      1000   [Goto 2021, dt 1.0 (COP reading)]
+TEC-T (ours)         mean   33185.3  p 0.996  MCS99       830   [frozen]
+Onsager SCA (ours)   mean   33138.0  p 0.934  MCS99      1698   [frozen]
+dSB                  mean   33104.7  p 0.844  MCS99      2481   [Goto 2021, dt 1.25 (COP reading)]
+SCA                  mean   33022.3  p 0.578  MCS99      5336   [STATICA q 4, T 40 -> 5]
+SA                   mean   32963.7  p 0.402  MCS99      8947   [Neal defaults]
+APC-SCA              mean   32694.8  p 0.074  MCS99     59716   [APC Alg. 2, r_q 0.45, q_limit 0, T 10 -> 0.1]
+ReAIM ASA            mean   32566.7  p 0.035  MCS99    128675   [ReAIM T 1 -> 0.1, F max, k {128..1024}]
+TEC                  mean   32043.0  p 0.000  MCS99       inf   [TEC Glauber SA, J_v 30, T 100 -> 0.1 (provisional)]
+aSB                  mean   28993.7  p 0.000  MCS99       inf   [Goto 2019 dt 0.9, M 2 (A1 per run; provisional)]
+--- S = 2000
+bSB                  mean   33216.5  p 1.000  MCS99      2000   [Goto 2021, dt 0.5 (COP reading)]
+Onsager SCA (ours)   mean   33204.9  p 0.996  MCS99      1661   [frozen]
+TEC-T (ours)         mean   33204.1  p 1.000  MCS99      2000   [frozen]
+dSB                  mean   33174.7  p 0.988  MCS99      2071   [Goto 2021, dt 1.25 (COP reading)]
+SCA                  mean   33120.2  p 0.902  MCS99      3959   [STATICA q 4, T 40 -> 5]
+SA                   mean   33081.9  p 0.770  MCS99      6276   [Neal defaults]
+APC-SCA              mean   32888.7  p 0.223  MCS99     36567   [APC Alg. 2, r_q 0.45, q_limit 0, T 10 -> 0.1]
+ReAIM ASA            mean   32825.5  p 0.191  MCS99     43351   [ReAIM T 1 -> 0.1, F max, k {128..1024}]
+TEC                  mean   32464.5  p 0.012  MCS99    781335   [TEC Glauber SA, J_v 30, T 100 -> 0.1 (provisional)]
+aSB                  mean   16970.0  p 0.000  MCS99       inf   [Goto 2019 dt 0.9, M 2 (A1 per run; provisional)]
+--- S = 4000
+TEC-T (ours)         mean   33236.4  p 1.000  MCS99      4000   [frozen]
+Onsager SCA (ours)   mean   33232.7  p 1.000  MCS99      4000   [frozen]
+dSB                  mean   33218.6  p 1.000  MCS99      4000   [Goto 2021, dt 1.25 (COP reading)]
+bSB                  mean   33216.9  p 1.000  MCS99      4000   [Goto 2021, dt 0.25 (COP reading)]
+SCA                  mean   33181.2  p 0.992  MCS99      3796   [STATICA q 4, T 40 -> 5]
+SA                   mean   33155.6  p 0.949  MCS99      6181   [Neal defaults]
+APC-SCA              mean   33019.7  p 0.586  MCS99     20891   [APC Alg. 2, r_q 0.45, q_limit 0, T 10 -> 0.1]
+ReAIM ASA            mean   33011.1  p 0.574  MCS99     21574   [ReAIM T 1 -> 0.1, F max, k {128..1024}]
+TEC                  mean   32707.0  p 0.016  MCS99   1169689   [TEC Glauber SA, J_v 30, T 100 -> 0.1 (provisional)]
+aSB                  mean      -inf  p 0.000  MCS99       inf   [Goto 2019 dt 0.9, M 2 (A1 per run; provisional)]
+Claim (a) lowest mean energy among discrete methods (all but aSB, bSB, dSB):
+  S=250: best discrete baseline SCA 32604.0 -> both forms lower energy: True
+  S=500: best discrete baseline SCA 32869.8 -> both forms lower energy: True
+  S=1000: best discrete baseline SCA 33022.3 -> both forms lower energy: True
+  S=2000: best discrete baseline SCA 33120.2 -> both forms lower energy: True
+  S=4000: best discrete baseline SCA 33181.2 -> both forms lower energy: True
+Steps to solution (min over S):
+  bSB                        237 at S = 250
+  TEC-T (ours)               830 at S = 1000
+  Onsager SCA (ours)        1358 at S = 500
+  dSB                       2071 at S = 2000
+  SCA                       3796 at S = 4000
+  SA                        6181 at S = 4000
+  APC-SCA                  20891 at S = 4000
+  ReAIM ASA                21574 at S = 4000
+  aSB                      41526 at S = 250
+  TEC                     781335 at S = 2000
+S = 500 success: SA 0.078, SCA 0.156, APC-SCA 0.004, ReAIM ASA 0.008, bSB 1.000, dSB 0.480, aSB 0.016, TEC 0.000, TEC-T (ours) 0.867, Onsager SCA (ours) 0.816
+bSB/dSB per-budget dt index (COP reading): {('bSB', 250): 4, ('dSB', 250): 3, ('bSB', 500): 4, ('dSB', 500): 3, ('bSB', 1000): 3, ('dSB', 1000): 4, ('bSB', 2000): 1, ('dSB', 2000): 4, ('bSB', 4000): 0, ('dSB', 4000): 4}

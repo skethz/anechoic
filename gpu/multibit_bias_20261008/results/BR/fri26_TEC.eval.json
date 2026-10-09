@@ -1,0 +1,39 @@
+{
+ "prefix": "fri26_TEC",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 12.569653975,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 827,
+ "feasibility": 0.8076171875,
+ "feasibility_wilson95": [
+  0.7823426458952331,
+  0.8305923496660842
+ ],
+ "mean_quality": 0.37066781546255195,
+ "mean_quality_feasible": 0.45896474369244644,
+ "best_value": 1492,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  510.59105692114053,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  483.0990061346473,
+  Infinity
+ ]
+}

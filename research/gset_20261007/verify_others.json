@@ -1,0 +1,15 @@
+{
+ "SA_identical": true,
+ "ReAIM_identical": true,
+ "dSB_identical_S60": true,
+ "bSB_mean_cut_ref": 965.53125,
+ "bSB_mean_cut_new": 965.9296875,
+ "bSB_z": 1.591994299950874,
+ "dSB_mean_cut_ref": 959.7578125,
+ "dSB_mean_cut_new": 959.84375,
+ "dSB_z": 0.06757580608455119,
+ "aSB_mean_cut_ref": 957.0859375,
+ "aSB_mean_cut_new": 957.2890625,
+ "aSB_z": 0.415003931104346,
+ "all_pass": true
+}

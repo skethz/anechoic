@@ -1,0 +1,9 @@
+K 2 matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G43 n 1000 nfield 1000 bias_mode 0 maxabs 1 sumw 9990 field_bound 36 fingerprint 8fbfb2a7e3e2718f auto_scale 0.01998
+case 0 G43_plain_S250 S 250 t0 8.04582 t1 3.00377 q 6.43666 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 6565 flips 18441 energy2 -6280
+case 1 G43_tec_S250 S 250 t0 6.03436 t1 3.00377 q 6.43666 lambda 0 ramp 0 jv -0.804582 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 6587 flips 10042 energy2 -6368
+case 2 G43_tecT_S250 S 250 t0 6.03436 t1 3.00377 q 6.43666 lambda 0 ramp 1 jv 0 kappa 0.5 scale 1 trials 1 trace 1 keep 0 seed 12648432 offset 1200
+  trial 1200 cut 6569 flips 20329 energy2 -6296
+case 3 G43_ons_S250 S 250 t0 6.03436 t1 3.00377 q 6.43666 lambda 0.01999 ramp 1 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648433 offset 1300
+  trial 1300 cut 6605 flips 10643 energy2 -6440

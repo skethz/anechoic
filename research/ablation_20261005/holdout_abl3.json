@@ -1,0 +1,84 @@
+{
+ "selection": {
+  "onsager_E1": {
+   "family": "onsager",
+   "q": 8.0,
+   "T0": 12.0,
+   "S": 960,
+   "lam": 1.05,
+   "ramp": true
+  },
+  "onsager_E4": {
+   "family": "onsager",
+   "q": 6.0,
+   "T0": 15.0,
+   "S": 560,
+   "lam": 0.9,
+   "ramp": true
+  },
+  "onsager_E16": {
+   "family": "onsager",
+   "q": 6.0,
+   "lam": 0.9,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 280
+  },
+  "tecT_E1": {
+   "family": "tecT",
+   "q": 8.0,
+   "kappa": 1.25,
+   "ramp": true,
+   "T0": 20.0,
+   "S": 960
+  },
+  "tecT_E4": {
+   "family": "tecT",
+   "q": 8.0,
+   "kappa": 1.25,
+   "ramp": true,
+   "T0": 20.0,
+   "S": 560
+  },
+  "tecT_E16": {
+   "family": "tecT",
+   "q": 8.0,
+   "kappa": 1.5,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 360
+  }
+ },
+ "holdout": [
+  {
+   "family": "onsager",
+   "q": 6.0,
+   "lam": 0.9,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 280,
+   "trials": 1024,
+   "successes": 402,
+   "p": 0.392578125,
+   "mean_cut": 32964.80859375,
+   "mean_flips": 53562.39453125,
+   "t_ms": 0.096803533815625,
+   "sec": 7.0644037919992115
+  },
+  {
+   "family": "tecT",
+   "q": 8.0,
+   "kappa": 1.5,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 360,
+   "trials": 1024,
+   "successes": 324,
+   "p": 0.31640625,
+   "mean_cut": 32929.890625,
+   "mean_flips": 47681.337890625,
+   "t_ms": 0.1002641618203125,
+   "sec": 7.592923875025008
+  }
+ ]
+}

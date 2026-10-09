@@ -1,0 +1,18 @@
+{
+  "R1_trials_compared": 41040,
+  "R1_mismatching_configs": {},
+  "R1_pass": true,
+  "M3_best_onsager_ms": 0.06945436954937219,
+  "M3_pass": true,
+  "M4_pass": true,
+  "M5_pass": true,
+  "M6_best_ms": 0.03334474932596211,
+  "M6_pass": true,
+  "A1_best_primary_ms": 0.06864902680661694,
+  "A1_pass": true,
+  "A2_best_secondary_ms": 0.025368893059961314,
+  "A2_pass": true,
+  "A3_primary_ratio": 2.520590513569448,
+  "A3_secondary_ratio": 3.274773381251846,
+  "A3_pass": true
+}

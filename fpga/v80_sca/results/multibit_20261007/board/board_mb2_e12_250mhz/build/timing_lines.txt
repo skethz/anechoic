@@ -1,0 +1,74 @@
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Vivado_Tcl 4-2280] Estimated Timing Summary | WNS= 0.331 | TNS= 0.000 | WHS= -0.716 |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.331 | TNS=0.000 |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.716 | THS=-11856.860 |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.652 | THS=-6631.743 |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.652 | THS=-6631.743 |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.390  | TNS=0.000  | WHS=-0.446 | THS=-5082.439|
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.390  | TNS=0.000  | WHS=-0.609 | THS=-6405.799|
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.315 | THS=-16.862|
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.315 | THS=-16.862|
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.280 | THS=-18.321|
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.026 | TNS=-0.155 | WHS=0.010  | THS=0.000  |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+build/board_mb2_e12_250mhz/prj.runs/impl_1/runme.log:INFO: [Vivado_Tcl 4-2280] Estimated Timing Summary | WNS= 0.007 | TNS= 0.000 | WHS= 0.010 |
+logs/board_mb2_e12_250mhz_console.log:# if {[info exists ::env(SNOWBALL_IP_REPO)]} {set snowball_ip_repo $::env(SNOWBALL_IP_REPO)}
+logs/board_mb2_e12_250mhz_console.log:## puts "SNOWBALL_BOARD_OUTPUTS_GENERATED"
+logs/board_mb2_e12_250mhz_console.log:SNOWBALL_BOARD_OUTPUTS_GENERATED
+logs/board_mb2_e12_250mhz_console.log:INFO: [Vivado_Tcl 4-2280] Estimated Timing Summary | WNS= 0.331 | TNS= 0.000 | WHS= -0.716 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.331 | TNS=0.000 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.716 | THS=-11856.860 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.652 | THS=-6631.743 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.652 | THS=-6631.743 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.390  | TNS=0.000  | WHS=-0.446 | THS=-5082.439|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.390  | TNS=0.000  | WHS=-0.609 | THS=-6405.799|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.315 | THS=-16.862|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.315 | THS=-16.862|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.280 | THS=-18.321|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.026 | TNS=-0.155 | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:##     puts "SNOWBALL_POST_ROUTE_STATUS [get_property STATUS [get_runs impl_1]]"
+logs/board_mb2_e12_250mhz_console.log:INFO: [Vivado_Tcl 4-2280] Estimated Timing Summary | WNS= 0.331 | TNS= 0.000 | WHS= -0.716 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.331 | TNS=0.000 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.716 | THS=-11856.860 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.652 | THS=-6631.743 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.652 | THS=-6631.743 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.390  | TNS=0.000  | WHS=-0.446 | THS=-5082.439|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.390  | TNS=0.000  | WHS=-0.609 | THS=-6405.799|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.315 | THS=-16.862|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.315 | THS=-16.862|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.280 | THS=-18.321|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.026 | TNS=-0.155 | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Vivado_Tcl 4-2280] Estimated Timing Summary | WNS= 0.007 | TNS= 0.000 | WHS= 0.010 |
+logs/board_mb2_e12_250mhz_console.log:SNOWBALL_POST_ROUTE_STATUS phys_opt_design (Post-Route) Complete!
+logs/board_mb2_e12_250mhz_console.log:#### puts "VERIFIED_KERNEL_NOMINAL_MHZ $mhz"
+logs/board_mb2_e12_250mhz_console.log:VERIFIED_KERNEL_NOMINAL_MHZ 249.99999975000003
+logs/board_mb2_e12_250mhz_console.log:### puts "SNOWBALL_ROUTED_SLACK setup=$setup_slack hold=$hold_slack"
+logs/board_mb2_e12_250mhz_console.log:SNOWBALL_ROUTED_SLACK setup=0.007 hold=0.010
+logs/board_mb2_e12_250mhz_console.log:INFO: [Vivado_Tcl 4-2280] Estimated Timing Summary | WNS= 0.331 | TNS= 0.000 | WHS= -0.716 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.331 | TNS=0.000 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.716 | THS=-11856.860 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.652 | THS=-6631.743 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=0.331 | TNS=0.000 | WHS=-0.652 | THS=-6631.743 |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.390  | TNS=0.000  | WHS=-0.446 | THS=-5082.439|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.390  | TNS=0.000  | WHS=-0.609 | THS=-6405.799|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.315 | THS=-16.862|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.315 | THS=-16.862|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.221 | TNS=-0.959 | WHS=-0.280 | THS=-18.321|
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.026 | TNS=-0.155 | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.007  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+logs/board_mb2_e12_250mhz_console.log:INFO: [Vivado_Tcl 4-2280] Estimated Timing Summary | WNS= 0.007 | TNS= 0.000 | WHS= 0.010 |
+logs/board_mb2_e12_250mhz_console.log:### puts "SNOWBALL_BOARD_IMAGE_READY $build_dir"
+logs/board_mb2_e12_250mhz_console.log:SNOWBALL_BOARD_IMAGE_READY /scratch/USER/sca_v80_20261003/build/board_mb2_e12_250mhz

@@ -1,0 +1,11 @@
+plain_S40            trial 0: MATCH (cut 20809, flips 23990)
+plain_S40            trial 1: MATCH (cut 25308, flips 21440)
+plain_S40            trial 2: MATCH (cut 18781, flips 24915)
+onsager_ramp_S40     trial 0: MATCH (cut 30555, flips 18386)
+onsager_ramp_S40     trial 1: MATCH (cut 31491, flips 18175)
+onsager_ramp_S40     trial 2: MATCH (cut 31056, flips 18696)
+tec_S40              trial 0: MATCH (cut 30952, flips 8579)
+tec_S40              trial 1: MATCH (cut 31165, flips 8659)
+onsager_ramp_S560    trial 0: MATCH (cut 33031, flips 166498)
+onsager_ramp_S560    trial 1: MATCH (cut 33104, flips 168138)
+TESTBENCH PASSED

@@ -1,0 +1,4 @@
+60257cce3e8aa9867c4ec377d85c8e9e49f065101685a3e5883d318ee644630c  PROTOCOL_PUB_V1.md
+3d80c5ec83db08de8f2a6a0cb8e24dc7fbb1596df020ba98f31e11a6e992b8e4  validate.py
+2026-10-08T12:24:39Z
+frozen before any validation run (only a tiny smoke test with seed 999, discarded)

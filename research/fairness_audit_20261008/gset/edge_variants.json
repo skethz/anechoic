@@ -1,0 +1,633 @@
+{
+ "original/per_budget": {
+  "Onsager-kT/M+-": {
+   "n": 120,
+   "edges": {
+    "kappa=max": 109,
+    "q=min": 46,
+    "T0=min": 69,
+    "T0=max": 51,
+    "q=max": 74,
+    "kappa=min": 1
+   }
+  },
+  "Onsager-kT/P+": {
+   "n": 75,
+   "edges": {
+    "q=max": 25,
+    "T0=min": 75,
+    "q=min": 50,
+    "kappa=min": 7
+   }
+  },
+  "Onsager-kT/Q+": {
+   "n": 60,
+   "edges": {
+    "q=max": 60,
+    "T0=min": 60,
+    "kappa=min": 3
+   }
+  },
+  "Onsager-kT/all": {
+   "n": 255,
+   "edges": {
+    "kappa:levels=4": 0,
+    "q:levels=2": 0,
+    "T0:levels=2": 0,
+    "q=max": 159,
+    "T0=min": 204,
+    "kappa=max": 109,
+    "q=min": 96,
+    "T0=max": 51,
+    "kappa=min": 11
+   }
+  },
+  "Onsager-online/M+-": {
+   "n": 120,
+   "edges": {
+    "lam_k2000=max": 45,
+    "q=max": 113,
+    "T0=min": 44,
+    "T0=max": 76,
+    "lam_k2000=min": 3,
+    "q=min": 7
+   }
+  },
+  "Onsager-online/P+": {
+   "n": 75,
+   "edges": {
+    "q=max": 25,
+    "T0=max": 21,
+    "lam_k2000=min": 11,
+    "lam_k2000=max": 41,
+    "T0=min": 54,
+    "q=min": 50
+   }
+  },
+  "Onsager-online/Q+": {
+   "n": 60,
+   "edges": {
+    "q=max": 60,
+    "T0=min": 60,
+    "lam_k2000=max": 40
+   }
+  },
+  "Onsager-online/all": {
+   "n": 255,
+   "edges": {
+    "lam_k2000:levels=4": 0,
+    "q:levels=2": 0,
+    "T0:levels=2": 0,
+    "q=max": 198,
+    "T0=max": 97,
+    "lam_k2000=min": 14,
+    "lam_k2000=max": 126,
+    "T0=min": 158,
+    "q=min": 57
+   }
+  },
+  "SCA/M+-": {
+   "n": 120,
+   "edges": {
+    "T0=max": 41,
+    "q=max": 5,
+    "q=min": 8
+   }
+  },
+  "SCA/P+": {
+   "n": 75,
+   "edges": {
+    "q=max": 6,
+    "T0=max": 6
+   }
+  },
+  "SCA/Q+": {
+   "n": 60,
+   "edges": {
+    "q=max": 60,
+    "T0=max": 60
+   }
+  },
+  "SCA/all": {
+   "n": 255,
+   "edges": {
+    "q:levels=4": 0,
+    "T0:levels=4": 0,
+    "q=max": 71,
+    "T0=max": 107,
+    "q=min": 8
+   }
+  },
+  "TEC/M+-": {
+   "n": 120,
+   "edges": {
+    "q=min": 30,
+    "T0=max": 120,
+    "jv=min": 63,
+    "q=max": 90,
+    "jv=max": 5
+   }
+  },
+  "TEC/P+": {
+   "n": 75,
+   "edges": {
+    "q=max": 25,
+    "T0=max": 21,
+    "jv=max": 9,
+    "jv=min": 18,
+    "T0=min": 54,
+    "q=min": 50
+   }
+  },
+  "TEC/Q+": {
+   "n": 60,
+   "edges": {
+    "q=max": 60,
+    "T0=min": 60,
+    "jv=min": 1
+   }
+  },
+  "TEC/all": {
+   "n": 255,
+   "edges": {
+    "jv:levels=4": 0,
+    "q:levels=2": 0,
+    "T0:levels=2": 0,
+    "q=max": 175,
+    "T0=max": 141,
+    "jv=max": 14,
+    "jv=min": 82,
+    "T0=min": 114,
+    "q=min": 80
+   }
+  }
+ },
+ "original/tts_E12": {
+  "Onsager-kT/M+-": {
+   "n": 24,
+   "edges": {
+    "kappa=max": 21,
+    "q=min": 10,
+    "T0=min": 17,
+    "q=max": 14,
+    "T0=max": 7
+   }
+  },
+  "Onsager-kT/P+": {
+   "n": 15,
+   "edges": {
+    "q=max": 5,
+    "T0=min": 15,
+    "q=min": 10
+   }
+  },
+  "Onsager-kT/Q+": {
+   "n": 12,
+   "edges": {
+    "q=max": 12,
+    "T0=min": 12
+   }
+  },
+  "Onsager-kT/all": {
+   "n": 51,
+   "edges": {
+    "kappa:levels=4": 0,
+    "q:levels=2": 0,
+    "T0:levels=2": 0,
+    "q=max": 31,
+    "T0=min": 44,
+    "S*=250(min budget)": 23,
+    "kappa=max": 21,
+    "q=min": 20,
+    "S*=4000(max budget)": 6,
+    "T0=max": 7
+   }
+  },
+  "Onsager-online/M+-": {
+   "n": 24,
+   "edges": {
+    "lam_k2000=max": 10,
+    "q=max": 24,
+    "T0=min": 10,
+    "T0=max": 14
+   }
+  },
+  "Onsager-online/P+": {
+   "n": 15,
+   "edges": {
+    "q=max": 5,
+    "T0=max": 5,
+    "lam_k2000=min": 2,
+    "lam_k2000=max": 9,
+    "q=min": 10,
+    "T0=min": 10
+   }
+  },
+  "Onsager-online/Q+": {
+   "n": 12,
+   "edges": {
+    "lam_k2000=max": 12,
+    "q=max": 12,
+    "T0=min": 12
+   }
+  },
+  "Onsager-online/all": {
+   "n": 51,
+   "edges": {
+    "lam_k2000:levels=4": 0,
+    "q:levels=2": 0,
+    "T0:levels=2": 0,
+    "q=max": 41,
+    "T0=max": 19,
+    "lam_k2000=min": 2,
+    "S*=250(min budget)": 17,
+    "lam_k2000=max": 31,
+    "T0=min": 32,
+    "S*=4000(max budget)": 5,
+    "q=min": 10
+   }
+  },
+  "SCA/M+-": {
+   "n": 24,
+   "edges": {
+    "T0=max": 6,
+    "q=max": 1,
+    "q=min": 3
+   }
+  },
+  "SCA/P+": {
+   "n": 15,
+   "edges": {
+    "q=max": 1,
+    "T0=max": 1
+   }
+  },
+  "SCA/Q+": {
+   "n": 12,
+   "edges": {
+    "q=max": 12,
+    "T0=max": 12
+   }
+  },
+  "SCA/all": {
+   "n": 51,
+   "edges": {
+    "q:levels=4": 0,
+    "T0:levels=4": 0,
+    "S*=250(min budget)": 8,
+    "q=max": 14,
+    "T0=max": 19,
+    "S*=4000(max budget)": 11,
+    "q=min": 3
+   }
+  },
+  "TEC/M+-": {
+   "n": 24,
+   "edges": {
+    "q=min": 8,
+    "T0=max": 24,
+    "jv=min": 14,
+    "q=max": 16,
+    "jv=max": 1
+   }
+  },
+  "TEC/P+": {
+   "n": 15,
+   "edges": {
+    "q=max": 5,
+    "T0=max": 5,
+    "q=min": 10,
+    "T0=min": 10,
+    "jv=min": 6
+   }
+  },
+  "TEC/Q+": {
+   "n": 12,
+   "edges": {
+    "q=max": 12,
+    "T0=min": 12,
+    "jv=min": 1
+   }
+  },
+  "TEC/all": {
+   "n": 51,
+   "edges": {
+    "jv:levels=4": 0,
+    "q:levels=2": 0,
+    "T0:levels=2": 0,
+    "q=max": 33,
+    "T0=max": 29,
+    "S*=250(min budget)": 15,
+    "q=min": 18,
+    "jv=min": 21,
+    "S*=4000(max budget)": 8,
+    "T0=min": 22,
+    "jv=max": 1
+   }
+  }
+ },
+ "extended_amendment1/per_budget": {
+  "Onsager-kT/M+-": {
+   "n": 120,
+   "edges": {
+    "q=min": 45,
+    "T0=min": 64,
+    "kappa=max": 6,
+    "T0=max": 2,
+    "q=max": 6,
+    "kappa=min": 1
+   }
+  },
+  "Onsager-kT/P+": {
+   "n": 75,
+   "edges": {
+    "kappa=max": 7,
+    "q=max": 7,
+    "q=min": 49,
+    "kappa=min": 6
+   }
+  },
+  "Onsager-kT/Q+": {
+   "n": 60,
+   "edges": {
+    "kappa=max": 56,
+    "q=max": 56,
+    "T0=min": 60
+   }
+  },
+  "Onsager-kT/all": {
+   "n": 255,
+   "edges": {
+    "kappa:levels=5": 0,
+    "q:levels=3": 0,
+    "T0:levels=4": 0,
+    "kappa=max": 69,
+    "q=max": 69,
+    "q=min": 94,
+    "T0=min": 124,
+    "T0=max": 2,
+    "q:levels=4": 0,
+    "T0:levels=3": 0,
+    "kappa=min": 7
+   }
+  },
+  "Onsager-online/M+-": {
+   "n": 120,
+   "edges": {
+    "T0=min": 44,
+    "lam_k2000=min": 3,
+    "q=max": 2,
+    "T0=max": 5,
+    "q=min": 7
+   }
+  },
+  "Onsager-online/P+": {
+   "n": 75,
+   "edges": {
+    "T0=max": 21,
+    "lam_k2000=min": 11,
+    "q=min": 50
+   }
+  },
+  "Onsager-online/Q+": {
+   "n": 60,
+   "edges": {
+    "T0=min": 43,
+    "T0=max": 17
+   }
+  },
+  "Onsager-online/all": {
+   "n": 255,
+   "edges": {
+    "lam_k2000:levels=5": 0,
+    "q:levels=3": 0,
+    "T0:levels=4": 0,
+    "T0=max": 43,
+    "lam_k2000=min": 14,
+    "T0=min": 87,
+    "q:levels=4": 0,
+    "T0:levels=3": 0,
+    "q=max": 2,
+    "q=min": 57
+   }
+  },
+  "SCA/M+-": {
+   "n": 120,
+   "edges": {
+    "q=max": 4,
+    "q=min": 8
+   }
+  },
+  "SCA/P+": {
+   "n": 75,
+   "edges": {}
+  },
+  "SCA/Q+": {
+   "n": 60,
+   "edges": {}
+  },
+  "SCA/all": {
+   "n": 255,
+   "edges": {
+    "q:levels=8": 0,
+    "T0:levels=8": 0,
+    "q:levels=6": 0,
+    "q=max": 4,
+    "T0:levels=6": 0,
+    "q=min": 8
+   }
+  },
+  "TEC/M+-": {
+   "n": 120,
+   "edges": {
+    "q=min": 25,
+    "jv=max": 3,
+    "jv=min": 47,
+    "q=max": 24,
+    "T0=max": 13
+   }
+  },
+  "TEC/P+": {
+   "n": 75,
+   "edges": {
+    "jv=min": 22,
+    "T0=max": 3,
+    "jv=max": 2,
+    "q=min": 50
+   }
+  },
+  "TEC/Q+": {
+   "n": 60,
+   "edges": {
+    "T0=min": 46,
+    "jv=min": 15,
+    "T0=max": 14
+   }
+  },
+  "TEC/all": {
+   "n": 255,
+   "edges": {
+    "jv:levels=5": 0,
+    "q:levels=3": 0,
+    "T0:levels=4": 0,
+    "jv=min": 84,
+    "T0=max": 30,
+    "jv=max": 5,
+    "q=min": 75,
+    "q=max": 24,
+    "jv:levels=4": 0,
+    "q:levels=4": 0,
+    "T0:levels=3": 0,
+    "T0=min": 46
+   }
+  }
+ },
+ "extended_amendment1/tts_E12": {
+  "Onsager-kT/M+-": {
+   "n": 24,
+   "edges": {
+    "q=min": 10,
+    "T0=min": 17
+   }
+  },
+  "Onsager-kT/P+": {
+   "n": 15,
+   "edges": {
+    "kappa=max": 1,
+    "q=max": 1,
+    "q=min": 10
+   }
+  },
+  "Onsager-kT/Q+": {
+   "n": 12,
+   "edges": {
+    "kappa=max": 12,
+    "q=max": 12,
+    "T0=min": 12
+   }
+  },
+  "Onsager-kT/all": {
+   "n": 51,
+   "edges": {
+    "kappa:levels=5": 0,
+    "q:levels=3": 0,
+    "T0:levels=4": 0,
+    "S*=250(min budget)": 23,
+    "kappa=max": 13,
+    "q=max": 13,
+    "q=min": 20,
+    "T0=min": 29,
+    "S*=4000(max budget)": 5,
+    "q:levels=4": 0,
+    "T0:levels=3": 0
+   }
+  },
+  "Onsager-online/M+-": {
+   "n": 24,
+   "edges": {
+    "T0=min": 11
+   }
+  },
+  "Onsager-online/P+": {
+   "n": 15,
+   "edges": {
+    "T0=max": 5,
+    "lam_k2000=min": 2,
+    "q=min": 10
+   }
+  },
+  "Onsager-online/Q+": {
+   "n": 12,
+   "edges": {
+    "T0=min": 6,
+    "T0=max": 6
+   }
+  },
+  "Onsager-online/all": {
+   "n": 51,
+   "edges": {
+    "lam_k2000:levels=5": 0,
+    "q:levels=3": 0,
+    "T0:levels=4": 0,
+    "T0=max": 11,
+    "lam_k2000=min": 2,
+    "S*=250(min budget)": 18,
+    "T0=min": 17,
+    "S*=4000(max budget)": 7,
+    "q:levels=4": 0,
+    "T0:levels=3": 0,
+    "q=min": 10
+   }
+  },
+  "SCA/M+-": {
+   "n": 24,
+   "edges": {
+    "q=min": 3
+   }
+  },
+  "SCA/P+": {
+   "n": 15,
+   "edges": {}
+  },
+  "SCA/Q+": {
+   "n": 12,
+   "edges": {}
+  },
+  "SCA/all": {
+   "n": 51,
+   "edges": {
+    "q:levels=8": 0,
+    "T0:levels=8": 0,
+    "q:levels=6": 0,
+    "S*=4000(max budget)": 12,
+    "T0:levels=6": 0,
+    "S*=250(min budget)": 7,
+    "q=min": 3
+   }
+  },
+  "TEC/M+-": {
+   "n": 24,
+   "edges": {
+    "q=min": 6,
+    "q=max": 3,
+    "jv=min": 5,
+    "T0=max": 2,
+    "jv=max": 1
+   }
+  },
+  "TEC/P+": {
+   "n": 15,
+   "edges": {
+    "jv=min": 5,
+    "q=min": 10
+   }
+  },
+  "TEC/Q+": {
+   "n": 12,
+   "edges": {
+    "T0=min": 11,
+    "jv=min": 2,
+    "T0=max": 1
+   }
+  },
+  "TEC/all": {
+   "n": 51,
+   "edges": {
+    "jv:levels=5": 0,
+    "q:levels=3": 0,
+    "T0:levels=4": 0,
+    "jv=min": 12,
+    "S*=250(min budget)": 17,
+    "q=min": 16,
+    "q=max": 3,
+    "S*=4000(max budget)": 8,
+    "jv:levels=4": 0,
+    "q:levels=4": 0,
+    "T0:levels=3": 0,
+    "T0=min": 11,
+    "T0=max": 3,
+    "jv=max": 1
+   }
+  }
+ }
+}

@@ -1,0 +1,5 @@
+# launch start: beat 0 cycle 20
+# launch start: beat 1 cycle 21
+# trial start: cycle 35968
+# trial out: cycle 77268
+# DONE: 34 words, 0 errors, cycle 77369

@@ -1,0 +1,452 @@
+{
+ "classes": {
+  "G1": "random +1",
+  "G2": "random +1",
+  "G3": "random +1",
+  "G4": "random +1",
+  "G5": "random +1",
+  "G6": "random \u00b11",
+  "G7": "random \u00b11",
+  "G8": "random \u00b11",
+  "G9": "random \u00b11",
+  "G10": "random \u00b11",
+  "G11": "toroidal \u00b11",
+  "G12": "toroidal \u00b11",
+  "G13": "toroidal \u00b11",
+  "G14": "planar +1",
+  "G15": "planar +1",
+  "G16": "planar +1",
+  "G17": "planar +1",
+  "G18": "planar \u00b11",
+  "G19": "planar \u00b11",
+  "G20": "planar \u00b11",
+  "G21": "planar \u00b11",
+  "G22": "random +1",
+  "G23": "random +1",
+  "G24": "random +1",
+  "G25": "random +1",
+  "G26": "random +1",
+  "G27": "random \u00b11",
+  "G28": "random \u00b11",
+  "G29": "random \u00b11",
+  "G30": "random \u00b11",
+  "G31": "random \u00b11",
+  "G32": "toroidal \u00b11",
+  "G33": "toroidal \u00b11",
+  "G34": "toroidal \u00b11",
+  "G35": "planar +1",
+  "G36": "planar +1",
+  "G37": "planar +1",
+  "G38": "planar +1",
+  "G39": "planar \u00b11",
+  "G40": "planar \u00b11",
+  "G41": "planar \u00b11",
+  "G42": "planar \u00b11",
+  "G43": "random +1",
+  "G44": "random +1",
+  "G45": "random +1",
+  "G46": "random +1",
+  "G47": "random +1",
+  "G51": "planar +1",
+  "G52": "planar +1",
+  "G53": "planar +1",
+  "G54": "planar +1"
+ },
+ "geomeans": {
+  "original/SCA": {
+   "random +1": {
+    "geomean_tts99_ms": 0.05525499440006938,
+    "instances": 15,
+    "no_success": 0
+   },
+   "random \u00b11": {
+    "geomean_tts99_ms": 0.12069122409356602,
+    "instances": 10,
+    "no_success": 0
+   },
+   "toroidal \u00b11": {
+    "geomean_tts99_ms": 6.06959653112782,
+    "instances": 6,
+    "no_success": 0
+   },
+   "planar +1": {
+    "geomean_tts99_ms": 0.24928211147301335,
+    "instances": 12,
+    "no_success": 0
+   },
+   "planar \u00b11": {
+    "geomean_tts99_ms": 0.7669011807345217,
+    "instances": 8,
+    "no_success": 0
+   },
+   "all": {
+    "geomean_tts99_ms": 0.24107213338918865,
+    "instances": 51,
+    "no_success": 0
+   }
+  },
+  "original/TEC": {
+   "random +1": {
+    "geomean_tts99_ms": 0.035506005328172136,
+    "instances": 15,
+    "no_success": 0
+   },
+   "random \u00b11": {
+    "geomean_tts99_ms": 0.09636013395686018,
+    "instances": 10,
+    "no_success": 0
+   },
+   "toroidal \u00b11": {
+    "geomean_tts99_ms": 6.118763678741565,
+    "instances": 6,
+    "no_success": 0
+   },
+   "planar +1": {
+    "geomean_tts99_ms": 0.20253921025486446,
+    "instances": 12,
+    "no_success": 0
+   },
+   "planar \u00b11": {
+    "geomean_tts99_ms": 0.6542832461896108,
+    "instances": 8,
+    "no_success": 0
+   },
+   "all": {
+    "geomean_tts99_ms": 0.18830299819393942,
+    "instances": 51,
+    "no_success": 0
+   }
+  },
+  "original/Onsager-kT": {
+   "random +1": {
+    "geomean_tts99_ms": 0.02939217072434246,
+    "instances": 15,
+    "no_success": 0
+   },
+   "random \u00b11": {
+    "geomean_tts99_ms": 0.05363425024655483,
+    "instances": 10,
+    "no_success": 0
+   },
+   "toroidal \u00b11": {
+    "geomean_tts99_ms": 1.40928248148944,
+    "instances": 6,
+    "no_success": 0
+   },
+   "planar +1": {
+    "geomean_tts99_ms": 0.16206970678632807,
+    "instances": 12,
+    "no_success": 0
+   },
+   "planar \u00b11": {
+    "geomean_tts99_ms": 0.4894493351571062,
+    "instances": 8,
+    "no_success": 0
+   },
+   "all": {
+    "geomean_tts99_ms": 0.12113072137487822,
+    "instances": 51,
+    "no_success": 0
+   }
+  },
+  "original/Onsager-online": {
+   "random +1": {
+    "geomean_tts99_ms": 0.03992102631234185,
+    "instances": 15,
+    "no_success": 0
+   },
+   "random \u00b11": {
+    "geomean_tts99_ms": 0.07225481500997843,
+    "instances": 10,
+    "no_success": 0
+   },
+   "toroidal \u00b11": {
+    "geomean_tts99_ms": 4.311187655113824,
+    "instances": 6,
+    "no_success": 0
+   },
+   "planar +1": {
+    "geomean_tts99_ms": 0.36367214743027365,
+    "instances": 12,
+    "no_success": 0
+   },
+   "planar \u00b11": {
+    "geomean_tts99_ms": 0.44041328603076435,
+    "instances": 8,
+    "no_success": 0
+   },
+   "all": {
+    "geomean_tts99_ms": 0.19066378524999059,
+    "instances": 51,
+    "no_success": 0
+   }
+  },
+  "extended_amendment1/SCA": {
+   "random +1": {
+    "geomean_tts99_ms": 0.0527154069680568,
+    "instances": 15,
+    "no_success": 0
+   },
+   "random \u00b11": {
+    "geomean_tts99_ms": 0.11879405678789089,
+    "instances": 10,
+    "no_success": 0
+   },
+   "toroidal \u00b11": {
+    "geomean_tts99_ms": 7.409184576733343,
+    "instances": 6,
+    "no_success": 0
+   },
+   "planar +1": {
+    "geomean_tts99_ms": 0.24928211147301335,
+    "instances": 12,
+    "no_success": 0
+   },
+   "planar \u00b11": {
+    "geomean_tts99_ms": 0.7069118459284525,
+    "instances": 8,
+    "no_success": 0
+   },
+   "all": {
+    "geomean_tts99_ms": 0.2395677767053126,
+    "instances": 51,
+    "no_success": 0
+   }
+  },
+  "extended_amendment1/TEC": {
+   "random +1": {
+    "geomean_tts99_ms": 0.030108928728232155,
+    "instances": 15,
+    "no_success": 0
+   },
+   "random \u00b11": {
+    "geomean_tts99_ms": 0.10248534588696706,
+    "instances": 10,
+    "no_success": 0
+   },
+   "toroidal \u00b11": {
+    "geomean_tts99_ms": 6.2155825486741785,
+    "instances": 6,
+    "no_success": 0
+   },
+   "planar +1": {
+    "geomean_tts99_ms": 0.1974182816018222,
+    "instances": 12,
+    "no_success": 0
+   },
+   "planar \u00b11": {
+    "geomean_tts99_ms": 0.7741871210513595,
+    "instances": 8,
+    "no_success": 0
+   },
+   "all": {
+    "geomean_tts99_ms": 0.18564925916091202,
+    "instances": 51,
+    "no_success": 0
+   }
+  },
+  "extended_amendment1/Onsager-kT": {
+   "random +1": {
+    "geomean_tts99_ms": 0.03145922104875076,
+    "instances": 15,
+    "no_success": 0
+   },
+   "random \u00b11": {
+    "geomean_tts99_ms": 0.05363425024655483,
+    "instances": 10,
+    "no_success": 0
+   },
+   "toroidal \u00b11": {
+    "geomean_tts99_ms": 1.6238069571011735,
+    "instances": 6,
+    "no_success": 0
+   },
+   "planar +1": {
+    "geomean_tts99_ms": 0.09184792951945683,
+    "instances": 12,
+    "no_success": 0
+   },
+   "planar \u00b11": {
+    "geomean_tts99_ms": 0.5079246728629073,
+    "instances": 8,
+    "no_success": 0
+   },
+   "all": {
+    "geomean_tts99_ms": 0.11057784853537424,
+    "instances": 51,
+    "no_success": 0
+   }
+  },
+  "extended_amendment1/Onsager-online": {
+   "random +1": {
+    "geomean_tts99_ms": 0.03992102631234185,
+    "instances": 15,
+    "no_success": 0
+   },
+   "random \u00b11": {
+    "geomean_tts99_ms": 0.07225481500997843,
+    "instances": 10,
+    "no_success": 0
+   },
+   "toroidal \u00b11": {
+    "geomean_tts99_ms": 5.114230383088411,
+    "instances": 6,
+    "no_success": 0
+   },
+   "planar +1": {
+    "geomean_tts99_ms": 0.3055281722928698,
+    "instances": 12,
+    "no_success": 0
+   },
+   "planar \u00b11": {
+    "geomean_tts99_ms": 0.4878561898946746,
+    "instances": 8,
+    "no_success": 0
+   },
+   "all": {
+    "geomean_tts99_ms": 0.1897418942728018,
+    "instances": 51,
+    "no_success": 0
+   }
+  }
+ },
+ "onsager_kT_wins": {
+  "vs_SCA": [
+   "G1",
+   "G2",
+   "G3",
+   "G4",
+   "G5",
+   "G6",
+   "G7",
+   "G8",
+   "G9",
+   "G10",
+   "G11",
+   "G12",
+   "G13",
+   "G14",
+   "G16",
+   "G17",
+   "G18",
+   "G19",
+   "G20",
+   "G21",
+   "G22",
+   "G23",
+   "G24",
+   "G25",
+   "G26",
+   "G27",
+   "G28",
+   "G29",
+   "G30",
+   "G31",
+   "G32",
+   "G33",
+   "G34",
+   "G35",
+   "G36",
+   "G37",
+   "G38",
+   "G39",
+   "G41",
+   "G42",
+   "G43",
+   "G44",
+   "G45",
+   "G46",
+   "G51",
+   "G52",
+   "G53",
+   "G54"
+  ],
+  "vs_TEC": [
+   "G1",
+   "G2",
+   "G3",
+   "G4",
+   "G5",
+   "G6",
+   "G7",
+   "G8",
+   "G9",
+   "G10",
+   "G11",
+   "G12",
+   "G13",
+   "G16",
+   "G17",
+   "G18",
+   "G19",
+   "G20",
+   "G21",
+   "G23",
+   "G25",
+   "G27",
+   "G28",
+   "G29",
+   "G30",
+   "G31",
+   "G32",
+   "G33",
+   "G34",
+   "G35",
+   "G36",
+   "G38",
+   "G41",
+   "G42",
+   "G43",
+   "G44",
+   "G45",
+   "G46",
+   "G51",
+   "G52",
+   "G54"
+  ],
+  "vs_both": [
+   "G1",
+   "G2",
+   "G3",
+   "G4",
+   "G5",
+   "G6",
+   "G7",
+   "G8",
+   "G9",
+   "G10",
+   "G11",
+   "G12",
+   "G13",
+   "G16",
+   "G17",
+   "G18",
+   "G19",
+   "G20",
+   "G21",
+   "G23",
+   "G25",
+   "G27",
+   "G28",
+   "G29",
+   "G30",
+   "G31",
+   "G32",
+   "G33",
+   "G34",
+   "G35",
+   "G36",
+   "G38",
+   "G41",
+   "G42",
+   "G43",
+   "G44",
+   "G45",
+   "G46",
+   "G51",
+   "G52",
+   "G54"
+  ],
+  "compared": 51
+ }
+}

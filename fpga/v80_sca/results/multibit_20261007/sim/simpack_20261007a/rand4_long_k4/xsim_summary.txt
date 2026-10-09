@@ -1,0 +1,14 @@
+beats 131776 words 1202 DRAIN 2 K 4
+launch start: beat 0 cycle 20
+launch start: beat 1 cycle 21
+trial start: cycle 140234
+trial out: cycle 177841
+trial end: word 33 cycle 177945 flips 222845
+trial start: cycle 179143
+trial out: cycle 216760
+trial end: word 467 cycle 216861 flips 223309
+trial start: cycle 218390
+trial out: cycle 260418
+trial end: word 901 cycle 260518 flips 264494
+DONE: 1202 words, 0 errors, 0 residue violations, cycle 261418
+TESTBENCH PASSED

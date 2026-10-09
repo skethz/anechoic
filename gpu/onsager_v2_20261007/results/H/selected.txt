@@ -1,0 +1,1 @@
+primary: --tecT 2 --ramp --q 8 --t0 15 --steps 120 B=120 ; secondary: --tecT 2 --ramp --q 6 --t0 15 --steps 280 B=240

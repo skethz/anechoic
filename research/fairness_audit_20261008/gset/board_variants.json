@@ -1,0 +1,384 @@
+{
+ "original": {
+  "Random, +1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 1.8799222050757707,
+    "wins": 14,
+    "n": 15
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 1.2080089511308612,
+    "wins": 11,
+    "n": 15
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.3841075619588206,
+    "wins": 12,
+    "n": 15
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 0.8894061252427077,
+    "wins": 8,
+    "n": 15
+   },
+   "TEC vs SCA": {
+    "geomean": 1.5562154595923376,
+    "wins": 14,
+    "n": 15
+   },
+   "geomean SCA ms": 0.05525499440006938,
+   "geomean TEC ms": 0.035506005328172136,
+   "geomean Onsager-kT ms": 0.02939217072434246,
+   "geomean Onsager-online ms": 0.03992102631234185
+  },
+  "Random, +-1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 2.250264029771137,
+    "wins": 10,
+    "n": 10
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 1.7966156609609707,
+    "wins": 10,
+    "n": 10
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.6703554507322242,
+    "wins": 9,
+    "n": 10
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 1.3336153991059665,
+    "wins": 7,
+    "n": 10
+   },
+   "TEC vs SCA": {
+    "geomean": 1.2525016221708318,
+    "wins": 7,
+    "n": 10
+   },
+   "geomean SCA ms": 0.12069122409356602,
+   "geomean TEC ms": 0.09636013395686018,
+   "geomean Onsager-kT ms": 0.05363425024655483,
+   "geomean Onsager-online ms": 0.07225481500997843
+  },
+  "Toroidal, +-1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 4.306870063915784,
+    "wins": 6,
+    "n": 6
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 4.341758135157386,
+    "wins": 6,
+    "n": 6
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.4078711057562556,
+    "wins": 5,
+    "n": 6
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 1.4192756540030538,
+    "wins": 5,
+    "n": 6
+   },
+   "TEC vs SCA": {
+    "geomean": 0.9919645290788779,
+    "wins": 4,
+    "n": 6
+   },
+   "geomean SCA ms": 6.06959653112782,
+   "geomean TEC ms": 6.118763678741565,
+   "geomean Onsager-kT ms": 1.40928248148944,
+   "geomean Onsager-online ms": 4.311187655113824
+  },
+  "Planar-like, +1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 1.5381166315162504,
+    "wins": 11,
+    "n": 12
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 1.249704304838974,
+    "wins": 8,
+    "n": 12
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 0.6854583537245119,
+    "wins": 2,
+    "n": 12
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 0.5569280234574385,
+    "wins": 1,
+    "n": 12
+   },
+   "TEC vs SCA": {
+    "geomean": 1.2307844548190452,
+    "wins": 10,
+    "n": 12
+   },
+   "geomean SCA ms": 0.24928211147301335,
+   "geomean TEC ms": 0.20253921025486446,
+   "geomean Onsager-kT ms": 0.16206970678632807,
+   "geomean Onsager-online ms": 0.36367214743027365
+  },
+  "Planar-like, +-1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 1.5668653027965755,
+    "wins": 7,
+    "n": 8
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 1.3367742056071956,
+    "wins": 6,
+    "n": 8
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.7413216291593694,
+    "wins": 8,
+    "n": 8
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 1.4856119625417181,
+    "wins": 7,
+    "n": 8
+   },
+   "TEC vs SCA": {
+    "geomean": 1.1721241300320173,
+    "wins": 5,
+    "n": 8
+   },
+   "geomean SCA ms": 0.7669011807345217,
+   "geomean TEC ms": 0.6542832461896108,
+   "geomean Onsager-kT ms": 0.4894493351571062,
+   "geomean Onsager-online ms": 0.44041328603076435
+  },
+  "All 51": {
+   "Onsager-kT vs SCA": {
+    "geomean": 1.9901816042448304,
+    "wins": 48,
+    "n": 51
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 1.554543686825532,
+    "wins": 41,
+    "n": 51
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.2643834437310926,
+    "wins": 36,
+    "n": 51
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 0.9876180625861601,
+    "wins": 28,
+    "n": 51
+   },
+   "TEC vs SCA": {
+    "geomean": 1.2802352363019762,
+    "wins": 40,
+    "n": 51
+   },
+   "geomean SCA ms": 0.24107213338918865,
+   "geomean TEC ms": 0.18830299819393942,
+   "geomean Onsager-kT ms": 0.12113072137487822,
+   "geomean Onsager-online ms": 0.19066378524999059
+  }
+ },
+ "extended_amendment1": {
+  "Random, +1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 1.6756742605408574,
+    "wins": 14,
+    "n": 15
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 0.9570780116129981,
+    "wins": 6,
+    "n": 15
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.320492277819007,
+    "wins": 10,
+    "n": 15
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 0.7542122913539369,
+    "wins": 8,
+    "n": 15
+   },
+   "TEC vs SCA": {
+    "geomean": 1.7508230679302548,
+    "wins": 15,
+    "n": 15
+   },
+   "geomean SCA ms": 0.0527154069680568,
+   "geomean TEC ms": 0.030108928728232155,
+   "geomean Onsager-kT ms": 0.03145922104875076,
+   "geomean Onsager-online ms": 0.03992102631234185
+  },
+  "Random, +-1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 2.214891720156405,
+    "wins": 10,
+    "n": 10
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 1.9108190273164152,
+    "wins": 10,
+    "n": 10
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.644098829558768,
+    "wins": 9,
+    "n": 10
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 1.418387769352309,
+    "wins": 7,
+    "n": 10
+   },
+   "TEC vs SCA": {
+    "geomean": 1.1591321252787787,
+    "wins": 6,
+    "n": 10
+   },
+   "geomean SCA ms": 0.11879405678789089,
+   "geomean TEC ms": 0.10248534588696706,
+   "geomean Onsager-kT ms": 0.05363425024655483,
+   "geomean Onsager-online ms": 0.07225481500997843
+  },
+  "Toroidal, +-1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 4.562848154044278,
+    "wins": 6,
+    "n": 6
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 3.827784159620957,
+    "wins": 6,
+    "n": 6
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.4487389150934271,
+    "wins": 6,
+    "n": 6
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 1.215350518668007,
+    "wins": 4,
+    "n": 6
+   },
+   "TEC vs SCA": {
+    "geomean": 1.1920338148053025,
+    "wins": 4,
+    "n": 6
+   },
+   "geomean SCA ms": 7.409184576733343,
+   "geomean TEC ms": 6.2155825486741785,
+   "geomean Onsager-kT ms": 1.6238069571011735,
+   "geomean Onsager-online ms": 5.114230383088411
+  },
+  "Planar-like, +1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 2.7140743702905796,
+    "wins": 12,
+    "n": 12
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 2.149403722377886,
+    "wins": 12,
+    "n": 12
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 0.8159054845981902,
+    "wins": 2,
+    "n": 12
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 0.6461541013395752,
+    "wins": 1,
+    "n": 12
+   },
+   "TEC vs SCA": {
+    "geomean": 1.2627103703384297,
+    "wins": 10,
+    "n": 12
+   },
+   "geomean SCA ms": 0.24928211147301335,
+   "geomean TEC ms": 0.1974182816018222,
+   "geomean Onsager-kT ms": 0.09184792951945683,
+   "geomean Onsager-online ms": 0.3055281722928698
+  },
+  "Planar-like, +-1": {
+   "Onsager-kT vs SCA": {
+    "geomean": 1.39176512521819,
+    "wins": 7,
+    "n": 8
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 1.5242164092712194,
+    "wins": 8,
+    "n": 8
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.4490168631068732,
+    "wins": 8,
+    "n": 8
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 1.5869166715267096,
+    "wins": 8,
+    "n": 8
+   },
+   "TEC vs SCA": {
+    "geomean": 0.9131020482082601,
+    "wins": 1,
+    "n": 8
+   },
+   "geomean SCA ms": 0.7069118459284525,
+   "geomean TEC ms": 0.7741871210513595,
+   "geomean Onsager-kT ms": 0.5079246728629073,
+   "geomean Onsager-online ms": 0.4878561898946746
+  },
+  "All 51": {
+   "Onsager-kT vs SCA": {
+    "geomean": 2.166507848347891,
+    "wins": 49,
+    "n": 51
+   },
+   "Onsager-kT vs TEC": {
+    "geomean": 1.6789009880357926,
+    "wins": 42,
+    "n": 51
+   },
+   "Onsager-online vs SCA": {
+    "geomean": 1.2625982133438258,
+    "wins": 35,
+    "n": 51
+   },
+   "Onsager-online vs TEC": {
+    "geomean": 0.9784305141066763,
+    "wins": 28,
+    "n": 51
+   },
+   "TEC vs SCA": {
+    "geomean": 1.2904321718712948,
+    "wins": 36,
+    "n": 51
+   },
+   "geomean SCA ms": 0.2395677767053126,
+   "geomean TEC ms": 0.18564925916091202,
+   "geomean Onsager-kT ms": 0.11057784853537424,
+   "geomean Onsager-online ms": 0.1897418942728018
+  }
+ },
+ "cohorts_differing": {
+  "SCA": 12,
+  "TEC": 18,
+  "Onsager-kT": 20,
+  "Onsager-online": 10
+ }
+}

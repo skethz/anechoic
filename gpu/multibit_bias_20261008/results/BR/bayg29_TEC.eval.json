@@ -1,0 +1,39 @@
+{
+ "prefix": "bayg29_TEC",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 12.569567975,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 147,
+ "feasibility": 0.1435546875,
+ "feasibility_wilson95": [
+  0.12340952275605446,
+  0.1663642125459113
+ ],
+ "mean_quality": 0.0693581318114794,
+ "mean_quality_feasible": 0.48314780255071355,
+ "best_value": 2667,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  510.58756352100534,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  483.09570083168427,
+  Infinity
+ ]
+}

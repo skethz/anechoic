@@ -1,0 +1,39 @@
+{
+ "prefix": "bayg29_OnsagerkT_b1",
+ "B": 1,
+ "batches": 256,
+ "trials": 256,
+ "t_batch_ms": 12.552227492578124,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.01478385642587143
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.01478385642587143
+ ],
+ "feasible": 42,
+ "feasibility": 0.1640625,
+ "feasibility_wilson95": [
+  0.12372760124959209,
+  0.21433030228654026
+ ],
+ "mean_quality": 0.07450076680128996,
+ "mean_quality_feasible": 0.45409991193167215,
+ "best_value": 3058,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  3881.0436193513115,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  3881.0436193513115,
+  Infinity
+ ]
+}

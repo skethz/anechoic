@@ -1,0 +1,269 @@
+{
+ "checks": [
+  {
+   "check": "engine_sig == numpy reference",
+   "problem": "v_gpp40",
+   "method": "APC-SCA",
+   "identical": true,
+   "flips": 1659.0
+  },
+  {
+   "check": "engine_sig == numpy reference",
+   "problem": "v_gpp40",
+   "method": "TEC",
+   "identical": true,
+   "flips": 2346.3333333333335
+  },
+  {
+   "check": "engine_sig == numpy reference",
+   "problem": "v_tsp5",
+   "method": "APC-SCA",
+   "identical": true,
+   "flips": 48.0
+  },
+  {
+   "check": "engine_sig == numpy reference",
+   "problem": "v_tsp5",
+   "method": "TEC",
+   "identical": true,
+   "flips": 1354.0
+  },
+  {
+   "check": "engine_sig == numpy reference",
+   "problem": "G11",
+   "method": "APC-SCA",
+   "identical": true,
+   "flips": 11502.666666666666
+  },
+  {
+   "check": "engine_sig == numpy reference",
+   "problem": "G11",
+   "method": "TEC",
+   "identical": true,
+   "flips": 23893.333333333332
+  },
+  {
+   "check": "Neal default beta range == transcription",
+   "problem": "gpp",
+   "instance": 14,
+   "identical": true,
+   "hot": 0.00010860971177686388,
+   "cold": 1.8816303189426697
+  },
+  {
+   "check": "Neal default beta range == transcription",
+   "problem": "tsp",
+   "instance": "gr17",
+   "identical": true,
+   "hot": 2.7881129350622074e-06,
+   "cold": 0.1505839020482269
+  },
+  {
+   "check": "Neal default beta range == transcription",
+   "problem": "mcp",
+   "instance": 1,
+   "identical": true,
+   "hot": 0.005172740153432428,
+   "cold": 5.644890956828009
+  },
+  {
+   "check": "reaim_a2(F=min, T0=0.5) == transcription",
+   "problem": "gpp",
+   "instance": 14,
+   "identical": true
+  },
+  {
+   "check": "reaim_a2(F=min, T0=0.5) == transcription",
+   "problem": "tsp",
+   "instance": "gr17",
+   "identical": true
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "SA",
+   "msg": "mcp G14    SA              S=250   q=0.9910 feas=1.000 p=0.625 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "SCA",
+   "msg": "mcp G14    SCA             S=250   q=0.0000 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "TEC",
+   "msg": "mcp G14    TEC             S=250   q=0.0000 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "APC-SCA",
+   "msg": "mcp G14    APC-SCA         S=250   q=0.9139 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "ReAIM ASA",
+   "msg": "mcp G14    ReAIM ASA       S=250   q=0.9691 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "aSB",
+   "msg": "mcp G14    aSB             S=250   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "bSB",
+   "msg": "mcp G14    bSB             S=250   q=0.9884 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "dSB",
+   "msg": "mcp G14    dSB             S=250   q=0.9899 feas=1.000 p=0.375 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "Onsager-kT",
+   "msg": "mcp G14    Onsager-kT      S=250   q=0.9842 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "mcp",
+   "method": "Onsager-online",
+   "msg": "mcp G14    Onsager-online  S=250   q=0.9812 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "SA",
+   "msg": "gpp G14    SA              S=256   q=0.8762 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "SCA",
+   "msg": "gpp G14    SCA             S=256   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "TEC",
+   "msg": "gpp G14    TEC             S=256   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "APC-SCA",
+   "msg": "gpp G14    APC-SCA         S=256   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "ReAIM ASA",
+   "msg": "gpp G14    ReAIM ASA       S=256   q=0.2063 feas=0.250 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "aSB",
+   "msg": "gpp G14    aSB             S=256   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "bSB",
+   "msg": "gpp G14    bSB             S=256   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "dSB",
+   "msg": "gpp G14    dSB             S=256   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "Onsager-kT",
+   "msg": "gpp G14    Onsager-kT      S=256   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "gpp",
+   "method": "Onsager-online",
+   "msg": "gpp G14    Onsager-online  S=256   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "SA",
+   "msg": "tsp gr17   SA              S=512   q=0.6084 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "SCA",
+   "msg": "tsp gr17   SCA             S=512   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "TEC",
+   "msg": "tsp gr17   TEC             S=512   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "APC-SCA",
+   "msg": "tsp gr17   APC-SCA         S=512   q=0.3963 feas=0.625 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "ReAIM ASA",
+   "msg": "tsp gr17   ReAIM ASA       S=512   q=0.0641 feas=0.125 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "aSB",
+   "msg": "tsp gr17   aSB             S=512   q=0.0000 feas=0.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "bSB",
+   "msg": "tsp gr17   bSB             S=512   q=0.7360 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "dSB",
+   "msg": "tsp gr17   dSB             S=512   q=0.5852 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "Onsager-kT",
+   "msg": "tsp gr17   Onsager-kT      S=512   q=0.5210 feas=1.000 p=0.000 opt=0 (0s)"
+  },
+  {
+   "check": "smoke run",
+   "problem": "tsp",
+   "method": "Onsager-online",
+   "msg": "tsp gr17   Onsager-online  S=512   q=0.4195 feas=0.750 p=0.000 opt=0 (0s)"
+  }
+ ],
+ "all_ok": true,
+ "platform": {
+  "node": "gpu-host",
+  "machine": "aarch64",
+  "numpy": "1.26.4",
+  "numba": "0.60.0"
+ }
+}

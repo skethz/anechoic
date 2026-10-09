@@ -1,0 +1,6 @@
+K 2 matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G32 maxabs 1 sumw 22 fingerprint eced6fa131a19383 auto_scale 0.002
+case 0 onsager_ramp_S600 S 600 t0 4 t1 0.5 q 2 lambda 0.9 ramp 1 jv 0 kappa 0 scale 0.002 trials 2 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 1350 flips 126857
+  trial 1001 cut 1358 flips 128020
+case 1 tecT_ramp_S600 S 600 t0 4 t1 0.5 q 2 lambda 0 ramp 1 jv 0 kappa 1.5 scale 0.002 trials 1 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 1340 flips 101117

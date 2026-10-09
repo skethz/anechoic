@@ -1,0 +1,11 @@
+A5-C X5 control identical to the original run: {'common': 2052, 'mismatches': 0, 'pass_': True}
+A5-M p against the reference model: {"SP_long": {"p_board": 0.8240740740740741, "p_model": 0.8289473684210527, "within": true, "model_primary_ms": 0.30846031112307204, "model_secondary_ms": 0.06703878853819048}, "SP_short": {"p_board": 0.13401559454191034, "p_model": 0.13791423001949318, "within": true, "model_primary_ms": 0.24856772907220842, "model_secondary_ms": 0.24856772907220848}}
+key       p      P_round (pred)    t_round ms  TTS99 primary ms  secondary ms  mean flips
+X5        0.3382 1.0000 (0.9929) ok 0.0503      0.0503            0.0468       47446
+SP_long   0.8241 1.0000 (1.0000) ok 0.3015      0.3015            0.0666       329328
+SP_short  0.1340 0.8480 (0.8221) ok 0.0945      0.2310            0.2520       86647
+orig X5   0.3382 1.0000 (0.9929) ok 0.0503      0.0503            0.0468       47446
+orig X4   0.9503 1.0000 (1.0000) ok 0.1419      0.1419            0.0181       149129
+orig P3   0.4386 1.0000 (0.9990) ok 0.1993      0.1993            0.1325       130538
+ratios SP_long {'primary_SP_over_O1_session': 5.99, 'primary_SP_over_O1_original': 5.99, 'secondary_SP_over_O5_original': 3.669, 'primary_O1_session_over_SP': 0.167, 'secondary_O5_original_over_SP': 0.273}
+ratios SP_short {'primary_SP_over_O1_session': 4.589, 'primary_SP_over_O1_original': 4.589, 'secondary_SP_over_O5_original': 13.884, 'primary_O1_session_over_SP': 0.218, 'secondary_O5_original_over_SP': 0.072}

@@ -1,0 +1,128 @@
+{
+ "runs": 15,
+ "trials": 424,
+ "exact": 424,
+ "mismatch": 0,
+ "rows": [
+  {
+   "prefix": "results/V/plain_c8g1",
+   "trials": 4,
+   "exact": 4,
+   "mismatch": 0,
+   "steps": 40,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/plain_c4g2",
+   "trials": 8,
+   "exact": 8,
+   "mismatch": 0,
+   "steps": 40,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/plain_l2",
+   "trials": 2,
+   "exact": 2,
+   "mismatch": 0,
+   "steps": 40,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/ons_c8g2",
+   "trials": 8,
+   "exact": 8,
+   "mismatch": 0,
+   "steps": 960,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/ons_c4g1",
+   "trials": 4,
+   "exact": 4,
+   "mismatch": 0,
+   "steps": 960,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/ons_l2",
+   "trials": 2,
+   "exact": 2,
+   "mismatch": 0,
+   "steps": 960,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/ons_c8g1_wave",
+   "trials": 120,
+   "exact": 120,
+   "mismatch": 0,
+   "steps": 960,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/tect_c8g1",
+   "trials": 4,
+   "exact": 4,
+   "mismatch": 0,
+   "steps": 280,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/tect_c4g2",
+   "trials": 8,
+   "exact": 8,
+   "mismatch": 0,
+   "steps": 280,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/tect_c8g2",
+   "trials": 8,
+   "exact": 8,
+   "mismatch": 0,
+   "steps": 280,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/tect_l2",
+   "trials": 2,
+   "exact": 2,
+   "mismatch": 0,
+   "steps": 280,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/tect_c8g2_wave",
+   "trials": 240,
+   "exact": 240,
+   "mismatch": 0,
+   "steps": 280,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/tec_c8g2",
+   "trials": 8,
+   "exact": 8,
+   "mismatch": 0,
+   "steps": 100,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/tec_c4g1",
+   "trials": 4,
+   "exact": 4,
+   "mismatch": 0,
+   "steps": 100,
+   "seed": 20261004
+  },
+  {
+   "prefix": "results/V/tec_l2",
+   "trials": 2,
+   "exact": 2,
+   "mismatch": 0,
+   "steps": 100,
+   "seed": 20261004
+  }
+ ]
+}

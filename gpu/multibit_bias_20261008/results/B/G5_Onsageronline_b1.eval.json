@@ -1,0 +1,39 @@
+{
+ "prefix": "G5_Onsageronline_b1",
+ "B": 1,
+ "batches": 256,
+ "trials": 256,
+ "t_batch_ms": 0.89288662440625,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.01478385642587143
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.01478385642587143
+ ],
+ "feasible": 7,
+ "feasibility": 0.02734375,
+ "feasibility_wilson95": [
+  0.013307156355121155,
+  0.05535570792246043
+ ],
+ "mean_quality": 0.021704393532066917,
+ "mean_quality_feasible": 0.7937606777441616,
+ "best_value": 9373,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  276.07306659355777,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  276.07306659355777,
+  Infinity
+ ]
+}

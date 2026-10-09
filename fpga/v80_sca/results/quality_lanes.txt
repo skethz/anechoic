@@ -1,0 +1,2 @@
+LANES=128 O1: p=0.932 (+-0.011) mean_cut=33130.5 mean_flips=133609
+LANES=256 O1: p=0.933 (+-0.011) mean_cut=33133.1 mean_flips=133348

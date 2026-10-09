@@ -1,0 +1,39 @@
+{
+ "prefix": "fri26_OnsagerkT",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 12.568574071875,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 822,
+ "feasibility": 0.802734375,
+ "feasibility_wilson95": [
+  0.7772491834411346,
+  0.825956685206511
+ ],
+ "mean_quality": 0.36924595340859767,
+ "mean_quality_feasible": 0.4599852266306618,
+ "best_value": 1579,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  510.5471902499447,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  483.0575014021028,
+  Infinity
+ ]
+}

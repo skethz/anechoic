@@ -1,0 +1,5 @@
+K 4 matrix jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/G1_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/G1_K4.bias.bin n 800 nfield 800 bias_mode 0 maxabs 7 sumw 2198848 field_bound 5539 fingerprint 3f9a2e9fb5fa7c93 auto_scale 47.50055
+case 0 G1gpp_plain_S1024 S 1024 t0 6.05839 t1 1.81752 q 48.4671 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 0 flips 818808 energy2 4397696
+case 1 G1gpp_tecT_S2048 S 2048 t0 48.4671 t1 7.27007 q 387.737 lambda 0 ramp 1 jv 0 kappa 4.04422 scale 1 trials 1 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 0 flips 1636961 energy2 4397696

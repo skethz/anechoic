@@ -1,0 +1,80 @@
+=== 23:49:15.620662734
+Total_Power     |   62.937 W | valid    
+=== 23:49:16.937411153
+Total_Power     |   80.477 W | valid    
+=== 23:49:18.350118886
+Total_Power     |   84.052 W | valid    
+=== 23:49:19.765982721
+Total_Power     |   84.014 W | valid    
+=== 23:49:21.180092343
+Total_Power     |   84.265 W | valid    
+=== 23:49:22.491898361
+Total_Power     |   80.475 W | valid    
+=== 23:49:23.905208824
+Total_Power     |   84.030 W | valid    
+=== 23:49:25.319721868
+Total_Power     |   84.270 W | valid    
+=== 23:49:26.635124321
+Total_Power     |   84.248 W | valid    
+=== 23:49:28.048932225
+Total_Power     |   80.693 W | valid    
+=== 23:49:29.461626064
+Total_Power     |   84.511 W | valid    
+=== 23:49:30.775083287
+Total_Power     |   84.024 W | valid    
+=== 23:49:32.086624944
+Total_Power     |   84.292 W | valid    
+=== 23:49:33.401873022
+Total_Power     |   84.264 W | valid    
+=== 23:49:34.715063526
+Total_Power     |   70.369 W | valid    
+=== 23:49:36.129629355
+Total_Power     |   84.242 W | valid    
+=== 23:49:37.542740377
+Total_Power     |   84.226 W | valid    
+=== 23:49:38.855605290
+Total_Power     |   84.467 W | valid    
+=== 23:49:40.169718501
+Total_Power     |   84.226 W | valid    
+=== 23:49:41.481024113
+Total_Power     |   84.482 W | valid    
+=== 23:49:42.795996210
+Total_Power     |   80.664 W | valid    
+=== 23:49:44.208573359
+Total_Power     |   84.489 W | valid    
+=== 23:49:45.621404076
+Total_Power     |   84.473 W | valid    
+=== 23:49:46.934711104
+Total_Power     |   84.473 W | valid    
+=== 23:49:48.248996399
+Total_Power     |   84.467 W | valid    
+=== 23:49:49.561804618
+Total_Power     |   81.170 W | valid    
+=== 23:49:50.976985579
+Total_Power     |   84.505 W | valid    
+=== 23:49:52.389349039
+Total_Power     |   84.242 W | valid    
+=== 23:49:53.702848778
+Total_Power     |   84.505 W | valid    
+=== 23:49:55.117462419
+Total_Power     |   84.693 W | valid    
+=== 23:49:56.429170759
+Total_Power     |   80.433 W | valid    
+=== 23:49:57.843162017
+Total_Power     |   84.784 W | valid    
+=== 23:49:59.156171246
+Total_Power     |   84.784 W | valid    
+=== 23:50:00.569171515
+Total_Power     |   84.548 W | valid    
+=== 23:50:01.984461620
+Total_Power     |   81.436 W | valid    
+=== 23:50:03.296299992
+Total_Power     |   85.029 W | valid    
+=== 23:50:04.710667236
+Total_Power     |   84.295 W | valid    
+=== 23:50:06.125719404
+Total_Power     |   84.745 W | valid    
+=== 23:50:07.439320691
+Total_Power     |   70.855 W | valid    
+=== 23:50:08.852464027
+Total_Power     |   84.790 W | valid    

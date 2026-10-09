@@ -1,0 +1,1 @@
+{"burn_seconds_wall":75.00132688,"batches":710208,"chains":120,"cs":8,"groups":1,"steps":120,"device_ms_total":74959,"device_ms_per_batch":0.1055451361,"gpu_before":"0 %, 22369 MiB, 106.61 W, 181.88 W, 1980 MHz","gpu_after":"100 %, 22384 MiB, 384.58 W, 459.77 W, 1980 MHz"}

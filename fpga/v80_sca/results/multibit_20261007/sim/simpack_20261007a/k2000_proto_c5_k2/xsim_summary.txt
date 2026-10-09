@@ -1,0 +1,7 @@
+beats 67098 words 34 DRAIN 2 K 2
+launch start: beat 0 cycle 20
+launch start: beat 1 cycle 21
+trial start: cycle 71606
+trial out: cycle 124964
+DONE: 34 words, 0 errors, 0 residue violations, cycle 125065
+TESTBENCH PASSED

@@ -1,0 +1,146 @@
+{
+ "G22_ons": {
+  "config": {
+   "t0": 5,
+   "t1": 0.5,
+   "q": 5,
+   "S": 1024,
+   "lam": 0.5,
+   "ramp": 1,
+   "kappa": 0,
+   "corr_scale": "auto"
+  },
+  "target": 13226,
+  "validation_hits": 220,
+  "validation_trials": 512,
+  "p": 0.4296875,
+  "p_wilson95": [
+   0.38748797950396086,
+   0.4729342896577353
+  ],
+  "mean_flips": 20580.925,
+  "model_cycles": 24028.4,
+  "predicted_tts99_ms": 0.101397008,
+  "predicted_round_ms": 0.101397008
+ },
+ "G22_plain": {
+  "config": {
+   "t0": 5,
+   "t1": 0.7,
+   "q": 5,
+   "S": 1024,
+   "lam": 0,
+   "ramp": 0,
+   "kappa": 0,
+   "corr_scale": "1"
+  },
+  "target": 13226,
+  "validation_hits": 211,
+  "validation_trials": 512,
+  "p": 0.412109375,
+  "p_wilson95": [
+   0.3702820155306509,
+   0.4552458209214693
+  ],
+  "mean_flips": 18733.55,
+  "model_cycles": 24028.4,
+  "predicted_tts99_ms": 0.101397008,
+  "predicted_round_ms": 0.101397008
+ },
+ "G22_tecT": {
+  "config": {
+   "t0": 5,
+   "t1": 0.7,
+   "q": 5,
+   "S": 1024,
+   "lam": 0,
+   "ramp": 1,
+   "kappa": 1.5,
+   "corr_scale": "auto"
+  },
+  "target": 13226,
+  "validation_hits": 209,
+  "validation_trials": 512,
+  "p": 0.408203125,
+  "p_wilson95": [
+   0.3664659654278728,
+   0.4513075526443416
+  ],
+  "mean_flips": 19399.125,
+  "model_cycles": 24028.4,
+  "predicted_tts99_ms": 0.101397008,
+  "predicted_round_ms": 0.101397008
+ },
+ "G32_ons": {
+  "config": {
+   "t0": 1.5,
+   "t1": 0.5,
+   "q": 1.5,
+   "S": 4096,
+   "lam": 0.9,
+   "ramp": 1,
+   "kappa": 0,
+   "corr_scale": "auto"
+  },
+  "target": 1396,
+  "validation_hits": 1,
+  "validation_trials": 512,
+  "p": 0.001953125,
+  "p_wilson95": [
+   0.00034484888958186144,
+   0.010979557672432524
+  ],
+  "mean_flips": 118115.7625,
+  "model_cycles": 93455.6,
+  "predicted_tts99_ms": 76.0520827321457,
+  "predicted_round_ms": 0.38743707200000005
+ },
+ "G32_plain": {
+  "config": {
+   "t0": 2,
+   "t1": 0.5,
+   "q": 1,
+   "S": 4096,
+   "lam": 0,
+   "ramp": 0,
+   "kappa": 0,
+   "corr_scale": "1"
+  },
+  "target": 1396,
+  "validation_hits": 5,
+  "validation_trials": 512,
+  "p": 0.009765625,
+  "p_wilson95": [
+   0.004178240073313047,
+   0.02265480324851288
+  ],
+  "mean_flips": 409686.95,
+  "model_cycles": 133322.06167999998,
+  "predicted_tts99_ms": 21.57385740309364,
+  "predicted_round_ms": 0.5516868941216
+ },
+ "G32_tecT": {
+  "config": {
+   "t0": 2,
+   "t1": 0.5,
+   "q": 1,
+   "S": 4096,
+   "lam": 0,
+   "ramp": 1,
+   "kappa": 2,
+   "corr_scale": "auto"
+  },
+  "target": 1396,
+  "validation_hits": 6,
+  "validation_trials": 512,
+  "p": 0.01171875,
+  "p_wilson95": [
+   0.0053814982556274005,
+   0.025328704256151413
+  ],
+  "mean_flips": 412665.7375,
+  "model_cycles": 133746.24102,
+  "predicted_tts99_ms": 18.017402485399423,
+  "predicted_round_ms": 0.5534345130024
+ }
+}

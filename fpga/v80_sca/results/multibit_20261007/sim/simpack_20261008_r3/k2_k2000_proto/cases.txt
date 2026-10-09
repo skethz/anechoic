@@ -1,0 +1,5 @@
+K 2 matrix k2000:/scratch/USER/sca_v80_20261003/data/K2000.bin n 2000 nfield 2000 bias_mode 0 maxabs 1 sumw -1040 field_bound 1999 fingerprint afdd54db55116453 auto_scale 0.9995
+case 0 O4 S 360 t0 12 t1 5 q 6 lambda 0.9 ramp 0 jv 0 kappa 0 scale 1 trials 1 trace 0 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 32933 flips 50703 energy2 -133812
+case 1 X5 S 280 t0 15 t1 5 q 8 lambda 0 ramp 1 jv 0 kappa 1.75 scale 1 trials 1 trace 0 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 33011 flips 46185 energy2 -134124

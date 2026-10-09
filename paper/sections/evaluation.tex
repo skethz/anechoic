@@ -1,0 +1,269 @@
+\section{Evaluation}\label{sec:evaluation}
+
+\subsection{Experimental methodology}\label{subsec:setup}
+\textbf{Platform.} Anechoic runs on an AMD Alveo V80 (Versal HBM, xcv80, three SLRs)~\cite{amd_v80} with the AVED shell~\cite{amd_aved}, implemented with Vivado 2025.1. Twelve eight-extractor engines run at \fClk{}; after routing, the setup slack is $+0.022$\,ns and the hold slack $+0.010$\,ns.
+
+\noindent\textbf{Timing.} Each engine's start-to-done cycle counter, divided by the kernel clock, gives the device time. For 64-trial launches, host wall-clock time agrees with the counters to within 0.3\%.
+
+\noindent\textbf{Problem and scoring.} Unless stated otherwise, the hardware experiments use K2000~\cite{doi:10.1126/science.aah4243} (Section~\ref{sec:background}), as do all works in Table~\ref{tab:comp}. A trial succeeds if its final state has a cut of at least 33{,}000. The host rescores every returned state independently of the device.
+
+\noindent\textbf{Protocol.} A configuration, or schedule, specifies the rule, $q$, $\lambda$ or $\kappa$, $T_0$ and $S$. The configurations, seeds, trial counts, estimators and quantitative predictions are frozen and hashed with SHA-256 before any data are taken. Later configurations enter only through amendments frozen in the same way. Each configuration runs 2{,}052 trials, that is, 171 rounds of 12 engines. Nine Onsager schedules of both forms are measured: five are re-selected for twelve engines with the cycle model of Equation~\eqref{eq:cycles} and checked on 2{,}048 held-out runs, and four come from an earlier ablation. The baselines are STATICA's two published K2000 schedules for plain SCA~\cite{yamamoto2021statica} (B5, B7) and, for reference, plain-SCA schedules from this work (B2, B3, B6) and TEC-style schedules (B1, B4), which adapt TEC~\cite{du2026tec} by adding its coupling to SCA.
+Every pre-registered K2000 prediction for the 12-engine system holds, including time (0.051\,ms predicted, 0.050\,ms measured for O1). On the earlier 9-engine v4, the time predictions fail because the model omits per-launch table streaming, which motivated the resident tables (Section~\ref{subsec:system}).
+
+
+\subsection{Time-to-solution}\label{subsec:ttsres}
+\begin{table}[t]
+\centering
+\caption{Measured TTS$_{99}$ [ms] on the V80 (12 engines, 250\,MHz, cut $\geq$ 33{,}000, 2{,}052 trials each). $t_r$: mean round time; primary: from measured rounds; secondary: from the per-trial success probability $p$ (Section~\ref{subsec:tts}). Labels (Section~\ref{subsec:setup}): O, Onsager schedules; B, baselines, with STATICA's published K2000 schedules~\cite{yamamoto2021statica} as B5 and B7. Within each group, labels follow the primary TTS$_{99}$.}
+\label{tab:configs}
+\setlength{\tabcolsep}{2.8pt}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+Label & Rule & $S$ & $p$ & $t_r$ [ms] & Primary & Secondary \\
+\midrule
+O1 & Onsager-$\kappa T$ & 280 & 0.338 & 0.050 & \textbf{0.050} & 0.047 \\
+O2 & Onsager-online & 360 & 0.326 & 0.059 & 0.053 & 0.057 \\
+O3 & Onsager-$\kappa T$ & 320 & 0.428 & 0.057 & 0.057 & 0.039 \\
+O4 & Onsager-online & 320 & 0.455 & 0.063 & 0.063 & 0.040 \\
+O5 & Onsager-$\kappa T$ & 760 & 0.950 & 0.142 & 0.142 & \textbf{0.018} \\
+O6 & Onsager-online & 960 & 0.933 & 0.173 & 0.173 & 0.025 \\
+\midrule
+B1 & TEC-style & 960 & 0.392 & 0.137 & 0.137 & 0.105 \\
+B2 & plain SCA & 960 & 0.461 & 0.157 & 0.140 & 0.098 \\
+B3 & plain SCA & 1560 & 0.439 & 0.199 & 0.199 & 0.132 \\
+B4 & TEC-style & 1560 & 0.667 & 0.216 & 0.216 & 0.075 \\
+B5 & plain SCA & 560 & 0.134 & 0.095 & 0.231 & 0.252 \\
+B6 & plain SCA & 1560 & 0.819 & 0.271 & 0.271 & 0.061 \\
+B7 & plain SCA & 1560 & 0.824 & 0.302 & 0.302 & 0.067 \\
+\bottomrule
+\end{tabular}
+\vspace{-0.6em}%
+\end{table}
+\begin{table}[t]
+\centering
+\caption{Design evolution: all measured board implementations (v6: eight extractors; v7: multi-bit couplings with bias, Section~\ref{subsec:multibit}). TTS$_{99}$: best primary value per version; resources include the shell. $^{a}$/$^{b}$/$^{c}$Plus 792/1{,}560/1{,}566 URAM blocks.}
+\label{tab:evo}
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Version & $E$ & MHz & cyc/step & cyc/flip & LUT & BRAM & TTS$_{99}$ [ms] \\
+\midrule
+v1 (HLS) & 1 & 300 & 40.2 & 0.52 & 0.20\,M & 141 & 0.634 \\
+v2 (HLS) & 1 & 250 & 31.1 & 0.28 & 0.27\,M & 269 & 0.464 \\
+v3 (HLS) & 3 & 225 & 31.1 & 0.28 & 1.05\,M & 890 & 0.211 \\
+v4 (RTL) & 9 & 300 & 16.9 & 0.27 & 1.27\,M & 2{,}489 & 0.081 \\
+v5 (RTL) & 12 & 275 & 16.9 & 0.27 & 1.68\,M & 3{,}318 & 0.069 \\
+v6 (RTL) & 12 & 250 & 18.1 & 0.14 & 1.91\,M & 3{,}318$^{a}$ & \textbf{0.050} \\
+v7 ($K{=}2$) & 12 & 250 & 18.1 & 0.14 & 2.30\,M & 3{,}312$^{b}$ & \textbf{0.050} \\
+v7 ($K{=}4$) & 6 & 225 & 18.1 & 0.14 & 2.21\,M & 3{,}183$^{c}$ & 0.098 \\
+\bottomrule
+\end{tabular}
+\vspace{-0.6em}%
+\end{table}
+\begin{table*}[t]
+\centering
+\caption{TTS$_{99}$ on the K2000 Max-Cut instance: a CPU baseline first, then hardware Ising machines in order of publication. Values of other machines are quoted from the cited publications; all CMOS and ReRAM results are simulations.}
+\label{tab:comp}
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l c c c c c c c c c c c c c c@{}}
+\toprule
+Machine & \multicolumn{2}{c}{Neal$^{a}$~\cite{dwave_neal}} &
+CIM$^{b}$~\cite{doi:10.1126/science.aah4243} & SB$^{b}$~\cite{goto2019combinatorial} &
+\multicolumn{2}{c}{STATICA$^{c}$~\cite{yamamoto2021statica}} &
+bSB$^{d}$~\cite{goto2021high} &
+\multicolumn{2}{c}{ReAIM$^{e}$~\cite{10609617}} &
+GbSB$^{f}$~\cite{goto2026edge} &
+DSSA$^{g}$~\cite{onizawa2026dssa} &
+\multicolumn{3}{c}{\textcolor{anechoic}{\textbf{Anechoic}$^{h}$}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-4}\cmidrule(lr){5-5}\cmidrule(lr){6-7}\cmidrule(lr){8-8}\cmidrule(lr){9-10}\cmidrule(lr){11-11}\cmidrule(lr){12-12}\cmidrule(l){13-15}
+Hardware & \multicolumn{2}{c}{CPU} & Optics & FPGA &
+\multicolumn{2}{c}{CMOS} & FPGA & \multicolumn{2}{c}{ReRAM} & FPGA & CMOS & \textcolor{anechoic}{\textbf{FPGA}} & \textcolor{anechoic}{\textbf{GPU}} & \textcolor{anechoic}{\textbf{CMOS}} \\
+Target cut & \multicolumn{2}{c}{33{,}000} & 33{,}000 & 33{,}000 &
+\multicolumn{2}{c}{33{,}000} & 33{,}004 & \multicolumn{2}{c}{33{,}000} & 33{,}337 & n/s & \multicolumn{3}{c}{\textcolor{anechoic}{\textbf{33{,}000}}} \\
+\midrule
+$t_a$ [ms] & 4{,}610 & 5{,}646 & 5.0 & 0.5 & 0.13 & 0.48 & -- & 0.15 & 0.23 & 9.42 & 2.30 & \textcolor{anechoic}{\textbf{0.05}} & \textcolor{anechoic}{\textbf{0.11}} & \textcolor{anechoic}{\textbf{0.01}} \\
+$P_a$ & 0.38 & 0.77 & 0.02 & 0.04 & 0.07 & 0.77 & -- & 0.47 & 0.8 & 0.989 & 0.98 & \textcolor{anechoic}{\textbf{1.00}} & \textcolor{anechoic}{\textbf{1.00}} & \textcolor{anechoic}{\textbf{1.00}} \\
+TTS$_{99}$ [ms] & 44{,}413 & 17{,}693 & 1{,}139.74 & 56.41 & 8.23 & 1.50 & 0.26 & 1.11 & 0.68 & 9.61 & 2.7 & \textcolor{anechoic}{\textbf{0.05}} & \textcolor{anechoic}{\textbf{0.11}} & \textcolor{anechoic}{\textbf{0.01}} \\
+\bottomrule
+\end{tabular*}
+\par\smallskip
+\begin{minipage}{\textwidth}
+$^{a}$SA on an Intel Core i9-12900KF, reported by ReAIM~\cite{10609617}.
+$^{b}$Compiled by STATICA~\cite{yamamoto2021statica}; SB: Intel Arria~10 GX FPGA~\cite{goto2019combinatorial}.
+$^{c}$Cycle-level simulation of a 2K-spin STATICA at 300\,MHz; the fabricated 65-nm chip has 512 spins~\cite{yamamoto2021statica}.
+$^{d}$TTT at 99\% of the best-known cut ($\geq$\,33{,}004); $t_a$ and $P_a$ not reported~\cite{goto2021high}.
+$^{e}$Simulation of a ReRAM processing-in-memory design, digital logic scaled from 130 to 32\,nm~\cite{10609617}.
+$^{f}$Intel Agilex~7 FPGA at 591\,MHz; target: the best-known cut; $t_a$: 21{,}400 steps of 0.440\,\textmu s~\cite{goto2026edge}.
+$^{g}$Post-layout simulation of a 28-nm processor at 500\,MHz, annealing phase only; target not stated (n/s)~\cite{onizawa2026dssa}.
+$^{h}$Onsager-$\kappa T$, primary estimator (Section~\ref{subsec:tts}); $t_a$: mean round time; $P_a$: fraction of successful rounds. FPGA: AMD Alveo V80, 12 engines at 250\,MHz (O1, 171 rounds). GPU: NVIDIA GH200, 120 chains, own schedule (128 rounds; Section~\ref{subsec:gpu}). CMOS: simulation of 12 GlobalFoundries 22FDX engines, routed at 1.25\,GHz and cycle-exact to the FPGA in RTL (Section~\ref{subsec:asic}).
+\end{minipage}
+\vspace{-0.6em}%
+\end{table*}
+
+Table~\ref{tab:configs} lists representative configurations, all on v6: the best primary TTS$_{99}$ is \ttsP{} (O1, Onsager-$\kappa T$; at most 0.061\,ms with 95\% confidence), the best Onsager-online schedule reaches 0.053\,ms (O2), below its 17\% longer round time because 1 of its 171 rounds fails (Section~\ref{subsec:tts}), and the best secondary TTS$_{99}$ is \ttsS{} (O5).
+
+Against STATICA's published schedules on the same board, the best corrected configurations are faster: O1 by $4.6\times$ on the primary estimator and O5 by $3.7\times$ on the secondary (against the better of B5 and B7). Against this work's plain-SCA and TEC-style schedules (B1--B4, B6), the factors are $2.8\times$ and $2.7\times$ (primary) and $3.4\times$ and $4.2\times$ (secondary).
+Figure~\ref{fig:flips} shows where the gain comes from: (1)~O1 and O2 start cooler and finish in 280--360 steps instead of 560--1560; (2)~they flip fewer spins per trial (45--47\,k instead of 87--329\,k); and (3)~the engine's cost follows the flips (Equation~\eqref{eq:cycles}).
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{flips_profile.pdf}
+  \caption{Mean flips per step over one trial for seven configurations of Table~\ref{tab:configs}, on a time axis from the cycle model (Equation~\eqref{eq:cycles}). The legend gives the on-board per-trial success probability and the mean 12-engine round time. The corrected forms succeed less often per trial than B1--B3 (0.33--0.34 against 0.39--0.46) but in rounds 25--43\% as long, and 2.5 times as often as STATICA's B5 in rounds 53--62\% as long.}
+  \Description{Flips per step start near 900 for all seven configurations. The two Onsager curves end within about 50 microseconds, STATICA's short schedule at about 90, the plain SCA and TEC-style schedules at 130 to 180, and STATICA's long schedule at 300 microseconds.}
+  \label{fig:flips}
+\vspace{-0.6em}%
+\end{figure}
+
+
+
+\subsection{Comparison with the state of the art}\label{subsec:sota}
+
+
+Table~\ref{tab:comp} compares Anechoic with published results, at the 33{,}000 target except where the table lists another. On the primary estimator, Anechoic is \spdBSB{} faster than bSB, the fastest measured hardware~\cite{goto2021high}; with 95\% confidence, it is at least $4.2\times$ faster. That comparison mixes targets: bSB reports the same measure, as time to target (TTT), for a cut of at least 33{,}004, 99\% of the best known.
+
+Figure~\ref{fig:alg} and Table~\ref{tab:comp} rank bSB differently because they measure different quantities. Figure~\ref{fig:alg} counts Monte Carlo steps: bSB needs the fewest, 293 steps to reach the target with 99\% probability, against 830 for Onsager-$\kappa T$ (Section~\ref{subsec:algcomp}). Table~\ref{tab:comp} measures time on hardware, where step costs differ: a bSB step multiplies the full coupling matrix by a real-valued vector, and GbSB takes 0.44\,\textmu s per step~\cite{goto2026edge}. A step of this engine processes only the 126--169 spins that flip and takes 0.15--0.18\,\textmu s (Section~\ref{subsec:update}). Part of the advantage is parallelism: the V80 runs twelve engines, and with O1 every 50\,\textmu s round has a success; one engine would need about 0.22\,ms (O5).
+
+At the best-known cut, however, the proposed dynamics lag the state of the art: GbSB~\cite{goto2026edge} reaches 33{,}337 in 9.61\,ms. In a pre-registered study with the engine's floating-point model, the best Onsager-online schedule needs 54\,ms on twelve engines (95\% CI 44--65\,ms), 5.6 times GbSB's time, but its 16{,}000 steps exceed the engine's 4{,}096-entry table, within which the best needs 105\,ms. With a larger table, the 1.25\,GHz ASIC would need 11\,ms (95\% CI 9--13\,ms), 1.1 times GbSB's time, and 21\,ms with the present table.
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=\textwidth]{asic_engine_v64_1p25.pdf}
+  \caption{ASIC implementation of one engine (v6) in GlobalFoundries 22FDX, placed and routed at 1.25\,GHz. (a)~SRAM macros and standard cells by design hierarchy: each of the eight slices holds four groups next to their coupling macros, so every coupling read stays within its slice. (b)~Signal and clock wiring by metal layer. (c)~Clock tree: 2{,}798 buffers and 756 clock gates drive about 162{,}000 flip-flops (mean insertion delay 597\,ps, skew 81\,ps); enlarged markers show the 1{,}894 buffers that clock-tree synthesis placed. (d)~Area and power at the typical corner (0.80\,V, 25\,$^{\circ}$C), with O1 activity.}
+  \Description{Four panels. (a) The die of 2.23 by 1.62 mm with tall blue SRAM columns and green group logic in eight vertical slices; dark blue table and trace memories at the top left and orange shared logic along the top. (b) The same die with dense green and orange wiring over the logic strips and orange horizontal wires over the SRAM. (c) Dark clock wires with red buffer markers over the logic strips and the top band. (d) Two stacked bars: the area is 57 percent SRAM, 17 percent logic and 26 percent routing and unused space; the power is 42 percent SRAM, 29 percent flip-flops, 19 percent logic and 9 percent clock tree.}
+  \label{fig:asic}
+\vspace{-0.6em}%
+\end{figure*}
+
+\subsection{Hardware cost and energy}\label{subsec:cost}
+Board input power is sampled every 0.25\,s through the AVED Management Interface driver while all engines run back to back for 150\,s, over 99\% busy and without clock throttling. With O1, the board draws \pBoard{}, so the energy per solution, power times primary TTS$_{99}$, is \ets{} (Table~\ref{tab:platform}). The engines add 36--41\,W to the 66--73\,W the board draws at idle. The multi-bit images draw more on K2000: 126\,W for twelve 2-bit engines (6.4\,mJ per solution) and 94\,W for six 4-bit engines at 225\,MHz, which need 0.098\,ms (9.2\,mJ). Block RAM is the scarcest resource (89\%, Table~\ref{tab:hw}), because each engine stores its couplings four times (Section~\ref{subsec:layout}).
+
+\subsection{The same engine on a GPU}\label{subsec:gpu}
+To separate the platform from the algorithm, the engine is also implemented bit-exactly on an NVIDIA GH200~\cite{nvidia_gh200}. The GPU version reproduces the reference model, and therefore the V80, in 424 of 424 traced trials. Each chain, an independent anneal, runs on eight thread blocks that hold $J$ in registers and exchange flip masks through distributed shared memory.
+Up to 240 chains run concurrently, with schedules re-selected for the GPU (Table~\ref{tab:platform}).
+
+\begin{table}[t]
+\centering
+\caption{The same bit-exact engine on three platforms (K2000, cut $\geq$ 33{,}000): the V80 and the GH200 GPU are measured, and the ASIC is estimated (Section~\ref{subsec:asic}); the GPU uses 120 chains for the primary and 240 for the secondary TTS$_{99}$. $^{a}$Board; engines: 39\,W, 2.0\,mJ per solution. $^{b}$Engines only.}
+\label{tab:platform}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+& V80 & GH200 & ASIC \\
+\midrule
+Engines or concurrent chains & 12 & 120--240 & 12 \\
+Step latency, one chain [\textmu s] & 0.15--0.18 & 0.63--0.72 & 0.031--0.035 \\
+Primary TTS$_{99}$ [ms] & 0.050 & 0.114 & 0.010 \\
+Secondary TTS$_{99}$ [ms] & 0.018 & 0.0078 & 0.0036 \\
+Power [W] & 108$^{a}$ & 382 & 19.9$^{b}$ \\
+Energy per solution [mJ] & 5.4$^{a}$ & 43 & 0.20$^{b}$ \\
+Area [mm$^2$] & -- & -- & 43$^{b}$ \\
+\bottomrule
+\end{tabular}
+\vspace{-0.6em}%
+\end{table}
+
+The V80 reaches the target \gpuSpd{} sooner on the primary estimator and uses \gpuEratio{} less energy per solution (GPU power from nvidia-smi). Its engines take 3.6--4.7$\times$ less time per step: about 250\,ns of every GPU step, more than a whole V80 step, is a message round trip between streaming multiprocessors. Twelve engines already succeed in every round, so more chains cannot shorten the primary TTS$_{99}$, but the GPU's 240 chains yield a $2.3\times$ lower secondary TTS$_{99}$. The same holds on the 51 G-set instances (Section~\ref{subsec:gset}) with schedules selected per platform: for Onsager-$\kappa T$, the V80 is 3.2 times faster on the primary estimator (on 47) and the GPU 1.9 times faster on the secondary (on 49; 1.2 times against modelled V80 times with schedules selected for it), while the V80 (94\,W) needs 10 and 2.0 times less energy per solution, respectively (geometric means).
+
+
+
+\subsection{ASIC estimate}\label{subsec:asic}
+
+The eight-extractor engine (v6) is synthesized, placed and routed in GlobalFoundries 22FDX, a 22\,nm fully depleted silicon-on-insulator process, using 8-track low-threshold-voltage standard cells, with Cadence Genus and Innovus at the typical corner (Table~\ref{tab:asic}, Figure~\ref{fig:asic}). The memories are replaced by SRAM macros, and the logic is unchanged except that the step-table read takes two cycles, which changes no cycle count. As in the multi-bit engine (Section~\ref{subsec:multibit}), each coupling is stored once, in single-port SRAM (4 instead of 16\,Mbit per engine on the FPGA). In RTL simulation, this variant reproduces the FPGA engine bit- and cycle-exactly on all eight test sets.
+
+\begin{table}[t]
+\centering
+\caption{Routed resources and throughput (v6, 12 engines).}
+\label{tab:hw}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+& Per engine & Total (12 + shell) \\
+\midrule
+LUT & 149{,}512 & 1{,}906{,}208 (74.0\%) \\
+Flip-flops & 131{,}555 & 1{,}767{,}564 (34.3\%) \\
+BRAM (36\,Kb tiles) & 258 & 3{,}318 (88.7\%) \\
+URAM & 66 & 792 (41.1\%) \\
+DSP58 & 282 & 3{,}384 (31.2\%) \\
+\midrule
+Trials per second (O1, sustained) & 20{,}200 & 242{,}700 \\
+\bottomrule
+\end{tabular}
+\vspace{-0.6em}%
+\end{table}
+\begin{table}[t]
+\centering
+\caption{ASIC estimate of one v6 engine in GlobalFoundries 22FDX (after routing, typical corner, O1 activity).}
+\label{tab:asic}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Clock (setup / hold slack) & 1.25\,GHz (+7 / +191\,ps) \\
+Die area & 3.60\,mm$^2$ ($2.23\times1.62$\,mm) \\
+Cell area: SRAM / logic & 2.05 / 0.62\,mm$^2$ \\
+Cells / flip-flops (clock-gated) & 866\,k / 162\,k (29\%) \\
+Power (leakage) & 1{,}660\,mW (6\,mW) \\
+Energy per trial (O1) & 16.4\,\textmu J \\
+SRAM energy per applied flip & 0.15\,nJ \\
+\bottomrule
+\end{tabular}
+\vspace{-0.6em}%
+\end{table}
+After routing, the engine meets 1.25\,GHz; smaller, faster SRAM macros keep the coupling read at one cycle. SRAM occupies 57\% of the die. SRAM and flip-flops draw about 70\% of the power (Figure~\ref{fig:asic}d), because every applied flip reads a full 2{,}048-bit coupling row and only 29\% of the flip-flops are clock-gated (Table~\ref{tab:asic}). Because the variant is cycle-exact, twelve engines would reach the K2000 target 5.0 times sooner than v6 on the V80, the ratio of the clocks, in 10.1\,\textmu s, with 0.20\,mJ of engine energy per solution, about one tenth of the V80's (Table~\ref{tab:platform}). This is 26 times below the 0.26\,ms of bSB, the fastest measured hardware (Table~\ref{tab:comp}). On the ASIC, multi-bit couplings cost area, not engines or clock (Section~\ref{subsec:multibit}): with $K=2$ and bias, the engine routes at 1.25\,GHz in 5.8\,mm$^2$ (twelve: 0.35\,mJ per K2000 solution), and with $K=4$ it meets 1.25\,GHz in synthesis; both are bit-exact in RTL simulation.
+
+\subsection{Platform trade-offs}\label{subsec:tradeoffs}
+The FPGA has the lowest measured primary TTS$_{99}$ and energy per solution (Table~\ref{tab:platform}), and one board runs every variant, up to $K=4$ with bias. However, its fabric clocks at 250\,MHz, a fifth of the ASIC's; on-chip memory limits it to twelve engines (six with $K=4$); and most of its 108\,W is idle power. The GPU needs no hardware design and has the highest measured throughput, but a round trip between streaming multiprocessors in every step makes each solution take \gpuSpd{} as long, and at 382\,W it needs \gpuEratio{} the energy. The ASIC would be fastest and most efficient, but its coupling width is fixed at fabrication, and wider couplings cost area.
+
+\subsection{Combinatorial optimization problems}\label{subsec:gset}
+\begin{table}[t]
+\centering
+\caption{Measured speedup on 51 G-set Max-Cut instances~\cite{helmberg2000spectral,ye_gset}: how many times sooner the corrected rule reaches a cut within 1\% of the best known~\cite{benlic2013breakout,ma2017multiple} than plain SCA or TEC-style, from the twelve-engine TTS$_{99}$ on the V80, as a geometric mean over the instances. In parentheses: the number of instances on which the corrected rule is faster.}
+\label{tab:gset}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Speedup $\uparrow$ & \multicolumn{2}{c}{Onsager-$\kappa T$ vs} & \multicolumn{2}{c}{Onsager-online vs} \\
+\cmidrule(lr){2-3}\cmidrule(l){4-5}
+Graphs (instances) & plain SCA & TEC-style & plain SCA & TEC-style \\
+\midrule
+Random, $+1$ (15) & 1.68 (14) & 0.96 (6) & 1.32 (10) & 0.75 (8) \\
+Random, $\pm1$ (10) & 2.21 (10) & 1.91 (10) & 1.64 (9) & 1.42 (7) \\
+Toroidal, $\pm1$ (6) & 4.56 (6) & 3.83 (6) & 1.45 (6) & 1.22 (4) \\
+Planar-like, $+1$ (12) & 2.71 (12) & 2.15 (12) & 0.82 (2) & 0.65 (1) \\
+Planar-like, $\pm1$ (8) & 1.39 (7) & 1.52 (8) & 1.45 (8) & 1.59 (8) \\
+\midrule
+All 51 & \textbf{2.17 (49)} & \textbf{1.68 (42)} & 1.26 (35) & 0.98 (28) \\
+\bottomrule
+\end{tabular}
+\vspace{-0.6em}%
+\end{table}
+\begin{table}[t]
+\centering
+\caption{Combinatorial optimization problems in software, with the baselines at their papers' settings (plain SCA and TEC: their K2000 settings, scaled to each instance by a rule of this work). Steps: steps needed to reach a cut within 1\% of the best known with 99\% probability, as a geometric mean over the five instances that every method solves (G6--G10); a number in parentheses means that the method solves only that many of the 20. Quality: how close the solutions come to the best known, from 0 (infeasible) to 1, after 4{,}000 (Max-Cut), 4{,}096 (GP) and 8{,}192 steps (TSP). $\uparrow$/$\downarrow$: higher/lower is better.}
+\label{tab:cop}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+& Steps $\downarrow$ & \multicolumn{3}{c}{Quality $\uparrow$} \\
+\cmidrule(lr){2-2}\cmidrule(l){3-5}
+Method & Max-Cut & Max-Cut & GP & TSP \\
+\midrule
+SA & 4{,}726 & 0.995 & 0.979 & 0.528 \\
+aSB & 23{,}386 (7) & 0.148 & 0.000 & 0.000 \\
+bSB & 879 (17) & 0.988 & 0.640 & 0.317 \\
+dSB & 2{,}861 & 0.995 & 0.000 & 0.288 \\
+ReAIM ASA & 43{,}187 (11) & 0.962 & 0.567 & 0.416 \\
+APC-SCA & 5{,}875 (15) & 0.960 & 0.166 & 0.542 \\
+plain SCA & 4{,}594 (11) & 0.542 & 0.000 & 0.000 \\
+TEC & 92{,}387 (19) & 0.986 & 0.433 & 0.052 \\
+Onsager-online & 1{,}729 & 0.990 & 0.026 & 0.474 \\
+Onsager-$\kappa T$ & 2{,}407 & 0.994 & 0.026 & 0.476 \\
+\bottomrule
+\end{tabular}
+\vspace{-0.6em}%
+\end{table}
+Table~\ref{tab:gset} extends the hardware evaluation to sparse graphs: the 2-bit engine (Section~\ref{subsec:multibit}) measures all 51 G-set instances~\cite{helmberg2000spectral,ye_gset} that fit it ($N\leq2048$). Because the papers of plain SCA and TEC give no G-set settings, every rule, baselines included, takes its schedules from the same pre-registered selection on the engine's floating-point model (32-point grids, 64 tuning and 256 held-out runs per step budget), with all parameters scaled to each instance. Onsager-$\kappa T$, the form of the fastest K2000 schedule, is faster than plain SCA on 49 of 51 instances ($2.17\times$ on geometric mean) and than TEC-style on 42 ($1.68\times$), with a geometric-mean TTS$_{99}$ of 0.11\,ms against 0.24 and 0.19\,ms; its largest gains are on the toroidal graphs. The model predicted 50 and 40 wins, and the measured success rates agree with it within 1.96 standard errors plus 0.02 in all 264 instance--schedule cohorts. Onsager-online gains less ($1.26\times$ and $0.98\times$) and is slower than both baselines on the planar-like $+1$ graphs.
+
+Table~\ref{tab:cop} widens the comparison in software to the three problems of ReAIM~\cite{10609617}: Max-Cut on G1--G20, GP on G1--G5 and G14--G17 (scored against the best partitions found by SA with balance-preserving swaps) and the TSP on six TSPLIB instances~\cite{reinelt1991tsplib}, in Lucas's encodings~\cite{lucas2014ising} with fixed penalties and the linear terms as biases. The couplings are unquantized; matching full precision would take 6-bit couplings for the TSP, against 2 bits for Max-Cut. As on K2000, the baselines run at their papers' settings, and only the two corrected rules are tuned. \emph{Max-Cut:} on the five instances that every method solves, only bSB needs fewer steps than the corrected rules, but over all 20, SA and dSB need 0.44--0.62 times as many, so on sparse graphs any advantage of the engine over them must come from its cheaper steps; bSB misses the target on 3 of the 20 instances, and plain SCA and TEC, at their K2000 settings, on 9 and 1. \emph{GP and the TSP:} neither plain SCA nor a corrected form reaches the target, in software or on the 4-bit GPU kernel, and the V80 reproduces these runs bit for bit (Section~\ref{subsec:multibit}). The balance penalty of GP couples all spins, so parallel updates flip about half of them per step: only 4--5\% of the corrected rules' runs end balanced, and none of plain SCA, against all runs of SA and 58--66\% for ReAIM ASA and bSB. On the TSP, the corrected rules return valid tours, where plain SCA returns none, of quality 0.48 (random tours: 0.37; best baselines: SA 0.53, APC-SCA 0.54); only ReAIM ASA and bSB reach the target, once each.
+
+\subsection{Limitations}\label{subsec:limits}
+Synchronous rules fail on constrained problems such as GP and the TSP, whose penalty terms couple all spins, so that many flip together and overshoot (Section~\ref{subsec:gset}). The ASIC results, like the simulated CMOS and ReRAM designs in Table~\ref{tab:comp}, are estimates rather than silicon measurements (Section~\ref{subsec:asic}).

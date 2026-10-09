@@ -1,0 +1,50 @@
+{
+ "a": 0.1424468048201435,
+ "b": 18.087731548276114,
+ "c": 885.8948910889244,
+ "source": "RTL simulation of sca_core.v v6.4 (8 extractors), one trial each of O1-O4, P1, T1",
+ "points": [
+  {
+   "key": "O1",
+   "flips": 158422,
+   "S": 960,
+   "cycles": 41400,
+   "cycles_v62": 60952
+  },
+  {
+   "key": "O2",
+   "flips": 83354,
+   "S": 560,
+   "cycles": 22688,
+   "cycles_v62": 33028
+  },
+  {
+   "key": "O3",
+   "flips": 61008,
+   "S": 560,
+   "cycles": 19934,
+   "cycles_v62": 27437
+  },
+  {
+   "key": "O4",
+   "flips": 50703,
+   "S": 360,
+   "cycles": 14305,
+   "cycles_v62": 20663
+  },
+  {
+   "key": "P1",
+   "flips": 212259,
+   "S": 1560,
+   "cycles": 58792,
+   "cycles_v62": 84603
+  },
+  {
+   "key": "T1",
+   "flips": 169222,
+   "S": 1560,
+   "cycles": 53458,
+   "cycles_v62": 73681
+  }
+ ]
+}

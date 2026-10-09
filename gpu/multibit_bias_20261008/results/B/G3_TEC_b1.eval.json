@@ -1,0 +1,39 @@
+{
+ "prefix": "G3_TEC_b1",
+ "B": 1,
+ "batches": 256,
+ "trials": 256,
+ "t_batch_ms": 3.10191612765625,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.01478385642587143
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.01478385642587143
+ ],
+ "feasible": 7,
+ "feasibility": 0.02734375,
+ "feasibility_wilson95": [
+  0.013307156355121155,
+  0.05535570792246043
+ ],
+ "mean_quality": 0.02170020028105451,
+ "mean_quality_feasible": 0.7936073245642792,
+ "best_value": 9282,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  959.0864890013695,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  959.0864890013695,
+  Infinity
+ ]
+}

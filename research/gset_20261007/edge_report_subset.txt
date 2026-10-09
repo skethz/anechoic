@@ -1,0 +1,97 @@
+Basis of PROTOCOL_AMENDMENT1.md: Part A pilot data of the 12 subset instances (all 5 budgets), generated 2026-10-07 ~16:57 CEST
+
+M+-  Onsager-kT      S=250   n=6: T0=max 2, T0=min 4, kappa=max 6, q=max 4, q=min 2
+M+-  Onsager-kT      S=500   n=6: T0=max 3, T0=min 3, kappa=max 6, q=max 4, q=min 2
+M+-  Onsager-kT      S=1000  n=6: T0=max 3, T0=min 3, kappa=max 6, q=max 4, q=min 2
+M+-  Onsager-kT      S=2000  n=6: T0=max 3, T0=min 3, kappa=max 6, q=max 4, q=min 2
+M+-  Onsager-kT      S=4000  n=6: T0=max 3, T0=min 3, kappa=max 3, q=max 4, q=min 2
+M+-  Onsager-online  S=250   n=6: T0=max 4, T0=min 2, lam_k2000=max 2, lam_k2000=min 1, q=max 6
+M+-  Onsager-online  S=500   n=6: T0=max 4, T0=min 2, lam_k2000=max 2, q=max 6
+M+-  Onsager-online  S=1000  n=6: T0=max 4, T0=min 2, lam_k2000=max 2, lam_k2000=min 1, q=max 6
+M+-  Onsager-online  S=2000  n=6: T0=max 5, T0=min 1, lam_k2000=max 1, q=max 5, q=min 1
+M+-  Onsager-online  S=4000  n=6: T0=max 5, T0=min 1, lam_k2000=max 1, lam_k2000=min 1, q=max 5, q=min 1
+M+-  SCA             S=250   n=6: T0=max 2, q=max 1
+M+-  SCA             S=500   n=6: T0=max 2
+M+-  SCA             S=1000  n=6: T0=max 3, q=min 1
+M+-  SCA             S=2000  n=6: T0=max 2
+M+-  SCA             S=4000  n=6: T0=max 1, q=max 1, q=min 1
+M+-  TEC             S=250   n=6: T0=max 6, jv=max 1, jv=min 4, q=max 4, q=min 2
+M+-  TEC             S=500   n=6: T0=max 6, jv=min 3, q=max 4, q=min 2
+M+-  TEC             S=1000  n=6: T0=max 6, jv=min 3, q=max 5, q=min 1
+M+-  TEC             S=2000  n=6: T0=max 6, jv=min 3, q=max 5, q=min 1
+M+-  TEC             S=4000  n=6: T0=max 6, jv=min 2, q=max 6
+P+   Onsager-kT      S=250   n=3: T0=min 3, q=max 1, q=min 2
+P+   Onsager-kT      S=500   n=3: T0=min 3, q=max 1, q=min 2
+P+   Onsager-kT      S=1000  n=3: T0=min 3, q=max 1, q=min 2
+P+   Onsager-kT      S=2000  n=3: T0=min 3, q=max 1, q=min 2
+P+   Onsager-kT      S=4000  n=3: T0=min 3, kappa=min 1, q=max 1, q=min 2
+P+   Onsager-online  S=250   n=3: T0=max 1, T0=min 2, lam_k2000=max 2, q=max 1, q=min 2
+P+   Onsager-online  S=500   n=3: T0=max 1, T0=min 2, lam_k2000=max 2, q=max 1, q=min 2
+P+   Onsager-online  S=1000  n=3: T0=max 1, T0=min 2, lam_k2000=max 1, q=max 1, q=min 2
+P+   Onsager-online  S=2000  n=3: T0=max 1, T0=min 2, lam_k2000=max 1, lam_k2000=min 1, q=max 1, q=min 2
+P+   Onsager-online  S=4000  n=3: T0=min 3, lam_k2000=max 2, q=max 1, q=min 2
+P+   SCA             S=250   n=3: 
+P+   SCA             S=500   n=3: 
+P+   SCA             S=1000  n=3: T0=max 1, q=max 1
+P+   SCA             S=2000  n=3: 
+P+   SCA             S=4000  n=3: 
+P+   TEC             S=250   n=3: T0=max 1, T0=min 2, q=max 1, q=min 2
+P+   TEC             S=500   n=3: T0=max 1, T0=min 2, jv=min 1, q=max 1, q=min 2
+P+   TEC             S=1000  n=3: T0=max 1, T0=min 2, jv=min 1, q=max 1, q=min 2
+P+   TEC             S=2000  n=3: T0=max 1, T0=min 2, jv=max 1, q=max 1, q=min 2
+P+   TEC             S=4000  n=3: T0=max 1, T0=min 2, jv=max 1, q=max 1, q=min 2
+Q+   Onsager-kT      S=250   n=3: T0=min 3, q=max 3
+Q+   Onsager-kT      S=500   n=3: T0=min 3, q=max 3
+Q+   Onsager-kT      S=1000  n=3: T0=min 3, q=max 3
+Q+   Onsager-kT      S=2000  n=3: T0=min 3, q=max 3
+Q+   Onsager-kT      S=4000  n=3: T0=min 3, q=max 3
+Q+   Onsager-online  S=250   n=3: T0=min 3, lam_k2000=max 1, q=max 3
+Q+   Onsager-online  S=500   n=3: T0=min 3, lam_k2000=max 1, q=max 3
+Q+   Onsager-online  S=1000  n=3: T0=min 3, lam_k2000=max 3, q=max 3
+Q+   Onsager-online  S=2000  n=3: T0=min 3, lam_k2000=max 2, q=max 3
+Q+   Onsager-online  S=4000  n=3: T0=min 3, lam_k2000=max 2, q=max 3
+Q+   SCA             S=250   n=3: T0=max 3, q=max 3
+Q+   SCA             S=500   n=3: T0=max 3, q=max 3
+Q+   SCA             S=1000  n=3: T0=max 3, q=max 3
+Q+   SCA             S=2000  n=3: T0=max 3, q=max 3
+Q+   SCA             S=4000  n=3: T0=max 3, q=max 3
+Q+   TEC             S=250   n=3: T0=min 3, q=max 3
+Q+   TEC             S=500   n=3: T0=min 3, q=max 3
+Q+   TEC             S=1000  n=3: T0=min 3, q=max 3
+Q+   TEC             S=2000  n=3: T0=min 3, q=max 3
+Q+   TEC             S=4000  n=3: T0=min 3, q=max 3
+
+Pilot landscape: mean over instances and S of (best pilot mean cut at this value - best overall), per parameter
+M+-  Onsager-kT      T0        : 0.45: -1.28  0.9: -0.86
+M+-  Onsager-kT      kappa     : 0.125: -6.02  0.25: -4.90  0.5: -2.71  1: -0.07
+M+-  Onsager-kT      q         : 0.09: -31.69  0.18: -1.10
+M+-  Onsager-online  T0        : 0.45: -2.21  0.9: -1.02
+M+-  Onsager-online  lam_k2000 : 0.125: -5.89  0.25: -4.17  0.5: -1.52  1: -19.28
+M+-  Onsager-online  q         : 0.09: -34.29  0.18: -0.06
+M+-  SCA             T0        : 0.45: -21.14  0.67: -5.63  0.9: -1.33  1.35: -1.41
+M+-  SCA             q         : 0.045: -308.81  0.09: -49.57  0.18: -2.10  0.36: -7.79
+M+-  TEC             T0        : 0.45: -17.36  0.9: +0.00
+M+-  TEC             jv        : -0.09: -1.61  -0.045: -1.40  0.045: -4.82  0.09: -6.30
+M+-  TEC             q         : 0.09: -44.37  0.18: -1.16
+P+   Onsager-kT      T0        : 1.35: +0.00  1.8: -337.89
+P+   Onsager-kT      kappa     : 0.125: -20.85  0.25: -12.01  0.5: -0.80  1: -1083.32
+P+   Onsager-kT      q         : 1.44: -3854.13  2.16: -9.98
+P+   Onsager-online  T0        : 1.35: -17.98  1.8: -13.09
+P+   Onsager-online  lam_k2000 : 0.125: -17.30  0.25: -9.36  0.5: -11.77  1: -18.19
+P+   Onsager-online  q         : 1.44: -3831.49  2.16: -26.86
+P+   SCA             T0        : 0.9: -170.19  1.35: -26.45  1.8: -4.07  2.7: -19.70
+P+   SCA             q         : 1.08: -3451.24  1.44: -364.71  2.16: -27.92  2.88: -60.99
+P+   TEC             T0        : 1.35: -3.38  1.8: -5.20
+P+   TEC             jv        : -0.36: -5.09  -0.18: -9.74  -0.09: -11.64  0.09: -24.53
+P+   TEC             q         : 1.44: -3777.28  2.16: -18.19
+Q+   Onsager-kT      T0        : 0.9: +0.00  1.35: -124.07
+Q+   Onsager-kT      kappa     : 0.125: -8.96  0.25: +0.00  0.5: -23.41  1: -293.10
+Q+   Onsager-kT      q         : 1.08: -2310.19  1.44: +0.00
+Q+   Onsager-online  T0        : 0.9: +0.00  1.35: -57.97
+Q+   Onsager-online  lam_k2000 : 0.125: -14.30  0.25: -11.54  0.5: -5.47  1: -6.84
+Q+   Onsager-online  q         : 1.08: -2117.15  1.44: +0.00
+Q+   SCA             T0        : 0.45: -140.79  0.9: -16.24  1.35: -21.33  1.8: +0.00
+Q+   SCA             q         : 0.72: -3533.71  1.08: -216.32  1.44: -14.34  2.16: +0.00
+Q+   TEC             T0        : 0.9: +0.00  1.35: -34.46
+Q+   TEC             jv        : -0.36: -129.68  -0.18: -10.79  -0.09: -5.84  0.09: -29.43
+Q+   TEC             q         : 1.08: -1855.68  1.44: +0.00

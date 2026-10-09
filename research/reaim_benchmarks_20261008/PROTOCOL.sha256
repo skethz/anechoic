@@ -1,0 +1,187 @@
+41319ac258ccabbd7fa400e6b2761c38b965477eb82837a4ebf6014b59504785  PROTOCOL.md
+ec0887ecb0900ecb59f6dc0599eeb6b5d1a9f284ce0cd2fc00cafa4ea17d67dc  problems.py
+df0f8959275d91b4718e8437f13962365c54c26b2bd1f64933210cae46c27a8b  solvers.py
+4459a4ecf2c9fe743e9318bb41044745c6117224e6ba6718477bceda3ea1bd29  grids.py
+6d24a6689fb6d7d1e15cd7197e3e093e3b706ea8789473cf0b7451fb7b370c13  run_bench.py
+bfc8ef66523a0447b92c2cc119d1b8179eb2639fb703a4bfd19e20510c20c250  hwmodel.py
+bace4fdc304d30a5b4c7b21aadef804dd6d4f8ed5d64b6eb6ce29a7838237db8  tsplib.py
+ade1ed36c61d260742ca68a69cf8051b804ce5a5a60329a7be6a526fcc941fc3  verify.py
+a53ed684229c147d922f268210a7e1f3e09be928683889963280b787ad0576b6  verify_tsplib.py
+be410f0ee27d5c897780b4057b6c0b396a3b8323b7742541048f7818f2e351a0  verify_hw.py
+2e6e3c4522c8abab832ab2bd3eb14e2ab2b1978565782665e3c425e0a126f6ec  hw_check.cpp
+c9c1a9db5884d09e750ceec3f1acf60618ee7924bf1a7493a0190f995e9dc7ca  calib.py
+9cb65cea5d25241c3b2ef356ada26d76df4a80c405a9e207e5486fc1e6eff475  calib_analyze.py
+2b56e691796362f3979f51a8cbbea48ff3855616e18824d1e38333a486f50873  gpp_reference.py
+5f0e545fa5fe88a9536f2c7d5583c9be5b0e19b097b72ec7280ea61be71e1bbd  instance_stats.py
+a45d03df111dde969277bec6dd044ea903f3347cd115355866d3b8bc858bc8f6  repro.py
+6e9b64b1eecbc1af029113729f05e61aceb5619460fee4cf5122c67479615fee  smoke_run_bench.py
+29be622c47df4f5fcc74f9fa4254e307a4d41acf81bce1d2af8247e4d9717dde  sync_to_hope.sh
+c00c3606cbb961111db250302108cfeddcdf2d63f453a91870d7a185d271df9b  fetch_from_hope.sh
+c4846c9e9fdf5ec11b2d9a736e422219427af02b8f10b7c985b95a9c91a1663b  data/tsplib_manifest.json
+c5a6adc12b1cb80363506940b3201618b7168b7a2c2fb9f897ba87ee7dfe4954  data/gpp_reference.json
+974718d1d42449d340415b922e73cbb90f81494a0385ff449806cbf68e3cd498  data/instance_stats.json
+f8ac1e269419b741736c025563a34ac5b1cf04487b0c6cb0ef5031534e7d1c96  verify_hope.json
+7f4cae91c71acfe31b6a4e2ca5e8f4b4b5c2dd9a5df62de35e7cf4a17a3271f2  verify_hw.json
+d1e59c4023876d665012d1ae52c1b1774eb9f96b8ed8b82a9033e1cfaf976496  repro_laptop.json
+d1e59c4023876d665012d1ae52c1b1774eb9f96b8ed8b82a9033e1cfaf976496  repro_hope.json
+d64d006322ebff1155b84a04c76ffffc4e595306075a29b5c64c5cafb7db4eb0  ../gset_20261007/engine.py
+7e0dbd5c94cdafbcd67b5a5ff615087276daf25d35a163adaff3a4c279a531f0  ../gset_20261007/others.py
+9e88341bbc7c5303be1494b05e1c460ca23395435a87d7a1789dce5353075cd3  ../gset_20261007/run_gset.py
+032cde112209d10eb8d8842c2138125a45396a296dadfaaeb611bcb94656003b  ../gset_20261007/bkv.json
+b9105bf4bf86dfd389dfb6b6b9909e591d7de37820c7139845fcb6208fd75416  ../gset_20261007/manifest.json
+56693e672742be5424db4d0b61fa08054a145c0c0caeab6f4b6515ca2f8a75e0  ../gset_20261007/synth.py
+2ca735328591a827be861bd616628dd5af7d15f8101cb9d009b1e4478c3d648f  ../ablation_20261005/abl.py
+caf0a7bf277e6ede336e36fa177ff4cbe67b9963491edcd8a97bfa0780021190  ../algorithm_compare_20261007/methods.py
+68a436074ac8d766bf15789673e32a523b92061173f732ae4a0edda57f52093b  ../reaim_reproduction_20261003/pilot.py
+2aa701f0c2e5c3315629577e75d2d4209f1d6f89d7636cc384515211a4cd62df  ../theory_ideas_20261003/sweeps_abc.py
+2026-10-08T01:48:15Z
+frozen before any held-out run: no benchmark instance (G-set GPP/MCP-extension or TSPLIB) has been run by any method of this study; calibration used synthetic instances only; the GPP reference values (SA reference computation) were computed before freezing
+--- Addendum 1 (appended; the lines above are unchanged)
+28b23592bede6291b7557efa57dbcb663286bca5e627f7179cd43b46f42ff91b  PROTOCOL_ADDENDUM1.md
+00436161de9cd0a4d61ff36b8baa64a5ff822e09b54616818fb3c0164adf29a8  analyze.py
+4561754488f7c9e2b8c121c956886ccef2c12fe63799066fd55e0a8620184a60  precision_analyze.py
+93c4dc0ad7838bfae2bfb8dccbd8973f3e8ddfff0c577a0379c9f7e173162996  precision.py
+1a41f7de3a4f4dec1608ce903e91bf9a99188f24d960b28071d0943a97641da0  export_hw.py
+d23679e3b7c2da2270bfffd1e91b0bfd73224305a40995b460064242befa79ef  fetch_v2.sh
+f2422b826b9899a669235c7e5bb493d5708f076f710adc970f810521eee084d6  baselines.py
+d20b2af574d3ae44c73ee5e98d68589394a9be5c9ad838bad7abd050b42007d8  explore_penalty.py
+665457bb33f292634ce65e79b5b64b3a2380eac75c0e5d3d5d73a03e1e131c83  smoke_precision.py
+5ad4b190a944d4d6fc429bca5bb3d70ecc21239eb2858afd32d59d71012ba5e3  data/random_baselines.json
+7f4cae91c71acfe31b6a4e2ca5e8f4b4b5c2dd9a5df62de35e7cf4a17a3271f2  verify_hw_frozen.json
+2026-10-08T02:01:26Z
+appended before any precision-study run and before any export; the held-out runs were still in progress (their per-job log lines had been seen, and analyze.py had been smoke-tested on partial results); the files listed implement the pre-declared PROTOCOL.md specification without design changes
+--- Addendum 1b (appended): exploratory/descriptive files, written while the held-out runs were in progress, before they are run
+7877c68a247a8147e6315373c4a460b3d934e4ea929749bc0ff6ad11f6e05872  explore_reaim_F.py
+a27b479c02cd2b948f927bc641ee95b96746187caa6e2a46e4d8d9d1e3b82bbf  edge_report.py
+4da6d57a92b38ec99ee2bc0a3c18316de613eb0de34d97fc4bc4e6b2ff20de55  compact_table.py
+2026-10-08T02:07:05Z
+explore_reaim_F.py: post-hoc ReAIM ASA with F = min (ReAIM Step 4 option), prompted by noticing that the inherited implementation fixes F = max while ReAIM reports TSP leans to F = min; labelled exploratory
+--- Addendum 1c (appended): exploratory file, written while the held-out runs were in progress, before it is run
+60dff83352c86d6c5cd2d7d07913d4da9c3d1ce29a21801acda6976b91705f31  explore_precision_others.py
+2026-10-08T02:09:45Z
+explore_precision_others.py: post-hoc K-bit sensitivity of SA and bSB (float model) on GPP/TSP, because the four engine rules fail on GPP at full precision so the pre-registered engine-rule precision study cannot show what the problem needs
+--- Addendum 2 (appended; the lines above are unchanged)
+f38d0f554c439fb4bf6626228a639244286136d6848308e82846d314e85500ec  PROTOCOL_ADDENDUM2.md
+2a604da4949f033daf16f766632f09dca9ae26c62c96fa53ab379ec6fada4829  grids_a2.py
+a90f55d4126e29cd1114cac8874f2ae3bc9fb64042b3d193ea9c00b47447b635  solvers_a2.py
+029de50127c60c1ee53c2d423b4306858b22ede8bc640a100c5f67eeed45a6f3  run_a2.py
+8e4c26a335b797207bedfbb211a96cc95e66fd08c0a0dcd4c4d28ba978a9dde4  verify_a2.py
+2026-10-08T11:33:55Z
+frozen before any A2 run: no A2 pilot or final has been run; the round-1 plan was computed (dry run, no runs) from the A1 selections to set the cap
+--- Addendum 2 abandoned (appended; the lines above are unchanged)
+bd422a3054ac71ba83a341dc2e5a8e9028b05ec183b30ddd376c5b002913516d  PROTOCOL_ADDENDUM2_ABANDONED.md
+239a89d3a6b78f21cb7269a6234e68d1d4e073cc901b90ce218c26fc97e3fdae  results_a2/ABANDONED.md
+4e7cc9bf61dcf1c5defc88e50a9fe54ebfd77ae168bc11683bdf8eadcb6fc682  analyze_a2.py
+2026-10-08T11:55:45Z
+Addendum 2 stopped at 13:38 CEST (11:38Z) on the authors' decision; 18 of 16,345 round-1 pilot jobs finished; files kept unchanged, unused
+--- Addendum 3 (appended)
+fe486ab62b75a6c8d649718cbe3445978b340f0a2eeb368978030244e304fd4b  PROTOCOL_ADDENDUM3.md
+7f08b36ac3ec157e010b525153c62e72de5f666ec84dc573b95c8a5c46838308  settings_a3.py
+8977318822a9cdfe238136084f339622ace3f6477ef16e068302a12173845b9c  solvers_a3.py
+183f2e3ec4648e4acaa4600475d5185c71da1dd62c532d3af5dd5a52ef70379b  run_a3.py
+1c78217cb52321c9911b239d505f76965261f08b696ad3c99fb0208a21a4568a  verify_a3.py
+e547e8e5adf8d0b2fe9cf969ea6e09244de80769de00f23f636fb32c66121718  settings_a3.json
+056c3d89dfc82889c02c5d277a96f8bc4287300a0c94f56b091a45f8ed966c24  sources/papers/pdf_sha256.txt
+214fc088a4443628c7e8c8d737f331f68832d8ac4efc1bf29f622658d27dd915  sources/papers/neal_sampler_0.5.9.py
+4d9b051a44fb343d9da64ff5aa1e22201a1202872f671bc6e59221835bc04d9d  sources/papers/dwave_samplers_1.2.0_sa_sampler.py
+eb1db266718cbddf89c599dab5a9c721913f897be787d8cd563c5d9d4e23869e  sources/papers/dwave_samplers_1.2.0_cpu_sa.h
+05fbd5a982e38ca7973bfd57ed45561ffb0f5569f5631250014d7db9c337ff25  sources/papers/du2026tec_arxiv2608.21753.pdf
+2026-10-08T11:55:45Z
+frozen before any A3 run: no A3 final or pilot has been run (verify_a3.py smoke runs used reduced runs in a temporary directory only)
+--- Addendum 3.1 (appended)
+4a152dfb38926b904bd85d8cb56c9e1eceefe1058d1e95ea4d1f07ff74d37924  PROTOCOL_ADDENDUM3_1.md
+06853317f8ccfb7493a9ec2a2396bdd169a21ab083a18c841e2ce1dab46fcfc4  solvers_a3b.py
+9882a49d755e9570b921152b3ee72cd6c95b3be59310f632c6808d570a9982bc  run_a3b.py
+f27afdf314e8c55b2c645413d053e21a65c56b556ae32a3fb671d0977cbae331  verify_a3b.py
+127171bec1e35d77a2f9bde28cb8056e55ffc0c6f3210ca268de6b65b5a96bf9  analyze_a3.py
+b59f747a5ac4a54c0037a8c96964bde223f12116ae2f391a2de375a0842c3732  verify_headlines_a3.py
+2026-10-08T12:02:07Z
+written while the A3 finals were running (A3 ReAIM-TSP log lines seen, see the disclosure in PROTOCOL_ADDENDUM3_1.md); no A3.1 run yet; analyze_a3.py and verify_headlines_a3.py not yet run on any A3 output
+--- Addendum 3 / 3.1 results and analysis files (appended after the runs)
+e3d31547811495018574083edc18842eef84c62983fed524054b91f8aeca4ffb  analyze_a3b.py
+4d3d147256ba074667153c0cdc5df817fb3708d3c8b0b76d9617384349193bce  verify_headlines_a3b.py
+e83e4be878a036ec4785315dca351b6fe781863067fd6023789f8fd98b9e9112  summary_a3_report.py
+4c1dbb6935b532cd3d53f875f004d3d67bce1a84de48a29bbf10a61bfc773902  analysis_a3.txt
+978f615c9a0439d340bf48055166aab82a0613a8a8cf73464875626ec32f6cbd  analysis_a3b.txt
+31e227dbaacfe7a2d0aa39e494489e3889ab1a5d26381d106acce1a115b8b537  results_summary_a3.json
+be6e20cd618053e0f2ed7499932c6582a410b633036a8b84cd60c13a43f36494  results_summary_a3b.json
+81822f69bcf37a8deb60a0eac49366f1552038d7f593b2b070314245695d2230  compact_table_a3.md
+c7cbaed650555f683006f08f60d3bf1cb6c6b1c2f1befe9f0ab28ab551d80a5c  compact_table_a3b.md
+1f43c908cefe59338bfae3eafbad8acd10b71b89f010a0957b81d0587ee047da  summary_a3_report.md
+07b2f43892c022f16fd21418495b514a2ef2db68af770ec7a1e5ceef1e898e1a  summary_a3_report.json
+39e8fa392c2e03388ed0291718b3dbf347679700accb092831e5bc6b2ff2cd40  verify_a3_hope.json
+7d5a3977dd175502c3d38f1ec82cb36226cc030b5efc458ab886d4cf25c4d84e  verify_a3b_hope.json
+9d97a53c01fd4147880188ab10b7441daa1849bd3dd2a60fe6bb720a81b39585  verify_headlines_a3.json
+a72bf4f0a25357c422e827a6dacb294132d1e1a3a461df085206d32a8efcc393  verify_headlines_a3b.json
+06d270e0f62ffb59ae873250b5e4f27119f7b14feca0d77aa8a40234c85c27b3  logs/a3_run.log
+8a53ae7ef42e1cea25d4167c96ce352fcbf7f0551af9ecdffec825bc40e319a3  logs/a3b_run.log
+2026-10-08T12:11:11Z
+A3 finals 13:57-14:03 CEST, A3.1 finals 14:03-14:05 CEST; headline numbers verified independently (0 stat mismatches over all final files; 30/30 re-runs decoded independently match)
+--- Addendum 4 (appended)
+2aea21cd5278b8d07f82e62d07ed50b2747a81deb80754ff574758315f9aacac  PROTOCOL_ADDENDUM4.md
+0211aca0964344d4d0dcb1376c3ad7e50dae10453d8242c56ef82d1237fe5b56  solvers_a4.py
+70b38f92ddd191691667c6d334ad3e8b9a77c725b295d4f5670c9935226660de  verify_a4.py
+e58eacb5f83adcb6753e3a9eb98d98cafe7236ca0914c8604380200b79893869  validate_a4.py
+e8b69e3e9d0f31bae2c0ac0f8ba582613268e9f2e4bd86a0edfaeab2cc609f13  run_a4.py
+48512dc496d239b42b9920cca71f0394386537953a962b76d0b925608e9fa7d7  neal_ref.py
+cbcb3239951ed5e1e86ef1fe92c271148317267feed4d9520747609ee99e6da6  k2000.py
+91b0374db7fb044fa1373bdbb733b37a27ff189effa85fd3e9737bd70011e311  diag_a4.py
+82f3bc219289f5990c90e9b5453ab570f132275a25deb7ae14b58618bac77ae6  diag_a4_asb.json
+2026-10-08T12:30:21Z
+frozen before any A4 validation or re-run; exploratory diag_a4.py (aSB, 16 runs per case) was run before this freeze and is reported as exploratory
+--- Addendum 4.1 (appended)
+7bf13757be3011ca9c815f916a614adaf1ee07c62cb83e0dfbe69419e9c29906  PROTOCOL_ADDENDUM4_1.md
+8aae282edf3166ca5d12a87ba14514d365c2ca0c0c336cbe1f4fed30343d1275  ancilla.py
+00041b1df1daebffbd94bba7b50e2ed0a77207f84a20e01a11eb049c8b5c7b7b  run_a4b.py
+e1cb62413d939a7ff4c1f18598dad75da473441b4ed10ac100205e9b743916db  validation_summary_a4.py
+2026-10-08T12:38:19Z
+written after the A4 Table 8b re-runs had finished (results seen) and while the A4 validation was running; no A4.1 run yet
+--- Addendum 4 correction (appended)
+1eecc3a5634075bb2a9906e94e248ee7b42e3716faf2ddf5cced356b2559c749  validate_a4.py
+2026-10-08T12:51:11Z
+validate_a4.py: real-Neal seed changed from crc32(job) to crc32(job) mod 2^31 because dwave-samplers rejected 4276806077; the crash stopped the pool after 75 of 128 jobs; completed jobs kept (unchanged), the rest re-launched
+--- exploratory, post hoc (appended before running)
+5eadd92be8b75a9b4e6f7cda5bc078b79cfb2edc1c354507ec7583a774a2d0d7  diag_tec.py
+2026-10-08T13:04:22Z
+diag_tec.py: written after the pre-registered TEC validation (V3) failed on Fig. 3b's cycle counts; exploratory
+--- exploratory, post hoc (appended before running)
+c2aca6c950259a33419983ec5ad821165e54cfb8b0602835e45c910ea1677f02  diag_statica.py
+2026-10-08T13:13:11Z
+diag_statica.py: written after V2 (STATICA long) gave P_a 0.867 vs the earlier reproduction's 0.827; exploratory
+--- Addendum 5 (appended)
+5513a121d5672d75e8cd462f7be3acd64ebcd2d98b35f6ebf5ca94148b1a9798  PROTOCOL_ADDENDUM5.md
+25c0f1bf4cc420fff4da4f41412a75c7c3345784dd782219882d8707ec8aac84  run_a5.py
+8c90bfde1324c2470417c430c0147317660ee6380103a22214a7ec15c8d6f364  validate_a5.py
+2026-10-08T13:17:41Z
+the authors' decisions after the fairness audit; frozen before any A5 run; A4 validation results and A4/A4.1 re-runs seen; diag_statica running
+--- Addendum 5 operational helper (appended)
+133a35156257af72993a8d03a39798bdfed49885f568947779442e92eda1c009  run_a5_rev.py
+2026-10-08T13:24:24Z
+run_a5_rev.py: same frozen job list in reverse order to use idle cores; outputs identical per job
+--- Addendum 5.1 (appended)
+6785a45705305eba35a42062f2a476b7478baea6f44af4607a703f6d04e4a32d  PROTOCOL_ADDENDUM5_1.md
+33f01e2bbf8b0c46b09fec04e3d9f4364fe34841898797f60074a2b8c6448811  analyze_a5.py
+2026-10-08T13:26:17Z
+the authors' change: TEC (tec_seq) and STATICA with the sigma transfer (our rule) in Table 8b, no 'not specified' cells, synchronous TEC reading not used; every baseline reported with its validation status (rule change disclosed: written after V8a was seen); A5 finals still running
+--- Addendum 4/4.1/5/5.1 outputs (appended)
+b82bb6571daa69932f95fcd02a3823841dc06dd8aa79b0602d936ce03ba20291  results_a5_manifest.sha256
+b2b4a2537cd02bb0dd7c1f9d9a046f52c03ea97db99f0d936ec1be49ae7afb24  validation_a5_manifest.sha256
+dbc06f17108056c094838167b00778d9bff4ea55d557e8dd695a8e190cf5f346  validation_a4_manifest.sha256
+161842f64d25e138c75f7624d853b03164ac08f0936c77bfb6bcca7652f15dd9  results_a4_manifest.sha256
+79fc997d33ba682d315e6b108902a211cef4509be35178b41136b4862132ca1e  validation_a4_summary.json
+f93ba4401b09fa27c616c0bbb1771fd5ed500098812fcf0668fb6ff5a0b618b1  validation_a5_summary.json
+1bd76c8eb0e26765542afba51706d915a1e826a9e2f0c6a146cb4c603c11d654  validation_v8b.json
+f7c17d97b2b71e8007726561cbcd0f299be64969cac92e0e8421192c6f945711  validation_v8b.py
+e1cb62413d939a7ff4c1f18598dad75da473441b4ed10ac100205e9b743916db  validation_summary_a4.py
+2e45bcd045fab489230e63a7009add4e9a46a6acca66a9b6082cff6b7e17579a  diag_statica.json
+1bc530aa8d4fb5f4c97a860af7877d50a5d757d643675718357290d083a61bac  diag_tec.json
+a0ac8475c225df65463b86532b9d0c21cea2faaf716895b217ca7c704eff5a1e  table8b_a5.md
+0d7539d87c8b463866a9fb4c259f2321920beb13872b7a96a0013bd75c679bd0  table8b_a5.json
+71c5e6883528806f9d3eb0b2b86d221411f0c1f25024e068b041e2d2f4ded9a1  verify_headlines_a5.py
+fbce7c8c1664d72b17353bbcced7b69229959634442247bce096cfd1a1a2075f  VALIDATED_BASELINES.md
+2026-10-08T13:42:02Z
+A5 finals complete 15:35:57 CEST (3675 jobs); selection by run_a5.py select; verify_headlines_a5.py ALL OK (1170 quantities, 0 mismatches)
+--- cross-reference (appended)
+89545cabe55850af3a74f652486cb1c5b51ccaac90be5e99801cb93004b4f7e5  ../fairness_audit_20261008/k2000_pub/PROTOCOL_PUB_A6.md
+2026-10-08T13:53:36Z
+K2000 bSB/dSB one-dt TTT re-run for Figure 2 lives in research/fairness_audit_20261008/k2000_pub (PROTOCOL_PUB_A6.md, sb_ttt_A6.py, results_pub_A6/); frozen there before any run

@@ -1,0 +1,33 @@
+beats 65664 words 660 DRAIN 2 K 2
+trial start: cycle 69982
+trial out: cycle 72401
+trial end: word 33 cycle 72501 flips 8038
+trial start: cycle 72623
+trial out: cycle 75068
+trial end: word 107 cycle 75168 flips 8250
+trial start: cycle 75290
+trial out: cycle 77703
+trial end: word 181 cycle 77804 flips 7985
+trial start: cycle 77970
+trial out: cycle 80591
+trial end: word 255 cycle 80691 flips 9741
+trial start: cycle 80813
+trial out: cycle 83471
+trial end: word 329 cycle 83571 flips 9871
+trial start: cycle 83693
+trial out: cycle 86328
+trial end: word 403 cycle 86428 flips 9740
+trial start: cycle 86596
+trial out: cycle 89453
+trial end: word 477 cycle 89553 flips 11801
+trial start: cycle 89555
+trial out: cycle 92417
+trial end: word 511 cycle 92517 flips 11747
+trial start: cycle 92522
+trial out: cycle 95396
+trial end: word 545 cycle 95496 flips 11687
+trial start: cycle 95618
+trial out: cycle 98528
+trial end: word 619 cycle 98629 flips 12059
+DONE: 660 words, 0 errors, 0 residue violations, cycle 98748
+TESTBENCH PASSED

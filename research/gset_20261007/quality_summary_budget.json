@@ -1,0 +1,683 @@
+{
+ "variant": "budget",
+ "subset": [
+  "G1",
+  "G6",
+  "G11",
+  "G14",
+  "G18",
+  "G22",
+  "G27",
+  "G32",
+  "G35",
+  "G39",
+  "G43",
+  "G51"
+ ],
+ "engine_all51": {
+  "250": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 2.3146277802225845,
+    "best_gap": 1.038738643733496,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 2.1958744119198412,
+    "best_gap": 0.8369536118373899,
+    "bkv_instances": 1,
+    "wins": 10.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 1.7373971641100903,
+    "best_gap": 0.6747761908270448,
+    "bkv_instances": 4,
+    "wins": 33.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 1.9685031457401074,
+    "best_gap": 0.8108151662935451,
+    "bkv_instances": 2,
+    "wins": 8.0
+   }
+  },
+  "500": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 1.706434543029501,
+    "best_gap": 0.6540917747745724,
+    "bkv_instances": 3,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 1.7086261956894784,
+    "best_gap": 0.5222453150660988,
+    "bkv_instances": 0,
+    "wins": 7.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 1.2944332488264823,
+    "best_gap": 0.4187503242440009,
+    "bkv_instances": 6,
+    "wins": 38.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 1.531106986769563,
+    "best_gap": 0.5186932263913349,
+    "bkv_instances": 5,
+    "wins": 6.0
+   }
+  },
+  "1000": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 1.292859770333178,
+    "best_gap": 0.4294673171308364,
+    "bkv_instances": 8,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 1.2159172531279976,
+    "best_gap": 0.3548751111590157,
+    "bkv_instances": 10,
+    "wins": 8.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 1.0069262225064788,
+    "best_gap": 0.30964040827504397,
+    "bkv_instances": 8,
+    "wins": 33.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 1.1864203419631871,
+    "best_gap": 0.34250016305932685,
+    "bkv_instances": 8,
+    "wins": 10.0
+   }
+  },
+  "2000": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 1.0285658816215733,
+    "best_gap": 0.3044401670009699,
+    "bkv_instances": 11,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 0.9477317248656485,
+    "best_gap": 0.24105700038192907,
+    "bkv_instances": 14,
+    "wins": 10.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 0.8048469287824285,
+    "best_gap": 0.2020627699433114,
+    "bkv_instances": 17,
+    "wins": 32.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 1.1360608036134803,
+    "best_gap": 0.26649424751798695,
+    "bkv_instances": 8,
+    "wins": 9.0
+   }
+  },
+  "4000": {
+   "SCA": {
+    "n": 51,
+    "mean_gap": 0.8335091351785513,
+    "best_gap": 0.20308865548443514,
+    "bkv_instances": 15,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 51,
+    "mean_gap": 0.7415052576434789,
+    "best_gap": 0.1731224793799461,
+    "bkv_instances": 18,
+    "wins": 12.0
+   },
+   "Onsager-kT": {
+    "n": 51,
+    "mean_gap": 0.658993635738594,
+    "best_gap": 0.1659436847779976,
+    "bkv_instances": 18,
+    "wins": 30.0
+   },
+   "Onsager-online": {
+    "n": 51,
+    "mean_gap": 0.8095321695428815,
+    "best_gap": 0.1996342665215254,
+    "bkv_instances": 16,
+    "wins": 9.0
+   }
+  }
+ },
+ "all_methods_subset": {
+  "250": {
+   "APC-SCA": {
+    "n": 12,
+    "mean_gap": 1.9105798598796093,
+    "best_gap": 0.7168028344197329,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "Onsager-kT": {
+    "n": 12,
+    "mean_gap": 1.8520696885406387,
+    "best_gap": 0.683292789359549,
+    "bkv_instances": 1,
+    "wins": 0.0
+   },
+   "Onsager-online": {
+    "n": 12,
+    "mean_gap": 2.1084730249576995,
+    "best_gap": 0.8964311089133385,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "ReAIM_ASA": {
+    "n": 12,
+    "mean_gap": 5.258672989344869,
+    "best_gap": 1.9008447890548121,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "SA": {
+    "n": 12,
+    "mean_gap": 1.020423976663361,
+    "best_gap": 0.2782333594576,
+    "bkv_instances": 2,
+    "wins": 9.0
+   },
+   "SCA": {
+    "n": 12,
+    "mean_gap": 2.4460279741285444,
+    "best_gap": 1.1155429706260278,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 12,
+    "mean_gap": 2.4108424707605156,
+    "best_gap": 0.8693652051407064,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "aSB": {
+    "n": 12,
+    "mean_gap": 2.38681169514552,
+    "best_gap": 1.5166092689222532,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "bSB": {
+    "n": 12,
+    "mean_gap": 1.3588064931671209,
+    "best_gap": 0.7775629604419905,
+    "bkv_instances": 0,
+    "wins": 3.0
+   },
+   "dSB": {
+    "n": 12,
+    "mean_gap": 1.467517114597326,
+    "best_gap": 0.5123773356332221,
+    "bkv_instances": 0,
+    "wins": 0.0
+   }
+  },
+  "500": {
+   "APC-SCA": {
+    "n": 12,
+    "mean_gap": 1.4019218048841626,
+    "best_gap": 0.4695016495735784,
+    "bkv_instances": 1,
+    "wins": 0.0
+   },
+   "Onsager-kT": {
+    "n": 12,
+    "mean_gap": 1.3504178688902788,
+    "best_gap": 0.4987988643377541,
+    "bkv_instances": 1,
+    "wins": 0.0
+   },
+   "Onsager-online": {
+    "n": 12,
+    "mean_gap": 1.5636550474242588,
+    "best_gap": 0.6022549731004039,
+    "bkv_instances": 1,
+    "wins": 0.0
+   },
+   "ReAIM_ASA": {
+    "n": 12,
+    "mean_gap": 4.38397190393588,
+    "best_gap": 1.653295440980257,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "SA": {
+    "n": 12,
+    "mean_gap": 0.7919008477684075,
+    "best_gap": 0.162225646582545,
+    "bkv_instances": 4,
+    "wins": 10.0
+   },
+   "SCA": {
+    "n": 12,
+    "mean_gap": 1.7840508702555071,
+    "best_gap": 0.7388989768943225,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 12,
+    "mean_gap": 1.665264626578533,
+    "best_gap": 0.5875499304189503,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "aSB": {
+    "n": 12,
+    "mean_gap": 2.255423162848024,
+    "best_gap": 1.5782291597406994,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "bSB": {
+    "n": 12,
+    "mean_gap": 1.2424173990824572,
+    "best_gap": 0.7851979029063422,
+    "bkv_instances": 0,
+    "wins": 2.0
+   },
+   "dSB": {
+    "n": 12,
+    "mean_gap": 1.072565288643584,
+    "best_gap": 0.27653923045379303,
+    "bkv_instances": 3,
+    "wins": 0.0
+   }
+  },
+  "1000": {
+   "APC-SCA": {
+    "n": 12,
+    "mean_gap": 1.0715029854375335,
+    "best_gap": 0.3318030551408097,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "Onsager-kT": {
+    "n": 12,
+    "mean_gap": 1.0656126494453193,
+    "best_gap": 0.3819885771306002,
+    "bkv_instances": 1,
+    "wins": 0.0
+   },
+   "Onsager-online": {
+    "n": 12,
+    "mean_gap": 1.3037094709676804,
+    "best_gap": 0.35632956154591255,
+    "bkv_instances": 2,
+    "wins": 1.0
+   },
+   "ReAIM_ASA": {
+    "n": 12,
+    "mean_gap": 3.7350047960479986,
+    "best_gap": 1.278434355398063,
+    "bkv_instances": 1,
+    "wins": 0.0
+   },
+   "SA": {
+    "n": 12,
+    "mean_gap": 0.5958625094441383,
+    "best_gap": 0.08670292045106272,
+    "bkv_instances": 5,
+    "wins": 10.0
+   },
+   "SCA": {
+    "n": 12,
+    "mean_gap": 1.35543798942357,
+    "best_gap": 0.44697239068593003,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 12,
+    "mean_gap": 1.3425016786096293,
+    "best_gap": 0.39534860673962874,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "aSB": {
+    "n": 12,
+    "mean_gap": 2.183729008564787,
+    "best_gap": 1.507273066506797,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "bSB": {
+    "n": 12,
+    "mean_gap": 1.17398554549759,
+    "best_gap": 0.7810035369600067,
+    "bkv_instances": 0,
+    "wins": 1.0
+   },
+   "dSB": {
+    "n": 12,
+    "mean_gap": 0.8376852486992016,
+    "best_gap": 0.16227493366230686,
+    "bkv_instances": 4,
+    "wins": 0.0
+   }
+  },
+  "2000": {
+   "APC-SCA": {
+    "n": 12,
+    "mean_gap": 0.8516229858483241,
+    "best_gap": 0.2107443305234726,
+    "bkv_instances": 4,
+    "wins": 0.0
+   },
+   "Onsager-kT": {
+    "n": 12,
+    "mean_gap": 0.8395116234716321,
+    "best_gap": 0.2553943125223735,
+    "bkv_instances": 4,
+    "wins": 1.0
+   },
+   "Onsager-online": {
+    "n": 12,
+    "mean_gap": 1.0642722866284504,
+    "best_gap": 0.296967704925462,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "ReAIM_ASA": {
+    "n": 12,
+    "mean_gap": 3.1830026965748046,
+    "best_gap": 1.2105343744781438,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "SA": {
+    "n": 12,
+    "mean_gap": 0.4794379105270936,
+    "best_gap": 0.05091327274671614,
+    "bkv_instances": 6,
+    "wins": 10.0
+   },
+   "SCA": {
+    "n": 12,
+    "mean_gap": 1.0916405143644727,
+    "best_gap": 0.3525893870747911,
+    "bkv_instances": 3,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 12,
+    "mean_gap": 1.0473847712837536,
+    "best_gap": 0.29111783070473696,
+    "bkv_instances": 4,
+    "wins": 0.0
+   },
+   "aSB": {
+    "n": 12,
+    "mean_gap": 2.203756171633932,
+    "best_gap": 1.575090715363267,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "bSB": {
+    "n": 12,
+    "mean_gap": 1.1566468924073536,
+    "best_gap": 0.8470187044957048,
+    "bkv_instances": 0,
+    "wins": 1.0
+   },
+   "dSB": {
+    "n": 12,
+    "mean_gap": 0.6510854996146768,
+    "best_gap": 0.17680620004784844,
+    "bkv_instances": 5,
+    "wins": 0.0
+   }
+  },
+  "4000": {
+   "APC-SCA": {
+    "n": 12,
+    "mean_gap": 0.6617695590144715,
+    "best_gap": 0.15374587675779303,
+    "bkv_instances": 5,
+    "wins": 0.0
+   },
+   "Onsager-kT": {
+    "n": 12,
+    "mean_gap": 0.708618891761294,
+    "best_gap": 0.1923082344879202,
+    "bkv_instances": 5,
+    "wins": 0.0
+   },
+   "Onsager-online": {
+    "n": 12,
+    "mean_gap": 0.8495608487157827,
+    "best_gap": 0.2461605086138983,
+    "bkv_instances": 3,
+    "wins": 0.0
+   },
+   "ReAIM_ASA": {
+    "n": 12,
+    "mean_gap": 2.780282313739017,
+    "best_gap": 1.1868986908829326,
+    "bkv_instances": 1,
+    "wins": 0.0
+   },
+   "SA": {
+    "n": 12,
+    "mean_gap": 0.3802421417499951,
+    "best_gap": 0.0434377704020657,
+    "bkv_instances": 6,
+    "wins": 11.0
+   },
+   "SCA": {
+    "n": 12,
+    "mean_gap": 0.9013641110634438,
+    "best_gap": 0.2199543161276862,
+    "bkv_instances": 5,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 12,
+    "mean_gap": 0.7942532106678158,
+    "best_gap": 0.22032761181917138,
+    "bkv_instances": 5,
+    "wins": 0.0
+   },
+   "aSB": {
+    "n": 12,
+    "mean_gap": 2.1610341133724895,
+    "best_gap": 1.5287121991922232,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "bSB": {
+    "n": 12,
+    "mean_gap": 1.1389865338118406,
+    "best_gap": 0.9103702537209707,
+    "bkv_instances": 0,
+    "wins": 1.0
+   },
+   "dSB": {
+    "n": 12,
+    "mean_gap": 0.5340135851980065,
+    "best_gap": 0.12487505209444862,
+    "bkv_instances": 6,
+    "wins": 0.0
+   }
+  }
+ },
+ "engine_by_group_S4000": {
+  "Random, +1": {
+   "SCA": {
+    "n": 15,
+    "mean_gap": 0.4382835410536308,
+    "best_gap": 0.017585608548776534,
+    "bkv_instances": 6,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 15,
+    "mean_gap": 0.22159636967548885,
+    "best_gap": 0.011866093677390723,
+    "bkv_instances": 7,
+    "wins": 8.0
+   },
+   "Onsager-kT": {
+    "n": 15,
+    "mean_gap": 0.19656395662490592,
+    "best_gap": 0.01249883174524217,
+    "bkv_instances": 8,
+    "wins": 7.0
+   },
+   "Onsager-online": {
+    "n": 15,
+    "mean_gap": 0.5036313841416591,
+    "best_gap": 0.04691344755169846,
+    "bkv_instances": 6,
+    "wins": 0.0
+   }
+  },
+  "Random, \u00b11": {
+   "SCA": {
+    "n": 10,
+    "mean_gap": 0.4701748025922526,
+    "best_gap": 0.016909127265153104,
+    "bkv_instances": 6,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 10,
+    "mean_gap": 0.45750427241225966,
+    "best_gap": 0.010951121666491105,
+    "bkv_instances": 7,
+    "wins": 1.0
+   },
+   "Onsager-kT": {
+    "n": 10,
+    "mean_gap": 0.3674427143330731,
+    "best_gap": 0.020025558430326735,
+    "bkv_instances": 6,
+    "wins": 5.0
+   },
+   "Onsager-online": {
+    "n": 10,
+    "mean_gap": 0.3646385152195885,
+    "best_gap": 0.005951121666491105,
+    "bkv_instances": 8,
+    "wins": 4.0
+   }
+  },
+  "Toroidal, \u00b11": {
+   "SCA": {
+    "n": 6,
+    "mean_gap": 1.6747738321777141,
+    "best_gap": 0.47597220424096814,
+    "bkv_instances": 1,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 6,
+    "mean_gap": 1.6432871547053551,
+    "best_gap": 0.487900094573343,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "Onsager-kT": {
+    "n": 6,
+    "mean_gap": 1.3761731050323105,
+    "best_gap": 0.3682947255130908,
+    "bkv_instances": 2,
+    "wins": 6.0
+   },
+   "Onsager-online": {
+    "n": 6,
+    "mean_gap": 1.5344928910028972,
+    "best_gap": 0.5114331971487696,
+    "bkv_instances": 0,
+    "wins": 0.0
+   }
+  },
+  "Planar-like, +1": {
+   "SCA": {
+    "n": 12,
+    "mean_gap": 0.8916524169072808,
+    "best_gap": 0.4015336336733384,
+    "bkv_instances": 0,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 12,
+    "mean_gap": 0.796109053088646,
+    "best_gap": 0.34087406739470844,
+    "bkv_instances": 0,
+    "wins": 3.0
+   },
+   "Onsager-kT": {
+    "n": 12,
+    "mean_gap": 0.7912193394860267,
+    "best_gap": 0.3164772328020116,
+    "bkv_instances": 0,
+    "wins": 9.0
+   },
+   "Onsager-online": {
+    "n": 12,
+    "mean_gap": 0.9985082233496159,
+    "best_gap": 0.3789751450500438,
+    "bkv_instances": 0,
+    "wins": 0.0
+   }
+  },
+  "Planar-like, \u00b11": {
+   "SCA": {
+    "n": 8,
+    "mean_gap": 1.3105615945531843,
+    "best_gap": 0.28130114991214306,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "TEC": {
+    "n": 8,
+    "mean_gap": 1.3130935381583255,
+    "best_gap": 0.19048180629686512,
+    "bkv_instances": 2,
+    "wins": 0.0
+   },
+   "Onsager-kT": {
+    "n": 8,
+    "mean_gap": 1.1542647782422242,
+    "best_gap": 0.2584868395616617,
+    "bkv_instances": 2,
+    "wins": 3.0
+   },
+   "Onsager-online": {
+    "n": 8,
+    "mean_gap": 1.1120285882691765,
+    "best_gap": 0.22522921739553295,
+    "bkv_instances": 2,
+    "wins": 5.0
+   }
+  }
+ }
+}

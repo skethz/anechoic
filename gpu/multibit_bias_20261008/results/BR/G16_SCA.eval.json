@@ -1,0 +1,39 @@
+{
+ "prefix": "G16_SCA",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 6.1952580215625,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 78,
+ "feasibility": 0.076171875,
+ "feasibility_wilson95": [
+  0.06146143929473032,
+  0.09405034459856593
+ ],
+ "mean_quality": 0.03522174307452669,
+ "mean_quality_feasible": 0.46239826805532463,
+ "best_value": 2200,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  251.65715360344845,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  238.1070313404984,
+  Infinity
+ ]
+}

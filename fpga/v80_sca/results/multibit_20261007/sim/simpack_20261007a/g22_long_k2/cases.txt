@@ -1,0 +1,6 @@
+K 2 matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G22 maxabs 1 sumw 19990 fingerprint f890a4d8f50b47f9 auto_scale 0.009995
+case 0 onsager_ramp_S600 S 600 t0 4 t1 0.5 q 7 lambda 0.9 ramp 1 jv 0 kappa 0 scale 0.009995 trials 2 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 12825 flips 1266
+  trial 1001 cut 12807 flips 1291
+case 1 tecT_ramp_S600 S 600 t0 4 t1 0.5 q 7 lambda 0 ramp 1 jv 0 kappa 1.5 scale 0.009995 trials 1 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 12822 flips 1079

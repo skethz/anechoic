@@ -1,0 +1,49 @@
+{
+ "prefix": "p059_b240",
+ "cs": 8,
+ "groups": 2,
+ "B": 240,
+ "batches": 32,
+ "steps": 280,
+ "t0": 15,
+ "q": 6,
+ "lam": 0,
+ "ramp": true,
+ "tec_jv": 0,
+ "kappa": 2,
+ "trial_offset": 3472000,
+ "successes": 4047,
+ "trials": 7680,
+ "p": 0.526953125,
+ "p_wilson95": [
+  0.5157762293813875,
+  0.5381030707341488
+ ],
+ "batches_with_success": 32,
+ "P_batch": 1.0,
+ "P_batch_wilson95": [
+  0.8928208017449293,
+  1.0
+ ],
+ "t_batch_ms": 0.44441600146875,
+ "t_batch_min_ms": 0.4404799938,
+ "t_batch_max_ms": 0.4540480077,
+ "host_ms": 0.45784440625,
+ "us_per_step": 1.5872000052455357,
+ "tts_primary_ms": 0.44441600146875,
+ "tts_primary_ci_ms": [
+  0.44441600146875,
+  0.9164260532961884
+ ],
+ "tts_primary_whole_ms": 0.44441600146875,
+ "tts_secondary_ms": 0.011391923323405008,
+ "tts_secondary_ci_ms": [
+  0.011040132080903273,
+  0.01175875815534936
+ ],
+ "cut_mismatches": 0,
+ "gpu_before": "2 %, 22378 MiB, 151.77 W, 228.20 W, 1980 MHz",
+ "gpu_after": "4 %, 22377 MiB, 153.18 W, 229.22 W, 1980 MHz",
+ "score_primary": 0.9164260532961884,
+ "score_secondary": 0.01175875815534936
+}

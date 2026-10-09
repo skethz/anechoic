@@ -1,0 +1,26 @@
+
+## GPP (selections over instances x 5 budgets; counts at axis min / max)
+
+- SA: T0: 0/45 min, 17/45 max; T1: 0/45 min, 0/45 max
+- SCA: q: 14/45 min, 2/45 max; T0: 18/45 min, 2/45 max; tfin: 19/45 min, 26/45 max
+- TEC: jv: 7/45 min, 25/45 max; q: 22/45 min, 23/45 max; T0: 30/45 min, 15/45 max; tfin: 25/45 min, 20/45 max
+- Onsager-kT: kappa: 19/45 min, 0/45 max; q: 23/45 min, 22/45 max; T0: 34/45 min, 11/45 max; tfin: 28/45 min, 17/45 max
+- Onsager-online: lam_k2000: 12/45 min, 11/45 max; q: 29/45 min, 16/45 max; T0: 37/45 min, 8/45 max; tfin: 25/45 min, 20/45 max
+- APC-SCA: q_reset: 7/45 min, 30/45 max; r_q: 34/45 min, 11/45 max; q_lim: 19/45 min, 26/45 max; T0: 7/45 min, 38/45 max
+- ReAIM ASA: kset: 19/45 min, 13/45 max; T1: 10/45 min, 0/45 max
+- aSB: dt: 12/45 min, 1/45 max; xi: 0/45 min, 3/45 max
+- bSB: dt: 1/45 min, 0/45 max; xi: 0/45 min, 2/45 max
+- dSB: dt: 29/45 min, 0/45 max; xi: 7/45 min, 0/45 max
+
+## TSP (selections over instances x 5 budgets; counts at axis min / max)
+
+- SA: T0: 0/30 min, 0/30 max; T1: 0/30 min, 0/30 max
+- SCA: q: 0/30 min, 0/30 max; T0: 17/30 min, 0/30 max; tfin: 2/30 min, 28/30 max
+- TEC: jv: 0/30 min, 2/30 max; q: 8/30 min, 22/30 max; T0: 24/30 min, 6/30 max; tfin: 1/30 min, 29/30 max
+- Onsager-kT: kappa: 8/30 min, 0/30 max; q: 13/30 min, 17/30 max; T0: 24/30 min, 6/30 max; tfin: 0/30 min, 30/30 max
+- Onsager-online: lam_k2000: 8/30 min, 4/30 max; q: 17/30 min, 13/30 max; T0: 25/30 min, 5/30 max; tfin: 0/30 min, 30/30 max
+- APC-SCA: q_reset: 7/30 min, 11/30 max; r_q: 16/30 min, 14/30 max; q_lim: 21/30 min, 9/30 max; T0: 23/30 min, 7/30 max
+- ReAIM ASA: kset: 29/30 min, 0/30 max; T1: 0/30 min, 0/30 max
+- aSB: dt: 30/30 min, 0/30 max; xi: 30/30 min, 0/30 max
+- bSB: dt: 5/30 min, 2/30 max; xi: 0/30 min, 0/30 max
+- dSB: dt: 0/30 min, 0/30 max; xi: 0/30 min, 0/30 max

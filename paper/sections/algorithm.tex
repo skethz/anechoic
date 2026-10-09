@@ -1,0 +1,116 @@
+\section{Onsager-Corrected Parallel Annealing}\label{sec:algorithm}
+
+\subsection{Synchronous stochastic cellular automata}\label{subsec:sca}
+The SCA of STATICA~\cite{9062965,yamamoto2021statica} anneals the PCA sampler of Dai Pra et al.~\cite{daipra2012sampling}, which updates all spins simultaneously and whose stationary distribution approaches the Gibbs distribution as the self-coupling and the number of spins grow. With $h_i(t)$ the local field of spin $i$ at step $t$, spin $i$ keeps its value with probability
+\begin{equation}
+  P\bigl(s_i(t{+}1)=s_i(t)\bigr)=\operatorname{clamp}\!\left(\frac{z_i(t)}{4T_t}+\frac12,\,0,\,1\right),
+  \label{eq:sca}
+\end{equation}
+where $z_i(t)=s_i(t)\,h_i(t)+q$, $\operatorname{clamp}(x,a,b)=\max(a,\min(x,b))$, $T_t$ is the temperature at step $t$, and $q\geq0$ is a self-coupling that pins spins and suppresses simultaneous flips. An anneal of $S$ steps lowers $T_t$ geometrically from an initial temperature $T_0$ to a final temperature of 5. A decision is called \emph{linear} when $|z_i(t)|<2T_t$, that is, when its probability lies strictly between 0 and 1; outside this band the decision is deterministic. Each decision requires one field, one comparison with a uniform random threshold and no exponential, and all $N$ decisions are independent given the current state, so a step parallelizes completely. In exchange, synchronous updates violate detailed balance (Section~\ref{subsec:mcmc}), and part of the dynamics oscillates instead of descending.
+
+\subsection{The echo of synchronous updates}\label{subsec:echo}
+The oscillation comes from the couplings: each neighbor $j$ chooses its state $s_j(t)$ from a field that contains $J_{ji}s_i(t{-}1)$. The field $h_i(t)=\sum_jJ_{ij}s_j(t)$ therefore contains a component along $s_i(t{-}1)$: the network returns the previous state of spin $i$ to that spin, and if the spin has just flipped, this component pushes it back. On K2000~\cite{doi:10.1126/science.aah4243} with STATICA's short schedule~\cite{yamamoto2021statica} ($q=4$, $T_0=30$, $S=560$; B5 in Table~\ref{tab:configs}), 67\% of all flips in 1{,}024 simulated runs reverse a flip that the same spin made one step earlier.
+
+The echo is quantified with dynamical mean-field theory, the standard large-$N$ analysis of disordered spin dynamics~\cite{sompolinsky1982relaxational,eissfeller1992new,coolen2001statistical}. Let $u=h/\sqrt{N}$ and $\tilde T=T/\sqrt{N}$ denote the field and the temperature rescaled by $\sqrt{N}$, the typical magnitude of a sum of $N$ random $\pm1$ couplings. For $N\to\infty$, averaging over symmetric random couplings reduces the parallel dynamics to a single effective spin $s(t)$ whose field is
+\begin{equation}
+  u(t)=\eta(t)+\sum_{t'<t}G(t,t')\,s(t'),
+  \label{eq:dmft}
+\end{equation}
+where the Gaussian process $\eta$ has covariance $C(t,t')=\mathbb{E}[s(t)s(t')]$ and $G(t,t')=\partial\mathbb{E}[s(t)]/\partial\theta(t')$ is the response of the mean spin to a small field perturbation $\theta$ applied at step $t'$. The second term of Equation~\eqref{eq:dmft} is the retarded Onsager reaction~\cite{thouless1977solution}, referred to here as the echo. Its lag-one part has a direct reading. Spin $i$ enters the field of each neighbor $j$ through $J_{ji}$; a neighbor whose decision is linear changes its expected next state by $1/(2T_t)$ per unit of field (F1, F2 in Table~\ref{tab:formal}), and any other neighbor not at all; and the change returns to spin $i$ through $J_{ij}$, with $J_{ij}J_{ji}=1$ on K2000. The lag-one echo in $h_i(t{+}1)$ is therefore $c(t)\,s_i(t)$, with
+\begin{equation}
+  c(t)=\frac{n_{\mathrm{lin}}(t)}{2T_t},
+  \label{eq:c}
+\end{equation}
+where $n_{\mathrm{lin}}(t)$ is the number of spins whose decision at step $t$ is linear. Its run-to-run fluctuations vanish as $N\to\infty$, and at finite $N$ the online count follows each run's own fluctuations. Even at $N=2{,}000$ the theory matches direct simulation of K2000 to within 3\% in $c$ on average (Figure~\ref{fig:theory}).
+
+The finite identities used here and in the engine are machine-checked twice, independently, in Lean~4~\cite{demoura2021lean4} with Mathlib~\cite{mathlib2020} and in the Rocq Prover~\cite{rocq2026} (Table~\ref{tab:formal}), with no unproved step and only the libraries' standard axioms; the large-$N$ step is not formalized.
+
+\begin{table}[t]
+\centering
+\caption{Statements machine-checked in both Lean~4~\cite{demoura2021lean4} with Mathlib~\cite{mathlib2020} and the Rocq Prover~\cite{rocq2026}. Here $f(g)=\operatorname{clamp}(g/2T,-1,1)$ is the expected next spin at field $g=s_iz_i$.}
+\label{tab:formal}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lp{0.80\columnwidth}@{}}
+\toprule
+& Statement \\
+\midrule
+F1 & Eq.~\eqref{eq:sca} gives $P(s_i(t{+}1)={+}1)=\bigl(1+f(h_i+q\,s_i)\bigr)/2$ \\
+F2 & $f'(g)=1/(2T)$ for $|g|<2T$ and $f'(g)=0$ for $|g|>2T$; hence $\sum_i f'(g_i)=n_{\mathrm{lin}}/(2T)$ \\
+F3 & $\sqrt{N}\,\bigl(n_{\mathrm{lin}}/N\bigr)/\bigl(2T/\sqrt{N}\bigr)=n_{\mathrm{lin}}/(2T)$ (rescaled to unscaled units) \\
+F4 & $s(h-\lambda c\,s')+q=s\,h+(q-\lambda c\,s\,s')$ ($q_{\mathrm{eff}}$ identity) \\
+F5 & $\sum_e 2\sigma_eJ_e=4\,\#\{e: J_e=\sigma_e\}-2\,\#E$ (population-count field update) \\
+F6 & $(256k+32m+4a+e)\bmod 4=e$ for $m,a<8$, $e<4$ (and modulo 8 for eight extractors); the representation is unique \\
+F7 & $\mathrm{cut}(\mathbf{s})=(W-H(\mathbf{s}))/2$ \\
+\bottomrule
+\end{tabular}
+\vspace{-0.6em}%
+\end{table}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{theory_vs_sim.pdf}
+  \caption{Dynamical mean-field theory~\cite{sompolinsky1982relaxational,eissfeller1992new,coolen2001statistical} (dashed) versus simulation of K2000 (256 runs; $T_0=30$, $S=560$, $q=4$) for plain SCA~\cite{9062965} and Onsager-online ($\lambda=0.7$): (a)~negative energy per spin $\mathbb{E}[s\,u]=-2H/N^{3/2}$, with $u=h/\sqrt{N}$; (b)~echo coefficient $c=n_{\mathrm{lin}}/2T$. Up to step 500, where the theory stops because its solver loses accuracy, theory and simulation differ by at most 0.06 in $\mathbb{E}[s\,u]$ and by 3\% in $c$ on average.}
+  \Description{Two panels. Left: the negative energy per spin rises from 0 to about 1.5 over 560 steps; simulation and theory overlap for both rules. Right: the echo coefficient falls by about an order of magnitude over the anneal, with theory and simulation overlapping.}
+  \label{fig:theory}
+\vspace{-0.6em}%
+\end{figure}
+
+\subsection{Onsager correction and its hardware cost}\label{subsec:onsager}
+\begin{algorithm}[t]
+\caption{One anneal of Onsager-online ($s'$: previous state). Onsager-$\kappa T$ uses $\beta\gets\kappa\,T_{t-1}\rho_t$ in line~3.}
+\label{alg:anneal}
+\begin{algorithmic}[1]
+\Require $J$, $q$, and $T_t$, $\lambda_t$ for $t<S$
+\State $s\gets$ random spins;\; $s'\gets s$;\; $h\gets Js$;\; $n_{\mathrm{lin}}\gets0$
+\For{$t\gets0$ \textbf{to} $S-1$}
+  \State $\beta\gets\lambda_t\,n_{\mathrm{lin}}/(2T_{t-1})$, or $\beta\gets0$ if $t=0$
+  \State $n_{\mathrm{lin}}\gets0$
+  \ForAll{spins $i$ \textbf{in parallel}}
+    \State $z_i\gets s_i\,(h_i-\beta\,s'_i)+q$
+    \State \textbf{if} $|z_i|<2T_t$ \textbf{then} $n_{\mathrm{lin}}\gets n_{\mathrm{lin}}+1$
+    \State $f_i\gets[\,z_i<r_i\,]$ with $r_i$ uniform in $[-2T_t,2T_t)$
+  \EndFor
+  \State $s'\gets s$;\; $s_x\gets-s_x$ for every $x$ with $f_x=1$
+  \ForAll{$x$ with $f_x=1$} \Comment{only these rows of $J$}
+    \State $h_y\gets h_y+2\,s_xJ_{xy}$ for all $y$
+  \EndFor
+\EndFor
+\State \Return $s$
+\end{algorithmic}
+\end{algorithm}
+The estimated lag-one echo is subtracted from the decision field:
+\begin{equation}
+  z_i(t)=s_i(t)\bigl[h_i(t)-\lambda_t\,c(t{-}1)\,s_i(t{-}1)\bigr]+q ,
+  \label{eq:onsager}
+\end{equation}
+and the rule of Equation~\eqref{eq:sca} is otherwise unchanged. The gain $\lambda_t=\lambda\rho_t$ combines a constant $\lambda$ (0.7--1.05 in the schedules used here) with an optional end ramp $\rho_t$, which equals 1 for the first 70\% of the steps and decreases linearly to 0 over the remaining 30\%; with the ramp, the anneal ends as plain SCA~\cite{9062965} and freezes into a local minimum.
+
+Rewriting Equation~\eqref{eq:onsager} as $s_ih_i+q_{\mathrm{eff},i}$, with $q_{\mathrm{eff},i}=q-\lambda_t\,c(t{-}1)\,s_i(t)s_i(t{-}1)$, reveals the mechanism: a spin that has not flipped loses pinning, and a spin that has just flipped gains it. TEC~\cite{du2026tec} and the adaptive per-spin pinning of APC-SCA~\cite{okonogi2023apc} have the same functional form; the theory contributes the coefficient, which must follow $c(t)$ over more than an order of magnitude during an anneal, with a fixed sign. A constant coupling cannot do so, consistent with the observation of TEC that its best constant drifts with temperature.
+
+With $\lambda=0.7$, the correction reduces immediate flip-backs from 67\% to 54\% of all flips. It also lets the anneal start much colder: the same selection procedure (Section~\ref{subsec:setup}) picks $T_0=12$--$15$ for both forms but 30--40 for plain SCA, although its grid includes 15. A colder start shortens the flip-intensive early phase, which matters for the hardware, whose cost grows with the number of flips (Section~\ref{sec:arch}). The theory also predicts when the correction is stable, and three such predictions, each stated before the corresponding experiment, hold on K2000 (1{,}024 runs each, $T_0=30$, $S=560$): (1)~at $q=4$, full cancellation ($\lambda=1$) prevents the spins from ordering (mean cut 9{,}721); (2)~at $q=4$, there is a stability threshold $\lambda_c\approx0.8$--$0.9$ (success 0.61 at $\lambda=0.8$, 0.24 at 0.9); and (3)~$\lambda_c$ increases with $q$ (success 0.63 at $\lambda=0.9$ with $q=8$).
+
+The correction is evaluated in two forms, named after how the coefficient is obtained. \emph{Onsager-online} uses the counted coefficient of Equation~\eqref{eq:c}. \emph{Onsager-$\kappa T$} replaces $\lambda\,c(t{-}1)$ by $\kappa T_{t-1}$, where $\kappa$ is a tuned constant:
+\begin{equation*}
+  z_i(t)=s_i(t)\bigl[h_i(t)-\kappa\,T_{t-1}\,\rho_t\,s_i(t{-}1)\bigr]+q .
+\end{equation*}
+For plain SCA on K2000, $n_{\mathrm{lin}}/4T^2$ stays near 0.3 for $8\le T\le25$, as the theory predicts, so $c=n_{\mathrm{lin}}/2T$ is nearly proportional to $T$ (Figure~\ref{fig:theory}b), and a coupling $\kappa T$ follows it without a population count. Onsager-$\kappa T$ retains the gain: in pre-registered ablations at equal hardware cost, the online coefficient gives a further 4--9\% reduction in projected time-to-solution, but on the board the best Onsager-$\kappa T$ schedule is the faster one (Section~\ref{subsec:ttsres}).
+
+The correction is inexpensive: $n_{\mathrm{lin}}$ is a population count of flags that the lanes already compute, $\lambda_t/(2T_{t-1})$ is a table entry, and each lane adds or subtracts their product $\lambda_t c(t{-}1)$ depending on whether $s_i(t)=s_i(t{-}1)$. Both forms run on the same engine and differ only in two per-step tables (Algorithm~\ref{alg:anneal}).
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=\textwidth]{alg_compare_published.pdf}
+  \caption{Algorithm-level comparison on K2000. (a)~Mean Ising energy versus Monte Carlo step at $S=1000$; the inset magnifies the last 20\% of the steps, and the dash-dotted line marks the 33{,}000-cut target. (b)~Fraction of runs that reach the target versus the step budget, with 95\% Wilson intervals~\cite{wilson1927probable}. The baselines use their papers' settings, and only the two corrected forms are tuned per budget; each point represents 256 held-out runs. At its published step size, aSB~\cite{goto2019combinatorial} diverges at the longer budgets.}
+  \Description{Two panels with a shared legend. Left: energy decreases with Monte Carlo steps for ten methods; the two corrected SCA rules and simulated bifurcation reach the lowest energies. Right: success probability rises with the step budget; the two forms of the correction dominate the other binary-spin methods.}
+  \label{fig:alg}
+\vspace{-0.6em}%
+\end{figure*}
+
+\subsection{Comparison with published algorithms}\label{subsec:algcomp}
+Figure~\ref{fig:alg} compares the two forms of the correction by energy versus Monte Carlo step with (1)~the algorithms of the Ising machines in Table~\ref{tab:comp}, namely the SCA of STATICA~\cite{9062965}, the ASA of ReAIM~\cite{10609617} without ReRAM noise, and adiabatic simulated bifurcation (aSB)~\cite{goto2019combinatorial}, bSB and dSB~\cite{goto2021high}; (2)~two other corrections that couple consecutive time steps, TEC~\cite{du2026tec} and APC-SCA~\cite{okonogi2023apc}; and (3)~classical SA~\cite{kirkpatrick1983optimization} with sequential Metropolis sweeps~\cite{metropolis1953equation}.
+One step gives every spin one update opportunity: (1)~for SA and TEC, a sweep of $N$ sequential updates; (2)~for the SCA family, one parallel update; (3)~for SB, one integration step, which requires one dense product of $J$ with the amplitude vector; and (4)~for ASA, one iteration.
+Every baseline uses the settings that its paper describes: Neal's default temperatures for SA~\cite{dwave_neal}; $q=4$ and $T$ from 40 to 5 for SCA~\cite{yamamoto2021statica}; the reset, rates and temperatures of APC-SCA~\cite{okonogi2023apc}; the temperatures, $F$ and $k$ of ASA~\cite{10609617}; $J_v=30J$ and $T$ from $100J$ to $0.1J$ for TEC~\cite{du2026tec}; and the step sizes and scalings that their papers prescribe for aSB, bSB and dSB~\cite{goto2019combinatorial,goto2021high}. Each implementation was checked against results that its paper reports. Only TEC is not reproduced: implemented with sequential p-bit updates, it reaches the paper's 95\% target in 577 instead of 740 sweeps but gains only 1.28 times, not 1.88 times, from its coupling. Only the two forms of the correction are tuned: for each step budget $S\in\{250,500,1000,2000,4000\}$, the configuration with the highest mean final cut over 64 tuning runs is selected and then evaluated on 256 held-out runs with fresh seeds.
+
+Among the binary-spin methods, that is, all except the three SB variants, whose amplitudes are continuous, the two forms of the correction reach the lowest mean energy at every budget, including sequential SA. At $S=500$, they reach the 33{,}000 target in 87\% (Onsager-$\kappa T$) and 82\% (Onsager-online) of the runs, against 16\% for SCA~\cite{9062965}, 8\% for SA~\cite{kirkpatrick1983optimization}, and at most 1\% for TEC~\cite{du2026tec}, APC-SCA~\cite{okonogi2023apc} and ASA~\cite{10609617}. A second measure is the number of steps to solution, $S\cdot\ln0.01/\ln(1-p)$ minimized over $S$, where $p$ is the fraction of runs that reach the target. By this measure, Onsager-$\kappa T$ needs 830 steps and Onsager-online 1{,}358. dSB needs 2{,}115, SCA 3{,}796, SA 6{,}181, APC-SCA and ASA about 21{,}000, aSB 41{,}526 and TEC about 780{,}000. Only bSB~\cite{goto2021high} needs fewer (293).
+
+bSB~\cite{goto2021high} also reaches the lowest energy for $S\leq2000$. It then stops improving, and at $S=4000$ both forms end at lower energy (mean cut 33{,}236 and 33{,}233, against 33{,}209 for bSB and 33{,}215 for dSB). Section~\ref{subsec:sota} explains why SCA's cheaper steps still give a lower measured time-to-solution than bSB.

@@ -1,0 +1,39 @@
+{
+ "prefix": "gr24_SCA",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 12.568782003125,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 974,
+ "feasibility": 0.951171875,
+ "feasibility_wilson95": [
+  0.936203228561247,
+  0.9627680982620183
+ ],
+ "mean_quality": 0.4575311543769456,
+ "mean_quality_feasible": 0.4810183799609777,
+ "best_value": 1929,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  510.55563661107095,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  483.0654929809019,
+  Infinity
+ ]
+}

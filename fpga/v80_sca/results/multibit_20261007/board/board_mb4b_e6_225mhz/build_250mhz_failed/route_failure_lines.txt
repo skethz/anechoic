@@ -1,0 +1,23 @@
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.221 | TNS=-2.985 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.221 | TNS=-2.985 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.001 | TNS=0.000 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.001 | TNS=0.000 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.001 | TNS=0.000 |
+INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.001 | TNS=0.000 | WHS=-0.535 | THS=-4195.897 |
+INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.001 | TNS=0.000 | WHS=-0.403 | THS=-3194.053 |
+INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=0.001 | TNS=0.000 | WHS=-0.403 | THS=-3194.053 |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.037  | TNS=0.000  | WHS=-0.283 | THS=-2095.764|
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.037  | TNS=0.000  | WHS=-0.369 | THS=-2539.276|
+INFO: [Route 35-448] Estimated Global/Short routing congestion is level 6 (64x64). Congestion levels of 5 and greater can reduce routability and impact timing closure.
+INFO: [Route 35-581] Estimated Timing congestion is level 5 (32x32). Congestion levels of 5 and greater may impact timing closure.
+Utilization threshold used for congestion level computation: 0.85
+Reporting congestion hotspots
+Effective congestion level: 5 Aspect Ratio: 0.6 Sparse Ratio: 0.75
+Effective congestion level: 5 Aspect Ratio: 0.333333 Sparse Ratio: 0.75
+Effective congestion level: 5 Aspect Ratio: 0.5 Sparse Ratio: 0.75
+Effective congestion level: 5 Aspect Ratio: 0.333333 Sparse Ratio: 0.75
+CRITICAL WARNING: [Route 35-162] 4679 signals failed to route due to routing congestion. Please run report_route_status to get a full summary of the design's routing.
+Resolution: Run report_route_status to get a full summary of the design's routing. To find the areas of the congestion, use the route congestion Metrics in the Device View and check the logfile for the Congestion Report.
+ERROR: [Route 35-2] Design is not legally routed. There are 4054 node overlaps.
+Resolution: Run report_design_analysis -congestion and -complexity to find potential sources of congestion in the areas where nets are not fully routed and review UG906 for design closure techniques.
+ERROR: [Common 17-39] 'route_design' failed due to earlier errors.

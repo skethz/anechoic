@@ -1,0 +1,10 @@
+== LANES=256
+tec_S40              trial 1: MATCH (cut 31484, flips 8275)
+onsager_ramp_S560    trial 0: MATCH (cut 33181, flips 174627)
+onsager_ramp_S560    trial 1: MATCH (cut 33235, flips 171886)
+TESTBENCH PASSED
+== LANES=128
+tec_S40              trial 1: MATCH (cut 31165, flips 8659)
+onsager_ramp_S560    trial 0: MATCH (cut 33031, flips 166498)
+onsager_ramp_S560    trial 1: MATCH (cut 33104, flips 168138)
+TESTBENCH PASSED

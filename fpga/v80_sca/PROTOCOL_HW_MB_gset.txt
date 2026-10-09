@@ -1,0 +1,8 @@
+# PROTOCOL_HW_MB phase 3 (frozen): key instance target trials host-arguments
+# seed 20261004, trial ids 0..trials-1, one trial per launch, tables resident (scripts/run_hw_mb.sh adds these)
+G22_ons   G22 13226 2052 --q 5 --lambda 0.5 --ramp --t0 5 --t1 0.5 --steps 1024 --corr-scale auto
+G22_plain G22 13226 2052 --q 5 --lambda 0 --t0 5 --t1 0.7 --steps 1024
+G22_tecT  G22 13226 2052 --q 5 --tecT 1.5 --ramp --t0 5 --t1 0.7 --steps 1024 --corr-scale auto
+G32_ons   G32 1396 2052 --q 1.5 --lambda 0.9 --ramp --t0 1.5 --t1 0.5 --steps 4096 --corr-scale auto
+G32_plain G32 1396 2052 --q 1 --lambda 0 --t0 2 --t1 0.5 --steps 4096
+G32_tecT  G32 1396 2052 --q 1 --tecT 2 --ramp --t0 2 --t1 0.5 --steps 4096 --corr-scale auto

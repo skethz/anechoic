@@ -1,0 +1,342 @@
+{
+ "selection": [
+  {
+   "cfg": {
+    "family": "onsager",
+    "q": 6.0,
+    "lam": 0.9,
+    "ramp": true,
+    "T0": 15.0,
+    "S": 280
+   },
+   "objective": "primary"
+  },
+  {
+   "cfg": {
+    "family": "onsager",
+    "q": 6.0,
+    "lam": 0.9,
+    "ramp": true,
+    "T0": 15.0,
+    "S": 320
+   },
+   "objective": "primary"
+  },
+  {
+   "cfg": {
+    "family": "onsager",
+    "q": 8.0,
+    "lam": 1.05,
+    "ramp": true,
+    "T0": 12.0,
+    "S": 320
+   },
+   "objective": "primary"
+  },
+  {
+   "cfg": {
+    "family": "onsager",
+    "q": 8.0,
+    "lam": 1.05,
+    "ramp": true,
+    "T0": 12.0,
+    "S": 1260
+   },
+   "objective": "secondary"
+  },
+  {
+   "cfg": {
+    "family": "onsager",
+    "q": 6.0,
+    "lam": 0.9,
+    "ramp": true,
+    "T0": 15.0,
+    "S": 960
+   },
+   "objective": "secondary"
+  },
+  {
+   "cfg": {
+    "family": "onsager",
+    "q": 8.0,
+    "lam": 0.9,
+    "ramp": true,
+    "T0": 20.0,
+    "S": 1260
+   },
+   "objective": "secondary"
+  },
+  {
+   "cfg": {
+    "family": "tecT",
+    "q": 8.0,
+    "kappa": 1.75,
+    "ramp": true,
+    "T0": 15.0,
+    "S": 320
+   },
+   "objective": "primary"
+  },
+  {
+   "cfg": {
+    "family": "tecT",
+    "q": 8.0,
+    "kappa": 1.75,
+    "ramp": true,
+    "T0": 15.0,
+    "S": 360
+   },
+   "objective": "primary"
+  },
+  {
+   "cfg": {
+    "family": "tecT",
+    "q": 8.0,
+    "kappa": 1.5,
+    "ramp": true,
+    "T0": 20.0,
+    "S": 280
+   },
+   "objective": "primary"
+  },
+  {
+   "cfg": {
+    "family": "tecT",
+    "q": 8.0,
+    "kappa": 2.0,
+    "ramp": true,
+    "T0": 15.0,
+    "S": 760
+   },
+   "objective": "secondary"
+  },
+  {
+   "cfg": {
+    "family": "tecT",
+    "q": 6.0,
+    "kappa": 1.75,
+    "ramp": true,
+    "T0": 15.0,
+    "S": 960
+   },
+   "objective": "secondary"
+  },
+  {
+   "cfg": {
+    "family": "tecT",
+    "q": 6.0,
+    "kappa": 2.0,
+    "ramp": true,
+    "T0": 15.0,
+    "S": 960
+   },
+   "objective": "secondary"
+  }
+ ],
+ "holdout": [
+  {
+   "family": "onsager",
+   "q": 6.0,
+   "lam": 0.9,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 280,
+   "trials": 2048,
+   "successes": 819,
+   "p": 0.39990234375,
+   "mean_flips": 53531.97998046875,
+   "t_round_ms": 0.0724202588151123,
+   "tts_primary_ms": 0.07256529417035551,
+   "tts_secondary_ms": 0.0725652941703555,
+   "sec": 55.903550415998325,
+   "objective": "primary"
+  },
+  {
+   "family": "onsager",
+   "q": 6.0,
+   "lam": 0.9,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 320,
+   "trials": 2048,
+   "successes": 911,
+   "p": 0.44482421875,
+   "mean_flips": 58737.85693359375,
+   "t_round_ms": 0.07976625758263182,
+   "tts_primary_ms": 0.06935818193207838,
+   "tts_secondary_ms": 0.06935818193207836,
+   "sec": 63.41502487502294,
+   "objective": "primary"
+  },
+  {
+   "family": "onsager",
+   "q": 8.0,
+   "lam": 1.05,
+   "ramp": true,
+   "T0": 12.0,
+   "S": 320,
+   "trials": 2048,
+   "successes": 946,
+   "p": 0.4619140625,
+   "mean_flips": 72078.701171875,
+   "t_round_ms": 0.09225769026826171,
+   "tts_primary_ms": 0.09225769026826171,
+   "tts_secondary_ms": 0.07617252104747793,
+   "sec": 63.42487300001085,
+   "objective": "primary"
+  },
+  {
+   "family": "onsager",
+   "q": 8.0,
+   "lam": 1.05,
+   "ramp": true,
+   "T0": 12.0,
+   "S": 1260,
+   "trials": 2048,
+   "successes": 1996,
+   "p": 0.974609375,
+   "mean_flips": 158370.0712890625,
+   "t_round_ms": 0.23113701885008786,
+   "tts_primary_ms": 0.23113701885008786,
+   "tts_secondary_ms": 0.03219640522986061,
+   "sec": 229.69543354102643,
+   "objective": "secondary"
+  },
+  {
+   "family": "onsager",
+   "q": 6.0,
+   "lam": 0.9,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 960,
+   "trials": 2048,
+   "successes": 1885,
+   "p": 0.92041015625,
+   "mean_flips": 133165.51416015625,
+   "t_round_ms": 0.18900038587357906,
+   "tts_primary_ms": 0.18900038587357906,
+   "tts_secondary_ms": 0.03821168916831843,
+   "sec": 178.6660509170033,
+   "objective": "secondary"
+  },
+  {
+   "family": "onsager",
+   "q": 8.0,
+   "lam": 0.9,
+   "ramp": true,
+   "T0": 20.0,
+   "S": 1260,
+   "trials": 2048,
+   "successes": 1959,
+   "p": 0.95654296875,
+   "mean_flips": 167966.76904296875,
+   "t_round_ms": 0.2401226948580029,
+   "tts_primary_ms": 0.2401226948580029,
+   "tts_secondary_ms": 0.03917984711985163,
+   "sec": 229.6183693750063,
+   "objective": "secondary"
+  },
+  {
+   "family": "tecT",
+   "q": 8.0,
+   "kappa": 1.75,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 320,
+   "trials": 2048,
+   "successes": 903,
+   "p": 0.44091796875,
+   "mean_flips": 53483.35498046875,
+   "t_round_ms": 0.07484630976886229,
+   "tts_primary_ms": 0.06586495783928763,
+   "tts_secondary_ms": 0.06586495783928772,
+   "sec": 58.684260791982524,
+   "objective": "primary"
+  },
+  {
+   "family": "tecT",
+   "q": 8.0,
+   "kappa": 1.75,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 360,
+   "trials": 2048,
+   "successes": 1033,
+   "p": 0.50439453125,
+   "mean_flips": 59511.80712890625,
+   "t_round_ms": 0.08296251036900877,
+   "tts_primary_ms": 0.08296251036900877,
+   "tts_secondary_ms": 0.060473256450839896,
+   "sec": 66.14964845799841,
+   "objective": "primary"
+  },
+  {
+   "family": "tecT",
+   "q": 8.0,
+   "kappa": 1.5,
+   "ramp": true,
+   "T0": 20.0,
+   "S": 280,
+   "trials": 2048,
+   "successes": 794,
+   "p": 0.3876953125,
+   "mean_flips": 61550.2265625,
+   "t_round_ms": 0.07992798363726561,
+   "tts_primary_ms": 0.08337592227058722,
+   "tts_secondary_ms": 0.08337592227058728,
+   "sec": 51.76532112498535,
+   "objective": "primary"
+  },
+  {
+   "family": "tecT",
+   "q": 8.0,
+   "kappa": 2.0,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 760,
+   "trials": 2048,
+   "successes": 1945,
+   "p": 0.94970703125,
+   "mean_flips": 149027.85888671875,
+   "t_round_ms": 0.19149487511140134,
+   "tts_primary_ms": 0.19149487511140134,
+   "tts_secondary_ms": 0.03277216405371858,
+   "sec": 132.59800250001717,
+   "objective": "secondary"
+  },
+  {
+   "family": "tecT",
+   "q": 6.0,
+   "kappa": 1.75,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 960,
+   "trials": 2048,
+   "successes": 1958,
+   "p": 0.9560546875,
+   "mean_flips": 182170.697265625,
+   "t_round_ms": 0.23488540897072263,
+   "tts_primary_ms": 0.23488540897072263,
+   "tts_secondary_ms": 0.0384623391981841,
+   "sec": 165.30770458298502,
+   "objective": "secondary"
+  },
+  {
+   "family": "tecT",
+   "q": 6.0,
+   "kappa": 2.0,
+   "ramp": true,
+   "T0": 15.0,
+   "S": 960,
+   "trials": 2048,
+   "successes": 2015,
+   "p": 0.98388671875,
+   "mean_flips": 225123.380859375,
+   "t_round_ms": 0.2751032952000586,
+   "tts_primary_ms": 0.2751032952000586,
+   "tts_secondary_ms": 0.0340994642932104,
+   "sec": 167.2347977499594,
+   "objective": "secondary"
+  }
+ ]
+}

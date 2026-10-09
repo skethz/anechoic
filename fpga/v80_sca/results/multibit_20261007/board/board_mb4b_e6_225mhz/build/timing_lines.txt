@@ -1,0 +1,17 @@
+INFO: [Vivado_Tcl 4-2280] Estimated Timing Summary | WNS= 0.200 | TNS= 0.000 | WHS= -0.556 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.200 | TNS=0.000 |
+INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.200 | TNS=0.000 | WHS=-0.556 | THS=-4918.376 |
+INFO: [Physopt 32-668] Estimated Timing Summary | WNS=0.200 | TNS=0.000 | WHS=-0.346 | THS=-3575.835 |
+INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=0.200 | TNS=0.000 | WHS=-0.346 | THS=-3575.835 |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.294  | TNS=0.000  | WHS=-0.240 | THS=-2158.199|
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.294  | TNS=0.000  | WHS=-0.319 | THS=-2859.305|
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.049 | TNS=-1.257 | WHS=-0.282 | THS=-31.783|
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.049 | TNS=-1.257 | WHS=-0.282 | THS=-31.783|
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.029 | TNS=-0.704 | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.010 | TNS=-0.167 | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.002 | TNS=-0.006 | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.001  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.001  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.001  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.002  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+INFO: [Vivado_Tcl 4-2280] Estimated Timing Summary | WNS= 0.002 | TNS= 0.000 | WHS= 0.010 |

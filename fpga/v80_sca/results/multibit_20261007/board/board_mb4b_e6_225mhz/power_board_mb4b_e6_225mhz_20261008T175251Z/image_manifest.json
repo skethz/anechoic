@@ -1,0 +1,104 @@
+{
+  "status": "Built image; physical execution not yet established",
+  "logic_uuid": "015c977e7098d29dfc7ea51a2f37bf6c",
+  "physical_board_execution": false,
+  "clock": {
+    "requested_mhz": 225,
+    "routed_period_ns": 4.444,
+    "actual_mhz": 224.999999775,
+    "clock": "clock_reset_clk_usr_0",
+    "frequency_source": "Configured nominal CIPS clock and routed MMCM dividers; not an external frequency measurement",
+    "input_mhz": 33.3333333,
+    "feedback_multiplier": 94.5,
+    "input_divider": 1,
+    "output_divider": 14
+  },
+  "files": {
+    "pdi": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/snowball_v80.pdi",
+      "bytes": 108750896,
+      "sha256": "2dd9b530fc904c5def893f9b0b241f9eb2810c4710a2ba29c3e8f9057aeedee4"
+    },
+    "uuid_manifest": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/prj.runs/impl_1/pfm_uuid_manifest.dict",
+      "bytes": 92,
+      "sha256": "1792e0af0555ad1198f6aedc2dea3352eee87eb43dd647c164859d8431b6b800"
+    },
+    "hardware_pdi": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/prj.runs/impl_1/top_wrapper.pdi",
+      "bytes": 107927392,
+      "sha256": "208c822449d5f7dd363c007eafe84a217a6b255d53fe87330ffe793ef9b98995"
+    },
+    "management_firmware": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/amc.elf",
+      "bytes": 2034428,
+      "sha256": "3990d9e302418cd5272efcde24f370535ee4c5b451b3b5dadfec96f79b27ece6"
+    },
+    "hardware_handoff": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/amd_v80_gen5x8_25.1.xsa",
+      "bytes": 3731709,
+      "sha256": "52d162241ff9abfe64ca4d9978747f22301aecbf5317829203b3dc838cc5f5b8"
+    },
+    "routed_checkpoint": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/prj.runs/impl_1/top_wrapper_routed.dcp",
+      "bytes": 1756857086,
+      "sha256": "b872cc88a0a9813149850b298a446401238db8c894255d0632a30e5be82a8ddb"
+    },
+    "routed_timing": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/routed_timing.rpt",
+      "bytes": 205173,
+      "sha256": "53ab7ade126101cd5871963d3bcb3849b2cbf05a1d469eca8d5516bd1bac7078"
+    },
+    "timing_signoff": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/timing_signoff.json",
+      "bytes": 513,
+      "sha256": "eb60871c70a77f38aaafe905d950c0bfec5b765ad6348d3e40d2d99db3c5a292"
+    },
+    "timer_structure": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/timer_structure.json",
+      "bytes": 94,
+      "sha256": "be5a6b734146695a8a70da247e5a1fb7466b849903ad782fedfe6fe12e7a1ac6"
+    },
+    "bus_skew": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/bus_skew.rpt",
+      "bytes": 103955,
+      "sha256": "809553ff254729fb3209043babb257e9724297a99cc5b0f944b80ad39ade89b0"
+    },
+    "drc": {
+      "path": "/scratch/USER/sca_v80_20261003/build/board_mb4b_e6_225mhz/drc.rpt",
+      "bytes": 251947,
+      "sha256": "543dd2f658c13a54408690388f5a797276c3daf31d986f0452dfe3bb78c76dff"
+    },
+    "host_binary": {
+      "path": "/scratch/USER/sca_v80_20261003/build/host_sca_mb4b",
+      "bytes": 162112,
+      "sha256": "bf017aa15d0d76d8d3a52d1ab29fbed7af59e5cd608fa9f13b74f14830359309"
+    },
+    "graph": {
+      "path": "/scratch/USER/sca_v80_20261003/data/K2000.bin",
+      "bytes": 512012,
+      "sha256": "a3058db6cffdbb632bc46223958cc7f8dce17da22eb2e4bbed6f60f811e6c0e9"
+    },
+    "instrumented_ip": {
+      "path": "/scratch/USER/sca_v80_20261003/build/iprepo_board_mb4b_e6_225mhz/sca_v80/component.xml",
+      "bytes": 214561,
+      "sha256": "9af73d77c976bcd9228e26d1f1031bdc7e7289819ca2603a0ea4e840076454b3"
+    },
+    "counter_rtl": {
+      "path": "/scratch/USER/sca_v80_20261003/build/iprepo_board_mb4b_e6_225mhz/sca_v80/hdl/verilog/sca_v80_control_s_axi.v",
+      "bytes": 23256,
+      "sha256": "8349b539e45178bbe2a5e3cabd21afa6f65bcc828f99a2f934da1645a7ef2f06"
+    },
+    "instrumentation": {
+      "path": "/scratch/USER/sca_v80_20261003/results/instrumentation_mb4b.json",
+      "bytes": 710,
+      "sha256": "2c3ed8ae2462e206672833459a1114490f358239d5818bc17d94dd60cbef20e5"
+    }
+  },
+  "pdi_format": "Normal boot image with matching AMC; no flash-partition-table prefix",
+  "recovery_image": {
+    "path": "/opt/amd/aved/amd_v80_gen5x8_25.1_exdes_1_xbtest_stress/design.pdi",
+    "sha256": "03c299444401bb0ae98497134cbdccdbedd5a3d0f11709a6ede4c94eef248201",
+    "logic_uuid": "5a73aca29b601abfd14ffca90557701b"
+  }
+}

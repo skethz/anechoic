@@ -1,0 +1,21 @@
+# Questa 2025.3 RTL regression of rtl/sca_core_mb_asic.v (behavioural SRAM models, SCA_SIM_CHECKS), 8 October 2026.
+# Expected words: sca_ref.hpp run_trial(..., dense) for the b = 0 sets, sca_ref_bias.hpp run_trial_bias for *_bias.
+# 'checks' counts SCA_SIM_CHECKS messages (single-port legality, residue property, bias load vs INIT start).
+k2_k2000_short: K=2 DONE: 660 words, 0 errors, 0 residue violations, cycle 105956 | 1 passed | checks 0
+k2_k2000_X5: K=2 DONE: 34 words, 0 errors, 0 residue violations, cycle 82751 | 1 passed | checks 0
+k2_k2000_O4: K=2 DONE: 34 words, 0 errors, 0 residue violations, cycle 84634 | 1 passed | checks 0
+k2_G22_short: K=2 DONE: 660 words, 0 errors, 0 residue violations, cycle 87457 | 1 passed | checks 0
+k2_G32_short: K=2 DONE: 660 words, 0 errors, 0 residue violations, cycle 98748 | 1 passed | checks 0
+k2_bias: K=2 DONE: 868 words, 0 errors, 0 residue violations, cycle 91546 | 1 passed | checks 0
+k4_k2000_short: K=4 DONE: 660 words, 0 errors, 0 residue violations, cycle 175822 | 1 passed | checks 0
+k4_k2000_X5: K=4 DONE: 34 words, 0 errors, 0 residue violations, cycle 152613 | 1 passed | checks 0
+k4_G22_short: K=4 DONE: 660 words, 0 errors, 0 residue violations, cycle 157329 | 1 passed | checks 0
+k4_G32_short: K=4 DONE: 660 words, 0 errors, 0 residue violations, cycle 168622 | 1 passed | checks 0
+k4_bias: K=4 DONE: 868 words, 0 errors, 0 residue violations, cycle 171005 | 1 passed | checks 0
+
+# per-trial compute cycles (SEED entry -> OUT entry) vs the v6.4b 1.25 GHz ASIC RTL on the same K2000 cases
+k2_k2000_short vs v6.4b-ASIC default: IDENTICAL (4590 4717 4114 3574 3495 3594 2486 2430 2427 2471 )
+k4_k2000_short vs v6.4b-ASIC default: IDENTICAL (4590 4717 4114 3574 3495 3594 2486 2430 2427 2471 )
+k2_k2000_X5 vs v6.4b-ASIC X5: IDENTICAL (12409 )
+k4_k2000_X5 vs v6.4b-ASIC X5: IDENTICAL (12409 )
+k2_k2000_O4 vs v6.4b-ASIC O4: IDENTICAL (14206 )

@@ -1,0 +1,705 @@
+{
+ "all_identical": true,
+ "cases": [
+  {
+   "graph": "syn_rand_n300_m2700_pm_1",
+   "cfg": {
+    "family": "plain",
+    "q": 0.37956822314046385,
+    "T0": 2.8467616735534786,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.009178417036309838,
+   "t_engine": 0.3852541670203209,
+   "mean_flips": 5861.75
+  },
+  {
+   "graph": "syn_rand_n300_m2700_pm_1",
+   "cfg": {
+    "family": "tec",
+    "q": 0.5693523347106958,
+    "jv": -0.18978411157023192,
+    "T0": 1.8978411157023192,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010298417008016258,
+   "t_engine": 0.00328062498010695,
+   "mean_flips": 3120.8333333333335
+  },
+  {
+   "graph": "syn_rand_n300_m2700_pm_1",
+   "cfg": {
+    "family": "tec",
+    "q": 0.5693523347106958,
+    "jv": 0.37956822314046385,
+    "T0": 1.8978411157023192,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.009968708036467433,
+   "t_engine": 0.0032521249959245324,
+   "mean_flips": 3206.8333333333335
+  },
+  {
+   "graph": "syn_rand_n300_m2700_pm_1",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.7591364462809277,
+    "kappa": 1.25,
+    "ramp": true,
+    "T0": 1.8978411157023192,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.009890749992337078,
+   "t_engine": 0.004062791995238513,
+   "mean_flips": 4493.25
+  },
+  {
+   "graph": "syn_rand_n300_m2700_pm_1",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.5693523347106958,
+    "kappa": 0.5,
+    "ramp": false,
+    "T0": 1.1387046694213916,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.009986708988435566,
+   "t_engine": 0.0029273330001160502,
+   "mean_flips": 2753.5833333333335
+  },
+  {
+   "graph": "syn_rand_n300_m2700_pm_1",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.7591364462809277,
+    "lam": 0.06303151575787894,
+    "ramp": true,
+    "T0": 1.1387046694213916,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.011864166997838765,
+   "t_engine": 0.006120125006418675,
+   "mean_flips": 9556.166666666666
+  },
+  {
+   "graph": "syn_rand_n300_m2700_pm_1",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.5693523347106958,
+    "lam": 0.030015007503751873,
+    "ramp": false,
+    "T0": 1.4233808367767393,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.01185912499204278,
+   "t_engine": 0.0034526659874245524,
+   "mean_flips": 2898.9166666666665
+  },
+  {
+   "graph": "syn_rand_n300_m2700_pm_1",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.5693523347106958,
+    "lam": 0.3001500750375187,
+    "ramp": true,
+    "T0": 1.4233808367767393,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012108957977034152,
+   "t_engine": 0.008525707991793752,
+   "mean_flips": 18973.333333333332
+  },
+  {
+   "graph": "syn_rand_n300_m2700_pm_1",
+   "cfg": {
+    "family": "apc",
+    "q_reset": 1.5182728925618554,
+    "r_q": 0.9,
+    "q_lim": 0.18978411157023192,
+    "T0": 1.8978411157023192,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010448375018313527,
+   "t_engine": 0.0025179170188494027,
+   "mean_flips": 1441.0833333333333
+  },
+  {
+   "graph": "syn_rand_n300_m2700_p_2",
+   "cfg": {
+    "family": "plain",
+    "q": 0.37956822314046385,
+    "T0": 2.8467616735534786,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010046000010333955,
+   "t_engine": 0.0075388330151326954,
+   "mean_flips": 44398.666666666664
+  },
+  {
+   "graph": "syn_rand_n300_m2700_p_2",
+   "cfg": {
+    "family": "tec",
+    "q": 0.5693523347106958,
+    "jv": -0.18978411157023192,
+    "T0": 1.8978411157023192,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010302332986611873,
+   "t_engine": 0.007551582995802164,
+   "mean_flips": 44450.5
+  },
+  {
+   "graph": "syn_rand_n300_m2700_p_2",
+   "cfg": {
+    "family": "tec",
+    "q": 0.5693523347106958,
+    "jv": 0.37956822314046385,
+    "T0": 1.8978411157023192,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.00992433400824666,
+   "t_engine": 0.00749850005377084,
+   "mean_flips": 44425.833333333336
+  },
+  {
+   "graph": "syn_rand_n300_m2700_p_2",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.7591364462809277,
+    "kappa": 1.25,
+    "ramp": true,
+    "T0": 1.8978411157023192,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010282833012752235,
+   "t_engine": 0.0075123749556951225,
+   "mean_flips": 44476.166666666664
+  },
+  {
+   "graph": "syn_rand_n300_m2700_p_2",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.5693523347106958,
+    "kappa": 0.5,
+    "ramp": false,
+    "T0": 1.1387046694213916,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.01003570802276954,
+   "t_engine": 0.007543374958913773,
+   "mean_flips": 44486.666666666664
+  },
+  {
+   "graph": "syn_rand_n300_m2700_p_2",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.7591364462809277,
+    "lam": 0.06303151575787894,
+    "ramp": true,
+    "T0": 1.1387046694213916,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012242916040122509,
+   "t_engine": 0.007100999995600432,
+   "mean_flips": 44469.0
+  },
+  {
+   "graph": "syn_rand_n300_m2700_p_2",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.5693523347106958,
+    "lam": 0.030015007503751873,
+    "ramp": false,
+    "T0": 1.4233808367767393,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012351042008958757,
+   "t_engine": 0.007091084029525518,
+   "mean_flips": 44519.333333333336
+  },
+  {
+   "graph": "syn_rand_n300_m2700_p_2",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.5693523347106958,
+    "lam": 0.3001500750375187,
+    "ramp": true,
+    "T0": 1.4233808367767393,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012071958044543862,
+   "t_engine": 0.008617541985586286,
+   "mean_flips": 30320.333333333332
+  },
+  {
+   "graph": "syn_rand_n300_m2700_p_2",
+   "cfg": {
+    "family": "apc",
+    "q_reset": 1.5182728925618554,
+    "r_q": 0.9,
+    "q_lim": 0.18978411157023192,
+    "T0": 1.8978411157023192,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010586791962850839,
+   "t_engine": 0.007200957974418998,
+   "mean_flips": 44324.166666666664
+  },
+  {
+   "graph": "syn_torus_16x20_3",
+   "cfg": {
+    "family": "plain",
+    "q": 0.17893017633703376,
+    "T0": 1.3419763225277532,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.009865458006970584,
+   "t_engine": 0.003556332958396524,
+   "mean_flips": 8096.666666666667
+  },
+  {
+   "graph": "syn_torus_16x20_3",
+   "cfg": {
+    "family": "tec",
+    "q": 0.2683952645055506,
+    "jv": -0.08946508816851688,
+    "T0": 0.8946508816851688,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010176750016398728,
+   "t_engine": 0.0038517499924637377,
+   "mean_flips": 11459.083333333334
+  },
+  {
+   "graph": "syn_torus_16x20_3",
+   "cfg": {
+    "family": "tec",
+    "q": 0.2683952645055506,
+    "jv": 0.17893017633703376,
+    "T0": 0.8946508816851688,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010313750011846423,
+   "t_engine": 0.0037242500111460686,
+   "mean_flips": 11534.166666666666
+  },
+  {
+   "graph": "syn_torus_16x20_3",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.3578603526740675,
+    "kappa": 1.25,
+    "ramp": true,
+    "T0": 0.8946508816851688,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010077582963276654,
+   "t_engine": 0.0032337080338038504,
+   "mean_flips": 4407.333333333333
+  },
+  {
+   "graph": "syn_torus_16x20_3",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.2683952645055506,
+    "kappa": 0.5,
+    "ramp": false,
+    "T0": 0.5367905290111012,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010138917015865445,
+   "t_engine": 0.0036117499694228172,
+   "mean_flips": 9475.083333333334
+  },
+  {
+   "graph": "syn_torus_16x20_3",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.3578603526740675,
+    "lam": 0.013131565782891446,
+    "ramp": true,
+    "T0": 0.5367905290111012,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012119834020268172,
+   "t_engine": 0.005824166990350932,
+   "mean_flips": 14263.916666666666
+  },
+  {
+   "graph": "syn_torus_16x20_3",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.2683952645055506,
+    "lam": 0.00625312656328164,
+    "ramp": false,
+    "T0": 0.6709881612638766,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012442083971109241,
+   "t_engine": 0.003855500021018088,
+   "mean_flips": 9237.583333333334
+  },
+  {
+   "graph": "syn_torus_16x20_3",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.2683952645055506,
+    "lam": 0.0625312656328164,
+    "ramp": true,
+    "T0": 0.6709881612638766,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.01232995803002268,
+   "t_engine": 0.006349417031742632,
+   "mean_flips": 21988.5
+  },
+  {
+   "graph": "syn_torus_16x20_3",
+   "cfg": {
+    "family": "apc",
+    "q_reset": 0.715720705348135,
+    "r_q": 0.9,
+    "q_lim": 0.08946508816851688,
+    "T0": 0.8946508816851688,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010999708028975874,
+   "t_engine": 0.002556583029218018,
+   "mean_flips": 2237.9166666666665
+  },
+  {
+   "graph": "syn_planar_n300_pm_4",
+   "cfg": {
+    "family": "plain",
+    "q": 0.2854483147089593,
+    "T0": 2.140862360317195,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010086250025779009,
+   "t_engine": 0.004233459010720253,
+   "mean_flips": 7564.916666666667
+  },
+  {
+   "graph": "syn_planar_n300_pm_4",
+   "cfg": {
+    "family": "tec",
+    "q": 0.428172472063439,
+    "jv": -0.14272415735447966,
+    "T0": 1.4272415735447965,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.01046525000128895,
+   "t_engine": 0.003337250032927841,
+   "mean_flips": 3928.25
+  },
+  {
+   "graph": "syn_planar_n300_pm_4",
+   "cfg": {
+    "family": "tec",
+    "q": 0.428172472063439,
+    "jv": 0.2854483147089593,
+    "T0": 1.4272415735447965,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010114333010278642,
+   "t_engine": 0.0032182089635170996,
+   "mean_flips": 4502.333333333333
+  },
+  {
+   "graph": "syn_planar_n300_pm_4",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.5708966294179186,
+    "kappa": 1.25,
+    "ramp": true,
+    "T0": 1.4272415735447965,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.01024508400587365,
+   "t_engine": 0.003953874984290451,
+   "mean_flips": 4833.333333333333
+  },
+  {
+   "graph": "syn_planar_n300_pm_4",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.428172472063439,
+    "kappa": 0.5,
+    "ramp": false,
+    "T0": 0.856344944126878,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010378958948422223,
+   "t_engine": 0.0031810420332476497,
+   "mean_flips": 4329.666666666667
+  },
+  {
+   "graph": "syn_planar_n300_pm_4",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.5708966294179186,
+    "lam": 0.03564782391195597,
+    "ramp": true,
+    "T0": 0.856344944126878,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012167083041276783,
+   "t_engine": 0.006387541012372822,
+   "mean_flips": 11454.666666666666
+  },
+  {
+   "graph": "syn_planar_n300_pm_4",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.428172472063439,
+    "lam": 0.016975154243788558,
+    "ramp": false,
+    "T0": 1.0704311801585975,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012176999996881932,
+   "t_engine": 0.003691124962642789,
+   "mean_flips": 4043.5
+  },
+  {
+   "graph": "syn_planar_n300_pm_4",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.428172472063439,
+    "lam": 0.1697515424378856,
+    "ramp": true,
+    "T0": 1.0704311801585975,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012160791957285255,
+   "t_engine": 0.007551249989774078,
+   "mean_flips": 19460.583333333332
+  },
+  {
+   "graph": "syn_planar_n300_pm_4",
+   "cfg": {
+    "family": "apc",
+    "q_reset": 1.1417932588358373,
+    "r_q": 0.9,
+    "q_lim": 0.14272415735447966,
+    "T0": 1.4272415735447965,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010537082969676703,
+   "t_engine": 0.0024118750006891787,
+   "mean_flips": 1482.5833333333333
+  },
+  {
+   "graph": "syn_planar_n300_p_5",
+   "cfg": {
+    "family": "plain",
+    "q": 0.28619507416603995,
+    "T0": 2.1464630562452998,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010105749999638647,
+   "t_engine": 0.005101750022731721,
+   "mean_flips": 44259.333333333336
+  },
+  {
+   "graph": "syn_planar_n300_p_5",
+   "cfg": {
+    "family": "tec",
+    "q": 0.42929261124905993,
+    "jv": -0.14309753708301998,
+    "T0": 1.4309753708301998,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010427625034935772,
+   "t_engine": 0.005136666004545987,
+   "mean_flips": 44327.833333333336
+  },
+  {
+   "graph": "syn_planar_n300_p_5",
+   "cfg": {
+    "family": "tec",
+    "q": 0.42929261124905993,
+    "jv": 0.28619507416603995,
+    "T0": 1.4309753708301998,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.01011120801558718,
+   "t_engine": 0.005132041987963021,
+   "mean_flips": 44199.333333333336
+  },
+  {
+   "graph": "syn_planar_n300_p_5",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.5723901483320799,
+    "kappa": 1.25,
+    "ramp": true,
+    "T0": 1.4309753708301998,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010328083008062094,
+   "t_engine": 0.004998916003387421,
+   "mean_flips": 44372.166666666664
+  },
+  {
+   "graph": "syn_planar_n300_p_5",
+   "cfg": {
+    "family": "tecT",
+    "q": 0.42929261124905993,
+    "kappa": 0.5,
+    "ramp": false,
+    "T0": 0.8585852224981199,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010307541990187019,
+   "t_engine": 0.005118417029734701,
+   "mean_flips": 44381.5
+  },
+  {
+   "graph": "syn_planar_n300_p_5",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.5723901483320799,
+    "lam": 0.035834583958645985,
+    "ramp": true,
+    "T0": 0.8585852224981199,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012530082953162491,
+   "t_engine": 0.00513858295744285,
+   "mean_flips": 44436.833333333336
+  },
+  {
+   "graph": "syn_planar_n300_p_5",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.42929261124905993,
+    "lam": 0.01706408759935523,
+    "ramp": false,
+    "T0": 1.0732315281226499,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012052625010255724,
+   "t_engine": 0.005198917002417147,
+   "mean_flips": 44447.0
+  },
+  {
+   "graph": "syn_planar_n300_p_5",
+   "cfg": {
+    "family": "onsager",
+    "q": 0.42929261124905993,
+    "lam": 0.17064087599355232,
+    "ramp": true,
+    "T0": 1.0732315281226499,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.012001333001535386,
+   "t_engine": 0.006876708008348942,
+   "mean_flips": 32857.333333333336
+  },
+  {
+   "graph": "syn_planar_n300_p_5",
+   "cfg": {
+    "family": "apc",
+    "q_reset": 1.1447802966641598,
+    "r_q": 0.9,
+    "q_lim": 0.14309753708301998,
+    "T0": 1.4309753708301998,
+    "S": 150
+   },
+   "identical": true,
+   "cut_identical": true,
+   "t_abl": 0.010430708003696054,
+   "t_engine": 0.005047291982918978,
+   "mean_flips": 44024.5
+  }
+ ]
+}

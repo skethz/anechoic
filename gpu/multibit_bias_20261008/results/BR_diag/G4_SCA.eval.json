@@ -1,0 +1,39 @@
+{
+ "prefix": "G4_SCA",
+ "B": 32,
+ "batches": 1,
+ "trials": 32,
+ "t_batch_ms": 7.32982397,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.7934506856227626
+ ],
+ "feasible": 1,
+ "feasibility": 0.03125,
+ "feasibility_wilson95": [
+  0.005537860164003122,
+  0.15744263820012558
+ ],
+ "mean_quality": 0.024900241520529245,
+ "mean_quality_feasible": 0.7968077286569358,
+ "best_value": 9523,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  21.40168816808231,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  9.30450873819751,
+  Infinity
+ ]
+}

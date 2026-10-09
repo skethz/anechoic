@@ -1,0 +1,4 @@
+# PROTOCOL_HW_MB Amendment 4 power (frozen): key host-arguments (scripts/measure_power_mb3.sh: 150 s load, 512 trials per launch, 60 s idle between)
+X5 --q 8 --tecT 1.75 --ramp --t0 15 --steps 280
+bays29_plain --matrix jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/bays29_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/bays29_K4.bias.bin --target-energy -1000000000 --t0 56.0 --t1 2.1 --steps 8192 --q 56.0 --lambda 0 --corr-scale 1 --bias-mode 1
+G1gpp_plain --matrix jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/G1_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/G1_K4.bias.bin --target-energy -1000000000 --t0 6.058387780589816 --t1 1.8175163341769447 --steps 1024 --q 48.467102244718525 --lambda 0 --corr-scale 1 --bias-mode 1

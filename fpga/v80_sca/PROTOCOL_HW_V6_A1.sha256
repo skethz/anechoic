@@ -1,0 +1,7 @@
+f83478b060477c1c5e0097788c25534cc1d0f858e6e2a22a86564ea9f1852d45  PROTOCOL_HW_V6.md
+72cec75c990021149708163477031eb957c2ea84d4d4c2d4c47d97eeb42a3309  src/host_sca_multi_v6.cpp
+128fdd2609d66c8ec7c3bd19e5b54af6bb94c00be8c255b3a7befe43e1d53d5e  scripts/run_hw_v6.sh
+8b0a9beb27cb49f721655ecd9875a40c14368208281eda08e3cf3d904e349417  scripts/analyze_hw_v6.py
+a6008e073c8f0b04eeb5a7d5231feb042a154af66a857254d1fb00434333af2b  ../../research/v6_schedule_20261006/PROTOCOL.md
+562a18f47c270763408d5e8efccc0b7d3a024c12d6727648a3dd5d9ce6246f98  ../../research/v6_schedule_20261006/holdout.json
+9374716fc67f861976ce0b35f721b0fb97abc81bb881a30dc3deedd2f8d166a7  ../../research/v6_schedule_20261006/holdout_baselines.json

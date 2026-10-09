@@ -1,0 +1,434 @@
+{
+ "checks": [
+  {
+   "check": "reaim_a2 == solvers.reaim",
+   "problem": "gpp",
+   "instance": 14,
+   "identical": true
+  },
+  {
+   "check": "reaim_a2 == solvers.reaim",
+   "problem": "tsp",
+   "instance": "gr17",
+   "identical": true
+  },
+  {
+   "check": "reaim_a2 == solvers.reaim",
+   "problem": "mcp",
+   "instance": 1,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "SA",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "SCA",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "TEC",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "APC-SCA",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "ReAIM ASA",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "aSB",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "bSB",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "dSB",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "Onsager-kT",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "gpp",
+   "instance": 1,
+   "method": "Onsager-online",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "SA",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "SCA",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "TEC",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "APC-SCA",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "ReAIM ASA",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "aSB",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "bSB",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "dSB",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "Onsager-kT",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "tsp",
+   "instance": "gr17",
+   "method": "Onsager-online",
+   "n": 32,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "SA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "SCA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "TEC",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "APC-SCA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "ReAIM ASA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "aSB",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "bSB",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "dSB",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "Onsager-kT",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 1,
+   "method": "Onsager-online",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "SA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "SCA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "TEC",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "APC-SCA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "ReAIM ASA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "aSB",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "bSB",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "dSB",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "Onsager-kT",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 6,
+   "method": "Onsager-online",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "SA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "SCA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "TEC",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "APC-SCA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "ReAIM ASA",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "aSB",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "bSB",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "dSB",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "Onsager-kT",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "A1 points == frozen grid (values and order)",
+   "problem": "mcp",
+   "instance": 14,
+   "method": "Onsager-online",
+   "n": 16,
+   "identical": true
+  },
+  {
+   "check": "round-1 plan deterministic",
+   "identical": true
+  }
+ ],
+ "all_ok": true,
+ "platform": {
+  "node": "gpu-host",
+  "machine": "aarch64",
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "numba": "0.60.0"
+ }
+}

@@ -1,0 +1,22 @@
+\section{Background}\label{sec:background}
+
+\subsection{Ising machines and Max-Cut}
+The Ising model assigns spins $s_i\in\{-1,+1\}$, $i=1,\dots,N$, to the vertices of a graph with symmetric couplings $J_{ij}=J_{ji}$. For Max-Cut no external field is needed, and the Hamiltonian of a configuration $\mathbf{s}=(s_1,\dots,s_N)$ is
+\begin{equation}
+H(\mathbf{s}) = -\sum_{i<j} J_{ij}\, s_i s_j .
+\label{eq:ising}
+\end{equation}
+With edge weights $w_{ij}$ and couplings $J_{ij}=-w_{ij}$, the cut of a configuration, $\mathrm{cut}(\mathbf{s})=\sum_{i<j}w_{ij}(1-s_is_j)/2$, equals $(W-H(\mathbf{s}))/2$ with $W=\sum_{i<j}w_{ij}$, so that maximizing the cut minimizes $H$. Combinatorial optimization with the Ising model, Ising machines and their annealing are introduced in~\cite{hong2026snowball}. K2000~\cite{doi:10.1126/science.aah4243} is Max-Cut on the complete graph with $N=2{,}000$ vertices and edge weights drawn uniformly from $\{-1,+1\}$; its best-known cut is 33{,}337.
+
+\subsection{Sequential and parallel Markov chain Monte Carlo}\label{subsec:mcmc}
+Simulated annealing (SA)~\cite{kirkpatrick1983optimization} runs a Markov chain while lowering its temperature $T$. Let $h_i=\sum_{j\neq i}J_{ij}s_j$ be the local field of spin $i$; flipping that spin changes the energy by $\Delta E_i=2s_ih_i$. Under Glauber dynamics~\cite{glauber1963time} the spin flips with probability $1/(1+e^{\Delta E_i/T})$. Updating one spin at a time preserves the Gibbs distribution through detailed balance~\cite{robert1999monte}.
+
+Updating all spins simultaneously from the current fields is fully parallel, but the resulting transition no longer satisfies detailed balance. Interacting spins then flip together, and the chain oscillates between complementary configurations~\cite{heermann1990parallelization}. Synchronous Ising hardware uses three remedies: (1)~restricting parallel updates to non-interacting spins, as in graph-colored p-bit machines~\cite{10185207}, which is impossible on a complete graph; (2)~adding a self-coupling, as in PCA~\cite{daipra2012sampling} and SCA~\cite{9062965} (Section~\ref{subsec:sca}); and (3)~adding a coupling between consecutive time steps, as in TEC~\cite{du2026tec} and APC-SCA~\cite{okonogi2023apc} (Section~\ref{subsec:onsager}).
+
+\subsection{Time-to-solution}\label{subsec:tts}
+Consider a solver that reaches a target within a run of duration $t_a$ with probability $P_a$. The time required to reach the target with 99\% probability is
+\begin{equation}
+\mathrm{TTS}_{99} = t_a\,\frac{\ln(1-0.99)}{\ln(1-P_a)} ,
+\label{eq:tts}
+\end{equation}
+and $\mathrm{TTS}_{99}=t_a$ when $P_a=1$; for $0.99<P_a<1$ it falls slightly below $t_a$, so a single failed run lowers it (O2 in Table~\ref{tab:configs}). Following STATICA~\cite{yamamoto2021statica} and ReAIM~\cite{10609617}, the target is a cut of at least 33{,}000 on K2000. A machine with $E$ independent engines runs in rounds: each round starts one trial, that is, one complete anneal from a random initial state, on every engine, and lasts until the slowest engine finishes. Equation~\eqref{eq:tts} can be evaluated in two ways for such a machine, and both are reported. The \emph{primary} estimator treats one round as one run. Its $t_a$ is the measured mean round time and its $P_a$ is the measured fraction of rounds in which at least one engine reaches the target. It describes the machine exactly as it operates and is the headline metric of the pre-registered protocol (Section~\ref{subsec:setup}); bSB and GbSB count batched trials the same way~\cite{goto2021high,goto2026edge}. The \emph{secondary} estimator treats every trial as a separate run. With the same $t_a$ and the measured per-trial success probability $p$, it uses $P_a=1-(1-p)^E$, which equals Equation~\eqref{eq:tts} evaluated per trial ($P_a=p$) and divided by $E$. It assumes that trials on different engines are independent, which a test on the measured trials supports, and it ignores that work is done in whole rounds; it therefore measures throughput and can fall below one round time. It is reported because, once every round succeeds, the primary estimator equals the round time and no longer reflects per-trial success, and because the rate of successful trials matters when many instances or solutions are needed. The two estimators coincide for $E=1$, as for each machine in Table~\ref{tab:comp} that states how it counts runs.

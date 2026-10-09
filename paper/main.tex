@@ -1,0 +1,51 @@
+\pdfoutput=1
+\documentclass[sigconf,nonacm,pbalance]{acmart}
+\AtEndPreamble{\hypersetup{colorlinks,linkcolor=black,citecolor=black,filecolor=black,urlcolor=ACMDarkBlue}}
+
+\usepackage{tikz}
+\definecolor{anechoic}{HTML}{08407E} %
+\usepackage{enumitem}
+\usepackage{placeins}
+\usetikzlibrary{arrows.meta,positioning,calc,decorations.pathreplacing}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\algrenewcommand\algorithmicrequire{\textbf{Input:}}
+\graphicspath{{images/}}
+\setlength{\emergencystretch}{1.5em}
+\captionsetup[figure]{skip=0.2em}\captionsetup[table]{skip=0.2em} %
+\input{sections/numbers}
+
+\settopmatter{printacmref=false,printfolios=true}
+
+\raggedbottom
+\begin{document}
+
+\title[Anechoic: Onsager-Corrected Parallel Annealing on FPGA]{Anechoic: Onsager-Corrected Parallel Annealing for Sub-0.1\,ms Dense Max-Cut on an FPGA}
+\author{Seungki Hong}
+\affiliation{\institution{ETH Zurich}\city{Zurich}\country{Switzerland}}
+\author{Kyeongwon Jeong}
+\affiliation{\institution{Yonsei University}\city{Seoul}\country{Republic of Korea}}
+\author{Taekwang Jang}
+\affiliation{\institution{ETH Zurich}\city{Zurich}\country{Switzerland}}
+\newcommand{\coderepo}{\url{https://github.com/skethz/anechoic}}
+
+\input{sections/abstract}
+\ccsdesc[500]{Hardware~Reconfigurable logic and FPGAs}
+\ccsdesc[300]{Mathematics of computing~Combinatorial optimization}
+\keywords{Ising machine, FPGA, combinatorial optimization, stochastic cellular automata,
+  dynamical mean-field theory, Max-Cut}
+\maketitle
+\renewcommand{\shortauthors}{Hong et al.}
+
+\input{sections/introduction}
+\input{sections/related}
+\input{sections/background}
+\input{sections/algorithm}
+\input{sections/architecture}
+\input{sections/evaluation}
+\input{sections/conclusion}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{refs}
+
+\end{document}

@@ -1,0 +1,290 @@
+{
+ "SCA-pub-sigma vs Onsager-kT (original) | Random, +1": {
+  "geomean": NaN,
+  "wins": 15,
+  "n": 15,
+  "baseline_never": 15
+ },
+ "SCA-pub-sigma vs Onsager-kT (original) | Random, +-1": {
+  "geomean": 2.040414484252133,
+  "wins": 10,
+  "n": 10,
+  "baseline_never": 0
+ },
+ "SCA-pub-sigma vs Onsager-kT (original) | Toroidal, +-1": {
+  "geomean": 14.44327368021238,
+  "wins": 6,
+  "n": 6,
+  "baseline_never": 3
+ },
+ "SCA-pub-sigma vs Onsager-kT (original) | Planar-like, +1": {
+  "geomean": NaN,
+  "wins": 12,
+  "n": 12,
+  "baseline_never": 12
+ },
+ "SCA-pub-sigma vs Onsager-kT (original) | Planar-like, +-1": {
+  "geomean": 4.703779198855645,
+  "wins": 8,
+  "n": 8,
+  "baseline_never": 0
+ },
+ "SCA-pub-sigma vs Onsager-kT (original) | All 51": {
+  "geomean": 3.7095542726289144,
+  "wins": 51,
+  "n": 51,
+  "baseline_never": 30
+ },
+ "SCA-pub-sigma vs Onsager-online (original) | Random, +1": {
+  "geomean": NaN,
+  "wins": 15,
+  "n": 15,
+  "baseline_never": 15
+ },
+ "SCA-pub-sigma vs Onsager-online (original) | Random, +-1": {
+  "geomean": 1.491840624470695,
+  "wins": 10,
+  "n": 10,
+  "baseline_never": 0
+ },
+ "SCA-pub-sigma vs Onsager-online (original) | Toroidal, +-1": {
+  "geomean": 6.782489954618937,
+  "wins": 6,
+  "n": 6,
+  "baseline_never": 3
+ },
+ "SCA-pub-sigma vs Onsager-online (original) | Planar-like, +1": {
+  "geomean": NaN,
+  "wins": 12,
+  "n": 12,
+  "baseline_never": 12
+ },
+ "SCA-pub-sigma vs Onsager-online (original) | Planar-like, +-1": {
+  "geomean": 5.019033325945797,
+  "wins": 8,
+  "n": 8,
+  "baseline_never": 0
+ },
+ "SCA-pub-sigma vs Onsager-online (original) | All 51": {
+  "geomean": 2.940341229213577,
+  "wins": 51,
+  "n": 51,
+  "baseline_never": 30
+ },
+ "TEC-pub-sigma vs Onsager-kT (original) | Random, +1": {
+  "geomean": NaN,
+  "wins": 15,
+  "n": 15,
+  "baseline_never": 15
+ },
+ "TEC-pub-sigma vs Onsager-kT (original) | Random, +-1": {
+  "geomean": 18.779100309650328,
+  "wins": 10,
+  "n": 10,
+  "baseline_never": 0
+ },
+ "TEC-pub-sigma vs Onsager-kT (original) | Toroidal, +-1": {
+  "geomean": 73.48309321938393,
+  "wins": 6,
+  "n": 6,
+  "baseline_never": 3
+ },
+ "TEC-pub-sigma vs Onsager-kT (original) | Planar-like, +1": {
+  "geomean": NaN,
+  "wins": 12,
+  "n": 12,
+  "baseline_never": 12
+ },
+ "TEC-pub-sigma vs Onsager-kT (original) | Planar-like, +-1": {
+  "geomean": 95.45400162151938,
+  "wins": 8,
+  "n": 8,
+  "baseline_never": 3
+ },
+ "TEC-pub-sigma vs Onsager-kT (original) | All 51": {
+  "geomean": 37.031487362685326,
+  "wins": 51,
+  "n": 51,
+  "baseline_never": 33
+ },
+ "TEC-pub-sigma vs Onsager-online (original) | Random, +1": {
+  "geomean": NaN,
+  "wins": 15,
+  "n": 15,
+  "baseline_never": 15
+ },
+ "TEC-pub-sigma vs Onsager-online (original) | Random, +-1": {
+  "geomean": 13.730261644959349,
+  "wins": 10,
+  "n": 10,
+  "baseline_never": 0
+ },
+ "TEC-pub-sigma vs Onsager-online (original) | Toroidal, +-1": {
+  "geomean": 34.50729748876914,
+  "wins": 6,
+  "n": 6,
+  "baseline_never": 3
+ },
+ "TEC-pub-sigma vs Onsager-online (original) | Planar-like, +1": {
+  "geomean": NaN,
+  "wins": 12,
+  "n": 12,
+  "baseline_never": 12
+ },
+ "TEC-pub-sigma vs Onsager-online (original) | Planar-like, +-1": {
+  "geomean": 113.56811735180864,
+  "wins": 8,
+  "n": 8,
+  "baseline_never": 3
+ },
+ "TEC-pub-sigma vs Onsager-online (original) | All 51": {
+  "geomean": 28.791668901238584,
+  "wins": 51,
+  "n": 51,
+  "baseline_never": 33
+ },
+ "SCA-pub-sigma vs Onsager-kT (extended_amendment1) | Random, +1": {
+  "geomean": NaN,
+  "wins": 15,
+  "n": 15,
+  "baseline_never": 15
+ },
+ "SCA-pub-sigma vs Onsager-kT (extended_amendment1) | Random, +-1": {
+  "geomean": 1.9439019315478385,
+  "wins": 10,
+  "n": 10,
+  "baseline_never": 0
+ },
+ "SCA-pub-sigma vs Onsager-kT (extended_amendment1) | Toroidal, +-1": {
+  "geomean": 15.00636337867097,
+  "wins": 6,
+  "n": 6,
+  "baseline_never": 3
+ },
+ "SCA-pub-sigma vs Onsager-kT (extended_amendment1) | Planar-like, +1": {
+  "geomean": NaN,
+  "wins": 12,
+  "n": 12,
+  "baseline_never": 12
+ },
+ "SCA-pub-sigma vs Onsager-kT (extended_amendment1) | Planar-like, +-1": {
+  "geomean": 4.324453006759385,
+  "wins": 8,
+  "n": 8,
+  "baseline_never": 0
+ },
+ "SCA-pub-sigma vs Onsager-kT (extended_amendment1) | All 51": {
+  "geomean": 3.5299034439375943,
+  "wins": 51,
+  "n": 51,
+  "baseline_never": 30
+ },
+ "SCA-pub-sigma vs Onsager-online (extended_amendment1) | Random, +1": {
+  "geomean": NaN,
+  "wins": 15,
+  "n": 15,
+  "baseline_never": 15
+ },
+ "SCA-pub-sigma vs Onsager-online (extended_amendment1) | Random, +-1": {
+  "geomean": 1.4902288859250872,
+  "wins": 10,
+  "n": 10,
+  "baseline_never": 0
+ },
+ "SCA-pub-sigma vs Onsager-online (extended_amendment1) | Toroidal, +-1": {
+  "geomean": 5.9552003791069374,
+  "wins": 6,
+  "n": 6,
+  "baseline_never": 3
+ },
+ "SCA-pub-sigma vs Onsager-online (extended_amendment1) | Planar-like, +1": {
+  "geomean": NaN,
+  "wins": 12,
+  "n": 12,
+  "baseline_never": 12
+ },
+ "SCA-pub-sigma vs Onsager-online (extended_amendment1) | Planar-like, +-1": {
+  "geomean": 4.494761988317533,
+  "wins": 8,
+  "n": 8,
+  "baseline_never": 0
+ },
+ "SCA-pub-sigma vs Onsager-online (extended_amendment1) | All 51": {
+  "geomean": 2.7659929682644298,
+  "wins": 51,
+  "n": 51,
+  "baseline_never": 30
+ },
+ "TEC-pub-sigma vs Onsager-kT (extended_amendment1) | Random, +1": {
+  "geomean": NaN,
+  "wins": 15,
+  "n": 15,
+  "baseline_never": 15
+ },
+ "TEC-pub-sigma vs Onsager-kT (extended_amendment1) | Random, +-1": {
+  "geomean": 17.890840143707294,
+  "wins": 10,
+  "n": 10,
+  "baseline_never": 0
+ },
+ "TEC-pub-sigma vs Onsager-kT (extended_amendment1) | Toroidal, +-1": {
+  "geomean": 76.34792661649637,
+  "wins": 6,
+  "n": 6,
+  "baseline_never": 3
+ },
+ "TEC-pub-sigma vs Onsager-kT (extended_amendment1) | Planar-like, +1": {
+  "geomean": NaN,
+  "wins": 12,
+  "n": 12,
+  "baseline_never": 12
+ },
+ "TEC-pub-sigma vs Onsager-kT (extended_amendment1) | Planar-like, +-1": {
+  "geomean": 91.06266831087899,
+  "wins": 8,
+  "n": 8,
+  "baseline_never": 3
+ },
+ "TEC-pub-sigma vs Onsager-kT (extended_amendment1) | All 51": {
+  "geomean": 35.80689969374148,
+  "wins": 51,
+  "n": 51,
+  "baseline_never": 33
+ },
+ "TEC-pub-sigma vs Onsager-online (extended_amendment1) | Random, +1": {
+  "geomean": NaN,
+  "wins": 15,
+  "n": 15,
+  "baseline_never": 15
+ },
+ "TEC-pub-sigma vs Onsager-online (extended_amendment1) | Random, +-1": {
+  "geomean": 13.71542789424129,
+  "wins": 10,
+  "n": 10,
+  "baseline_never": 0
+ },
+ "TEC-pub-sigma vs Onsager-online (extended_amendment1) | Toroidal, +-1": {
+  "geomean": 30.29829346774455,
+  "wins": 6,
+  "n": 6,
+  "baseline_never": 3
+ },
+ "TEC-pub-sigma vs Onsager-online (extended_amendment1) | Planar-like, +1": {
+  "geomean": NaN,
+  "wins": 12,
+  "n": 12,
+  "baseline_never": 12
+ },
+ "TEC-pub-sigma vs Onsager-online (extended_amendment1) | Planar-like, +-1": {
+  "geomean": 95.38584603629154,
+  "wins": 8,
+  "n": 8,
+  "baseline_never": 3
+ },
+ "TEC-pub-sigma vs Onsager-online (extended_amendment1) | All 51": {
+  "geomean": 26.825180652276934,
+  "wins": 51,
+  "n": 51,
+  "baseline_never": 33
+ }
+}

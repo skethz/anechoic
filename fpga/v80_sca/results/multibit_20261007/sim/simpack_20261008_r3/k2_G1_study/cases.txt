@@ -1,0 +1,9 @@
+K 2 matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G1 n 800 nfield 800 bias_mode 0 maxabs 1 sumw 19176 field_bound 67 fingerprint 62d44609dcf8d2a3 auto_scale 0.059925
+case 0 G1_plain_S500 S 500 t0 12.463 t1 4.65284 q 14.9556 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 11494 flips 6691 energy2 -7624
+case 1 G1_tec_S500 S 500 t0 12.463 t1 4.65284 q 14.9556 lambda 0 ramp 0 jv -0.623148 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 11584 flips 7684 energy2 -7984
+case 2 G1_tecT_S250 S 250 t0 9.34723 t1 4.65284 q 14.9556 lambda 0 ramp 1 jv 0 kappa 0.5 scale 1 trials 1 trace 1 keep 0 seed 12648432 offset 1200
+  trial 1200 cut 11540 flips 3475 energy2 -7808
+case 3 G1_ons_S500 S 500 t0 12.463 t1 4.65284 q 14.9556 lambda 0.0299775 ramp 1 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648433 offset 1300
+  trial 1300 cut 11528 flips 8039 energy2 -7760

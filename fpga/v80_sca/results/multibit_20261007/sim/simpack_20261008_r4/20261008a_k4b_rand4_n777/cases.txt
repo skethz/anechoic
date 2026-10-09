@@ -1,0 +1,18 @@
+K 4 matrix rand:20261008:0.500000:7:777:300 n 777 nfield 777 bias_mode 1 maxabs 7 sumw 1392 field_bound 2042 fingerprint 30572a2d4bf74c89 auto_scale 9.91020143144
+case 0 plain_S40 S 40 t0 150 t1 20 q 20 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 3 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 sum_sh 141298 flips 3560 energy2 -243432
+  trial 1001 sum_sh 141980 flips 3563 energy2 -242816
+  trial 1002 sum_sh 140812 flips 3720 energy2 -243160
+case 1 ons_ramp_S40 S 40 t0 100 t1 20 q 20 lambda 0.7 ramp 1 jv 0 kappa 0 scale 9.91020143144 trials 3 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 sum_sh 141902 flips 3004 energy2 -243232
+  trial 1101 sum_sh 142534 flips 2876 energy2 -243340
+  trial 1102 sum_sh 141648 flips 2945 energy2 -243224
+case 2 tec_S40 S 40 t0 100 t1 20 q 20 lambda 0 ramp 0 jv -20 kappa 0 scale 1 trials 2 trace 0 keep 0 seed 12648432 offset 1200
+  trial 1200 sum_sh 139166 flips 3259 energy2 -242040
+  trial 1201 sum_sh 141198 flips 3220 energy2 -241972
+case 3 tec_S40_keep S 40 t0 100 t1 20 q 20 lambda 0 ramp 0 jv -20 kappa 0 scale 1 trials 2 trace 1 keep 1 seed 12648433 offset 1300
+  trial 1300 sum_sh 140912 flips 3187 energy2 -241784
+  trial 1301 sum_sh 140908 flips 3211 energy2 -242772
+case 4 ons_ramp_S400 S 400 t0 150 t1 10 q 10 lambda 0.9 ramp 1 jv 0 kappa 0 scale 9.91020143144 trials 2 trace 1 keep 0 seed 12648434 offset 1400
+  trial 1400 sum_sh 142250 flips 35247 energy2 -243752
+  trial 1401 sum_sh 141868 flips 35167 energy2 -243768

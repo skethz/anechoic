@@ -1,0 +1,5742 @@
+{
+ "mcp/G1": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 48.7874941741875,
+   "sd_J": 0.237347834148534,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 67.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.005172740153432428,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 193.3211354791211,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 24.39374708709375,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.032025319114675,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G2": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 48.848618417042616,
+   "sd_J": 0.237347834148534,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 66.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00525111500424201,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 190.43574539734317,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 24.424309208521308,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.032025319114675,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G3": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 48.882311073058446,
+   "sd_J": 0.237347834148534,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 69.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.0050228056562314875,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 199.09191564267695,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 24.441155536529223,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.032025319114675,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G4": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 48.89070821662587,
+   "sd_J": 0.237347834148534,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 75.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.0046209812037329686,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 216.40425613334452,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 24.445354108312934,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.032025319114675,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G5": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 48.868246247171186,
+   "sd_J": 0.237347834148534,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 70.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.004951051289713895,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 201.97730572445488,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 24.434123123585593,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.032025319114675,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G6": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 13.81130329248828,
+   "sd_J": 0.24479536024695708,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 67.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.005172740153432428,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 193.3211354791211,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 6.90565164624414,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006275201915826,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G7": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 13.88878651143025,
+   "sd_J": 0.24479538450190905,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 66.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00525111500424201,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 190.43574539734317,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 6.944393255715125,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006274210468522,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G8": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 13.897816295124043,
+   "sd_J": 0.24479525684424014,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 69.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.0050228056562314875,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 199.09191564267695,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 6.948908147562022,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.000627942861554,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G9": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 13.889205138068082,
+   "sd_J": 0.2447957515971223,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 75.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.0046209812037329686,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 216.40425613334452,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 6.944602569034041,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006259205079984,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G10": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 13.874620456852526,
+   "sd_J": 0.244795322667734,
+   "rms_J": 0.2449489742783178,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 6.923871749245504,
+   "neal": {
+    "max_effective_field": 70.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.004951051289713895,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 201.97730572445488,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.6194447965137523,
+     "T0": 6.194447965137523,
+     "tfin": 0.7743059956421904,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 4.645835973853142,
+     "q": 0.0,
+     "T0": 15.486119912843806,
+     "tfin": 0.015486119912843807,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 6.937310228426263,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006276738007465,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G11": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3.4464609249400935,
+   "sd_J": 0.07071059829288323,
+   "rms_J": 0.0707549137677225,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 2.0,
+   "neal": {
+    "max_effective_field": 4.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.08664339756999316,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 11.541560327111707,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.17893017633703376,
+     "T0": 1.7893017633703376,
+     "tfin": 0.2236627204212922,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 1.3419763225277532,
+     "q": 0.0,
+     "T0": 4.473254408425844,
+     "tfin": 0.004473254408425844,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1.7232304624700467,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006267161629112,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G12": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3.5561128776424558,
+   "sd_J": 0.0707106770138004,
+   "rms_J": 0.0707549137677225,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 2.0,
+   "neal": {
+    "max_effective_field": 4.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.08664339756999316,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 11.541560327111707,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.17893017633703376,
+     "T0": 1.7893017633703376,
+     "tfin": 0.2236627204212922,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 1.3419763225277532,
+     "q": 0.0,
+     "T0": 4.473254408425844,
+     "tfin": 0.004473254408425844,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1.7780564388212279,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006256021832949,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G13": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3.555231637093253,
+   "sd_J": 0.07071059829288323,
+   "rms_J": 0.0707549137677225,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 2.0,
+   "neal": {
+    "max_effective_field": 4.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.08664339756999316,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 11.541560327111707,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.17893017633703376,
+     "T0": 1.7893017633703376,
+     "tfin": 0.2236627204212922,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 1.3419763225277532,
+     "q": 0.0,
+     "T0": 4.473254408425844,
+     "tfin": 0.004473254408425844,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1.7776158185466264,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006267161629112,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G14": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 22.427689180607885,
+   "sd_J": 0.12022303345631194,
+   "rms_J": 0.12119038281195267,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 3.4256386265921277,
+   "neal": {
+    "max_effective_field": 132.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.002625557502121005,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 380.87149079468634,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.30647506176154177,
+     "T0": 3.0647506176154176,
+     "tfin": 0.3830938272019272,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 2.2985629632115634,
+     "q": 0.0,
+     "T0": 7.661876544038544,
+     "tfin": 0.007661876544038545,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 11.213844590303943,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0080462896986562,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G15": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 23.15137006639356,
+   "sd_J": 0.11980595798356347,
+   "rms_J": 0.12076363201942526,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 3.413575837739657,
+   "neal": {
+    "max_effective_field": 153.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.0022651868645749847,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 441.4646825120228,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.3053958632932973,
+     "T0": 3.0539586329329733,
+     "tfin": 0.38174482911662166,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 2.29046897469973,
+     "q": 0.0,
+     "T0": 7.634896582332433,
+     "tfin": 0.0076348965823324335,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 11.57568503319678,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.007993542658314,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G16": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 22.622754448875426,
+   "sd_J": 0.11994515413304532,
+   "rms_J": 0.120906049646208,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 3.4176014981270124,
+   "neal": {
+    "max_effective_field": 123.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.0028176714656908343,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 354.90298005868505,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.3057560193547886,
+     "T0": 3.0575601935478858,
+     "tfin": 0.3821950241934857,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 2.2931701451609143,
+     "q": 0.0,
+     "T0": 7.643900483869714,
+     "tfin": 0.007643900483869715,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 11.311377224437713,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.00801112408507,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G17": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 22.669946480314074,
+   "sd_J": 0.11988190441371614,
+   "rms_J": 0.12084133516871078,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 3.415772240650714,
+   "neal": {
+    "max_effective_field": 143.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.002423591540419389,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 412.61078169424354,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.30559236467338863,
+     "T0": 3.0559236467338864,
+     "tfin": 0.3819904558417358,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 2.291942735050415,
+     "q": 0.0,
+     "T0": 7.639809116834716,
+     "tfin": 0.007639809116834716,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 11.334973240157037,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.008003132413409,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G18": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 12.796164594141747,
+   "sd_J": 0.12111445000494367,
+   "rms_J": 0.12119038281195267,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 3.4256386265921277,
+   "neal": {
+    "max_effective_field": 132.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.002625557502121005,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 380.87149079468634,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.30647506176154177,
+     "T0": 3.0647506176154176,
+     "tfin": 0.3830938272019272,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 2.2985629632115634,
+     "q": 0.0,
+     "T0": 7.661876544038544,
+     "tfin": 0.007661876544038545,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 6.398082297070873,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006269508469543,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G19": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 13.645716407709578,
+   "sd_J": 0.12068761453742624,
+   "rms_J": 0.12076363201942526,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 3.413575837739657,
+   "neal": {
+    "max_effective_field": 153.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.0022651868645749847,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 441.4646825120228,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.3053958632932973,
+     "T0": 3.0539586329329733,
+     "tfin": 0.38174482911662166,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 2.29046897469973,
+     "q": 0.0,
+     "T0": 7.634896582332433,
+     "tfin": 0.0076348965823324335,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 6.822858203854789,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006298697864764,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "mcp/G20": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 12.521264314427587,
+   "sd_J": 0.12083037422741644,
+   "rms_J": 0.120906049646208,
+   "minJ": 1.0,
+   "maxJ": 1.0,
+   "sigma_full": 3.4176014981270124,
+   "neal": {
+    "max_effective_field": 123.0,
+    "min_effective_field": 1.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.0028176714656908343,
+    "cold_beta": 5.644890956828009
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 354.90298005868505,
+     "T1": 0.1771513405038248,
+     "S": 4000,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 0.3057560193547886,
+     "T0": 3.0575601935478858,
+     "tfin": 0.3821950241934857,
+     "S": 4000,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 2.2931701451609143,
+     "q": 0.0,
+     "T0": 7.643900483869714,
+     "tfin": 0.007643900483869715,
+     "cb": 2.0,
+     "S": 4000,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 6.260632157213793,
+     "r_q": 0.45,
+     "q_lim": 0.0,
+     "T0": 10.0,
+     "tfin": 0.1,
+     "cb": 1.0,
+     "S": 4000,
+     "note": "APC max-cut: T 10->0.1 (Table 2), r_q=0.45, q_limit=0 (Sec. 4.2), q_i(1)=reset=lambda/2 (Alg. 2)"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.1,
+     "F": "max",
+     "S": 4000,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0006262946653557,
+     "S": 4000,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4000,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "gpp/G1": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3148.0726552276788,
+   "sd_J": 0.27515403754079376,
+   "rms_J": 3.9471508711981103,
+   "minJ": 3.0,
+   "maxJ": 4.0,
+   "sigma_full": 111.5724876481653,
+   "neal": {
+    "max_effective_field": 3169.0,
+    "min_effective_field": 3.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00010936370788260418,
+    "cold_beta": 1.8816303189426697
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 9143.80116915425,
+     "T1": 0.5314540215114744,
+     "S": 4096,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 9.98184244462387,
+     "T0": 99.81842444623871,
+     "tfin": 12.477303055779839,
+     "S": 4096,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 74.86381833467902,
+     "q": 0.0,
+     "T0": 249.54606111559676,
+     "tfin": 0.24954606111559677,
+     "cb": 2.0,
+     "S": 4096,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1574.0363276138394,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 480.0,
+     "tfin": 0.4,
+     "cb": 1.0,
+     "S": 4096,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2 [GPP not covered: TSP column used]"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.01,
+     "F": "max",
+     "S": 4096,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 14.345240602231446,
+     "S": 4096,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "gpp/G2": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3148.0734689412243,
+   "sd_J": 0.27515403754079376,
+   "rms_J": 3.9471508711981103,
+   "minJ": 3.0,
+   "maxJ": 4.0,
+   "sigma_full": 111.5724876481653,
+   "neal": {
+    "max_effective_field": 3168.0,
+    "min_effective_field": 3.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00010939822925504187,
+    "cold_beta": 1.8816303189426697
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 9140.915779072473,
+     "T1": 0.5314540215114744,
+     "S": 4096,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 9.98184244462387,
+     "T0": 99.81842444623871,
+     "tfin": 12.477303055779839,
+     "S": 4096,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 74.86381833467902,
+     "q": 0.0,
+     "T0": 249.54606111559676,
+     "tfin": 0.24954606111559677,
+     "cb": 2.0,
+     "S": 4096,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1574.0367344706121,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 480.0,
+     "tfin": 0.4,
+     "cb": 1.0,
+     "S": 4096,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2 [GPP not covered: TSP column used]"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.01,
+     "F": "max",
+     "S": 4096,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 14.345240602231446,
+     "S": 4096,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "gpp/G3": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3148.074060451232,
+   "sd_J": 0.27515403754079376,
+   "rms_J": 3.9471508711981103,
+   "minJ": 3.0,
+   "maxJ": 4.0,
+   "sigma_full": 111.5724876481653,
+   "neal": {
+    "max_effective_field": 3166.0,
+    "min_effective_field": 3.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00010946733742260665,
+    "cold_beta": 1.8816303189426697
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 9135.144998908916,
+     "T1": 0.5314540215114744,
+     "S": 4096,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 9.98184244462387,
+     "T0": 99.81842444623871,
+     "tfin": 12.477303055779839,
+     "S": 4096,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 74.86381833467902,
+     "q": 0.0,
+     "T0": 249.54606111559676,
+     "tfin": 0.24954606111559677,
+     "cb": 2.0,
+     "S": 4096,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1574.037030225616,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 480.0,
+     "tfin": 0.4,
+     "cb": 1.0,
+     "S": 4096,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2 [GPP not covered: TSP column used]"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.01,
+     "F": "max",
+     "S": 4096,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 14.345240602231446,
+     "S": 4096,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "gpp/G4": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3148.0741187052195,
+   "sd_J": 0.27515403754079376,
+   "rms_J": 3.9471508711981103,
+   "minJ": 3.0,
+   "maxJ": 4.0,
+   "sigma_full": 111.5724876481653,
+   "neal": {
+    "max_effective_field": 3167.0,
+    "min_effective_field": 3.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00010943277242815682,
+    "cold_beta": 1.8816303189426697
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 9138.030388990695,
+     "T1": 0.5314540215114744,
+     "S": 4096,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 9.98184244462387,
+     "T0": 99.81842444623871,
+     "tfin": 12.477303055779839,
+     "S": 4096,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 74.86381833467902,
+     "q": 0.0,
+     "T0": 249.54606111559676,
+     "tfin": 0.24954606111559677,
+     "cb": 2.0,
+     "S": 4096,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1574.0370593526097,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 480.0,
+     "tfin": 0.4,
+     "cb": 1.0,
+     "S": 4096,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2 [GPP not covered: TSP column used]"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.01,
+     "F": "max",
+     "S": 4096,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 14.345240602231446,
+     "S": 4096,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "gpp/G5": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3148.0740191273962,
+   "sd_J": 0.27515403754079376,
+   "rms_J": 3.9471508711981103,
+   "minJ": 3.0,
+   "maxJ": 4.0,
+   "sigma_full": 111.5724876481653,
+   "neal": {
+    "max_effective_field": 3166.0,
+    "min_effective_field": 3.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00010946733742260665,
+    "cold_beta": 1.8816303189426697
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 9135.144998908916,
+     "T1": 0.5314540215114744,
+     "S": 4096,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 9.98184244462387,
+     "T0": 99.81842444623871,
+     "tfin": 12.477303055779839,
+     "S": 4096,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 74.86381833467902,
+     "q": 0.0,
+     "T0": 249.54606111559676,
+     "tfin": 0.24954606111559677,
+     "cb": 2.0,
+     "S": 4096,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1574.0370095636981,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 480.0,
+     "tfin": 0.4,
+     "cb": 1.0,
+     "S": 4096,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2 [GPP not covered: TSP column used]"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.01,
+     "F": "max",
+     "S": 4096,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 14.345240602231446,
+     "S": 4096,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "gpp/G14": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3184.306636053864,
+   "sd_J": 0.18515369365324305,
+   "rms_J": 3.9871280688983703,
+   "minJ": 3.0,
+   "maxJ": 4.0,
+   "sigma_full": 112.70250662696016,
+   "neal": {
+    "max_effective_field": 3191.0,
+    "min_effective_field": 3.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00010860971177686388,
+    "cold_beta": 1.8816303189426697
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 9207.279750953365,
+     "T1": 0.5314540215114744,
+     "S": 4096,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 10.082939692193849,
+     "T0": 100.82939692193848,
+     "tfin": 12.60367461524231,
+     "S": 4096,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 75.62204769145386,
+     "q": 0.0,
+     "T0": 252.0734923048462,
+     "tfin": 0.2520734923048462,
+     "cb": 2.0,
+     "S": 4096,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1592.153318026932,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 480.0,
+     "tfin": 0.4,
+     "cb": 1.0,
+     "S": 4096,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2 [GPP not covered: TSP column used]"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.01,
+     "F": "max",
+     "S": 4096,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 21.534153546866246,
+     "S": 4096,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "gpp/G15": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3184.393411531237,
+   "sd_J": 0.18488594137564318,
+   "rms_J": 3.987218706851975,
+   "minJ": 3.0,
+   "maxJ": 4.0,
+   "sigma_full": 112.70506865265644,
+   "neal": {
+    "max_effective_field": 3192.0,
+    "min_effective_field": 3.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00010857568617793629,
+    "cold_beta": 1.8816303189426697
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 9210.165141035142,
+     "T1": 0.5314540215114744,
+     "S": 4096,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 10.083168904048657,
+     "T0": 100.83168904048657,
+     "tfin": 12.60396113006082,
+     "S": 4096,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 75.62376678036493,
+     "q": 0.0,
+     "T0": 252.07922260121643,
+     "tfin": 0.25207922260121646,
+     "cb": 2.0,
+     "S": 4096,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1592.1967057656184,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 480.0,
+     "tfin": 0.4,
+     "cb": 1.0,
+     "S": 4096,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2 [GPP not covered: TSP column used]"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.01,
+     "F": "max",
+     "S": 4096,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 21.565829598427488,
+     "S": 4096,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "gpp/G16": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3184.361894286976,
+   "sd_J": 0.18497524158654763,
+   "rms_J": 3.987188494429708,
+   "minJ": 3.0,
+   "maxJ": 4.0,
+   "sigma_full": 112.70421465056221,
+   "neal": {
+    "max_effective_field": 3191.0,
+    "min_effective_field": 3.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00010860971177686388,
+    "cold_beta": 1.8816303189426697
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 9207.279750953365,
+     "T1": 0.5314540215114744,
+     "S": 4096,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 10.083092500676,
+     "T0": 100.83092500676001,
+     "tfin": 12.603865625845001,
+     "S": 4096,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 75.62319375507,
+     "q": 0.0,
+     "T0": 252.0773125169,
+     "tfin": 0.2520773125169,
+     "cb": 2.0,
+     "S": 4096,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1592.180947143488,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 480.0,
+     "tfin": 0.4,
+     "cb": 1.0,
+     "S": 4096,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2 [GPP not covered: TSP column used]"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.01,
+     "F": "max",
+     "S": 4096,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 21.555254964022588,
+     "S": 4096,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "gpp/G17": {
+  "constants": {
+   "N": 800,
+   "lam_max_minusJ": 3184.375934157516,
+   "sd_J": 0.18493465671922804,
+   "rms_J": 3.9872022273773,
+   "minJ": 3.0,
+   "maxJ": 4.0,
+   "sigma_full": 112.7046028341345,
+   "neal": {
+    "max_effective_field": 3191.0,
+    "min_effective_field": 3.0,
+    "number_min_gaps": 800,
+    "hot_beta": 0.00010860971177686388,
+    "cold_beta": 1.8816303189426697
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 9207.279750953365,
+     "T1": 0.5314540215114744,
+     "S": 4096,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 10.083127229553522,
+     "T0": 100.83127229553523,
+     "tfin": 12.603909036941904,
+     "S": 4096,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 75.62345422165141,
+     "q": 0.0,
+     "T0": 252.07818073883806,
+     "tfin": 0.2520781807388381,
+     "cb": 2.0,
+     "S": 4096,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 1592.187967078758,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 480.0,
+     "tfin": 0.4,
+     "cb": 1.0,
+     "S": 4096,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2 [GPP not covered: TSP column used]"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 1.0,
+     "T1": 0.01,
+     "F": "max",
+     "S": 4096,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 21.560059634634953,
+     "S": 4096,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 4096,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "tsp/gr17": {
+  "constants": {
+   "N": 289,
+   "lam_max_minusJ": 56672.50176435159,
+   "sd_J": 467.9025271690981,
+   "rms_J": 507.9391753766911,
+   "minJ": 27.0,
+   "maxJ": 1490.0,
+   "sigma_full": 8620.013648139871,
+   "neal": {
+    "max_effective_field": 124304.0,
+    "min_effective_field": 27.0,
+    "number_min_gaps": 34,
+    "hot_beta": 2.7881129350622074e-06,
+    "cold_beta": 0.1505839020482269
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 358665.52872532344,
+     "T1": 6.640816092544435,
+     "S": 8192,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 771.1902810446525,
+     "T0": 7711.902810446525,
+     "tfin": 963.9878513058156,
+     "S": 8192,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 5783.927107834894,
+     "q": 0.0,
+     "T0": 19279.757026116313,
+     "tfin": 19.279757026116314,
+     "cb": 2.0,
+     "S": 8192,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 28336.250882175795,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 1560.6000000000001,
+     "tfin": 149.0,
+     "cb": 1.0,
+     "S": 8192,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 0.5,
+     "T1": 0.1,
+     "F": "min",
+     "S": 8192,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0855662149333165,
+     "S": 8192,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "tsp/gr21": {
+  "constants": {
+   "N": 441,
+   "lam_max_minusJ": 83966.10355610686,
+   "sd_J": 500.58471922927237,
+   "rms_J": 536.01004384206,
+   "minJ": 27.0,
+   "maxJ": 1730.0,
+   "sigma_full": 11243.441533792467,
+   "neal": {
+    "max_effective_field": 179580.0,
+    "min_effective_field": 27.0,
+    "number_min_gaps": 42,
+    "hot_beta": 1.9299119628019415e-06,
+    "cold_beta": 0.15449703341243445
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 518158.3508856801,
+     "T1": 6.472616191473852,
+     "S": 8192,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 1005.8954881383078,
+     "T0": 10058.954881383077,
+     "tfin": 1257.3693601728846,
+     "S": 8192,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 7544.216161037309,
+     "q": 0.0,
+     "T0": 25147.387203457693,
+     "tfin": 25.147387203457697,
+     "cb": 2.0,
+     "S": 8192,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 41983.05177805343,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 2381.4,
+     "tfin": 173.0,
+     "cb": 1.0,
+     "S": 8192,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 0.5,
+     "T1": 0.1,
+     "F": "min",
+     "S": 8192,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0707678905327562,
+     "S": 8192,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "tsp/gr24": {
+  "constants": {
+   "N": 576,
+   "lam_max_minusJ": 42662.2361242927,
+   "sd_J": 212.24223800202208,
+   "rms_J": 224.94167424377858,
+   "minJ": 22.0,
+   "maxJ": 778.0,
+   "sigma_full": 5393.911861225271,
+   "neal": {
+    "max_effective_field": 90760.0,
+    "min_effective_field": 22.0,
+    "number_min_gaps": 48,
+    "hot_beta": 3.818571951079469e-06,
+    "cold_beta": 0.19264479992945416
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 261878.00382216467,
+     "T1": 5.190900560857061,
+     "S": 8192,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 482.56680023772793,
+     "T0": 4825.66800237728,
+     "tfin": 603.20850029716,
+     "S": 8192,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 3619.2510017829595,
+     "q": 0.0,
+     "T0": 12064.170005943199,
+     "tfin": 12.064170005943199,
+     "cb": 2.0,
+     "S": 8192,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 21331.11806214635,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 2534.4,
+     "tfin": 77.80000000000001,
+     "cb": 1.0,
+     "S": 8192,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 0.5,
+     "T1": 0.1,
+     "F": "min",
+     "S": 8192,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0598346321698489,
+     "S": 8192,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "tsp/fri26": {
+  "constants": {
+   "N": 676,
+   "lam_max_minusJ": 33265.77068079282,
+   "sd_J": 147.6965495483573,
+   "rms_J": 155.7535572572601,
+   "minJ": 9.0,
+   "maxJ": 560.0,
+   "sigma_full": 4046.596119437441,
+   "neal": {
+    "max_effective_field": 74212.0,
+    "min_effective_field": 9.0,
+    "number_min_gaps": 52,
+    "hot_beta": 4.670047839702105e-06,
+    "cold_beta": 0.47535632803163996
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 214130.56874890352,
+     "T1": 2.1036850485209895,
+     "S": 8192,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 362.02907860784893,
+     "T0": 3620.2907860784894,
+     "tfin": 452.5363482598112,
+     "S": 8192,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 2715.218089558867,
+     "q": 0.0,
+     "T0": 9050.726965196223,
+     "tfin": 9.050726965196224,
+     "cb": 2.0,
+     "S": 8192,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 16632.88534039641,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 1216.8000000000002,
+     "tfin": 56.0,
+     "cb": 1.0,
+     "S": 8192,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 0.5,
+     "T1": 0.1,
+     "F": "min",
+     "S": 8192,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.054551089605955,
+     "S": 8192,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "tsp/bayg29": {
+  "constants": {
+   "N": 841,
+   "lam_max_minusJ": 52464.8461077012,
+   "sd_J": 194.86875506365487,
+   "rms_J": 204.7013038784165,
+   "minJ": 25.0,
+   "maxJ": 772.0,
+   "sigma_full": 5932.807429876685,
+   "neal": {
+    "max_effective_field": 110036.0,
+    "min_effective_field": 25.0,
+    "number_min_gaps": 58,
+    "hot_beta": 3.1496382118576887e-06,
+    "cold_beta": 0.1733122639306902
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 317496.78303851595,
+     "T1": 5.769932128980282,
+     "S": 8192,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 530.7791398007497,
+     "T0": 5307.791398007497,
+     "tfin": 663.4739247509372,
+     "S": 8192,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 3980.843548505623,
+     "q": 0.0,
+     "T0": 13269.478495018742,
+     "tfin": 13.269478495018744,
+     "cb": 2.0,
+     "S": 8192,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 26232.4230538506,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 4205.0,
+     "tfin": 77.2,
+     "cb": 1.0,
+     "S": 8192,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 0.5,
+     "T1": 0.1,
+     "F": "min",
+     "S": 8192,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0504572875808118,
+     "S": 8192,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ },
+ "tsp/bays29": {
+  "constants": {
+   "N": 841,
+   "lam_max_minusJ": 68675.68586620252,
+   "sd_J": 256.613445765498,
+   "rms_J": 269.40681479038506,
+   "minJ": 28.0,
+   "maxJ": 1018.0,
+   "sigma_full": 7808.151302236701,
+   "neal": {
+    "max_effective_field": 146352.0,
+    "min_effective_field": 28.0,
+    "number_min_gaps": 58,
+    "hot_beta": 2.3680823649828676e-06,
+    "cold_beta": 0.1547430927952591
+   }
+  },
+  "settings": {
+   "SA": [
+    {
+     "family": "SA",
+     "T0": 422282.6092483632,
+     "T1": 6.462323984457917,
+     "S": 8192,
+     "note": "Neal default beta range (dwave-samplers 1.2.0), geometric, S sweeps"
+    }
+   ],
+   "SCA": [
+    {
+     "family": "plain",
+     "q": 698.5569446877264,
+     "T0": 6985.5694468772635,
+     "tfin": 873.1961808596579,
+     "S": 8192,
+     "note": "STATICA K2000 setting q=4 (constant), T 40->5 (Fig. 25, Table II), x sigma/sigma_K2000"
+    }
+   ],
+   "TEC": [
+    {
+     "family": "tec_sig",
+     "jv": 5239.177085157948,
+     "q": 0.0,
+     "T0": 17463.92361719316,
+     "tfin": 17.46392361719316,
+     "cb": 2.0,
+     "S": 8192,
+     "note": "TEC K2000: Jv = 30J optimum (Fig. 3b), T 100J->0.1J (Fig. 3 text), Glauber Eq. (4), x sigma/sigma_K2000; geometric schedule (shape not stated)"
+    }
+   ],
+   "APC-SCA": [
+    {
+     "family": "apc_sig",
+     "q_reset": 34337.84293310126,
+     "r_q": 0.8,
+     "q_lim": 0.0,
+     "T0": 4709.6,
+     "tfin": 101.80000000000001,
+     "cb": 1.0,
+     "S": 8192,
+     "note": "APC TSP: T 0.2 N min|J| -> 0.1 max|J| (Table 2), r_q=0.8 (Sec. 4.4, Table 5), q_limit=0, q=lambda/2"
+    }
+   ],
+   "ReAIM ASA": [
+    {
+     "family": "ReAIM",
+     "kset": [
+      1,
+      2,
+      6,
+      16
+     ],
+     "T0": 0.5,
+     "T1": 0.1,
+     "F": "min",
+     "S": 8192,
+     "note": "ReAIM Table II T_init/T_final, F per Sec. IV-C, k candidates {1,2,6,16} (paper values), ITER_trial/run 32/96 (not given), noise-free"
+    }
+   ],
+   "aSB": [
+    {
+     "family": "aSB",
+     "dt": 0.9,
+     "M": 2,
+     "xi": 1.0498546324676146,
+     "S": 8192,
+     "note": "Goto 2019: K=D=1, xi0=0.7/(SD(J) sqrt N), p linear 0->1, dt=0.9, M=2 (Fig. 2, Methods)"
+    }
+   ],
+   "bSB": [
+    {
+     "family": "bSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "bSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ],
+   "dSB": [
+    {
+     "family": "dSB",
+     "dt": 0.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.5,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 0.75,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.0,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    },
+    {
+     "family": "dSB",
+     "dt": 1.25,
+     "xi": 1.0,
+     "S": 8192,
+     "note": "Goto 2021: a0=1, c0=0.5/(<J> sqrt N), a linear 0->a0, dt best of {0.25,...,1.25} (Methods)"
+    }
+   ]
+  }
+ }
+}

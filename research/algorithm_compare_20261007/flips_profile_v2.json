@@ -1,0 +1,51 @@
+{
+ "S7": {
+  "mean_flips": 328616.5859375,
+  "model_trial_ms": 0.30360560735000003,
+  "p_model": 0.8671875,
+  "p_board": 0.824,
+  "t_round_board_ms": 0.302
+ },
+ "S5": {
+  "mean_flips": 87031.0078125,
+  "model_trial_ms": 0.09363846205,
+  "p_model": 0.140625,
+  "p_board": 0.134,
+  "t_round_board_ms": 0.095
+ },
+ "P3": {
+  "mean_flips": 130668.0,
+  "model_trial_ms": 0.19085409279999999,
+  "p_model": 0.5078125,
+  "p_board": 0.439,
+  "t_round_board_ms": 0.1993
+ },
+ "B1": {
+  "mean_flips": 143092.8203125,
+  "model_trial_ms": 0.15451527045000002,
+  "p_model": 0.421875,
+  "p_board": 0.461,
+  "t_round_board_ms": 0.1568
+ },
+ "T2": {
+  "mean_flips": 108164.1953125,
+  "model_trial_ms": 0.13461992565000003,
+  "p_model": 0.40625,
+  "p_board": 0.392,
+  "t_round_board_ms": 0.1366
+ },
+ "O4": {
+  "mean_flips": 46479.3203125,
+  "model_trial_ms": 0.056068220849999996,
+  "p_model": 0.2734375,
+  "p_board": 0.326,
+  "t_round_board_ms": 0.059
+ },
+ "X5": {
+  "mean_flips": 47492.28125,
+  "model_trial_ms": 0.05085640339999999,
+  "p_model": 0.4296875,
+  "p_board": 0.338,
+  "t_round_board_ms": 0.0503
+ }
+}

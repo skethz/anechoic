@@ -1,0 +1,11 @@
+{
+  "status": "PASS for constrained synchronous timing",
+  "setup_slack_ns": 0.024,
+  "hold_slack_ns": 0.01,
+  "pulse_width_slack_ns": 0.0,
+  "setup_failing_endpoints": 0,
+  "hold_failing_endpoints": 0,
+  "pulse_width_failing_endpoints": 0,
+  "source_report": "/scratch/USER/sca_v80_20261003/build/board_mb2n_e12_250mhz/routed_timing.rpt",
+  "external_delay_note": "External ports and constant-clock endpoints still require review of the verbose report; this is not a board-level protocol timing measurement."
+}

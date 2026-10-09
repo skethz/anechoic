@@ -1,0 +1,32 @@
+verdicts {"A4_E": true, "A4_R": true, "A4_C": true, "A4_F": true}
+verify R2048_ons: 12/12 engines 6 n 2048 bias True best E -371500
+verify R2048_tecT: 6/6 engines 6 n 2048 bias True best E -371218
+verify R777_ons: 12/12 engines 6 n 777 bias True best E -122612
+verify R777_tec: 6/6 engines 6 n 777 bias True best E -122222
+verify VG1: 6/6 engines 6 n 800 bias True best E 2198848
+verify VG14: 6/6 engines 6 n 800 bias True best E 2227812
+verify VG17: 6/6 engines 6 n 800 bias True best E 2227866
+verify Vbayg29: 6/6 engines 6 n 841 bias True best E -188909
+verify Vbays29: 6/6 engines 6 n 841 bias True best E -187247
+verify Vfri26: 6/6 engines 6 n 676 bias True best E -131512
+verify Vgr17: 6/6 engines 6 n 289 bias True best E -34789
+verify Vgr21: 6/6 engines 6 n 441 bias True best E -69071
+verify Vgr24: 6/6 engines 6 n 576 bias True best E -102960
+verify W1: 12/12 engines 6 n 2000 bias False best E None
+verify W1b0: 12/12 engines 6 n 2000 bias True best E -62574
+verify W2: 12/12 engines 6 n 2000 bias False best E None
+verify W3: 6/6 engines 6 n 2000 bias False best E None
+verify W4: 12/12 engines 6 n 2000 bias False best E None
+verify W4b0: 12/12 engines 6 n 2000 bias True best E -67436
+R W1 {'common': 12, 'mismatches': 0}
+R W2 {'common': 12, 'mismatches': 0}
+R W3 {'common': 6, 'mismatches': 0}
+R W4 {'common': 12, 'mismatches': 0}
+R X5 {'common': 2052, 'mismatches': 0, 'first': [], 'launch_cycle_ratio': 0.9994744187262896, 'tts99_ms': 0.09806662946904067, 'v64_tts99_ms': 0.05033378828562791, 'engines': 6}
+R O4 {'common': 2052, 'mismatches': 0, 'first': [], 'launch_cycle_ratio': 0.9995286874520397, 'tts99_ms': 0.11709168995840144, 'v64_tts99_ms': 0.05284592862029558, 'engines': 6}
+gr17_plain       n  289 S  8192 valid tours ids 0..1023: 993 (export 993) ok; all 995/1026; t_R 0.8399 ms; best E -34809
+gr21_plain       n  441 S  8192 valid tours ids 0..1023: 595 (export 595) ok; all 596/1026; t_R 0.8413 ms; best E -69095
+gr24_plain       n  576 S  8192 valid tours ids 0..1023: 974 (export 974) ok; all 976/1026; t_R 0.8508 ms; best E -102980
+fri26_plain      n  676 S  8192 valid tours ids 0..1023: 844 (export 844) ok; all 845/1026; t_R 0.8629 ms; best E -131528
+bayg29_plain     n  841 S  8192 valid tours ids 0..1023: 158 (export 158) ok; all 158/1026; t_R 0.9421 ms; best E -188929
+bays29_plain     n  841 S  8192 valid tours ids 0..1023: 678 (export 678) ok; all 679/1026; t_R 0.9429 ms; best E -187263

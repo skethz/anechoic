@@ -1,0 +1,32 @@
+# launch start: beat 0 cycle 20
+# launch start: beat 1 cycle 21
+# trial start: cycle 34984
+# trial out: cycle 39574
+# trial end: word 33 cycle 39674 flips 24665
+# trial start: cycle 39796
+# trial out: cycle 44513
+# trial end: word 107 cycle 44613 flips 26151
+# trial start: cycle 44735
+# trial out: cycle 48849
+# trial end: word 181 cycle 48950 flips 21290
+# trial start: cycle 49115
+# trial out: cycle 52689
+# trial end: word 255 cycle 52789 flips 17069
+# trial start: cycle 52911
+# trial out: cycle 56406
+# trial end: word 329 cycle 56506 flips 16727
+# trial start: cycle 56628
+# trial out: cycle 60222
+# trial end: word 403 cycle 60322 flips 17313
+# trial start: cycle 60490
+# trial out: cycle 62976
+# trial end: word 477 cycle 63076 flips 9008
+# trial start: cycle 63078
+# trial out: cycle 65508
+# trial start: cycle 65613
+# trial out: cycle 68040
+# trial end: word 545 cycle 68141 flips 8547
+# trial start: cycle 68262
+# trial out: cycle 70733
+# trial end: word 619 cycle 70834 flips 8668
+# DONE: 660 words, 0 errors, cycle 70953

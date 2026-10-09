@@ -1,0 +1,5 @@
+4eefcd987e96dac0f98b263be4d47e3f90155a01e72434dfeaaaf8d5eedc951f  PROTOCOL_GSET_PUB_A1.md
+6f8a7294334edcb4ec0e95883d54c4bc040a3fcd4a62a2411d358b3f4622c965  gset_pub_sigma.py
+81dbd62b0d570a6860eb12231e73bc36ba12601faebb2b6c2c5469c59976a752  gset_pub.py
+2026-10-08T12:25:45Z
+frozen after the unscaled PROTOCOL_GSET_PUB runs (0/51 reach the target), before any sigma-transfer run

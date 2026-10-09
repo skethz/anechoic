@@ -1,0 +1,2 @@
+# bays29 TSP (n = 841, K = 4, bias): export SCA schedule (S = 8192), one untraced trial
+bays29_plain_S8192 56.0 2.1 8192 56.0 0.0 0 0.0 0.0 1 1 0 0

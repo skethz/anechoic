@@ -1,0 +1,86 @@
+{
+ "perm/geo/jv0": {
+  "cross_mean_curve": 751,
+  "median_first_pass": 722.5,
+  "final_mean_cut": 33056.53125,
+  "runs": 64,
+  "reached": 64
+ },
+ "perm/geo/jv30": {
+  "cross_mean_curve": 575,
+  "median_first_pass": 555.0,
+  "final_mean_cut": 32639.65625,
+  "runs": 64,
+  "reached": 64
+ },
+ "perm/lin/jv0": {
+  "cross_mean_curve": 2448,
+  "median_first_pass": 2409.5,
+  "final_mean_cut": 33118.765625,
+  "runs": 64,
+  "reached": 64
+ },
+ "perm/lin/jv30": {
+  "cross_mean_curve": 2142,
+  "median_first_pass": 2093.0,
+  "final_mean_cut": 32849.6875,
+  "runs": 64,
+  "reached": 64
+ },
+ "rand/geo/jv0": {
+  "cross_mean_curve": 752,
+  "median_first_pass": 733.5,
+  "final_mean_cut": 33021.515625,
+  "runs": 64,
+  "reached": 64
+ },
+ "rand/geo/jv30": {
+  "cross_mean_curve": 606,
+  "median_first_pass": 584.5,
+  "final_mean_cut": 32416.265625,
+  "runs": 64,
+  "reached": 64
+ },
+ "rand/lin/jv0": {
+  "cross_mean_curve": 2460,
+  "median_first_pass": 2427.5,
+  "final_mean_cut": 33078.390625,
+  "runs": 64,
+  "reached": 64
+ },
+ "rand/lin/jv30": {
+  "cross_mean_curve": 2155,
+  "median_first_pass": 2110.0,
+  "final_mean_cut": 32749.265625,
+  "runs": 64,
+  "reached": 64
+ },
+ "seq/geo/jv0": {
+  "cross_mean_curve": 745,
+  "median_first_pass": 719.0,
+  "final_mean_cut": 33098.40625,
+  "runs": 64,
+  "reached": 64
+ },
+ "seq/geo/jv30": {
+  "cross_mean_curve": 576,
+  "median_first_pass": 557.0,
+  "final_mean_cut": 32624.234375,
+  "runs": 64,
+  "reached": 64
+ },
+ "seq/lin/jv0": {
+  "cross_mean_curve": 2447,
+  "median_first_pass": 2405.0,
+  "final_mean_cut": 33133.453125,
+  "runs": 64,
+  "reached": 64
+ },
+ "seq/lin/jv30": {
+  "cross_mean_curve": 2134,
+  "median_first_pass": 2073.0,
+  "final_mean_cut": 32880.109375,
+  "runs": 64,
+  "reached": 64
+ }
+}

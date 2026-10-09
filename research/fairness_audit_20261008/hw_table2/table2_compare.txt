@@ -1,0 +1,10 @@
+primary   X5(O1) 0.0503 ms vs original plain (P1-P4)      : best P4 0.1975 ms -> 3.92x | P1 0.2397 (4.76x), P2 0.2157 (4.29x), P3 0.1993 (3.96x), P4 0.1975 (3.92x)
+primary   X5(O1) 0.0503 ms vs original TEC (T1-T3)        : best T2 0.1366 ms -> 2.71x | T1 0.2164 (4.30x), T2 0.1366 (2.71x), T3 0.3627 (7.21x)
+primary   X5(O1) 0.0503 ms vs re-selected plain (B1, B2)  : best B1 0.1405 ms -> 2.79x | B1 0.1405 (2.79x), B2 0.2713 (5.39x)
+primary   X5(O1) 0.0503 ms vs re-selected TEC (B3, B4)    : best B3 0.1366 ms -> 2.71x | B3 0.1366 (2.71x), B4 0.2164 (4.30x)
+secondary X4(O5) 0.0181 ms vs original plain (P1-P4)      : best P1 0.0873 ms -> 4.81x | P1 0.0873 (4.81x), P2 0.1019 (5.62x), P3 0.1325 (7.30x), P4 0.2088 (11.51x)
+secondary X4(O5) 0.0181 ms vs original TEC (T1-T3)        : best T1 0.0755 ms -> 4.16x | T1 0.0755 (4.16x), T2 0.1052 (5.80x), T3 0.3169 (17.46x)
+secondary X4(O5) 0.0181 ms vs re-selected plain (B1, B2)  : best B2 0.0610 ms -> 3.36x | B1 0.0975 (5.37x), B2 0.0610 (3.36x)
+secondary X4(O5) 0.0181 ms vs re-selected TEC (B3, B4)    : best B4 0.0755 ms -> 4.16x | B3 0.1052 (5.80x), B4 0.0755 (4.16x)
+primary: P3 (q8,T30,S1560) 0.1993 ms -> 3.96x
+secondary: P3 (q8,T30,S1560) 0.1325 ms -> 7.30x

@@ -1,0 +1,5 @@
+beats 65818 words 34 DRAIN 2 K 2
+trial start: cycle 70242
+trial out: cycle 82651
+DONE: 34 words, 0 errors, 0 residue violations, cycle 82751
+TESTBENCH PASSED

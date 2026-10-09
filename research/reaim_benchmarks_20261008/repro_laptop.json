@@ -1,0 +1,179 @@
+{
+ "G14/plain": {
+  "sha": "c61a34c07e393ffd",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "G14/tec": {
+  "sha": "c61a34c07e393ffd",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "G14/tecT": {
+  "sha": "c61a34c07e393ffd",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "G14/onsager": {
+  "sha": "c61a34c07e393ffd",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "G14/apc": {
+  "sha": "c61a34c07e393ffd",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "G14/SA": {
+  "sha": "1a161b4609fcc3b1",
+  "quality": 0.8698778424402926,
+  "feasible": 16
+ },
+ "G14/ReAIM": {
+  "sha": "712a8c1d6d92300a",
+  "quality": 0.3150422425070866,
+  "feasible": 7
+ },
+ "G14/aSB": {
+  "sha": "11df71bd93bd04d9",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "G14/bSB": {
+  "sha": "29af4a820ed1a9d5",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "G14/dSB": {
+  "sha": "c61a34c07e393ffd",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "G14/hw_K4": {
+  "sha": "b525f810c4462067",
+  "flips": [
+   159611,
+   159610,
+   159615,
+   159620
+  ]
+ },
+ "gr17/plain": {
+  "sha": "ce09a3fb4559fb49",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "gr17/tec": {
+  "sha": "ce09a3fb4559fb49",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "gr17/tecT": {
+  "sha": "ce09a3fb4559fb49",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "gr17/onsager": {
+  "sha": "ce09a3fb4559fb49",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "gr17/apc": {
+  "sha": "ce09a3fb4559fb49",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "gr17/SA": {
+  "sha": "69310f51da48a56f",
+  "quality": 0.5108920028028446,
+  "feasible": 16
+ },
+ "gr17/ReAIM": {
+  "sha": "56bb39d730f621be",
+  "quality": 0.4049368120166633,
+  "feasible": 11
+ },
+ "gr17/aSB": {
+  "sha": "fa0a4a250689e22e",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "gr17/bSB": {
+  "sha": "22ee9e8a5706142a",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "gr17/dSB": {
+  "sha": "22ee9e8a5706142a",
+  "quality": 0.0,
+  "feasible": 0
+ },
+ "gr17/hw_K4": {
+  "sha": "0b97287f089c4786",
+  "flips": [
+   57411,
+   57452,
+   57398,
+   57402
+  ]
+ },
+ "G11/plain": {
+  "sha": "2e93eb705ad6db3e",
+  "quality": 0.9472517730496455,
+  "feasible": 16
+ },
+ "G11/tec": {
+  "sha": "96b11a15e4eda595",
+  "quality": 0.9512411347517731,
+  "feasible": 16
+ },
+ "G11/tecT": {
+  "sha": "154b695e6d9e0d17",
+  "quality": 0.9448138297872342,
+  "feasible": 16
+ },
+ "G11/onsager": {
+  "sha": "0ffbaef4c44be871",
+  "quality": 0.9423758865248226,
+  "feasible": 16
+ },
+ "G11/apc": {
+  "sha": "f42dc33a2bf6fdc3",
+  "quality": 0.9621010638297873,
+  "feasible": 16
+ },
+ "G11/SA": {
+  "sha": "dd9ea19af1bf9431",
+  "quality": 0.9804964539007093,
+  "feasible": 16
+ },
+ "G11/ReAIM": {
+  "sha": "412d66c2b26a16f1",
+  "quality": 0.8395390070921986,
+  "feasible": 16
+ },
+ "G11/aSB": {
+  "sha": "7c47a1278a6f6513",
+  "quality": 0.9718528368794326,
+  "feasible": 16
+ },
+ "G11/bSB": {
+  "sha": "0eba44d53ef5e2a8",
+  "quality": 0.9729609929078014,
+  "feasible": 16
+ },
+ "G11/dSB": {
+  "sha": "473a5eed06f1c0b0",
+  "quality": 0.978945035460993,
+  "feasible": 16
+ },
+ "G11/hw_K4": {
+  "sha": "4d2f54c09f999bfe",
+  "flips": [
+   8913,
+   8781,
+   9265,
+   9145
+  ]
+ }
+}

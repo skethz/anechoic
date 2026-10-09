@@ -1,0 +1,404 @@
+verdicts {"A3_E": true, "A3_R": true, "A3_C": true, "A3_I": true, "A3_P": true, "A3_T": true}
+A3-P fraction 1.000; A3-T median ratio 0.9858785737180851
+verify G22a: 24/24 engines 12 n 2000 padding0 True
+verify G22b: 12/12 engines 12 n 2000 padding0 True
+verify G22neg_ons: 12/12 engines 12 n 2000 padding0 True
+verify G22neg_plain: 12/12 engines 12 n 2000 padding0 True
+verify G32a: 24/24 engines 12 n 2000 padding0 True
+verify G32b: 12/12 engines 12 n 2000 padding0 True
+verify VG1: 12/12 engines 12 n 800 padding0 True
+verify VG10: 12/12 engines 12 n 800 padding0 True
+verify VG11: 12/12 engines 12 n 800 padding0 True
+verify VG12: 12/12 engines 12 n 800 padding0 True
+verify VG13: 12/12 engines 12 n 800 padding0 True
+verify VG14: 12/12 engines 12 n 800 padding0 True
+verify VG15: 12/12 engines 12 n 800 padding0 True
+verify VG16: 12/12 engines 12 n 800 padding0 True
+verify VG17: 12/12 engines 12 n 800 padding0 True
+verify VG18: 12/12 engines 12 n 800 padding0 True
+verify VG19: 12/12 engines 12 n 800 padding0 True
+verify VG2: 12/12 engines 12 n 800 padding0 True
+verify VG20: 12/12 engines 12 n 800 padding0 True
+verify VG21: 12/12 engines 12 n 800 padding0 True
+verify VG22: 12/12 engines 12 n 2000 padding0 True
+verify VG23: 12/12 engines 12 n 2000 padding0 True
+verify VG24: 12/12 engines 12 n 2000 padding0 True
+verify VG25: 12/12 engines 12 n 2000 padding0 True
+verify VG26: 12/12 engines 12 n 2000 padding0 True
+verify VG27: 12/12 engines 12 n 2000 padding0 True
+verify VG28: 12/12 engines 12 n 2000 padding0 True
+verify VG29: 12/12 engines 12 n 2000 padding0 True
+verify VG3: 12/12 engines 12 n 800 padding0 True
+verify VG30: 12/12 engines 12 n 2000 padding0 True
+verify VG31: 12/12 engines 12 n 2000 padding0 True
+verify VG32: 12/12 engines 12 n 2000 padding0 True
+verify VG33: 12/12 engines 12 n 2000 padding0 True
+verify VG34: 12/12 engines 12 n 2000 padding0 True
+verify VG35: 12/12 engines 12 n 2000 padding0 True
+verify VG36: 12/12 engines 12 n 2000 padding0 True
+verify VG37: 12/12 engines 12 n 2000 padding0 True
+verify VG38: 12/12 engines 12 n 2000 padding0 True
+verify VG39: 12/12 engines 12 n 2000 padding0 True
+verify VG4: 12/12 engines 12 n 800 padding0 True
+verify VG40: 12/12 engines 12 n 2000 padding0 True
+verify VG41: 12/12 engines 12 n 2000 padding0 True
+verify VG42: 12/12 engines 12 n 2000 padding0 True
+verify VG43: 12/12 engines 12 n 1000 padding0 True
+verify VG44: 12/12 engines 12 n 1000 padding0 True
+verify VG45: 12/12 engines 12 n 1000 padding0 True
+verify VG46: 12/12 engines 12 n 1000 padding0 True
+verify VG47: 12/12 engines 12 n 1000 padding0 True
+verify VG5: 12/12 engines 12 n 800 padding0 True
+verify VG51: 12/12 engines 12 n 1000 padding0 True
+verify VG52: 12/12 engines 12 n 1000 padding0 True
+verify VG53: 12/12 engines 12 n 1000 padding0 True
+verify VG54: 12/12 engines 12 n 1000 padding0 True
+verify VG6: 12/12 engines 12 n 800 padding0 True
+verify VG7: 12/12 engines 12 n 800 padding0 True
+verify VG8: 12/12 engines 12 n 800 padding0 True
+verify VG9: 12/12 engines 12 n 800 padding0 True
+verify W1: 12/12 engines 12 n 2000 padding0 True
+verify W2: 24/24 engines 12 n 2000 padding0 True
+verify W3: 12/12 engines 12 n 2000 padding0 True
+verify W4: 12/12 engines 12 n 2000 padding0 True
+R W1 {'common': 12, 'mismatches': 0}
+R W2 {'common': 24, 'mismatches': 0}
+R W3 {'common': 12, 'mismatches': 0}
+R W4 {'common': 12, 'mismatches': 0}
+R X5 {'common': 2052, 'mismatches': 0, 'first': [], 'launch_cycle_ratio': 1.0003643089739516, 'identical_launch_cycles': 1019, 'tts99_ms': 0.050353835344471486, 'v64_tts99_ms': 0.05033378828562791}
+R O4 {'common': 2052, 'mismatches': 0, 'first': [], 'launch_cycle_ratio': 1.0003245463457042, 'identical_launch_cycles': 1020, 'tts99_ms': 0.052862682686533845, 'v64_tts99_ms': 0.05284592862029558}
+G1_plain_o         N  800 S   500 p 0.673 (study 0.672) ok t_R 0.0533 TTS99 0.0533 ms (study 0.0443) M2 ok
+G1_tec_o           N  800 S   500 p 0.774 (study 0.762) ok t_R 0.0630 TTS99 0.0630 ms (study 0.0620) M2 ok
+G1_tec_x           N  800 S   250 p 0.458 (study 0.469) ok t_R 0.0256 TTS99 0.0256 ms (study 0.0230) M2 ok
+G1_tecT_o          N  800 S   250 p 0.462 (study 0.441) ok t_R 0.0259 TTS99 0.0191 ms (study 0.0238) M2 ok
+G1_tecT_x          N  800 S   250 p 0.830 (study 0.812) ok t_R 0.0282 TTS99 0.0282 ms (study 0.0262) M2 ok
+G1_ons_o           N  800 S   500 p 0.693 (study 0.677) ok t_R 0.0675 TTS99 0.0675 ms (study 0.0640) M2 ok
+G2_plain_o         N  800 S   250 p 0.154 (study 0.140) ok t_R 0.0274 TTS99 0.0653 ms (study 0.0708) M2 ok
+G2_plain_x         N  800 S   500 p 0.513 (study 0.505) ok t_R 0.0510 TTS99 0.0510 ms (study 0.0458) M2 ok
+G2_tec_o           N  800 S   250 p 0.242 (study 0.252) ok t_R 0.0297 TTS99 0.0372 ms (study 0.0419) M2 ok
+G2_tec_x           N  800 S   250 p 0.619 (study 0.612) ok t_R 0.0256 TTS99 0.0256 ms (study 0.0230) M2 ok
+G2_tecT_o          N  800 S   250 p 0.617 (study 0.623) ok t_R 0.0259 TTS99 0.0259 ms (study 0.0238) M2 ok
+G2_tecT_x          N  800 S   250 p 0.919 (study 0.909) ok t_R 0.0288 TTS99 0.0288 ms (study 0.0250) M2 ok
+G2_ons_o           N  800 S   250 p 0.151 (study 0.168) ok t_R 0.0280 TTS99 0.0643 ms (study 0.0581) M2 ok
+G3_plain_o         N  800 S   500 p 0.748 (study 0.746) ok t_R 0.0576 TTS99 0.0576 ms (study 0.0492) M2 ok
+G3_tec_o           N  800 S   250 p 0.294 (study 0.306) ok t_R 0.0384 TTS99 0.0412 ms (study 0.0388) M2 ok
+G3_tec_x           N  800 S   250 p 0.526 (study 0.513) ok t_R 0.0256 TTS99 0.0256 ms (study 0.0230) M2 ok
+G3_tecT_o          N  800 S   250 p 0.533 (study 0.535) ok t_R 0.0259 TTS99 0.0259 ms (study 0.0238) M2 ok
+G3_tecT_x          N  800 S   250 p 0.782 (study 0.790) ok t_R 0.0290 TTS99 0.0290 ms (study 0.0285) M2 ok
+G3_ons_o           N  800 S   250 p 0.141 (study 0.139) ok t_R 0.0323 TTS99 0.0816 ms (study 0.0761) M2 ok
+G4_plain_o         N  800 S   500 p 0.718 (study 0.717) ok t_R 0.0553 TTS99 0.0553 ms (study 0.0490) M2 ok
+G4_tec_o           N  800 S   250 p 0.207 (study 0.208) ok t_R 0.0293 TTS99 0.0453 ms (study 0.0465) M2 ok
+G4_tec_x           N  800 S   250 p 0.453 (study 0.428) ok t_R 0.0256 TTS99 0.0256 ms (study 0.0230) M2 ok
+G4_tecT_o          N  800 S   250 p 0.499 (study 0.475) ok t_R 0.0261 TTS99 0.0193 ms (study 0.0238) M2 ok
+G4_tecT_x          N  800 S   250 p 0.845 (study 0.847) ok t_R 0.0276 TTS99 0.0276 ms (study 0.0275) M2 ok
+G4_ons_o           N  800 S   500 p 0.735 (study 0.728) ok t_R 0.0567 TTS99 0.0567 ms (study 0.0469) M2 ok
+G5_plain_o         N  800 S   500 p 0.225 (study 0.229) ok t_R 0.0522 TTS99 0.0807 ms (study 0.0696) M2 ok
+G5_plain_x         N  800 S   500 p 0.556 (study 0.543) ok t_R 0.0510 TTS99 0.0510 ms (study 0.0458) M2 ok
+G5_tec_o           N  800 S   250 p 0.363 (study 0.366) ok t_R 0.0359 TTS99 0.0298 ms (study 0.0345) M2 ok
+G5_tec_x           N  800 S   250 p 0.555 (study 0.533) ok t_R 0.0256 TTS99 0.0256 ms (study 0.0230) M2 ok
+G5_tecT_o          N  800 S   250 p 0.585 (study 0.597) ok t_R 0.0260 TTS99 0.0260 ms (study 0.0238) M2 ok
+G5_tecT_x          N  800 S   250 p 0.905 (study 0.900) ok t_R 0.0274 TTS99 0.0274 ms (study 0.0287) M2 ok
+G5_ons_o           N  800 S   250 p 0.166 (study 0.166) ok t_R 0.0284 TTS99 0.0543 ms (study 0.0570) M2 ok
+G6_plain_o         N  800 S   500 p 0.393 (study 0.378) ok t_R 0.0666 TTS99 0.0492 ms (study 0.0675) M2 ok
+G6_tec_o           N  800 S   500 p 0.400 (study 0.369) ok t_R 0.0680 TTS99 0.0645 ms (study 0.0695) M2 ok
+G6_tecT_o          N  800 S   250 p 0.352 (study 0.342) ok t_R 0.0337 TTS99 0.0249 ms (study 0.0323) M2 ok
+G6_ons_o           N  800 S   250 p 0.666 (study 0.674) ok t_R 0.0382 TTS99 0.0382 ms (study 0.0398) M2 ok
+G7_plain_o         N  800 S   500 p 0.300 (study 0.290) ok t_R 0.0677 TTS99 0.0607 ms (study 0.0770) M2 ok
+G7_tec_o           N  800 S   500 p 0.264 (study 0.273) ok t_R 0.0691 TTS99 0.0808 ms (study 0.0850) M2 ok
+G7_tec_x           N  800 S   500 p 0.269 (study 0.270) ok t_R 0.0734 TTS99 0.0879 ms (study 0.0915) M2 ok
+G7_tecT_o          N  800 S   250 p 0.296 (study 0.314) ok t_R 0.0343 TTS99 0.0307 ms (study 0.0364) M2 ok
+G7_ons_o           N  800 S   250 p 0.317 (study 0.327) ok t_R 0.0409 TTS99 0.0407 ms (study 0.0414) M2 ok
+G8_plain_o         N  800 S   500 p 0.363 (study 0.334) ok t_R 0.0781 TTS99 0.0699 ms (study 0.0759) M2 ok
+G8_tec_o           N  800 S   250 p 0.173 (study 0.166) ok t_R 0.0330 TTS99 0.0664 ms (study 0.0711) M2 ok
+G8_tecT_o          N  800 S   250 p 0.428 (study 0.443) ok t_R 0.0337 TTS99 0.0249 ms (study 0.0352) M2 ok
+G8_ons_o           N  800 S   250 p 0.408 (study 0.416) ok t_R 0.0391 TTS99 0.0325 ms (study 0.0408) M2 ok
+G9_plain_o         N  800 S   500 p 0.242 (study 0.236) ok t_R 0.0601 TTS99 0.0840 ms (study 0.0839) M2 ok
+G9_plain_x         N  800 S   500 p 0.281 (study 0.275) ok t_R 0.0693 TTS99 0.0717 ms (study 0.0833) M2 ok
+G9_tec_o           N  800 S   500 p 0.286 (study 0.273) ok t_R 0.0703 TTS99 0.0728 ms (study 0.0871) M2 ok
+G9_tec_x           N  800 S   500 p 0.299 (study 0.314) ok t_R 0.0733 TTS99 0.0878 ms (study 0.0759) M2 ok
+G9_tecT_o          N  800 S   250 p 0.312 (study 0.348) ok t_R 0.0341 TTS99 0.0339 ms (study 0.0320) M2 ok
+G9_ons_o           N  800 S   250 p 0.376 (study 0.402) ok t_R 0.0404 TTS99 0.0383 ms (study 0.0420) M2 ok
+G10_plain_o        N  800 S   500 p 0.237 (study 0.229) ok t_R 0.0603 TTS99 0.0815 ms (study 0.0888) M2 ok
+G10_tec_o          N  800 S   500 p 0.313 (study 0.309) ok t_R 0.0624 TTS99 0.0621 ms (study 0.0648) M2 ok
+G10_tecT_o         N  800 S   250 p 0.310 (study 0.329) ok t_R 0.0341 TTS99 0.0353 ms (study 0.0343) M2 ok
+G10_ons_o          N  800 S   250 p 0.409 (study 0.408) ok t_R 0.0412 TTS99 0.0304 ms (study 0.0430) M2 ok
+G11_plain_o        N  800 S  4000 p 0.108 (study 0.108) ok t_R 0.4037 TTS99 1.3469 ms (study 1.2432) M2 ok
+G11_plain_x        N  800 S  1000 p 0.023 (study 0.026) ok t_R 0.1179 TTS99 2.0565 ms (study 1.7200) M2 ok
+G11_tec_o          N  800 S  4000 p 0.136 (study 0.132) ok t_R 0.4470 TTS99 1.1902 ms (study 1.2032) M2 ok
+G11_tec_x          N  800 S  4000 p 0.115 (study 0.136) ok t_R 0.4972 TTS99 1.5670 ms (study 1.2740) M2 ok
+G11_tecT_o         N  800 S  2000 p 0.155 (study 0.154) ok t_R 0.2032 TTS99 0.4462 ms (study 0.4707) M2 ok
+G11_tecT_x         N  800 S  1000 p 0.083 (study 0.075) ok t_R 0.1038 TTS99 0.4663 ms (study 0.5195) M2 ok
+G11_ons_o          N  800 S  1000 p 0.036 (study 0.037) ok t_R 0.1391 TTS99 1.4625 ms (study 1.4568) M2 ok
+G12_plain_o        N  800 S  2000 p 0.066 (study 0.060) ok t_R 0.2290 TTS99 1.2192 ms (study 1.4440) M2 ok
+G12_plain_x        N  800 S  4000 p 0.115 (study 0.124) ok t_R 0.4690 TTS99 1.4696 ms (study 1.3258) M2 ok
+G12_tec_o          N  800 S  4000 p 0.144 (study 0.134) ok t_R 0.4438 TTS99 1.0851 ms (study 1.1782) M2 ok
+G12_tecT_o         N  800 S  4000 p 0.266 (study 0.233) ok t_R 0.4006 TTS99 0.5020 ms (study 0.5845) M2 ok
+G12_ons_o          N  800 S  4000 p 0.201 (study 0.193) ok t_R 0.5284 TTS99 0.8672 ms (study 0.9643) M2 ok
+G12_ons_x          N  800 S  4000 p 0.174 (study 0.167) ok t_R 0.6107 TTS99 1.1661 ms (study 1.3232) M2 ok
+G13_plain_o        N  800 S  4000 p 0.054 (study 0.062) ok t_R 0.4494 TTS99 2.9607 ms (study 2.7264) M2 ok
+G13_plain_x        N  800 S  4000 p 0.049 (study 0.049) ok t_R 0.5011 TTS99 3.7667 ms (study 3.8909) M2 ok
+G13_tec_o          N  800 S  4000 p 0.059 (study 0.074) ok t_R 0.4404 TTS99 2.8215 ms (study 2.1744) M2 ok
+G13_tecT_o         N  800 S  2000 p 0.058 (study 0.056) ok t_R 0.2008 TTS99 1.3454 ms (study 1.3642) M2 ok
+G13_ons_o          N  800 S  4000 p 0.085 (study 0.076) ok t_R 0.5217 TTS99 2.2221 ms (study 2.5801) M2 ok
+G14_plain_o        N  800 S  2000 p 0.365 (study 0.375) ok t_R 0.1948 TTS99 0.1617 ms (study 0.1721) M2 ok
+G14_tec_o          N  800 S  1000 p 0.445 (study 0.455) ok t_R 0.1156 TTS99 0.1097 ms (study 0.1080) M2 X
+G14_tecT_o         N  800 S  1000 p 0.525 (study 0.477) ok t_R 0.1199 TTS99 0.1199 ms (study 0.1198) M2 ok
+G14_tecT_x         N  800 S  1000 p 0.580 (study 0.620) ok t_R 0.0949 TTS99 0.0949 ms (study 0.0828) M2 ok
+G14_ons_o          N  800 S  1000 p 0.342 (study 0.330) ok t_R 0.1543 TTS99 0.1534 ms (study 0.1519) M2 ok
+G15_plain_o        N  800 S  2000 p 0.311 (study 0.313) ok t_R 0.1947 TTS99 0.1744 ms (study 0.1755) M2 ok
+G15_tec_o          N  800 S  1000 p 0.217 (study 0.211) ok t_R 0.1196 TTS99 0.1723 ms (study 0.1787) M2 ok
+G15_tecT_o         N  800 S  1000 p 0.547 (study 0.538) ok t_R 0.1769 TTS99 0.1769 ms (study 0.1821) M2 ok
+G15_tecT_x         N  800 S  1000 p 0.356 (study 0.355) ok t_R 0.0949 TTS99 0.0788 ms (study 0.0724) M2 ok
+G15_ons_o          N  800 S  1000 p 0.157 (study 0.149) ok t_R 0.1621 TTS99 0.3749 ms (study 0.3850) M2 ok
+G15_ons_x          N  800 S  2000 p 0.275 (study 0.286) ok t_R 0.1982 TTS99 0.2431 ms (study 0.2017) M2 ok
+G16_plain_o        N  800 S  2000 p 0.292 (study 0.286) ok t_R 0.1948 TTS99 0.2089 ms (study 0.1960) M2 ok
+G16_tec_o          N  800 S  1000 p 0.282 (study 0.287) ok t_R 0.1194 TTS99 0.1236 ms (study 0.1267) M2 ok
+G16_tecT_o         N  800 S  1000 p 0.345 (study 0.344) ok t_R 0.1281 TTS99 0.1148 ms (study 0.1136) M2 ok
+G16_tecT_x         N  800 S  1000 p 0.420 (study 0.422) ok t_R 0.0949 TTS99 0.0701 ms (study 0.0828) M2 ok
+G16_ons_o          N  800 S  1000 p 0.211 (study 0.195) ok t_R 0.1640 TTS99 0.2597 ms (study 0.2964) M2 ok
+G17_plain_o        N  800 S  2000 p 0.320 (study 0.355) ok t_R 0.1948 TTS99 0.1745 ms (study 0.1504) M2 ok
+G17_tec_o          N  800 S  1000 p 0.344 (study 0.357) ok t_R 0.1231 TTS99 0.1102 ms (study 0.1131) M2 ok
+G17_tecT_o         N  800 S  1000 p 0.413 (study 0.434) ok t_R 0.1279 TTS99 0.0944 ms (study 0.1161) M2 ok
+G17_tecT_x         N  800 S  1000 p 0.506 (study 0.511) ok t_R 0.0949 TTS99 0.0949 ms (study 0.0829) M2 ok
+G17_ons_o          N  800 S  1000 p 0.270 (study 0.273) ok t_R 0.1604 TTS99 0.1876 ms (study 0.1925) M2 ok
+G18_plain_o        N  800 S  1000 p 0.229 (study 0.254) ok t_R 0.1435 TTS99 0.2006 ms (study 0.1918) M2 ok
+G18_tec_o          N  800 S  1000 p 0.227 (study 0.211) ok t_R 0.1287 TTS99 0.1962 ms (study 0.2129) M2 ok
+G18_tec_x          N  800 S   500 p 0.128 (study 0.123) ok t_R 0.0795 TTS99 0.2294 ms (study 0.2450) M2 ok
+G18_tecT_o         N  800 S   500 p 0.224 (study 0.204) ok t_R 0.0810 TTS99 0.1184 ms (study 0.1421) M2 ok
+G18_ons_o          N  800 S   500 p 0.216 (study 0.209) ok t_R 0.0755 TTS99 0.1104 ms (study 0.1285) M2 ok
+G19_plain_o        N  800 S  1000 p 0.219 (study 0.221) ok t_R 0.1425 TTS99 0.2285 ms (study 0.2238) M2 ok
+G19_plain_x        N  800 S  1000 p 0.239 (study 0.238) ok t_R 0.1335 TTS99 0.1773 ms (study 0.1905) M2 ok
+G19_tec_o          N  800 S  1000 p 0.273 (study 0.280) ok t_R 0.1277 TTS99 0.1455 ms (study 0.1522) M2 ok
+G19_tec_x          N  800 S  1000 p 0.264 (study 0.251) ok t_R 0.1476 TTS99 0.1681 ms (study 0.2026) M2 ok
+G19_tecT_o         N  800 S  1000 p 0.349 (study 0.367) ok t_R 0.1387 TTS99 0.1151 ms (study 0.1420) M2 ok
+G19_tecT_x         N  800 S   500 p 0.196 (study 0.193) ok t_R 0.0804 TTS99 0.1548 ms (study 0.1499) M2 ok
+G19_ons_o          N  800 S   500 p 0.230 (study 0.229) ok t_R 0.0747 TTS99 0.1009 ms (study 0.1145) M2 ok
+G19_ons_x          N  800 S  1000 p 0.437 (study 0.434) ok t_R 0.1451 TTS99 0.1204 ms (study 0.1501) M2 ok
+G20_plain_o        N  800 S  1000 p 0.372 (study 0.363) ok t_R 0.1425 TTS99 0.1276 ms (study 0.1455) M2 ok
+G20_plain_x        N  800 S  1000 p 0.382 (study 0.378) ok t_R 0.1335 TTS99 0.1335 ms (study 0.1351) M2 ok
+G20_tec_o          N  800 S  1000 p 0.299 (study 0.292) ok t_R 0.1250 TTS99 0.1341 ms (study 0.1407) M2 ok
+G20_tec_x          N  800 S   250 p 0.105 (study 0.103) ok t_R 0.0415 TTS99 0.1352 ms (study 0.1570) M2 ok
+G20_tecT_o         N  800 S   250 p 0.179 (study 0.170) ok t_R 0.0420 TTS99 0.0831 ms (study 0.0914) M2 ok
+G20_ons_o          N  800 S   500 p 0.342 (study 0.339) ok t_R 0.0744 TTS99 0.0666 ms (study 0.0719) M2 ok
+G20_ons_x          N  800 S   250 p 0.149 (study 0.131) ok t_R 0.0511 TTS99 0.1265 ms (study 0.1488) M2 ok
+G21_plain_o        N  800 S  2000 p 0.206 (study 0.215) ok t_R 0.2806 TTS99 0.4813 ms (study 0.4522) M2 ok
+G21_plain_x        N  800 S  2000 p 0.226 (study 0.213) ok t_R 0.2623 TTS99 0.3891 ms (study 0.4240) M2 ok
+G21_tec_o          N  800 S  2000 p 0.239 (study 0.234) ok t_R 0.2507 TTS99 0.3666 ms (study 0.3665) M2 ok
+G21_tec_x          N  800 S  2000 p 0.259 (study 0.243) ok t_R 0.3274 TTS99 0.3924 ms (study 0.4729) M2 ok
+G21_tecT_o         N  800 S  1000 p 0.209 (study 0.200) ok t_R 0.1570 TTS99 0.2546 ms (study 0.2797) M2 ok
+G21_ons_o          N  800 S  1000 p 0.213 (study 0.209) ok t_R 0.1447 TTS99 0.2176 ms (study 0.2450) M2 ok
+G22_plain_o        N 2000 S   500 p 0.672 (study 0.692) ok t_R 0.0801 TTS99 0.0801 ms (study 0.0798) M2 ok I {'common': 2052, 'mismatches': 0}
+G22_tec_o          N 2000 S   250 p 0.297 (study 0.293) ok t_R 0.0338 TTS99 0.0374 ms (study 0.0372) M2 ok I {'common': 2052, 'mismatches': 0}
+G22_tecT_o         N 2000 S   250 p 0.335 (study 0.345) ok t_R 0.0362 TTS99 0.0400 ms (study 0.0328) M2 ok I {'common': 2052, 'mismatches': 0}
+G22_ons_o          N 2000 S   500 p 0.855 (study 0.848) ok t_R 0.0645 TTS99 0.0645 ms (study 0.0625) M2 ok I {'common': 2052, 'mismatches': 0}
+G23_plain_o        N 2000 S   250 p 0.206 (study 0.188) ok t_R 0.0422 TTS99 0.0701 ms (study 0.0784) M2 ok I {'common': 2052, 'mismatches': 0}
+G23_tec_o          N 2000 S   250 p 0.705 (study 0.736) ok t_R 0.0381 TTS99 0.0381 ms (study 0.0390) M2 ok I {'common': 2052, 'mismatches': 0}
+G23_tecT_o         N 2000 S   250 p 0.634 (study 0.645) ok t_R 0.0361 TTS99 0.0361 ms (study 0.0361) M2 ok I {'common': 2052, 'mismatches': 0}
+G23_ons_o          N 2000 S   250 p 0.393 (study 0.410) ok t_R 0.0346 TTS99 0.0287 ms (study 0.0340) M2 ok I {'common': 2052, 'mismatches': 0}
+G24_plain_o        N 2000 S   500 p 0.880 (study 0.900) ok t_R 0.0572 TTS99 0.0572 ms (study 0.0543) M2 ok I {'common': 2052, 'mismatches': 0}
+G24_tec_o          N 2000 S   250 p 0.572 (study 0.572) ok t_R 0.0338 TTS99 0.0338 ms (study 0.0336) M2 ok I {'common': 2052, 'mismatches': 0}
+G24_tecT_o         N 2000 S   250 p 0.551 (study 0.567) ok t_R 0.0444 TTS99 0.0444 ms (study 0.0453) M2 ok I {'common': 2052, 'mismatches': 0}
+G24_ons_o          N 2000 S   250 p 0.348 (study 0.369) ok t_R 0.0346 TTS99 0.0310 ms (study 0.0340) M2 ok I {'common': 2052, 'mismatches': 0}
+G25_plain_o        N 2000 S   250 p 0.158 (study 0.168) ok t_R 0.0309 TTS99 0.0683 ms (study 0.0622) M2 ok I {'common': 2052, 'mismatches': 0}
+G25_tec_o          N 2000 S   250 p 0.668 (study 0.680) ok t_R 0.0381 TTS99 0.0381 ms (study 0.0391) M2 ok I {'common': 2052, 'mismatches': 0}
+G25_tecT_o         N 2000 S   250 p 0.621 (study 0.619) ok t_R 0.0361 TTS99 0.0361 ms (study 0.0361) M2 ok I {'common': 2052, 'mismatches': 0}
+G25_ons_o          N 2000 S   250 p 0.273 (study 0.268) ok t_R 0.0323 TTS99 0.0358 ms (study 0.0388) M2 ok I {'common': 2052, 'mismatches': 0}
+G26_plain_o        N 2000 S   500 p 0.918 (study 0.916) ok t_R 0.0573 TTS99 0.0573 ms (study 0.0544) M2 ok I {'common': 2052, 'mismatches': 0}
+G26_tec_o          N 2000 S   250 p 0.648 (study 0.646) ok t_R 0.0338 TTS99 0.0338 ms (study 0.0337) M2 ok I {'common': 2052, 'mismatches': 0}
+G26_tecT_o         N 2000 S   250 p 0.635 (study 0.641) ok t_R 0.0362 TTS99 0.0362 ms (study 0.0362) M2 ok I {'common': 2052, 'mismatches': 0}
+G26_ons_o          N 2000 S   250 p 0.399 (study 0.417) ok t_R 0.0347 TTS99 0.0347 ms (study 0.0340) M2 ok I {'common': 2052, 'mismatches': 0}
+G27_plain_o        N 2000 S  1000 p 0.559 (study 0.562) ok t_R 0.2363 TTS99 0.2363 ms (study 0.2467) M2 ok I {'common': 2052, 'mismatches': 0}
+G27_tec_o          N 2000 S   500 p 0.233 (study 0.258) ok t_R 0.1150 TTS99 0.1554 ms (study 0.1550) M2 ok I {'common': 2052, 'mismatches': 0}
+G27_tec_x          N 2000 S  1000 p 0.649 (study 0.653) ok t_R 0.2192 TTS99 0.2192 ms (study 0.2288) M2 ok I {'common': 2052, 'mismatches': 0}
+G27_tecT_o         N 2000 S   500 p 0.449 (study 0.471) ok t_R 0.0987 TTS99 0.0987 ms (study 0.1021) M2 ok I {'common': 2052, 'mismatches': 0}
+G27_ons_o          N 2000 S   500 p 0.510 (study 0.494) ok t_R 0.1369 TTS99 0.1369 ms (study 0.1417) M2 ok I {'common': 2052, 'mismatches': 0}
+G28_plain_o        N 2000 S  1000 p 0.701 (study 0.724) ok t_R 0.2392 TTS99 0.2392 ms (study 0.2493) M2 ok I {'common': 2052, 'mismatches': 0}
+G28_tec_o          N 2000 S   500 p 0.347 (study 0.326) ok t_R 0.1155 TTS99 0.1034 ms (study 0.1177) M2 ok I {'common': 2052, 'mismatches': 0}
+G28_tecT_o         N 2000 S   250 p 0.198 (study 0.196) ok t_R 0.0539 TTS99 0.0904 ms (study 0.0987) M2 ok I {'common': 2052, 'mismatches': 0}
+G28_ons_o          N 2000 S   500 p 0.550 (study 0.534) ok t_R 0.1390 TTS99 0.1390 ms (study 0.1445) M2 ok I {'common': 2052, 'mismatches': 0}
+G29_plain_o        N 2000 S  1000 p 0.373 (study 0.373) ok t_R 0.2380 TTS99 0.1757 ms (study 0.2490) M2 ok I {'common': 2052, 'mismatches': 0}
+G29_tec_o          N 2000 S  1000 p 0.453 (study 0.444) ok t_R 0.2194 TTS99 0.2194 ms (study 0.2291) M2 ok I {'common': 2052, 'mismatches': 0}
+G29_tecT_o         N 2000 S   500 p 0.321 (study 0.326) ok t_R 0.0986 TTS99 0.1021 ms (study 0.0991) M2 ok I {'common': 2052, 'mismatches': 0}
+G29_ons_o          N 2000 S   500 p 0.242 (study 0.230) ok t_R 0.1375 TTS99 0.1827 ms (study 0.2087) M2 ok I {'common': 2052, 'mismatches': 0}
+G30_plain_o        N 2000 S   500 p 0.192 (study 0.182) ok t_R 0.1059 TTS99 0.1949 ms (study 0.2094) M2 ok I {'common': 2052, 'mismatches': 0}
+G30_tec_o          N 2000 S   500 p 0.335 (study 0.316) ok t_R 0.1149 TTS99 0.1142 ms (study 0.1212) M2 ok I {'common': 2052, 'mismatches': 0}
+G30_tecT_o         N 2000 S   250 p 0.185 (study 0.194) ok t_R 0.0537 TTS99 0.0959 ms (study 0.0989) M2 ok I {'common': 2052, 'mismatches': 0}
+G30_ons_o          N 2000 S   500 p 0.458 (study 0.450) ok t_R 0.1358 TTS99 0.1358 ms (study 0.1400) M2 ok I {'common': 2052, 'mismatches': 0}
+G31_plain_o        N 2000 S   500 p 0.174 (study 0.201) ok t_R 0.1064 TTS99 0.2373 ms (study 0.1883) M2 ok I {'common': 2052, 'mismatches': 0}
+G31_tec_o          N 2000 S   500 p 0.312 (study 0.333) ok t_R 0.1155 TTS99 0.1096 ms (study 0.1146) M2 ok I {'common': 2052, 'mismatches': 0}
+G31_tecT_o         N 2000 S   500 p 0.577 (study 0.572) ok t_R 0.0990 TTS99 0.0990 ms (study 0.1025) M2 ok I {'common': 2052, 'mismatches': 0}
+G31_ons_o          N 2000 S   500 p 0.494 (study 0.487) ok t_R 0.1398 TTS99 0.1398 ms (study 0.1445) M2 ok I {'common': 2052, 'mismatches': 0}
+G32_plain_o        N 2000 S  4000 p 0.012 (study 0.011) ok t_R 0.6497 TTS99 20.0843 ms (study 24.3643) M2 ok I {'common': 2052, 'mismatches': 0}
+G32_tec_o          N 2000 S  2000 p 0.004 (study 0.001) ok t_R 0.3162 TTS99 33.2238 ms (study 129.9119) M2 ok I {'common': 2052, 'mismatches': 0}
+G32_tec_x          N 2000 S  4000 p 0.010 (study 0.011) ok t_R 0.7356 TTS99 27.7269 ms (study 26.9646) M2 ok I {'common': 2052, 'mismatches': 0}
+G32_tecT_o         N 2000 S  4000 p 0.073 (study 0.089) ok t_R 0.5234 TTS99 2.5860 ms (study 2.2743) M2 ok I {'common': 2052, 'mismatches': 0}
+G32_tecT_x         N 2000 S  2000 p 0.018 (study 0.020) ok t_R 0.2666 TTS99 5.7913 ms (study 5.4735) M2 ok I {'common': 2052, 'mismatches': 0}
+G32_ons_o          N 2000 S  2000 p 0.009 (study 0.008) ok t_R 0.4316 TTS99 17.8684 ms (study 22.3996) M2 ok I {'common': 2052, 'mismatches': 0}
+G33_plain_o        N 2000 S  4000 p 0.008 (study 0.004) ok t_R 0.6494 TTS99 31.1213 ms (study 66.9459) M2 ok I {'common': 2052, 'mismatches': 0}
+G33_plain_x        N 2000 S  4000 p 0.006 (study 0.003) ok t_R 0.6748 TTS99 43.9776 ms (study 90.8550) M2 ok I {'common': 2052, 'mismatches': 0}
+G33_tec_o          N 2000 S  4000 p 0.009 (study 0.012) ok t_R 0.6218 TTS99 24.7722 ms (study 21.0642) M2 ok I {'common': 2052, 'mismatches': 0}
+G33_tecT_o         N 2000 S  4000 p 0.051 (study 0.044) ok t_R 0.5240 TTS99 3.6326 ms (study 4.7059) M2 ok I {'common': 2052, 'mismatches': 0}
+G33_ons_o          N 2000 S  4000 p 0.022 (study 0.017) ok t_R 0.8513 TTS99 15.1444 ms (study 20.6088) M2 ok I {'common': 2052, 'mismatches': 0}
+G33_ons_x          N 2000 S  4000 p 0.013 (study 0.013) ok t_R 1.0616 TTS99 31.3839 ms (study 33.8127) M2 ok I {'common': 2052, 'mismatches': 0}
+G34_plain_o        N 2000 S  4000 p 0.015 (study 0.017) ok t_R 0.6556 TTS99 16.4534 ms (study 15.5070) M2 ok I {'common': 2052, 'mismatches': 0}
+G34_tec_o          N 2000 S  4000 p 0.013 (study 0.020) ok t_R 0.6006 TTS99 17.4984 ms (study 11.7998) M2 ok I {'common': 2052, 'mismatches': 0}
+G34_tecT_o         N 2000 S  4000 p 0.072 (study 0.063) ok t_R 0.5310 TTS99 2.7673 ms (study 3.1938) M2 ok I {'common': 2052, 'mismatches': 0}
+G34_ons_o          N 2000 S  4000 p 0.036 (study 0.038) ok t_R 0.8515 TTS99 8.4193 ms (study 8.7436) M2 ok I {'common': 2052, 'mismatches': 0}
+G35_plain_o        N 2000 S  4000 p 0.749 (study 0.741) ok t_R 0.4535 TTS99 0.4535 ms (study 0.4110) M2 ok I {'common': 2052, 'mismatches': 0}
+G35_tec_o          N 2000 S  2000 p 0.679 (study 0.662) ok t_R 0.3171 TTS99 0.3171 ms (study 0.2615) M2 ok I {'common': 2052, 'mismatches': 0}
+G35_tecT_o         N 2000 S  1000 p 0.266 (study 0.277) ok t_R 0.1772 TTS99 0.2354 ms (study 0.1898) M2 ok I {'common': 2052, 'mismatches': 0}
+G35_tecT_x         N 2000 S  1000 p 0.351 (study 0.360) ok t_R 0.1026 TTS99 0.1062 ms (study 0.0932) M2 ok I {'common': 2052, 'mismatches': 0}
+G35_ons_o          N 2000 S  2000 p 0.609 (study 0.600) ok t_R 0.5612 TTS99 0.5612 ms (study 0.5685) M2 ok I {'common': 2052, 'mismatches': 0}
+G35_ons_x          N 2000 S  4000 p 0.688 (study 0.683) ok t_R 0.4764 TTS99 0.4764 ms (study 0.4364) M2 ok I {'common': 2052, 'mismatches': 0}
+G36_plain_o        N 2000 S  2000 p 0.184 (study 0.183) ok t_R 0.2287 TTS99 0.3922 ms (study 0.3955) M2 ok I {'common': 2052, 'mismatches': 0}
+G36_tec_o          N 2000 S  2000 p 0.684 (study 0.688) ok t_R 0.2451 TTS99 0.2451 ms (study 0.2267) M2 ok I {'common': 2052, 'mismatches': 0}
+G36_tecT_o         N 2000 S  1000 p 0.263 (study 0.273) ok t_R 0.1401 TTS99 0.1792 ms (study 0.1751) M2 ok I {'common': 2052, 'mismatches': 0}
+G36_tecT_x         N 2000 S  1000 p 0.341 (study 0.355) ok t_R 0.1026 TTS99 0.0919 ms (study 0.0814) M2 ok I {'common': 2052, 'mismatches': 0}
+G36_ons_o          N 2000 S  2000 p 0.596 (study 0.598) ok t_R 0.4559 TTS99 0.4559 ms (study 0.4618) M2 ok I {'common': 2052, 'mismatches': 0}
+G37_plain_o        N 2000 S  4000 p 0.704 (study 0.703) ok t_R 0.4535 TTS99 0.4535 ms (study 0.4111) M2 ok I {'common': 2052, 'mismatches': 0}
+G37_tec_o          N 2000 S  2000 p 0.630 (study 0.618) ok t_R 0.3027 TTS99 0.3027 ms (study 0.2848) M2 ok I {'common': 2052, 'mismatches': 0}
+G37_tecT_o         N 2000 S  1000 p 0.641 (study 0.642) ok t_R 0.3342 TTS99 0.3342 ms (study 0.3534) M2 ok I {'common': 2052, 'mismatches': 0}
+G37_tecT_x         N 2000 S  1000 p 0.316 (study 0.304) ok t_R 0.1026 TTS99 0.1230 ms (study 0.0989) M2 X I {'common': 2052, 'mismatches': 0}
+G37_ons_o          N 2000 S  1000 p 0.097 (study 0.103) ok t_R 0.2765 TTS99 1.0244 ms (study 0.9849) M2 ok I {'common': 2052, 'mismatches': 0}
+G38_plain_o        N 2000 S  4000 p 0.757 (study 0.750) ok t_R 0.4534 TTS99 0.4534 ms (study 0.4109) M2 ok I {'common': 2052, 'mismatches': 0}
+G38_tec_o          N 2000 S   500 p 0.242 (study 0.257) ok t_R 0.1537 TTS99 0.2343 ms (study 0.2123) M2 ok I {'common': 2052, 'mismatches': 0}
+G38_tecT_o         N 2000 S  1000 p 0.271 (study 0.279) ok t_R 0.1711 TTS99 0.2098 ms (study 0.2102) M2 ok I {'common': 2052, 'mismatches': 0}
+G38_tecT_x         N 2000 S  1000 p 0.351 (study 0.335) ok t_R 0.1026 TTS99 0.0973 ms (study 0.0876) M2 ok I {'common': 2052, 'mismatches': 0}
+G38_ons_o          N 2000 S  2000 p 0.601 (study 0.600) ok t_R 0.5401 TTS99 0.5401 ms (study 0.5765) M2 ok I {'common': 2052, 'mismatches': 0}
+G38_ons_x          N 2000 S  4000 p 0.731 (study 0.758) ok t_R 0.4642 TTS99 0.4642 ms (study 0.4228) M2 ok I {'common': 2052, 'mismatches': 0}
+G39_plain_o        N 2000 S  4000 p 0.138 (study 0.170) ok t_R 0.9418 TTS99 2.3496 ms (study 2.0131) M2 ok I {'common': 2052, 'mismatches': 0}
+G39_plain_x        N 2000 S  4000 p 0.153 (study 0.148) ok t_R 0.8471 TTS99 2.0289 ms (study 2.0864) M2 ok I {'common': 2052, 'mismatches': 0}
+G39_tec_o          N 2000 S  4000 p 0.179 (study 0.156) ok t_R 0.7623 TTS99 1.3894 ms (study 1.7690) M2 ok I {'common': 2052, 'mismatches': 0}
+G39_tec_x          N 2000 S  4000 p 0.164 (study 0.159) ok t_R 0.9789 TTS99 2.1496 ms (study 2.2459) M2 ok I {'common': 2052, 'mismatches': 0}
+G39_tecT_o         N 2000 S  4000 p 0.234 (study 0.229) ok t_R 0.9144 TTS99 1.4481 ms (study 1.4009) M2 ok I {'common': 2052, 'mismatches': 0}
+G39_ons_o          N 2000 S  1000 p 0.065 (study 0.071) ok t_R 0.2545 TTS99 1.4770 ms (study 1.3743) M2 ok I {'common': 2052, 'mismatches': 0}
+G40_plain_o        N 2000 S  4000 p 0.114 (study 0.095) ok t_R 0.7166 TTS99 2.1812 ms (study 2.8176) M2 ok I {'common': 2052, 'mismatches': 0}
+G40_tec_o          N 2000 S  4000 p 0.124 (study 0.146) ok t_R 0.7824 TTS99 2.2986 ms (study 1.9653) M2 ok I {'common': 2052, 'mismatches': 0}
+G40_tec_x          N 2000 S  2000 p 0.054 (study 0.065) ok t_R 0.3984 TTS99 2.8751 ms (study 2.3325) M2 ok I {'common': 2052, 'mismatches': 0}
+G40_tecT_o         N 2000 S  2000 p 0.070 (study 0.069) ok t_R 0.4529 TTS99 2.3731 ms (study 2.5035) M2 ok I {'common': 2052, 'mismatches': 0}
+G40_ons_o          N 2000 S  2000 p 0.108 (study 0.088) ok t_R 0.4822 TTS99 1.6725 ms (study 2.0887) M2 ok I {'common': 2052, 'mismatches': 0}
+G41_plain_o        N 2000 S  4000 p 0.085 (study 0.084) ok t_R 0.7292 TTS99 3.2752 ms (study 3.2626) M2 ok I {'common': 2052, 'mismatches': 0}
+G41_tec_o          N 2000 S  2000 p 0.046 (study 0.056) ok t_R 0.4069 TTS99 3.3455 ms (study 2.8263) M2 ok I {'common': 2052, 'mismatches': 0}
+G41_tecT_o         N 2000 S  2000 p 0.084 (study 0.090) ok t_R 0.3567 TTS99 1.5275 ms (study 1.4887) M2 ok I {'common': 2052, 'mismatches': 0}
+G41_ons_o          N 2000 S  2000 p 0.086 (study 0.071) ok t_R 0.4958 TTS99 2.1686 ms (study 2.6764) M2 ok I {'common': 2052, 'mismatches': 0}
+G42_plain_o        N 2000 S  2000 p 0.052 (study 0.062) ok t_R 0.3674 TTS99 2.5322 ms (study 2.2668) M2 ok I {'common': 2052, 'mismatches': 0}
+G42_plain_x        N 2000 S  4000 p 0.113 (study 0.114) ok t_R 0.7224 TTS99 2.3297 ms (study 2.3314) M2 ok I {'common': 2052, 'mismatches': 0}
+G42_tec_o          N 2000 S  4000 p 0.126 (study 0.122) ok t_R 0.7907 TTS99 2.2406 ms (study 2.4016) M2 ok I {'common': 2052, 'mismatches': 0}
+G42_tec_x          N 2000 S  4000 p 0.116 (study 0.114) ok t_R 1.0763 TTS99 3.0498 ms (study 3.5616) M2 ok I {'common': 2052, 'mismatches': 0}
+G42_tecT_o         N 2000 S  4000 p 0.179 (study 0.187) ok t_R 1.0998 TTS99 2.1753 ms (study 2.1330) M2 ok I {'common': 2052, 'mismatches': 0}
+G42_ons_o          N 2000 S  2000 p 0.110 (study 0.107) ok t_R 0.4906 TTS99 1.6365 ms (study 1.7160) M2 ok I {'common': 2052, 'mismatches': 0}
+G43_plain_o        N 1000 S   250 p 0.211 (study 0.205) ok t_R 0.0322 TTS99 0.0528 ms (study 0.0539) M2 ok
+G43_tec_o          N 1000 S   250 p 0.519 (study 0.510) ok t_R 0.0281 TTS99 0.0281 ms (study 0.0277) M2 ok
+G43_tecT_o         N 1000 S   250 p 0.500 (study 0.474) ok t_R 0.0328 TTS99 0.0242 ms (study 0.0337) M2 ok
+G43_ons_o          N 1000 S   250 p 0.363 (study 0.351) ok t_R 0.0286 TTS99 0.0271 ms (study 0.0249) M2 ok
+G44_plain_o        N 1000 S   250 p 0.263 (study 0.259) ok t_R 0.0322 TTS99 0.0427 ms (study 0.0413) M2 ok
+G44_tec_o          N 1000 S   250 p 0.650 (study 0.647) ok t_R 0.0299 TTS99 0.0299 ms (study 0.0306) M2 ok
+G44_tecT_o         N 1000 S   250 p 0.609 (study 0.621) ok t_R 0.0291 TTS99 0.0291 ms (study 0.0291) M2 ok
+G44_ons_o          N 1000 S   250 p 0.447 (study 0.448) ok t_R 0.0286 TTS99 0.0286 ms (study 0.0280) M2 ok
+G45_plain_o        N 1000 S   250 p 0.259 (study 0.244) ok t_R 0.0322 TTS99 0.0457 ms (study 0.0442) M2 ok
+G45_tec_o          N 1000 S   250 p 0.626 (study 0.637) ok t_R 0.0298 TTS99 0.0298 ms (study 0.0305) M2 ok
+G45_tecT_o         N 1000 S   250 p 0.571 (study 0.554) ok t_R 0.0291 TTS99 0.0291 ms (study 0.0290) M2 ok
+G45_ons_o          N 1000 S   250 p 0.414 (study 0.411) ok t_R 0.0286 TTS99 0.0211 ms (study 0.0280) M2 ok
+G46_plain_o        N 1000 S   250 p 0.279 (study 0.299) ok t_R 0.0322 TTS99 0.0366 ms (study 0.0348) M2 ok
+G46_tec_o          N 1000 S   250 p 0.673 (study 0.660) ok t_R 0.0298 TTS99 0.0298 ms (study 0.0305) M2 ok
+G46_tecT_o         N 1000 S   250 p 0.645 (study 0.656) ok t_R 0.0291 TTS99 0.0291 ms (study 0.0290) M2 ok
+G46_ons_o          N 1000 S   250 p 0.487 (study 0.466) ok t_R 0.0286 TTS99 0.0286 ms (study 0.0280) M2 ok
+G47_plain_o        N 1000 S   250 p 0.274 (study 0.292) ok t_R 0.0270 TTS99 0.0323 ms (study 0.0287) M2 ok
+G47_tec_o          N 1000 S   250 p 0.640 (study 0.628) ok t_R 0.0298 TTS99 0.0298 ms (study 0.0305) M2 ok
+G47_tecT_o         N 1000 S   250 p 0.579 (study 0.575) ok t_R 0.0328 TTS99 0.0328 ms (study 0.0336) M2 ok
+G47_ons_o          N 1000 S   250 p 0.448 (study 0.466) ok t_R 0.0286 TTS99 0.0286 ms (study 0.0279) M2 ok
+G51_plain_o        N 1000 S  2000 p 0.351 (study 0.345) ok t_R 0.2002 TTS99 0.1662 ms (study 0.1619) M2 ok
+G51_tec_o          N 1000 S  2000 p 0.286 (study 0.300) ok t_R 0.2530 TTS99 0.2959 ms (study 0.2487) M2 ok
+G51_tec_x          N 1000 S  2000 p 0.555 (study 0.532) ok t_R 0.2176 TTS99 0.2176 ms (study 0.2041) M2 ok
+G51_tecT_o         N 1000 S  1000 p 0.405 (study 0.434) ok t_R 0.1710 TTS99 0.1262 ms (study 0.1760) M2 ok
+G51_tecT_x         N 1000 S  1000 p 0.507 (study 0.480) ok t_R 0.0957 TTS99 0.0957 ms (study 0.0847) M2 ok
+G51_ons_o          N 1000 S  1000 p 0.265 (study 0.285) ok t_R 0.2125 TTS99 0.2485 ms (study 0.2522) M2 ok
+G51_ons_x          N 1000 S  2000 p 0.291 (study 0.280) ok t_R 0.2051 TTS99 0.2458 ms (study 0.2156) M2 ok
+G52_plain_o        N 1000 S  2000 p 0.364 (study 0.339) ok t_R 0.2002 TTS99 0.1477 ms (study 0.1653) M2 ok
+G52_tec_o          N 1000 S   500 p 0.087 (study 0.083) ok t_R 0.0719 TTS99 0.3061 ms (study 0.2928) M2 ok
+G52_tecT_o         N 1000 S  1000 p 0.478 (study 0.500) ok t_R 0.1467 TTS99 0.1467 ms (study 0.1321) M2 ok
+G52_tecT_x         N 1000 S  1000 p 0.557 (study 0.571) ok t_R 0.0957 TTS99 0.0957 ms (study 0.0847) M2 ok
+G52_ons_o          N 1000 S  4000 p 0.888 (study 0.878) ok t_R 0.7289 TTS99 0.7289 ms (study 0.7425) M2 ok
+G52_ons_x          N 1000 S  2000 p 0.348 (study 0.347) ok t_R 0.2024 TTS99 0.1921 ms (study 0.1634) M2 ok
+G53_plain_o        N 1000 S  2000 p 0.395 (study 0.404) ok t_R 0.2002 TTS99 0.1899 ms (study 0.1783) M2 ok
+G53_tec_o          N 1000 S  1000 p 0.419 (study 0.423) ok t_R 0.1444 TTS99 0.1444 ms (study 0.1482) M2 ok
+G53_tecT_o         N 1000 S  1000 p 0.493 (study 0.513) ok t_R 0.1500 TTS99 0.1500 ms (study 0.1556) M2 ok
+G53_tecT_x         N 1000 S  1000 p 0.567 (study 0.596) ok t_R 0.0957 TTS99 0.0957 ms (study 0.0846) M2 ok
+G53_ons_o          N 1000 S  1000 p 0.318 (study 0.306) ok t_R 0.1932 TTS99 0.1833 ms (study 0.2177) M2 ok
+G54_plain_o        N 1000 S  2000 p 0.216 (study 0.207) ok t_R 0.2002 TTS99 0.3285 ms (study 0.2950) M2 ok
+G54_tec_o          N 1000 S  1000 p 0.219 (study 0.201) ok t_R 0.1514 TTS99 0.2569 ms (study 0.2687) M2 ok
+G54_tecT_o         N 1000 S  1000 p 0.277 (study 0.264) ok t_R 0.1530 TTS99 0.1742 ms (study 0.1977) M2 ok
+G54_tecT_x         N 1000 S  1000 p 0.347 (study 0.340) ok t_R 0.0957 TTS99 0.0706 ms (study 0.0782) M2 ok
+G54_ons_o          N 1000 S  1000 p 0.161 (study 0.150) ok t_R 0.1954 TTS99 0.4063 ms (study 0.4936) M2 ok
+G54_ons_x          N 1000 S  4000 p 0.575 (study 0.580) ok t_R 0.4072 TTS99 0.4072 ms (study 0.3651) M2 ok
+best G1 {'key': 'G1_tecT_o', 'rule': 'Onsager-kT', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.4619883040935672, 'tts99_ms': 0.019142563517627727, 'tts99_ci95': [0.01913813854220215, 0.025945122832962665], 'study_tts_E12_ms': 0.023812690664477675}
+best G2 {'key': 'G2_tec_x', 'rule': 'TEC', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.6185834957764782, 'tts99_ms': 0.02560321877560322, 'tts99_ci95': [0.025600823490513104, 0.025605684236132003], 'study_tts_E12_ms': 0.023009263915899074}
+best G3 {'key': 'G3_tec_x', 'rule': 'TEC', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.5258284600389863, 'tts99_ms': 0.02560189065060189, 'tts99_ci95': [0.025599539986613185, 0.025604412428138525], 'study_tts_E12_ms': 0.023010072827789427}
+best G4 {'key': 'G4_tecT_o', 'rule': 'Onsager-kT', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.4987004548408057, 'tts99_ms': 0.019255502584122154, 'tts99_ci95': [0.019132443867838023, 0.026415228751439597], 'study_tts_E12_ms': 0.023793971301240054}
+best G5 {'key': 'G5_tec_x', 'rule': 'TEC', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.5545808966861598, 'tts99_ms': 0.025601914088101915, 'tts99_ci95': [0.025599828485638815, 0.02560422614646193], 'study_tts_E12_ms': 0.023014710452680543}
+best G6 {'key': 'G6_tecT_o', 'rule': 'Onsager-kT', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.35233918128654973, 'tts99_ms': 0.024864882582163288, 'tts99_ci95': [0.024847330311508806, 0.033716865530792894], 'study_tts_E12_ms': 0.03233239706708327}
+best G7 {'key': 'G7_tecT_o', 'rule': 'Onsager-kT', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.29597141000649774, 'tts99_ms': 0.030715444822938996, 'tts99_ci95': [0.02529569713226382, 0.03676824489343498], 'study_tts_E12_ms': 0.036418515263793895}
+best G8 {'key': 'G8_tecT_o', 'rule': 'Onsager-kT', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.4282001299545159, 'tts99_ms': 0.02486502095255462, 'tts99_ci95': [0.024849045061413638, 0.03371574881539216], 'study_tts_E12_ms': 0.03522251960334672}
+best G9 {'key': 'G9_tecT_o', 'rule': 'Onsager-kT', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.31237816764132553, 'tts99_ms': 0.033947055620994655, 'tts99_ci95': [0.025214932407250475, 0.03991173696417958], 'study_tts_E12_ms': 0.03196753925823545}
+best G10 {'key': 'G10_ons_o', 'rule': 'Onsager-online', 'S': 250, 'N': 800, 'cls': 'random', 'p': 0.40903183885640026, 'tts99_ms': 0.030398522087247276, 'tts99_ci95': [0.030354002200541408, 0.04125322421279319], 'study_tts_E12_ms': 0.04304670177599767}
+best G11 {'key': 'G11_tecT_o', 'rule': 'Onsager-kT', 'S': 2000, 'N': 800, 'cls': 'toroidal', 'p': 0.15464587394411955, 'tts99_ms': 0.4462385429329293, 'tts99_ci95': [0.39842310238085654, 0.5001503547122101], 'study_tts_E12_ms': 0.47068467681955745}
+best G12 {'key': 'G12_tecT_o', 'rule': 'Onsager-kT', 'S': 4000, 'N': 800, 'cls': 'toroidal', 'p': 0.2664067576348278, 'tts99_ms': 0.5019577835020826, 'tts99_ci95': [0.42951243050271715, 0.5686465887495266], 'study_tts_E12_ms': 0.5845488195292914}
+best G13 {'key': 'G13_tecT_o', 'rule': 'Onsager-kT', 'S': 2000, 'N': 800, 'cls': 'toroidal', 'p': 0.057504873294346975, 'tts99_ms': 1.3453929326349925, 'tts99_ci95': [1.1845134938642714, 1.5272679042081592], 'study_tts_E12_ms': 1.3641656328008553}
+best G14 {'key': 'G14_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 800, 'cls': 'planar', 'p': 0.5795971410006497, 'tts99_ms': 0.0949308907199309, 'tts99_ci95': [0.09492725155691556, 0.09493418333080164], 'study_tts_E12_ms': 0.08278061942468316}
+best G15 {'key': 'G15_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 800, 'cls': 'planar', 'p': 0.35640025990903185, 'tts99_ms': 0.07881154865851997, 'tts99_ci95': [0.07005562969660645, 0.09493440165438859], 'study_tts_E12_ms': 0.07235736943643745}
+best G16 {'key': 'G16_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 800, 'cls': 'planar', 'p': 0.4204028589993502, 'tts99_ms': 0.07005721163925703, 'tts99_ci95': [0.07005543987562614, 0.09493430737137193], 'study_tts_E12_ms': 0.0828250300923499}
+best G17 {'key': 'G17_tecT_o', 'rule': 'Onsager-kT', 'S': 1000, 'N': 800, 'cls': 'planar', 'p': 0.41325536062378165, 'tts99_ms': 0.09436853194001767, 'tts99_ci95': [0.09240400972269852, 0.13054643287908443], 'study_tts_E12_ms': 0.11607179416051834}
+best G18 {'key': 'G18_ons_o', 'rule': 'Onsager-online', 'S': 500, 'N': 800, 'cls': 'planar', 'p': 0.21621182586094867, 'tts99_ms': 0.110367171587972, 'tts99_ci95': [0.09457347344061327, 0.12520475183604693], 'study_tts_E12_ms': 0.12851701566955082}
+best G19 {'key': 'G19_ons_o', 'rule': 'Onsager-online', 'S': 500, 'N': 800, 'cls': 'planar', 'p': 0.22969460688758933, 'tts99_ms': 0.1009047209404382, 'tts99_ci95': [0.0850372839777351, 0.11380865612631315], 'study_tts_E12_ms': 0.1144517448425559}
+best G20 {'key': 'G20_ons_o', 'rule': 'Onsager-online', 'S': 500, 'N': 800, 'cls': 'planar', 'p': 0.342267706302794, 'tts99_ms': 0.06660861642639235, 'tts99_ci95': [0.0548622896290201, 0.07974252187298653], 'study_tts_E12_ms': 0.07193719395629034}
+best G21 {'key': 'G21_ons_o', 'rule': 'Onsager-online', 'S': 1000, 'N': 800, 'cls': 'planar', 'p': 0.2134502923976608, 'tts99_ms': 0.21764297039208516, 'tts99_ci95': [0.18867269171938722, 0.24562380803419492], 'study_tts_E12_ms': 0.24504118418576912}
+best G22 {'key': 'G22_tec_o', 'rule': 'TEC', 'S': 250, 'N': 2000, 'cls': 'random', 'p': 0.2969460688758934, 'tts99_ms': 0.03738935814456798, 'tts99_ci95': [0.03025537058012644, 0.04320011729823503], 'study_tts_E12_ms': 0.03723413887879853}
+best G23 {'key': 'G23_ons_o', 'rule': 'Onsager-online', 'S': 250, 'N': 2000, 'cls': 'random', 'p': 0.392949967511371, 'tts99_ms': 0.028703776872566946, 'tts99_ci95': [0.025509066905549407, 0.03458482654530608], 'study_tts_E12_ms': 0.033951510786106885}
+best G24 {'key': 'G24_ons_o', 'rule': 'Onsager-online', 'S': 250, 'N': 2000, 'cls': 'random', 'p': 0.3476283300844704, 'tts99_ms': 0.031003755614277873, 'tts99_ci95': [0.02554113025401678, 0.03712021911168909], 'study_tts_E12_ms': 0.033980417855505374}
+best G25 {'key': 'G25_ons_o', 'rule': 'Onsager-online', 'S': 250, 'N': 2000, 'cls': 'random', 'p': 0.27257959714100066, 'tts99_ms': 0.0357736002494344, 'tts99_ci95': [0.02894715174683834, 0.04133274790067965], 'study_tts_E12_ms': 0.03876469193491535}
+best G26 {'key': 'G26_tec_o', 'rule': 'TEC', 'S': 250, 'N': 2000, 'cls': 'random', 'p': 0.6479857050032488, 'tts99_ms': 0.03379174222129174, 'tts99_ci95': [0.033781582377227004, 0.0338022763343627], 'study_tts_E12_ms': 0.03365460952977835}
+best G27 {'key': 'G27_tecT_o', 'rule': 'Onsager-kT', 'S': 500, 'N': 2000, 'cls': 'random', 'p': 0.449317738791423, 'tts99_ms': 0.09868192978618194, 'tts99_ci95': [0.09861766871460208, 0.09874803908510282], 'study_tts_E12_ms': 0.10205363485769502}
+best G28 {'key': 'G28_tecT_o', 'rule': 'Onsager-kT', 'S': 250, 'N': 2000, 'cls': 'random', 'p': 0.19769330734243015, 'tts99_ms': 0.0904296636790904, 'tts99_ci95': [0.07987232734344521, 0.10108096240078047], 'study_tts_E12_ms': 0.09865077984923284}
+best G29 {'key': 'G29_tecT_o', 'rule': 'Onsager-kT', 'S': 500, 'N': 2000, 'cls': 'random', 'p': 0.32082521117608837, 'tts99_ms': 0.10208177562936559, 'tts99_ci95': [0.08183307509291748, 0.11822171023615656], 'study_tts_E12_ms': 0.09914095426781415}
+best G30 {'key': 'G30_tecT_o', 'rule': 'Onsager-kT', 'S': 250, 'N': 2000, 'cls': 'random', 'p': 0.1850227420402859, 'tts99_ms': 0.09588994404598473, 'tts99_ci95': [0.08489412271779542, 0.10793394807972137], 'study_tts_E12_ms': 0.09891482646154799}
+best G31 {'key': 'G31_tecT_o', 'rule': 'Onsager-kT', 'S': 500, 'N': 2000, 'cls': 'random', 'p': 0.5769980506822612, 'tts99_ms': 0.09904905478654906, 'tts99_ci95': [0.09898342721277487, 0.09911225740905379], 'study_tts_E12_ms': 0.10245055750660272}
+best G32 {'key': 'G32_tecT_o', 'rule': 'Onsager-kT', 'S': 4000, 'N': 2000, 'cls': 'toroidal', 'p': 0.0726120857699805, 'tts99_ms': 2.5859704968584243, 'tts99_ci95': [2.3016004431203014, 2.908437664029653], 'study_tts_E12_ms': 2.2743341213476036}
+best G33 {'key': 'G33_tecT_o', 'rule': 'Onsager-kT', 'S': 4000, 'N': 2000, 'cls': 'toroidal', 'p': 0.051332033788174136, 'tts99_ms': 3.632611560259522, 'tts99_ci95': [3.2114196866872136, 4.105971091422871], 'study_tts_E12_ms': 4.705897187272717}
+best G34 {'key': 'G34_tecT_o', 'rule': 'Onsager-kT', 'S': 4000, 'N': 2000, 'cls': 'toroidal', 'p': 0.07212475633528265, 'tts99_ms': 2.767339103073219, 'tts99_ci95': [2.4615427269711914, 3.1338592754239816], 'study_tts_E12_ms': 3.19378719615972}
+best G35 {'key': 'G35_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 2000, 'cls': 'planar', 'p': 0.3508771929824561, 'tts99_ms': 0.10623930358588585, 'tts99_ci95': [0.08519488372932632, 0.12300234298759742], 'study_tts_E12_ms': 0.09321395550366668}
+best G36 {'key': 'G36_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 2000, 'cls': 'planar', 'p': 0.34096816114359974, 'tts99_ms': 0.09190725685777712, 'tts99_ci95': [0.07572199205360482, 0.11003879738634265], 'study_tts_E12_ms': 0.08143883019934531}
+best G37 {'key': 'G37_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 2000, 'cls': 'planar', 'p': 0.31562703053931124, 'tts99_ms': 0.12299616410416785, 'tts99_ci95': [0.10205326068553953, 0.14106950607645463], 'study_tts_E12_ms': 0.09888731633785994}
+best G38 {'key': 'G38_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 2000, 'cls': 'planar', 'p': 0.35103963612735545, 'tts99_ms': 0.09733382953988975, 'tts99_ci95': [0.07570878228908322, 0.11355484274419304], 'study_tts_E12_ms': 0.08764484312623054}
+best G39 {'key': 'G39_tec_o', 'rule': 'TEC', 'S': 4000, 'N': 2000, 'cls': 'planar', 'p': 0.17917478882391163, 'tts99_ms': 1.389402019066823, 'tts99_ci95': [1.222036245981077, 1.5466748593987656], 'study_tts_E12_ms': 1.7690459007095787}
+best G40 {'key': 'G40_ons_o', 'rule': 'Onsager-online', 'S': 2000, 'N': 2000, 'cls': 'planar', 'p': 0.10769980506822611, 'tts99_ms': 1.672543929735377, 'tts99_ci95': [1.502158344385935, 1.8651477575745559], 'study_tts_E12_ms': 2.088656683861802}
+best G41 {'key': 'G41_tecT_o', 'rule': 'Onsager-kT', 'S': 2000, 'N': 2000, 'cls': 'planar', 'p': 0.0836582196231319, 'tts99_ms': 1.5275482410004237, 'tts99_ci95': [1.3652799842906302, 1.7157508854208139], 'study_tts_E12_ms': 1.4887417575369157}
+best G42 {'key': 'G42_ons_o', 'rule': 'Onsager-online', 'S': 2000, 'N': 2000, 'cls': 'planar', 'p': 0.10981156595191682, 'tts99_ms': 1.6364884963694488, 'tts99_ci95': [1.467855952673346, 1.8175604145645126], 'study_tts_E12_ms': 1.71596819489165}
+best G43 {'key': 'G43_tecT_o', 'rule': 'Onsager-kT', 'S': 250, 'N': 1000, 'cls': 'random', 'p': 0.5001624431448993, 'tts99_ms': 0.02418363902215603, 'tts99_ci95': [0.024178681424119497, 0.03277757508151052], 'study_tts_E12_ms': 0.03365539337492794}
+best G44 {'key': 'G44_ons_o', 'rule': 'Onsager-online', 'S': 250, 'N': 1000, 'cls': 'random', 'p': 0.4472059779077323, 'tts99_ms': 0.028632820341132823, 'tts99_ci95': [0.028624616013030076, 0.0286410776510826], 'study_tts_E12_ms': 0.028016435635814924}
+best G45 {'key': 'G45_ons_o', 'rule': 'Onsager-online', 'S': 250, 'N': 1000, 'cls': 'random', 'p': 0.41358024691358025, 'tts99_ms': 0.021129078040832364, 'tts99_ci95': [0.02112407312803401, 0.02863723811952418], 'study_tts_E12_ms': 0.028004255890837732}
+best G46 {'key': 'G46_ons_o', 'rule': 'Onsager-online', 'S': 250, 'N': 1000, 'cls': 'random', 'p': 0.4873294346978557, 'tts99_ms': 0.02862307034112307, 'tts99_ci95': [0.028614532329418626, 0.028631818879143518], 'study_tts_E12_ms': 0.027973872336281975}
+best G47 {'key': 'G47_ons_o', 'rule': 'Onsager-online', 'S': 250, 'N': 1000, 'cls': 'random', 'p': 0.4476933073424301, 'tts99_ms': 0.028585953153585954, 'tts99_ci95': [0.02857820266624877, 0.028593559482784595], 'study_tts_E12_ms': 0.027935649566372876}
+best G51 {'key': 'G51_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 1000, 'cls': 'planar', 'p': 0.5069850552306693, 'tts99_ms': 0.09572907822072908, 'tts99_ci95': [0.09572397100824834, 0.0957346340808711], 'study_tts_E12_ms': 0.08470460624372086}
+best G52 {'key': 'G52_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 1000, 'cls': 'planar', 'p': 0.5566926575698505, 'tts99_ms': 0.09572908603322909, 'tts99_ci95': [0.0957237994835162, 0.09573401602531491], 'study_tts_E12_ms': 0.08472695868357848}
+best G53 {'key': 'G53_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 1000, 'cls': 'planar', 'p': 0.5672514619883041, 'tts99_ms': 0.0957185938457186, 'tts99_ci95': [0.09571365311715614, 0.09572367261034356], 'study_tts_E12_ms': 0.08462471763126267}
+best G54 {'key': 'G54_tecT_x', 'rule': 'Onsager-kT', 'S': 1000, 'N': 1000, 'cls': 'planar', 'p': 0.3471410006497726, 'tts99_ms': 0.07063961261638714, 'tts99_ci95': [0.07063665953464593, 0.09572475962910683], 'study_tts_E12_ms': 0.07823516640957275}
+geomean SCA/random {'instances': 25, 'geomean_tts99_ms': 0.0755254289197061}
+geomean SCA/toroidal {'instances': 6, 'geomean_tts99_ms': 6.06959653112782}
+geomean SCA/planar {'instances': 20, 'geomean_tts99_ms': 0.39076029726330924}
+geomean SCA/all {'instances': 51, 'geomean_tts99_ms': 0.24107213338918865}
+geomean TEC/random {'instances': 25, 'geomean_tts99_ms': 0.0529346500574222}
+geomean TEC/toroidal {'instances': 6, 'geomean_tts99_ms': 6.118763678741565}
+geomean TEC/planar {'instances': 20, 'geomean_tts99_ms': 0.3237514984930738}
+geomean TEC/all {'instances': 51, 'geomean_tts99_ms': 0.18830299819393942}
+geomean Onsager-kT/random {'instances': 25, 'geomean_tts99_ms': 0.03738659234320053}
+geomean Onsager-kT/toroidal {'instances': 6, 'geomean_tts99_ms': 1.40928248148944}
+geomean Onsager-kT/planar {'instances': 20, 'geomean_tts99_ms': 0.2521762632224996}
+geomean Onsager-kT/all {'instances': 51, 'geomean_tts99_ms': 0.12113072137487822}
+geomean Onsager-online/random {'instances': 25, 'geomean_tts99_ms': 0.050613659153354175}
+geomean Onsager-online/toroidal {'instances': 6, 'geomean_tts99_ms': 4.311187655113824}
+geomean Onsager-online/planar {'instances': 20, 'geomean_tts99_ms': 0.3926179845902535}
+geomean Onsager-online/all {'instances': 51, 'geomean_tts99_ms': 0.19066378524999059}
+geomean best/random {'instances': 25, 'geomean_tts99_ms': 0.03532908783271457}
+geomean best/toroidal {'instances': 6, 'geomean_tts99_ms': 1.40928248148944}
+geomean best/planar {'instances': 20, 'geomean_tts99_ms': 0.1683902740729116}
+geomean best/all {'instances': 51, 'geomean_tts99_ms': 0.10055977530328185}

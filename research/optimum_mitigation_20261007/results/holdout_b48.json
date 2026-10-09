@@ -1,0 +1,284 @@
+{
+ "hashes": {
+  "PROTOCOL.md": "47405a3693ad1fdd86088e4a0ae5c634a00c0e248b37f36fc86da8178f4b76b9",
+  "sca_fast.py": "6d26d050eebe678d3db4ca4031e72b997c27f9cc89065479b4a5a076d0ecd014",
+  "study.py": "145c82672bf8ae53e44aa5e8973511cf9889e7270e1de9b52f388ebce54735c0"
+ },
+ "selection": {
+  "family": "onsager",
+  "T0": 12.0,
+  "q": 8.0,
+  "lam": 1.05,
+  "ramp": true,
+  "T1": 4.0,
+  "S": 8000,
+  "pa": "gibbs",
+  "K": 4,
+  "alpha": 0.25
+ },
+ "results": {
+  "gibbs": {
+   "cfg": {
+    "family": "onsager",
+    "T0": 12.0,
+    "q": 8.0,
+    "lam": 1.05,
+    "ramp": true,
+    "T1": 4.0,
+    "S": 8000,
+    "pa": "gibbs",
+    "K": 4,
+    "alpha": 0.25
+   },
+   "R": 48,
+   "populations": 256,
+   "events": 3,
+   "mean_copied_per_event": 42.151041666666664,
+   "single_replica_k33337": 1888,
+   "single_replica_n": 12288,
+   "mean_final_cut": 33298.84236653646,
+   "mean_pop_max": 33311.96484375,
+   "mean_distinct_parents_per_event": 29.036458333333332,
+   "k33000": 256,
+   "kbest33000": 256,
+   "kgreedy33000": 256,
+   "k33200": 256,
+   "kbest33200": 256,
+   "kgreedy33200": 256,
+   "k33300": 182,
+   "kbest33300": 183,
+   "kgreedy33300": 182,
+   "k33320": 73,
+   "kbest33320": 73,
+   "kgreedy33320": 73,
+   "k33337": 73,
+   "kbest33337": 73,
+   "kgreedy33337": 73,
+   "pop_cycles": {
+    "main": 245861.0940625,
+    "copy0": 243203.0940625,
+    "copy4x_host5us": 253835.0940625
+   },
+   "P_pop": 0.28515625,
+   "P_pop_lo": 0.23334463740263667,
+   "P_pop_hi": 0.3433203009053549,
+   "tts": {
+    "main|V80_250MHz": {
+     "t_pop_ms": 3.9337775049999997,
+     "tts_ms": 53.96540016255308,
+     "tts_ms_lo": 43.075333547557626,
+     "tts_ms_hi": 68.17649162321096,
+     "multiplex": 4
+    },
+    "main|ASIC_1.0GHz": {
+     "t_pop_ms": 0.9834443762499999,
+     "tts_ms": 13.49135004063827,
+     "tts_ms_lo": 10.768833386889407,
+     "tts_ms_hi": 17.04412290580274,
+     "multiplex": 4
+    },
+    "main|ASIC_1.25GHz": {
+     "t_pop_ms": 0.7867555009999999,
+     "tts_ms": 10.793080032510616,
+     "tts_ms_lo": 8.615066709511526,
+     "tts_ms_hi": 13.635298324642193,
+     "multiplex": 4
+    },
+    "copy0|V80_250MHz": {
+     "t_pop_ms": 3.8912495049999998,
+     "tts_ms": 53.381981162572544,
+     "tts_ms_lo": 42.60964686782495,
+     "tts_ms_hi": 67.43943676129602,
+     "multiplex": 4
+    },
+    "copy0|ASIC_1.0GHz": {
+     "t_pop_ms": 0.9728123762499999,
+     "tts_ms": 13.345495290643136,
+     "tts_ms_lo": 10.652411716956237,
+     "tts_ms_hi": 16.859859190324006,
+     "multiplex": 4
+    },
+    "copy0|ASIC_1.25GHz": {
+     "t_pop_ms": 0.7782499009999999,
+     "tts_ms": 10.676396232514508,
+     "tts_ms_lo": 8.52192937356499,
+     "tts_ms_hi": 13.487887352259204,
+     "multiplex": 4
+    },
+    "copy4x_host5us|V80_250MHz": {
+     "t_pop_ms": 4.0763615049999995,
+     "tts_ms": 55.92143417998221,
+     "tts_ms_lo": 44.63664537842209,
+     "tts_ms_hi": 70.64762194749807,
+     "multiplex": 4
+    },
+    "copy4x_host5us|ASIC_1.0GHz": {
+     "t_pop_ms": 1.0303403762499999,
+     "tts_ms": 14.134691308111172,
+     "tts_ms_lo": 11.282350188355345,
+     "tts_ms_hi": 17.85687979078119,
+     "multiplex": 4
+    },
+    "copy4x_host5us|ASIC_1.25GHz": {
+     "t_pop_ms": 0.8272723009999999,
+     "tts_ms": 11.348908449986437,
+     "tts_ms_lo": 9.058730509017563,
+     "tts_ms_hi": 14.337496980333402,
+     "multiplex": 4
+    },
+    "main|V80_250MHz|R_engines": {
+     "t_pop_ms": 0.9834443762499999,
+     "tts_ms": 13.49135004063827,
+     "tts_ms_lo": 10.768833386889407,
+     "tts_ms_hi": 17.04412290580274,
+     "multiplex": 1
+    },
+    "main|ASIC_1.0GHz|R_engines": {
+     "t_pop_ms": 0.24586109406249998,
+     "tts_ms": 3.3728375101595676,
+     "tts_ms_lo": 2.6922083467223517,
+     "tts_ms_hi": 4.261030726450685,
+     "multiplex": 1
+    },
+    "main|ASIC_1.25GHz|R_engines": {
+     "t_pop_ms": 0.19668887524999998,
+     "tts_ms": 2.698270008127654,
+     "tts_ms_lo": 2.1537666773778814,
+     "tts_ms_hi": 3.408824581160548,
+     "multiplex": 1
+    },
+    "copy0|V80_250MHz|R_engines": {
+     "t_pop_ms": 0.9728123762499999,
+     "tts_ms": 13.345495290643136,
+     "tts_ms_lo": 10.652411716956237,
+     "tts_ms_hi": 16.859859190324006,
+     "multiplex": 1
+    },
+    "copy0|ASIC_1.0GHz|R_engines": {
+     "t_pop_ms": 0.24320309406249999,
+     "tts_ms": 3.336373822660784,
+     "tts_ms_lo": 2.6631029292390593,
+     "tts_ms_hi": 4.214964797581001,
+     "multiplex": 1
+    },
+    "copy0|ASIC_1.25GHz|R_engines": {
+     "t_pop_ms": 0.19456247524999998,
+     "tts_ms": 2.669099058128627,
+     "tts_ms_lo": 2.1304823433912476,
+     "tts_ms_hi": 3.371971838064801,
+     "multiplex": 1
+    },
+    "copy4x_host5us|V80_250MHz|R_engines": {
+     "t_pop_ms": 1.0303403762499999,
+     "tts_ms": 14.134691308111172,
+     "tts_ms_lo": 11.282350188355345,
+     "tts_ms_hi": 17.85687979078119,
+     "multiplex": 1
+    },
+    "copy4x_host5us|ASIC_1.0GHz|R_engines": {
+     "t_pop_ms": 0.26883509406249995,
+     "tts_ms": 3.6880055901434132,
+     "tts_ms_lo": 2.9437763908386616,
+     "tts_ms_hi": 4.659194251601976,
+     "multiplex": 1
+    },
+    "copy4x_host5us|ASIC_1.25GHz|R_engines": {
+     "t_pop_ms": 0.21806807525,
+     "tts_ms": 2.9915598756122295,
+     "tts_ms_lo": 2.387871471004216,
+     "tts_ms_hi": 3.779348548990028,
+     "multiplex": 1
+    }
+   },
+   "sec": 136.0763132572174
+  },
+  "IND": {
+   "cfg": {
+    "family": "onsager",
+    "T0": 12.0,
+    "q": 8.0,
+    "lam": 1.05,
+    "ramp": true,
+    "T1": 4.0,
+    "S": 8000,
+    "pa": "IND",
+    "K": 1,
+    "alpha": 0.0
+   },
+   "R": 48,
+   "populations": 256,
+   "events": 0,
+   "mean_copied_per_event": 0.0,
+   "single_replica_k33337": 72,
+   "single_replica_n": 12288,
+   "mean_final_cut": 33246.82902018229,
+   "mean_pop_max": 33314.03125,
+   "k33000": 256,
+   "kbest33000": 256,
+   "kgreedy33000": 256,
+   "k33200": 256,
+   "kbest33200": 256,
+   "kgreedy33200": 256,
+   "k33300": 198,
+   "kbest33300": 203,
+   "kgreedy33300": 198,
+   "k33320": 85,
+   "kbest33320": 85,
+   "kgreedy33320": 85,
+   "k33337": 71,
+   "kbest33337": 83,
+   "kgreedy33337": 71,
+   "pop_cycles": {
+    "main": 242260.45556875
+   },
+   "P_pop": 0.27734375,
+   "P_pop_lo": 0.22610219451112512,
+   "P_pop_hi": 0.3351687415535207,
+   "tts": {
+    "main|V80_250MHz": {
+     "t_pop_ms": 3.8761672891,
+     "tts_ms": 54.95450108453461,
+     "tts_ms_lo": 43.72721039673524,
+     "tts_ms_hi": 69.64234949455363,
+     "multiplex": 4
+    },
+    "main|ASIC_1.0GHz": {
+     "t_pop_ms": 0.969041822275,
+     "tts_ms": 13.738625271133653,
+     "tts_ms_lo": 10.93180259918381,
+     "tts_ms_hi": 17.410587373638407,
+     "multiplex": 4
+    },
+    "main|ASIC_1.25GHz": {
+     "t_pop_ms": 0.7752334578200001,
+     "tts_ms": 10.99090021690692,
+     "tts_ms_lo": 8.745442079347047,
+     "tts_ms_hi": 13.928469898910725,
+     "multiplex": 4
+    },
+    "main|V80_250MHz|R_engines": {
+     "t_pop_ms": 0.969041822275,
+     "tts_ms": 13.738625271133653,
+     "tts_ms_lo": 10.93180259918381,
+     "tts_ms_hi": 17.410587373638407,
+     "multiplex": 1
+    },
+    "main|ASIC_1.0GHz|R_engines": {
+     "t_pop_ms": 0.24226045556875,
+     "tts_ms": 3.4346563177834133,
+     "tts_ms_lo": 2.7329506497959524,
+     "tts_ms_hi": 4.352646843409602,
+     "multiplex": 1
+    },
+    "main|ASIC_1.25GHz|R_engines": {
+     "t_pop_ms": 0.19380836445500002,
+     "tts_ms": 2.74772505422673,
+     "tts_ms_lo": 2.1863605198367617,
+     "tts_ms_hi": 3.4821174747276813,
+     "multiplex": 1
+    }
+   },
+   "sec": 132.54509377479553
+  }
+ }
+}

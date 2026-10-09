@@ -1,0 +1,4592 @@
+{
+ "1": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.5999626502254285,
+   "mean_cut": 0.0,
+   "target": 11508,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.19040059072224472,
+   "mean_cut": 0.0,
+   "target": 11508,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 24.393747087093715,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.0759704120262061,
+   "mean_cut": 10585.0283203125,
+   "target": 11508
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.04425700185906649,
+   "p": 0.671875,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.06201180602706041,
+   "p": 0.76171875,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.023812690664477675,
+   "p": 0.44140625,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.06395813061364532,
+   "p": 0.6767578125,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.051693741889579016,
+   "p": 0.681640625,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.023006456933142017,
+   "p": 0.46875,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.02621134412078755,
+   "p": 0.8125,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.06445197137470286,
+   "p": 0.6767578125,
+   "S": 500
+  }
+ },
+ "2": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17484645713371721,
+   "mean_cut": 0.0,
+   "target": 11504,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.19044291246829337,
+   "mean_cut": 0.0,
+   "target": 11504,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 24.424309208521237,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.0759702320457082,
+   "mean_cut": 10583.783203125,
+   "target": 11504
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.07075322001405357,
+   "p": 0.1396484375,
+   "S": 250
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.04194571616098784,
+   "p": 0.251953125,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.02381150491966492,
+   "p": 0.623046875,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.05811295424554099,
+   "p": 0.16796875,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.04580386215016952,
+   "p": 0.5048828125,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.023009263915899074,
+   "p": 0.6123046875,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.025040041106648696,
+   "p": 0.9091796875,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.06043135869039044,
+   "p": 0.1435546875,
+   "S": 250
+  }
+ },
+ "3": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17486376431994874,
+   "mean_cut": 0.0,
+   "target": 11506,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.19037790070508528,
+   "mean_cut": 0.0,
+   "target": 11506,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 24.441155536529294,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.07597044592626256,
+   "mean_cut": 10582.865234375,
+   "target": 11506
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.049206232647091265,
+   "p": 0.74609375,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.038790296676556625,
+   "p": 0.3056640625,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.023847647449407768,
+   "p": 0.53515625,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.076100565979371,
+   "p": 0.138671875,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.04673951305104885,
+   "p": 0.7529296875,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.023010072827789427,
+   "p": 0.5126953125,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.028533328783797423,
+   "p": 0.7900390625,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.060808365815330126,
+   "p": 0.158203125,
+   "S": 250
+  }
+ },
+ "4": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17483488210701312,
+   "mean_cut": 0.0,
+   "target": 11530,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.19039207231798919,
+   "mean_cut": 0.0,
+   "target": 11530,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 24.445354108312912,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.07597044171336888,
+   "mean_cut": 10584.1884765625,
+   "target": 11530
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.048983769223009684,
+   "p": 0.716796875,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.046547559421774576,
+   "p": 0.2080078125,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.023793971301240054,
+   "p": 0.474609375,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.04688012698788046,
+   "p": 0.7275390625,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.04900167118179368,
+   "p": 0.705078125,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.02300486329485057,
+   "p": 0.427734375,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.027466929529576793,
+   "p": 0.8466796875,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.054119321354366264,
+   "p": 0.7001953125,
+   "S": 500
+  }
+ },
+ "5": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17491327078760488,
+   "mean_cut": 0.0,
+   "target": 11515,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.19036317179387074,
+   "mean_cut": 0.0,
+   "target": 11515,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 24.434123123585614,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.07597010366069329,
+   "mean_cut": 10582.091796875,
+   "target": 11515
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.06962992129893364,
+   "p": 0.2294921875,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.03448641634214431,
+   "p": 0.3662109375,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.023811325975829623,
+   "p": 0.5966796875,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.056956313099480904,
+   "p": 0.166015625,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.04582214542069353,
+   "p": 0.54296875,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.023014710452680543,
+   "p": 0.533203125,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.0286733501150351,
+   "p": 0.900390625,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.053216319805478494,
+   "p": 0.189453125,
+   "S": 250
+  }
+ },
+ "6": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.31669620095670126,
+   "mean_cut": 1937.3720703125,
+   "target": 2157,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1709249656459308,
+   "mean_cut": 1999.4580078125,
+   "target": 2157,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 6.905651646244122,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0087890625,
+   "tts12_ms": 3.6332740913756636,
+   "tts12_secondary_ms": 3.6332740913756627,
+   "tts1_ms": 43.46564253219538,
+   "t_round12_ms": 0.08357797094308478,
+   "mean_cut": 2100.6240234375,
+   "target": 2157
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.0675437959333649,
+   "p": 0.3779296875,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.06953886816670155,
+   "p": 0.369140625,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.03233239706708327,
+   "p": 0.341796875,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.03980008226297646,
+   "p": 0.673828125,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.06760247161654954,
+   "p": 0.3896484375,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.06951657205405241,
+   "p": 0.43359375,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.03523329841475116,
+   "p": 0.3720703125,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.039805548191167495,
+   "p": 0.6591796875,
+   "S": 250
+  }
+ },
+ "7": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.3633245670202988,
+   "mean_cut": 1755.7197265625,
+   "target": 1986,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17113051110661512,
+   "mean_cut": 1831.72265625,
+   "target": 1986,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 6.944393255715106,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0009765625,
+   "tts12_ms": 32.83076487892059,
+   "tts12_secondary_ms": 32.830764878920654,
+   "tts1_ms": 392.69535524424623,
+   "t_round12_ms": 0.08358507762282795,
+   "mean_cut": 1930.060546875,
+   "target": 1986
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.07696305356380786,
+   "p": 0.2900390625,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.0850108789568714,
+   "p": 0.2734375,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.036418515263793895,
+   "p": 0.314453125,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.041424001233868156,
+   "p": 0.3271484375,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.07224631771845691,
+   "p": 0.3056640625,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.09146612374570853,
+   "p": 0.26953125,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.03799214573307845,
+   "p": 0.3037109375,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.041149907070022175,
+   "p": 0.3271484375,
+   "S": 250
+  }
+ },
+ "8": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.3166896265261336,
+   "mean_cut": 1758.697265625,
+   "target": 1985,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17094010194171755,
+   "mean_cut": 1844.568359375,
+   "target": 1985,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 6.948908147562037,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0078125,
+   "tts12_ms": 4.084163391888728,
+   "tts12_secondary_ms": 4.084163391888727,
+   "tts1_ms": 48.85715116975486,
+   "t_round12_ms": 0.08347005726704293,
+   "mean_cut": 1939.9970703125,
+   "target": 1985
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.07590345011618392,
+   "p": 0.333984375,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.07107339774414762,
+   "p": 0.166015625,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.03522251960334672,
+   "p": 0.443359375,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.04084361739159976,
+   "p": 0.416015625,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.07002337090732323,
+   "p": 0.3564453125,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.0744696629787624,
+   "p": 0.1591796875,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.035277700169249526,
+   "p": 0.4404296875,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.0407197450516737,
+   "p": 0.408203125,
+   "S": 250
+  }
+ },
+ "9": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.36309342032647846,
+   "mean_cut": 1803.046875,
+   "target": 2034,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17111107865760372,
+   "mean_cut": 1876.1376953125,
+   "target": 2034,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 6.944602569034046,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.00390625,
+   "tts12_ms": 8.194334157312184,
+   "tts12_secondary_ms": 8.19433415731219,
+   "tts1_ms": 98.01734692532752,
+   "t_round12_ms": 0.08357163171007644,
+   "mean_cut": 1976.4365234375,
+   "target": 2034
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.08391741390925883,
+   "p": 0.236328125,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.08713980938230333,
+   "p": 0.2734375,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.03196753925823545,
+   "p": 0.34765625,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.04202966004397272,
+   "p": 0.40234375,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.08334234630156437,
+   "p": 0.275390625,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.0759204937232584,
+   "p": 0.314453125,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.03437529690347981,
+   "p": 0.328125,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.04204059697623111,
+   "p": 0.4013671875,
+   "S": 250
+  }
+ },
+ "10": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.36325367220084576,
+   "mean_cut": 1754.96484375,
+   "target": 1980,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.171084391931369,
+   "mean_cut": 1827.7041015625,
+   "target": 1980,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 6.9373102284262504,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.005859375,
+   "tts12_ms": 5.457700861829087,
+   "tts12_secondary_ms": 5.457700861829084,
+   "tts1_ms": 65.29563354667589,
+   "t_round12_ms": 0.08357416534803054,
+   "mean_cut": 1924.025390625,
+   "target": 1980
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.08880988650003278,
+   "p": 0.228515625,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.06484112951437701,
+   "p": 0.30859375,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.03431600936631746,
+   "p": 0.3291015625,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.04304670177599767,
+   "p": 0.408203125,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.09214967082276608,
+   "p": 0.2216796875,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.06288940564337515,
+   "p": 0.31640625,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.038279160142753885,
+   "p": 0.30078125,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.04315527928667283,
+   "p": 0.41015625,
+   "S": 250
+  }
+ },
+ "11": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1497031980926083,
+   "mean_cut": 105.099609375,
+   "target": 559,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.18852216206918918,
+   "mean_cut": 424.72265625,
+   "target": 559,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 1.7232304624700467,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.135648538074996,
+   "mean_cut": 541.734375,
+   "target": 559
+  },
+  "SCA (original)": {
+   "tts12_ms": 1.2432489176881836,
+   "p": 0.1083984375,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 1.2032313426156702,
+   "p": 0.1318359375,
+   "S": 4000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.47068467681955745,
+   "p": 0.154296875,
+   "S": 2000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 1.4567856004755209,
+   "p": 0.037109375,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 1.719996815923778,
+   "p": 0.0263671875,
+   "S": 1000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 1.2740155235845376,
+   "p": 0.1357421875,
+   "S": 4000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.5195164194837361,
+   "p": 0.0751953125,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 1.630508889927322,
+   "p": 0.033203125,
+   "S": 1000
+  }
+ },
+ "12": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 960
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.2539538449387029,
+   "mean_cut": 86.751953125,
+   "target": 551,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1885111960523811,
+   "mean_cut": 414.5234375,
+   "target": 551,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 1.7780564388212237,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.13441575046454823,
+   "mean_cut": 534.31640625,
+   "target": 551
+  },
+  "SCA (original)": {
+   "tts12_ms": 1.4439994453357237,
+   "p": 0.0595703125,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 1.1782450662325412,
+   "p": 0.1337890625,
+   "S": 4000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.5845488195292914,
+   "p": 0.2333984375,
+   "S": 4000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.9642907011577606,
+   "p": 0.193359375,
+   "S": 4000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 1.3257996774321545,
+   "p": 0.1240234375,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 1.1162895853723889,
+   "p": 0.140625,
+   "S": 4000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.47991866294808105,
+   "p": 0.2763671875,
+   "S": 4000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 1.3231966849456838,
+   "p": 0.1669921875,
+   "S": 4000
+  }
+ },
+ "13": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 760
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.20185298023298567,
+   "mean_cut": 106.9921875,
+   "target": 577,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.18850481951668718,
+   "mean_cut": 437.02734375,
+   "target": 577,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 1.777615818546627,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.13430140200828675,
+   "mean_cut": 560.7578125,
+   "target": 577
+  },
+  "SCA (original)": {
+   "tts12_ms": 2.726356318463362,
+   "p": 0.0615234375,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 2.1744180686984267,
+   "p": 0.07421875,
+   "S": 4000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 1.3641656328008553,
+   "p": 0.0556640625,
+   "S": 2000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 2.58014300460317,
+   "p": 0.076171875,
+   "S": 4000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 3.890921044012445,
+   "p": 0.048828125,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 3.155684362618049,
+   "p": 0.0517578125,
+   "S": 4000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 1.3422134324387103,
+   "p": 0.056640625,
+   "S": 2000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 2.4818650393818507,
+   "p": 0.0791015625,
+   "S": 4000
+  }
+ },
+ "14": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.09914919562667622,
+   "mean_cut": 1739.8681640625,
+   "target": 3034,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.10247022388446872,
+   "mean_cut": 2210.8466796875,
+   "target": 3034,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 11.213844590303975,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08090547692204043,
+   "mean_cut": 2970.3603515625,
+   "target": 3034
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.17208509296437902,
+   "p": 0.375,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.10798174353091004,
+   "p": 0.455078125,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.1197736704131506,
+   "p": 0.4765625,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.15186236455433563,
+   "p": 0.330078125,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.17206937890486437,
+   "p": 0.3681640625,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.11095369517841636,
+   "p": 0.435546875,
+   "S": 1000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.08278061942468316,
+   "p": 0.6201171875,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.1531778456830172,
+   "p": 0.322265625,
+   "S": 1000
+  }
+ },
+ "15": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.0990725317860094,
+   "mean_cut": 1746.7314453125,
+   "target": 3020,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.10334969173617038,
+   "mean_cut": 2131.7744140625,
+   "target": 3020,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 11.575685033196773,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08036589015277747,
+   "mean_cut": 2948.8154296875,
+   "target": 3020
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.17554443857808014,
+   "p": 0.3134765625,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.1786940473892217,
+   "p": 0.2109375,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.18211228120609615,
+   "p": 0.5380859375,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.3849623834505616,
+   "p": 0.1494140625,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.16846822849050472,
+   "p": 0.32421875,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.18815749140580715,
+   "p": 0.2060546875,
+   "S": 1000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.07235736943643745,
+   "p": 0.35546875,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.2016524196396837,
+   "p": 0.2861328125,
+   "S": 2000
+  }
+ },
+ "16": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 960
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.258437371122913,
+   "mean_cut": 1728.1650390625,
+   "target": 3022,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1029477028744552,
+   "mean_cut": 2189.279296875,
+   "target": 3022,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 11.311377224437699,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08076572857269786,
+   "mean_cut": 2955.4677734375,
+   "target": 3022
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.19596483290331304,
+   "p": 0.2861328125,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.1267300340611752,
+   "p": 0.287109375,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.11359399822148095,
+   "p": 0.34375,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.29638869081167674,
+   "p": 0.1953125,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.22453618509600645,
+   "p": 0.2548828125,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.13841081479221914,
+   "p": 0.265625,
+   "S": 1000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.0828250300923499,
+   "p": 0.421875,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.26830137224071743,
+   "p": 0.20703125,
+   "S": 1000
+  }
+ },
+ "17": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.10097739762903601,
+   "mean_cut": 1727.6962890625,
+   "target": 3017,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.10330208220033123,
+   "mean_cut": 2165.89453125,
+   "target": 3017,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 11.334973240157094,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08073153941609557,
+   "mean_cut": 2951.0458984375,
+   "target": 3017
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.15042456122649328,
+   "p": 0.35546875,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.11314485174803912,
+   "p": 0.357421875,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.11607179416051834,
+   "p": 0.43359375,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.1925454937291892,
+   "p": 0.2734375,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.1649565509624245,
+   "p": 0.330078125,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.10584070527717705,
+   "p": 0.345703125,
+   "S": 1000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.08291088435150523,
+   "p": 0.5107421875,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.2092736634691974,
+   "p": 0.26171875,
+   "S": 1000
+  }
+ },
+ "18": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.34663218877454155,
+   "mean_cut": 449.9423828125,
+   "target": 983,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1843204760867587,
+   "mean_cut": 838.162109375,
+   "target": 983,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 6.398082297070873,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.0923330824744216,
+   "mean_cut": 937.755859375,
+   "target": 983
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.1917887743850893,
+   "p": 0.25390625,
+   "S": 1000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.21287180553611157,
+   "p": 0.2109375,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.14212657661303685,
+   "p": 0.2041015625,
+   "S": 500
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.12851701566955082,
+   "p": 0.208984375,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.2255679695176373,
+   "p": 0.220703125,
+   "S": 1000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.24495847669405546,
+   "p": 0.123046875,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.1361973664885056,
+   "p": 0.2119140625,
+   "S": 500
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.13353366917404755,
+   "p": 0.2021484375,
+   "S": 500
+  }
+ },
+ "19": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.40462579072446264,
+   "mean_cut": 369.4736328125,
+   "target": 897,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.18436789754015112,
+   "mean_cut": 753.7275390625,
+   "target": 897,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 6.822858203854787,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.09074299297062975,
+   "mean_cut": 849.4677734375,
+   "target": 897
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.2238074687070626,
+   "p": 0.220703125,
+   "S": 1000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.15215584512651367,
+   "p": 0.2802734375,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.1419523040695671,
+   "p": 0.3671875,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.1144517448425559,
+   "p": 0.2294921875,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.19048153548655974,
+   "p": 0.23828125,
+   "S": 1000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.20262778373346385,
+   "p": 0.2509765625,
+   "S": 1000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.14990974902044885,
+   "p": 0.193359375,
+   "S": 500
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.15013796535607946,
+   "p": 0.43359375,
+   "S": 1000
+  }
+ },
+ "20": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.3533151971062934,
+   "mean_cut": 393.3759765625,
+   "target": 932,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.18442558918798013,
+   "mean_cut": 781.3974609375,
+   "target": 932,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 6.260632157213781,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0009765625,
+   "tts12_ms": 36.49819484796947,
+   "tts12_secondary_ms": 36.49819484796955,
+   "tts1_ms": 436.93465914866397,
+   "t_round12_ms": 0.09292212535137648,
+   "mean_cut": 884.322265625,
+   "target": 932
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.1454927308231041,
+   "p": 0.36328125,
+   "S": 1000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.1407053578735501,
+   "p": 0.2919921875,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.09138924491452949,
+   "p": 0.169921875,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.07193719395629034,
+   "p": 0.3388671875,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.13514087538442507,
+   "p": 0.3779296875,
+   "S": 1000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.15700111001223754,
+   "p": 0.1025390625,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.08870756786994172,
+   "p": 0.1748046875,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.14880703272452003,
+   "p": 0.130859375,
+   "S": 250
+  }
+ },
+ "21": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 1160
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.30185300669693005,
+   "mean_cut": 388.0693359375,
+   "target": 922,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.184285773090537,
+   "mean_cut": 777.1806640625,
+   "target": 922,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 6.560091441700989,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.09169014704910675,
+   "mean_cut": 873.505859375,
+   "target": 922
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.45216567164544047,
+   "p": 0.21484375,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.36649475516552976,
+   "p": 0.234375,
+   "S": 2000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.27970269487219257,
+   "p": 0.2001953125,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.24504118418576912,
+   "p": 0.208984375,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.4239516476811615,
+   "p": 0.212890625,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.4728972413075024,
+   "p": 0.2431640625,
+   "S": 2000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.32340814301004317,
+   "p": 0.17578125,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.2081230535948621,
+   "p": 0.2412109375,
+   "S": 1000
+  }
+ },
+ "22": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 760
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.5242619771836734,
+   "mean_cut": 189.6533203125,
+   "target": 13226,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.3048609672471817,
+   "mean_cut": 10007.107421875,
+   "target": 13226,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.538039512175997,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.0860272136521756,
+   "mean_cut": 13080.2734375,
+   "target": 13226
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.07979665137937088,
+   "p": 0.6923828125,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.03723413887879853,
+   "p": 0.29296875,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.03281043730834416,
+   "p": 0.3447265625,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.0624845720788936,
+   "p": 0.84765625,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.07983784236263361,
+   "p": 0.6748046875,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.0360946946971693,
+   "p": 0.30078125,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.03402101706509534,
+   "p": 0.3349609375,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.06242842403591927,
+   "p": 0.8623046875,
+   "S": 500
+  }
+ },
+ "23": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.9610847389936913,
+   "mean_cut": 144.470703125,
+   "target": 13211,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.3062480977566755,
+   "mean_cut": 9984.455078125,
+   "target": 13211,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.501744328298468,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08611855022587653,
+   "mean_cut": 13087.8876953125,
+   "target": 13211
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.07844388427284454,
+   "p": 0.1875,
+   "S": 250
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.039018409144276796,
+   "p": 0.736328125,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.03611418613933753,
+   "p": 0.64453125,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.033951510786106885,
+   "p": 0.41015625,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.07845975004043172,
+   "p": 0.1875,
+   "S": 250
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.039042308531826234,
+   "p": 0.6708984375,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.03613069169622961,
+   "p": 0.6259765625,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.0339459527448118,
+   "p": 0.40234375,
+   "S": 250
+  }
+ },
+ "24": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 960
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.6771744700053226,
+   "mean_cut": 179.2109375,
+   "target": 13204,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.30645023855714065,
+   "mean_cut": 9923.23046875,
+   "target": 13204,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.537277455348903,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08601200944786054,
+   "mean_cut": 13079.3818359375,
+   "target": 13204
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.054342294652418376,
+   "p": 0.900390625,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.033629762619866166,
+   "p": 0.572265625,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.04526097322213137,
+   "p": 0.5673828125,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.033980417855505374,
+   "p": 0.369140625,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.054369984966514795,
+   "p": 0.880859375,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.03363923936442553,
+   "p": 0.5791015625,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.0452501299323128,
+   "p": 0.564453125,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.03002349453515198,
+   "p": 0.3525390625,
+   "S": 250
+  }
+ },
+ "25": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 960
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.6562744599020203,
+   "mean_cut": 153.1748046875,
+   "target": 13207,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.30819316280418607,
+   "mean_cut": 9821.3076171875,
+   "target": 13207,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.531785472207126,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08603752680225647,
+   "mean_cut": 13081.841796875,
+   "target": 13207
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.062177428307748535,
+   "p": 0.16796875,
+   "S": 250
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.039059260506347566,
+   "p": 0.6796875,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.03612882526888009,
+   "p": 0.619140625,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.03876469193491535,
+   "p": 0.267578125,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.07218197569007144,
+   "p": 0.146484375,
+   "S": 250
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.03906038172602331,
+   "p": 0.6611328125,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.03614105372727598,
+   "p": 0.5947265625,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.03441077448000195,
+   "p": 0.2958984375,
+   "S": 250
+  }
+ },
+ "26": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1160
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.8197914238106251,
+   "mean_cut": 159.748046875,
+   "target": 13195,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.30825798141937377,
+   "mean_cut": 9833.8662109375,
+   "target": 13195,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.546483070762118,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.0860017243968638,
+   "mean_cut": 13073.6025390625,
+   "target": 13195
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.05436863476273523,
+   "p": 0.916015625,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.03365460952977835,
+   "p": 0.646484375,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.03618018366561426,
+   "p": 0.640625,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.03404039197176183,
+   "p": 0.4169921875,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.05439447791218035,
+   "p": 0.921875,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.0336657812401177,
+   "p": 0.619140625,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.03617910509696861,
+   "p": 0.654296875,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.034047227176648064,
+   "p": 0.4150390625,
+   "S": 250
+  }
+ },
+ "27": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.8178395896195939,
+   "mean_cut": 2119.8173828125,
+   "target": 3308,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.27469445021526,
+   "mean_cut": 2876.6572265625,
+   "target": 3308,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.573766626510572,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.12862878095242958,
+   "mean_cut": 3204.5234375,
+   "target": 3308
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.24669912028202826,
+   "p": 0.5615234375,
+   "S": 1000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.155026623861913,
+   "p": 0.2578125,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.10205363485769502,
+   "p": 0.470703125,
+   "S": 500
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.14174514849108258,
+   "p": 0.494140625,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.2466328177210753,
+   "p": 0.603515625,
+   "S": 1000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.22880791168748593,
+   "p": 0.6533203125,
+   "S": 1000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.10199873304861219,
+   "p": 0.482421875,
+   "S": 500
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.14159395391528976,
+   "p": 0.501953125,
+   "S": 500
+  }
+ },
+ "28": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.7961401737602075,
+   "mean_cut": 2080.7548828125,
+   "target": 3266,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.2747942508658575,
+   "mean_cut": 2839.99609375,
+   "target": 3266,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.543068100556585,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.12906038351764135,
+   "mean_cut": 3163.4599609375,
+   "target": 3266
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.2493185289892569,
+   "p": 0.7236328125,
+   "S": 1000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.11771516090704799,
+   "p": 0.326171875,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.09865077984923284,
+   "p": 0.1962890625,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.1445292501219272,
+   "p": 0.5341796875,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.24934083434857993,
+   "p": 0.7060546875,
+   "S": 1000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.1062579199546029,
+   "p": 0.3544921875,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.10754074894255075,
+   "p": 0.181640625,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.14384355996564516,
+   "p": 0.541015625,
+   "S": 500
+  }
+ },
+ "29": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.7958664876732103,
+   "mean_cut": 2190.8896484375,
+   "target": 3371,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.2747076710509314,
+   "mean_cut": 2940.04296875,
+   "target": 3371,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.5623510391601805,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.12876849515279123,
+   "mean_cut": 3266.9775390625,
+   "target": 3371
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.24899143947847022,
+   "p": 0.373046875,
+   "S": 1000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.229060755925268,
+   "p": 0.4443359375,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.09914095426781415,
+   "p": 0.326171875,
+   "S": 500
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.20871237451667993,
+   "p": 0.23046875,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.2480593629810036,
+   "p": 0.373046875,
+   "S": 1000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.2288908475544991,
+   "p": 0.44140625,
+   "S": 1000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.09661647706745337,
+   "p": 0.3330078125,
+   "S": 500
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.21295935097986415,
+   "p": 0.2265625,
+   "S": 500
+  }
+ },
+ "30": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.7960661056390885,
+   "mean_cut": 2205.8564453125,
+   "target": 3379,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.2748835676049158,
+   "mean_cut": 2944.755859375,
+   "target": 3379,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.560836311592215,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.128884524182779,
+   "mean_cut": 3278.970703125,
+   "target": 3379
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.2094149777757675,
+   "p": 0.181640625,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.1212176974263504,
+   "p": 0.31640625,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.09891482646154799,
+   "p": 0.1943359375,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.14000528700660875,
+   "p": 0.4501953125,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.20453837980609033,
+   "p": 0.185546875,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.12420313741470775,
+   "p": 0.310546875,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.11079755978491758,
+   "p": 0.17578125,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.1403746611469491,
+   "p": 0.5,
+   "S": 500
+  }
+ },
+ "31": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.7960486259716424,
+   "mean_cut": 2092.10546875,
+   "target": 3277,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.2747467790758901,
+   "mean_cut": 2854.029296875,
+   "target": 3277,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.591803762933678,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1284420889110985,
+   "mean_cut": 3176.9912109375,
+   "target": 3277
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.1882621799548538,
+   "p": 0.201171875,
+   "S": 500
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.11464692968442486,
+   "p": 0.3330078125,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.10245055750660272,
+   "p": 0.572265625,
+   "S": 500
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.14454114215732453,
+   "p": 0.4873046875,
+   "S": 500
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.21330753453469017,
+   "p": 0.1796875,
+   "S": 500
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.12170648451749377,
+   "p": 0.3173828125,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.10239514103689068,
+   "p": 0.5966796875,
+   "S": 500
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.14462976211179332,
+   "p": 0.4970703125,
+   "S": 500
+  }
+ },
+ "32": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.7276812362601995,
+   "mean_cut": 235.7578125,
+   "target": 1396,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.2959631749157192,
+   "mean_cut": 1048.205078125,
+   "target": 1396,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 1.74027592365967,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.22353234479319412,
+   "mean_cut": 1349.763671875,
+   "target": 1396
+  },
+  "SCA (original)": {
+   "tts12_ms": 24.364274005755043,
+   "p": 0.0107421875,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 129.9119152400338,
+   "p": 0.0009765625,
+   "S": 2000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 2.2743341213476036,
+   "p": 0.0888671875,
+   "S": 4000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 22.399589607854747,
+   "p": 0.0078125,
+   "S": 2000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 22.32811697341605,
+   "p": 0.01171875,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 26.964568631783546,
+   "p": 0.0107421875,
+   "S": 4000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 5.473478005035606,
+   "p": 0.01953125,
+   "S": 2000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 29.889272790085226,
+   "p": 0.005859375,
+   "S": 2000
+  }
+ },
+ "33": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1160
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.6212616406807983,
+   "mean_cut": 207.650390625,
+   "target": 1369,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.29596232700710623,
+   "mean_cut": 1023.83203125,
+   "target": 1369,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 1.743505552432816,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.22331113129126956,
+   "mean_cut": 1325.673828125,
+   "target": 1369
+  },
+  "SCA (original)": {
+   "tts12_ms": 66.94586840715245,
+   "p": 0.00390625,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 21.064204126459366,
+   "p": 0.01171875,
+   "S": 4000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 4.705897187272717,
+   "p": 0.0439453125,
+   "S": 4000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 20.608825010121908,
+   "p": 0.0166015625,
+   "S": 4000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 90.85495865501767,
+   "p": 0.0029296875,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 22.990933717614986,
+   "p": 0.0107421875,
+   "S": 4000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 4.930566452718579,
+   "p": 0.0419921875,
+   "S": 4000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 33.81273091262815,
+   "p": 0.0126953125,
+   "S": 4000
+  }
+ },
+ "34": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 760
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.41644444347848447,
+   "mean_cut": 199.138671875,
+   "target": 1371,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.295937891222809,
+   "mean_cut": 1022.4453125,
+   "target": 1371,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 1.7981001753082586,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.22075270137341219,
+   "mean_cut": 1328.1171875,
+   "target": 1371
+  },
+  "SCA (original)": {
+   "tts12_ms": 15.506999370326893,
+   "p": 0.0166015625,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 11.799771649500634,
+   "p": 0.01953125,
+   "S": 4000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 3.19378719615972,
+   "p": 0.0634765625,
+   "S": 4000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 8.743560022485124,
+   "p": 0.0380859375,
+   "S": 4000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 10.489997116239756,
+   "p": 0.0244140625,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 23.673138150798486,
+   "p": 0.009765625,
+   "S": 4000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 3.1902801033094654,
+   "p": 0.0634765625,
+   "S": 4000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 11.426617629642873,
+   "p": 0.029296875,
+   "S": 4000
+  }
+ },
+ "35": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.20857282391450907,
+   "mean_cut": 4314.8046875,
+   "target": 7611,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.21600708079429395,
+   "mean_cut": 4889.03125,
+   "target": 7611,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 13.455607136941783,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08146302870221415,
+   "mean_cut": 7414.298828125,
+   "target": 7611
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.4109708713109476,
+   "p": 0.7412109375,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.26147463753738415,
+   "p": 0.662109375,
+   "S": 2000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.1898115003958392,
+   "p": 0.27734375,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.5685310738264704,
+   "p": 0.599609375,
+   "S": 2000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.4109606954124105,
+   "p": 0.7470703125,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.2971156645054666,
+   "p": 0.7060546875,
+   "S": 2000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.09321395550366668,
+   "p": 0.3603515625,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.4364087547840293,
+   "p": 0.6826171875,
+   "S": 4000
+  }
+ },
+ "36": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.32182817761327737,
+   "mean_cut": 4367.541015625,
+   "target": 7604,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.2110898790486784,
+   "mean_cut": 5180.8896484375,
+   "target": 7604,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 13.477409921614317,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.081399541592094,
+   "mean_cut": 7405.8154296875,
+   "target": 7604
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.39550787218537437,
+   "p": 0.1826171875,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.22673834814016722,
+   "p": 0.6884765625,
+   "S": 2000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.17507051298067522,
+   "p": 0.2734375,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.4618316999093073,
+   "p": 0.59765625,
+   "S": 2000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.4100088645105115,
+   "p": 0.1767578125,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.2427072230462637,
+   "p": 0.6875,
+   "S": 2000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.08143883019934531,
+   "p": 0.35546875,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.47281277084012274,
+   "p": 0.6025390625,
+   "S": 2000
+  }
+ },
+ "37": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.20853723152476442,
+   "mean_cut": 4327.3486328125,
+   "target": 7615,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.21574439940999338,
+   "mean_cut": 4912.6982421875,
+   "target": 7615,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 13.573265889501513,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08119228279743225,
+   "mean_cut": 7415.3896484375,
+   "target": 7615
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.41105126944673515,
+   "p": 0.703125,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.28481156257112217,
+   "p": 0.6181640625,
+   "S": 2000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.35337183773471387,
+   "p": 0.6416015625,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.9849496852777395,
+   "p": 0.1025390625,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.4110507937538217,
+   "p": 0.697265625,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.27339029044542845,
+   "p": 0.6083984375,
+   "S": 2000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.09888731633785994,
+   "p": 0.3037109375,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 1.1890365987462799,
+   "p": 0.0830078125,
+   "S": 1000
+  }
+ },
+ "38": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.3153417419978579,
+   "mean_cut": 4350.55859375,
+   "target": 7612,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.2144573922255019,
+   "mean_cut": 4911.4658203125,
+   "target": 7612,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 13.54908756593116,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08125220644386172,
+   "mean_cut": 7412.236328125,
+   "target": 7612
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.4109394421747398,
+   "p": 0.75,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.2123187531261478,
+   "p": 0.2568359375,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.2101502643361328,
+   "p": 0.279296875,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.5765295897243733,
+   "p": 0.599609375,
+   "S": 2000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.4109129682854494,
+   "p": 0.751953125,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.23628619001974208,
+   "p": 0.2216796875,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.08764484312623054,
+   "p": 0.3349609375,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.42283259805052326,
+   "p": 0.7578125,
+   "S": 4000
+  }
+ },
+ "39": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.7298145708741959,
+   "mean_cut": 1055.162109375,
+   "target": 2384,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.28570201931868494,
+   "mean_cut": 2028.84375,
+   "target": 2384,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 8.030273275624833,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.10324610348769461,
+   "mean_cut": 2244.568359375,
+   "target": 2384
+  },
+  "SCA (original)": {
+   "tts12_ms": 2.013103377291987,
+   "p": 0.169921875,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 1.7690459007095787,
+   "p": 0.15625,
+   "S": 4000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 1.4008645998115121,
+   "p": 0.228515625,
+   "S": 4000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 1.3742828388846426,
+   "p": 0.0712890625,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 2.086436881894438,
+   "p": 0.1484375,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 2.245929310362699,
+   "p": 0.1591796875,
+   "S": 4000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 1.5508998078483527,
+   "p": 0.208984375,
+   "S": 4000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 1.41457796641094,
+   "p": 0.0693359375,
+   "S": 1000
+  }
+ },
+ "40": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.7126689291336594,
+   "mean_cut": 1043.4833984375,
+   "target": 2376,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.28515806876402394,
+   "mean_cut": 2012.0390625,
+   "target": 2376,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 9.434182002816048,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.09443592137008004,
+   "mean_cut": 2208.412109375,
+   "target": 2376
+  },
+  "SCA (original)": {
+   "tts12_ms": 2.817613872864653,
+   "p": 0.0947265625,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 1.965321530423694,
+   "p": 0.1455078125,
+   "S": 4000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 2.5034829562302336,
+   "p": 0.0693359375,
+   "S": 2000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 2.088656683861802,
+   "p": 0.087890625,
+   "S": 2000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 2.418023603054148,
+   "p": 0.109375,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 2.3325488097431077,
+   "p": 0.0654296875,
+   "S": 2000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 2.789412540782022,
+   "p": 0.0625,
+   "S": 2000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 2.086796901745502,
+   "p": 0.087890625,
+   "S": 2000
+  }
+ },
+ "41": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.7133185022424714,
+   "mean_cut": 1032.7587890625,
+   "target": 2381,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.2855349795119415,
+   "mean_cut": 2012.662109375,
+   "target": 2381,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 8.939217933579393,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.09732960042442701,
+   "mean_cut": 2216.2236328125,
+   "target": 2381
+  },
+  "SCA (original)": {
+   "tts12_ms": 3.2625821362547343,
+   "p": 0.083984375,
+   "S": 4000
+  },
+  "TEC (original)": {
+   "tts12_ms": 2.8262882934968823,
+   "p": 0.0556640625,
+   "S": 2000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 1.4887417575369157,
+   "p": 0.08984375,
+   "S": 2000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 2.6763814260995153,
+   "p": 0.0712890625,
+   "S": 2000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 2.641794470116336,
+   "p": 0.1025390625,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 2.280248051869784,
+   "p": 0.068359375,
+   "S": 2000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 1.9248623346855862,
+   "p": 0.0703125,
+   "S": 2000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 2.5261087082469285,
+   "p": 0.0751953125,
+   "S": 2000
+  }
+ },
+ "42": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.8173579835528733,
+   "mean_cut": 1129.775390625,
+   "target": 2457,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.28548778943042435,
+   "mean_cut": 2094.826171875,
+   "target": 2457,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 8.217082568542132,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.10185413717302542,
+   "mean_cut": 2307.6015625,
+   "target": 2457
+  },
+  "SCA (original)": {
+   "tts12_ms": 2.2668235867871296,
+   "p": 0.0615234375,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 2.4015686036191712,
+   "p": 0.1220703125,
+   "S": 4000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 2.13300373955284,
+   "p": 0.1865234375,
+   "S": 4000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 1.71596819489165,
+   "p": 0.107421875,
+   "S": 2000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 2.331432697367916,
+   "p": 0.1142578125,
+   "S": 4000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 3.5616115025563895,
+   "p": 0.1142578125,
+   "S": 4000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 2.3071766808420686,
+   "p": 0.173828125,
+   "S": 4000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 1.7844279916011831,
+   "p": 0.103515625,
+   "S": 2000
+  }
+ },
+ "43": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.5236149252383373,
+   "mean_cut": 80.34765625,
+   "target": 6594,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17989903624474654,
+   "mean_cut": 3918.7470703125,
+   "target": 6594,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.50801326565599,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0009765625,
+   "tts12_ms": 31.848705839210098,
+   "tts12_secondary_ms": 31.84870583921016,
+   "tts1_ms": 381.45614931942856,
+   "t_round12_ms": 0.08108481662168675,
+   "mean_cut": 6530.2841796875,
+   "target": 6594
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.05385734520136435,
+   "p": 0.205078125,
+   "S": 250
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.027744539615766492,
+   "p": 0.509765625,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.03365539337492794,
+   "p": 0.4736328125,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.024871170828861065,
+   "p": 0.3505859375,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.0628315232141155,
+   "p": 0.1787109375,
+   "S": 250
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.02774393140954938,
+   "p": 0.54296875,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.033651554214286505,
+   "p": 0.45703125,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.027958803484242924,
+   "p": 0.3798828125,
+   "S": 250
+  }
+ },
+ "44": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1385565727662181,
+   "mean_cut": 85.7744140625,
+   "target": 6584,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1798284765307506,
+   "mean_cut": 3924.7626953125,
+   "target": 6584,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.51545830494532,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.00390625,
+   "tts12_ms": 7.950438287743195,
+   "tts12_secondary_ms": 7.950438287743199,
+   "tts1_ms": 95.22426051819278,
+   "t_round12_ms": 0.0810842086448308,
+   "mean_cut": 6524.9150390625,
+   "target": 6584
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.041342326932636064,
+   "p": 0.2587890625,
+   "S": 250
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.03057172638322166,
+   "p": 0.6474609375,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.029058373213388885,
+   "p": 0.62109375,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.028016435635814924,
+   "p": 0.4482421875,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.0409616173332586,
+   "p": 0.2607421875,
+   "S": 250
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.030559332125400563,
+   "p": 0.658203125,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.029051479118196163,
+   "p": 0.583984375,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.027996880565839783,
+   "p": 0.451171875,
+   "S": 250
+  }
+ },
+ "45": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.5330071868068679,
+   "mean_cut": 71.640625,
+   "target": 6588,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1795192377155995,
+   "mean_cut": 3977.17578125,
+   "target": 6588,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.486347005650941,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08112152050391386,
+   "mean_cut": 6525.56640625,
+   "target": 6588
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.04420105904065799,
+   "p": 0.244140625,
+   "S": 250
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.030549626755967892,
+   "p": 0.63671875,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.029041803372820835,
+   "p": 0.5537109375,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.028004255890837732,
+   "p": 0.4111328125,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.04205315980714242,
+   "p": 0.2548828125,
+   "S": 250
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.030553193863692985,
+   "p": 0.60546875,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.0290679708375727,
+   "p": 0.5859375,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.027999830233613857,
+   "p": 0.400390625,
+   "S": 250
+  }
+ },
+ "46": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 30.0,
+    "S": 560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.21928129455731507,
+   "mean_cut": 66.4453125,
+   "target": 6583,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17859645906957464,
+   "mean_cut": 4193.8056640625,
+   "target": 6583,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.469430458654976,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0048828125,
+   "tts12_ms": 6.3624993580018465,
+   "tts12_secondary_ms": 6.362499358001851,
+   "tts1_ms": 76.19892525477862,
+   "t_round12_ms": 0.08115136209104108,
+   "mean_cut": 6527.24609375,
+   "target": 6583
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.03484083538473395,
+   "p": 0.298828125,
+   "S": 250
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.03052922236056686,
+   "p": 0.66015625,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.029038824789388764,
+   "p": 0.65625,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.027973872336281975,
+   "p": 0.4658203125,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.03921251360445145,
+   "p": 0.2705078125,
+   "S": 250
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.03053928683109349,
+   "p": 0.7021484375,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.029030697796322173,
+   "p": 0.677734375,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.02799218959854358,
+   "p": 0.466796875,
+   "S": 250
+  }
+ },
+ "47": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 1360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.5181631273646127,
+   "mean_cut": 77.1708984375,
+   "target": 6591,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.17969091500622417,
+   "mean_cut": 4038.4365234375,
+   "target": 6591,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 10.493119821372723,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0009765625,
+   "tts12_ms": 31.85085854841709,
+   "tts12_secondary_ms": 31.85085854841715,
+   "tts1_ms": 381.4982741642936,
+   "t_round12_ms": 0.08109029728492531,
+   "mean_cut": 6531.3447265625,
+   "target": 6591
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.02867204295402688,
+   "p": 0.2919921875,
+   "S": 250
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.030511790034476984,
+   "p": 0.6279296875,
+   "S": 250
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.033605102360555174,
+   "p": 0.5751953125,
+   "S": 250
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.027935649566372876,
+   "p": 0.4658203125,
+   "S": 250
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.034082753367205475,
+   "p": 0.251953125,
+   "S": 250
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.030483118490971992,
+   "p": 0.6318359375,
+   "S": 250
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.03361652811955741,
+   "p": 0.6279296875,
+   "S": 250
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.027955605137586402,
+   "p": 0.41015625,
+   "S": 250
+  }
+ },
+ "51": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.18195252366053838,
+   "mean_cut": 2170.0947265625,
+   "target": 3810,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.12587794849848624,
+   "mean_cut": 2506.490234375,
+   "target": 3810,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 12.248601242814768,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08033882956213423,
+   "mean_cut": 3721.521484375,
+   "target": 3810
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.16187060951777926,
+   "p": 0.3447265625,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.24868295175520044,
+   "p": 0.2998046875,
+   "S": 2000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.17602681839597295,
+   "p": 0.43359375,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.2521582145182392,
+   "p": 0.28515625,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.17723516998020794,
+   "p": 0.3203125,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.20409390164892308,
+   "p": 0.5322265625,
+   "S": 2000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.08470460624372086,
+   "p": 0.48046875,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.21555311852441972,
+   "p": 0.2802734375,
+   "S": 2000
+  }
+ },
+ "52": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 760
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.24742620363737536,
+   "mean_cut": 2160.2734375,
+   "target": 3813,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1233957668629917,
+   "mean_cut": 2621.1181640625,
+   "target": 3813,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 11.848174902450129,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08098682915492701,
+   "mean_cut": 3729.6181640625,
+   "target": 3813
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.16534204214056644,
+   "p": 0.3388671875,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.29276529097845777,
+   "p": 0.0830078125,
+   "S": 500
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.13208004796702386,
+   "p": 0.5,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.7424764109502647,
+   "p": 0.8779296875,
+   "S": 4000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.178316610611641,
+   "p": 0.4013671875,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.3051090497135062,
+   "p": 0.080078125,
+   "S": 500
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.08472695868357848,
+   "p": 0.5712890625,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.16342836172091832,
+   "p": 0.3466796875,
+   "S": 2000
+  }
+ },
+ "53": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 40.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.11812907411162674,
+   "mean_cut": 2180.0263671875,
+   "target": 3812,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1244205255849975,
+   "mean_cut": 2568.6650390625,
+   "target": 3812,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 11.926823986069454,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08085403641146473,
+   "mean_cut": 3726.6181640625,
+   "target": 3812
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.1782753255958061,
+   "p": 0.404296875,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.14818723646493015,
+   "p": 0.4228515625,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.1555563103980623,
+   "p": 0.5126953125,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.21766776879951552,
+   "p": 0.3056640625,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.1782712776312148,
+   "p": 0.4169921875,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.14086453305955646,
+   "p": 0.423828125,
+   "S": 1000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.08462471763126267,
+   "p": 0.595703125,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.19565723391932277,
+   "p": 0.3203125,
+   "S": 1000
+  }
+ },
+ "54": {
+  "SCA-pub": {
+   "cfg": {
+    "family": "plain",
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 560
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.1832357543109444,
+   "mean_cut": 2185.111328125,
+   "target": 3814,
+   "pilot_p_max": 0.0
+  },
+  "TEC-pub": {
+   "cfg": {
+    "family": "tec",
+    "jv": 30.0,
+    "q": 4.0,
+    "T0": 50.0,
+    "S": 360
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.12434344595442653,
+   "mean_cut": 2563.064453125,
+   "target": 3814,
+   "pilot_p_max": 0.0
+  },
+  "SCA-apc": {
+   "cfg": {
+    "family": "plain",
+    "q": 11.954100303282019,
+    "T0": 10.0,
+    "S": 1000
+   },
+   "p": 0.0,
+   "tts12_ms": Infinity,
+   "tts12_secondary_ms": Infinity,
+   "tts1_ms": Infinity,
+   "t_round12_ms": 0.08081151345278471,
+   "mean_cut": 3725.4404296875,
+   "target": 3814
+  },
+  "SCA (original)": {
+   "tts12_ms": 0.2949530281658206,
+   "p": 0.20703125,
+   "S": 2000
+  },
+  "TEC (original)": {
+   "tts12_ms": 0.2686539978873222,
+   "p": 0.201171875,
+   "S": 1000
+  },
+  "Onsager-kT (original)": {
+   "tts12_ms": 0.19765716491462473,
+   "p": 0.263671875,
+   "S": 1000
+  },
+  "Onsager-online (original)": {
+   "tts12_ms": 0.4935832300564404,
+   "p": 0.150390625,
+   "S": 1000
+  },
+  "SCA (extended_amendment1)": {
+   "tts12_ms": 0.27299372635702096,
+   "p": 0.2216796875,
+   "S": 2000
+  },
+  "TEC (extended_amendment1)": {
+   "tts12_ms": 0.21490411263209544,
+   "p": 0.2421875,
+   "S": 1000
+  },
+  "Onsager-kT (extended_amendment1)": {
+   "tts12_ms": 0.07823516640957275,
+   "p": 0.33984375,
+   "S": 1000
+  },
+  "Onsager-online (extended_amendment1)": {
+   "tts12_ms": 0.3651312953398784,
+   "p": 0.580078125,
+   "S": 4000
+  }
+ }
+}

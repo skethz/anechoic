@@ -1,0 +1,8 @@
+1ee9462c48713b23e6714b40bc05758bc63394ff8ea5593728de7e275a1e9912  gset/PROTOCOL_GSET_PUB.md
+81dbd62b0d570a6860eb12231e73bc36ba12601faebb2b6c2c5469c59976a752  gset/gset_pub.py
+d64d006322ebff1155b84a04c76ffffc4e595306075a29b5c64c5cafb7db4eb0  ../gset_20261007/engine.py
+032cde112209d10eb8d8842c2138125a45396a296dadfaaeb611bcb94656003b  ../gset_20261007/bkv.json
+291401004efe27e45aed38c7f402b9c85d24f1df769e6cceadfb45abf6f8174d  ../gset_20261007/selected_configs.json
+b9105bf4bf86dfd389dfb6b6b9909e591d7de37820c7139845fcb6208fd75416  ../gset_20261007/manifest.json
+2026-10-08T12:06:14Z
+frozen before any run of PROTOCOL_GSET_PUB.md (only a 16-run smoke test on G1 with seed root 999, discarded)

@@ -1,0 +1,128 @@
+{
+ "bSB": {
+  "selected_dt": 1.25,
+  "per_S": {
+   "250": {
+    "A2_setting": "Goto 2021, dt 1.25 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.25 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 33143.93359375,
+    "mean_cut_A6": 33151.90625,
+    "p33000_A2": 0.9921875,
+    "p33000_A6": 0.98046875,
+    "mcs99_A2": 237.2805782062402,
+    "mcs99_A6": 292.52254554017173
+   },
+   "500": {
+    "A2_setting": "Goto 2021, dt 1.25 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.25 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 33184.76953125,
+    "mean_cut_A6": 33182.58984375,
+    "p33000_A2": 1.0,
+    "p33000_A6": 1.0,
+    "mcs99_A2": 500,
+    "mcs99_A6": 500
+   },
+   "1000": {
+    "A2_setting": "Goto 2021, dt 1.0 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.25 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 33216.046875,
+    "mean_cut_A6": 33207.87890625,
+    "p33000_A2": 1.0,
+    "p33000_A6": 1.0,
+    "mcs99_A2": 1000,
+    "mcs99_A6": 1000
+   },
+   "2000": {
+    "A2_setting": "Goto 2021, dt 0.5 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.25 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 33216.46875,
+    "mean_cut_A6": 33209.0,
+    "p33000_A2": 1.0,
+    "p33000_A6": 1.0,
+    "mcs99_A2": 2000,
+    "mcs99_A6": 2000
+   },
+   "4000": {
+    "A2_setting": "Goto 2021, dt 0.25 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.25 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 33216.87109375,
+    "mean_cut_A6": 33209.0,
+    "p33000_A2": 1.0,
+    "p33000_A6": 1.0,
+    "mcs99_A2": 4000,
+    "mcs99_A6": 4000
+   }
+  },
+  "mcs99_min_A2": {
+   "value": 237.2805782062402,
+   "S": 250
+  },
+  "mcs99_min_A6": {
+   "value": 292.52254554017173,
+   "S": 250
+  }
+ },
+ "dSB": {
+  "selected_dt": 1.0,
+  "per_S": {
+   "250": {
+    "A2_setting": "Goto 2021, dt 1.0 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.0 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 32825.47265625,
+    "mean_cut_A6": 32830.66796875,
+    "p33000_A2": 0.12890625,
+    "p33000_A6": 0.1015625,
+    "mcs99_A2": 8342.356667720584,
+    "mcs99_A6": 10749.88411811411
+   },
+   "500": {
+    "A2_setting": "Goto 2021, dt 1.0 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.0 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 32994.921875,
+    "mean_cut_A6": 32998.1171875,
+    "p33000_A2": 0.48046875,
+    "p33000_A6": 0.4921875,
+    "mcs99_A2": 3516.3187599350977,
+    "mcs99_A6": 3397.9324117568653
+   },
+   "1000": {
+    "A2_setting": "Goto 2021, dt 1.25 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.0 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 33104.6640625,
+    "mean_cut_A6": 33112.4140625,
+    "p33000_A2": 0.84375,
+    "p33000_A6": 0.88671875,
+    "mcs99_A2": 2480.835625470366,
+    "mcs99_A6": 2114.5181424656844
+   },
+   "2000": {
+    "A2_setting": "Goto 2021, dt 1.25 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.0 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 33174.73046875,
+    "mean_cut_A6": 33167.3046875,
+    "p33000_A2": 0.98828125,
+    "p33000_A6": 0.98046875,
+    "mcs99_A2": 2071.3382238284976,
+    "mcs99_A6": 2340.180364321374
+   },
+   "4000": {
+    "A2_setting": "Goto 2021, dt 1.25 (COP reading)",
+    "A6_setting": "Goto 2021, dt 1.0 (one dt for K2000 by time-to-target, A6)",
+    "mean_cut_A2": 33218.61328125,
+    "mean_cut_A6": 33215.03125,
+    "p33000_A2": 1.0,
+    "p33000_A6": 1.0,
+    "mcs99_A2": 4000,
+    "mcs99_A6": 4000
+   }
+  },
+  "mcs99_min_A2": {
+   "value": 2071.3382238284976,
+   "S": 2000
+  },
+  "mcs99_min_A6": {
+   "value": 2114.5181424656844,
+   "S": 1000
+  }
+ }
+}

@@ -1,0 +1,1 @@
+2026-10-08T01:21:54Z sim_mb3_20261008a: all 20 runs failed at xvlog (wire ow used oc before its declaration); fixed by moving the mask wires below the sequencer declarations; rerun as 20261008b

@@ -1,0 +1,15 @@
+K 8 matrix rand:20261008:0.010000:127 maxabs 127 sumw -4867 fingerprint 9bf9db2833c57f6d auto_scale 54.3372675
+case 0 plain_S40 S 40 t0 150 t1 20 q 20 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 3 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 cut 73548 flips 30986
+  trial 1001 cut 49624 flips 32885
+  trial 1002 cut 92669 flips 29115
+case 1 onsager_ramp_S40 S 40 t0 100 t1 20 q 20 lambda 0.7 ramp 1 jv 0 kappa 0 scale 54.3372675 trials 3 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 cut 151744 flips 26355
+  trial 1101 cut 216317 flips 17091
+  trial 1102 cut 176071 flips 22731
+case 2 tec_S40 S 40 t0 100 t1 20 q 20 lambda 0 ramp 0 jv -20 kappa 0 scale 1 trials 2 trace 0 keep 0 seed 12648432 offset 1200
+  trial 1200 cut 80713 flips 29405
+  trial 1201 cut 90534 flips 28900
+case 3 tec_S40_keep S 40 t0 100 t1 20 q 20 lambda 0 ramp 0 jv -20 kappa 0 scale 1 trials 2 trace 1 keep 1 seed 12648433 offset 1300
+  trial 1300 cut 83794 flips 29970
+  trial 1301 cut 78801 flips 28773

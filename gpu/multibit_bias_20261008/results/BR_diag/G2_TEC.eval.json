@@ -1,0 +1,39 @@
+{
+ "prefix": "G2_TEC",
+ "B": 32,
+ "batches": 1,
+ "trials": 32,
+ "t_batch_ms": 0.934656024,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.7934506856227626
+ ],
+ "feasible": 2,
+ "feasibility": 0.0625,
+ "feasibility_wilson95": [
+  0.017310567031640967,
+  0.2014712314415458
+ ],
+ "mean_quality": 0.04927467872260709,
+ "mean_quality_feasible": 0.7883948595617134,
+ "best_value": 9566,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  2.7290173477478006,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  1.1864562066034094,
+  Infinity
+ ]
+}

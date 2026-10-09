@@ -1,0 +1,13 @@
+Union-grid selections (all instances x 5 budgets) at the extremes of the union value sets
+M+-  Onsager-kT      n=120 from extension  14: T0=max(1.8) 2, T0=min(0.45) 64, kappa=max(2) 6, kappa=min(0.125) 1, q=max(0.36) 6, q=min(0.09) 45
+M+-  Onsager-online  n=120 from extension  18: T0=max(1.8) 5, T0=min(0.45) 44, lam_k2000=min(0.125) 3, q=max(0.36) 2, q=min(0.09) 7
+M+-  SCA             n=120 from extension  39: q=max(0.36) 4, q=min(0.045) 8
+M+-  TEC             n=120 from extension  62: T0=max(1.8) 13, jv=max(0.09) 3, jv=min(-0.18) 47, q=max(0.36) 24, q=min(0.09) 25
+P+   Onsager-kT      n= 75 from extension  26: kappa=max(2) 7, kappa=min(0.125) 6, q=max(2.88) 7, q=min(1.44) 49
+P+   Onsager-online  n= 75 from extension   0: T0=max(1.8) 21, lam_k2000=min(0.125) 11, q=min(1.44) 50
+P+   SCA             n= 75 from extension   6: 
+P+   TEC             n= 75 from extension  22: T0=max(1.8) 3, jv=max(0.09) 2, jv=min(-0.72) 22, q=min(1.44) 50
+Q+   Onsager-kT      n= 60 from extension  56: T0=min(0.9) 60, kappa=max(2) 56, q=max(2.88) 56
+Q+   Onsager-online  n= 60 from extension  17: T0=max(1.8) 17, T0=min(0.9) 43
+Q+   SCA             n= 60 from extension   0: 
+Q+   TEC             n= 60 from extension  14: T0=max(1.8) 14, T0=min(0.9) 46, jv=min(-0.36) 15

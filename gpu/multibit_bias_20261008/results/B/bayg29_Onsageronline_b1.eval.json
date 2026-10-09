@@ -1,0 +1,39 @@
+{
+ "prefix": "bayg29_Onsageronline_b1",
+ "B": 1,
+ "batches": 256,
+ "trials": 256,
+ "t_batch_ms": 14.843928051953124,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.01478385642587143
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.01478385642587143
+ ],
+ "feasible": 41,
+ "feasibility": 0.16015625,
+ "feasibility_wilson95": [
+  0.12030547683153675,
+  0.21005542558292273
+ ],
+ "mean_quality": 0.07291130679081945,
+ "mean_quality_feasible": 0.45525108630365313,
+ "best_value": 3094,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  4589.618239966268,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  4589.618239966268,
+  Infinity
+ ]
+}

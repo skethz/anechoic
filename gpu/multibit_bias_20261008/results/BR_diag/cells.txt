@@ -1,0 +1,16 @@
+G1_SCA
+G1_OnsagerkT
+G2_TEC
+G3_SCA
+G3_OnsagerkT
+G3_Onsageronline
+G4_SCA
+G4_OnsagerkT
+G4_Onsageronline
+G5_TEC
+G14_SCA
+G15_TEC
+G15_OnsagerkT
+G16_SCA
+G17_TEC
+G17_OnsagerkT

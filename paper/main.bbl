@@ -1,0 +1,615 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{44}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter does
+%%% not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+\makeatletter
+\@ifundefined{NAT@parse@date}{}{\let\NAT@parse@date@orig\NAT@parse@date}
+\@ifundefined{NAT@parse@date}{}{\def\NAT@parse@date#1#2#3#4#5#6@@{\NAT@parse@date@orig#1#2#3#4#5#6@@\def\NAT@tempyear{0000}\def\NAT@tempexlab{{?}}\ifx\NAT@year\NAT@tempyear\ifx\NAT@exlab\NAT@tempexlab\def\NAT@date{[n.\,d.]}\else\edef\NAT@date{[n.\,d.]\NAT@exlab}\fi\fi}}
+\makeatother
+
+\bibitem[Aadit et~al\mbox{.}(2023)]%
+        {10185207}
+\bibfield{author}{\bibinfo{person}{Navid~Anjum Aadit}, \bibinfo{person}{Masoud
+  Mohseni}, {and} \bibinfo{person}{Kerem~Y. Camsari}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{Accelerating Adaptive Parallel Tempering with
+  FPGA-based p-bits}}. In \bibinfo{booktitle}{\emph{{{2023 IEEE Symposium on
+  VLSI Technology and Circuits (VLSI Technology and Circuits)}}}}.
+  \bibinfo{pages}{1--2}.
+\newblock
+\href{https://doi.org/10.23919/VLSITechnologyandCir57934.2023.10185207}{doi:\nolinkurl{10.23919/VLSITechnologyandCir57934.2023.10185207}}
+
+
+\bibitem[Ahmed et~al\mbox{.}(2020)]%
+        {9162869}
+\bibfield{author}{\bibinfo{person}{Ibrahim Ahmed}, \bibinfo{person}{Po-Wei
+  Chiu}, {and} \bibinfo{person}{Chris~H. Kim}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{{A Probabilistic Self-Annealing Compute Fabric
+  Based on 560 Hexagonally Coupled Ring Oscillators for Solving Combinatorial
+  Optimization Problems}}}. In \bibinfo{booktitle}{\emph{2020 IEEE Symposium on
+  VLSI Circuits}}. \bibinfo{pages}{1--2}.
+\newblock
+\href{https://doi.org/10.1109/VLSICircuits18222.2020.9162869}{doi:\nolinkurl{10.1109/VLSICircuits18222.2020.9162869}}
+
+
+\bibitem[{AMD}(0000a)]%
+        {amd_aved}
+\bibfield{author}{\bibinfo{person}{{AMD}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{a}.
+\newblock \bibinfo{title}{{Alveo Versal Example Design (AVED)}}.
+\newblock \bibinfo{howpublished}{\url{https://github.com/Xilinx/AVED}}.
+\newblock
+\newblock
+\shownote{Accessed October 7, 2026}.
+
+
+\bibitem[{AMD}(0000b)]%
+        {amd_v80}
+\bibfield{author}{\bibinfo{person}{{AMD}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{b}.
+\newblock \bibinfo{title}{{AMD Alveo V80 Compute Accelerator}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.amd.com/en/products/accelerators/alveo/v80.html}}.
+\newblock
+\newblock
+\shownote{Accessed October 7, 2026}.
+
+
+\bibitem[Benlic and Hao(2013)]%
+        {benlic2013breakout}
+\bibfield{author}{\bibinfo{person}{Una Benlic} {and} \bibinfo{person}{Jin-Kao
+  Hao}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{Breakout Local Search for the Max-Cut Problem}}.
+\newblock \bibinfo{journal}{\emph{Engineering Applications of Artificial
+  Intelligence}} \bibinfo{volume}{26}, \bibinfo{number}{3}
+  (\bibinfo{year}{2013}), \bibinfo{pages}{1162--1173}.
+\newblock
+\href{https://doi.org/10.1016/j.engappai.2012.09.001}{doi:\nolinkurl{10.1016/j.engappai.2012.09.001}}
+
+
+\bibitem[Blackman and Vigna(2021)]%
+        {blackman2021scrambled}
+\bibfield{author}{\bibinfo{person}{David Blackman} {and}
+  \bibinfo{person}{Sebastiano Vigna}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{Scrambled Linear Pseudorandom Number Generators}}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Math. Software}}
+  \bibinfo{volume}{47}, \bibinfo{number}{4} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{1--32}.
+\newblock
+\href{https://doi.org/10.1145/3460772}{doi:\nolinkurl{10.1145/3460772}}
+
+
+\bibitem[Bolthausen(2014)]%
+        {bolthausen2014iterative}
+\bibfield{author}{\bibinfo{person}{Erwin Bolthausen}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{An iterative construction of solutions of the TAP
+  equations for the Sherrington--Kirkpatrick model}}.
+\newblock \bibinfo{journal}{\emph{Communications in Mathematical Physics}}
+  \bibinfo{volume}{325}, \bibinfo{number}{1} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{333--366}.
+\newblock
+\href{https://doi.org/10.1007/s00220-013-1862-3}{doi:\nolinkurl{10.1007/s00220-013-1862-3}}
+
+
+\bibitem[Boothby et~al\mbox{.}(2020)]%
+        {boothby2020next}
+\bibfield{author}{\bibinfo{person}{Kelly Boothby}, \bibinfo{person}{Paul
+  Bunyk}, \bibinfo{person}{Jack Raymond}, {and} \bibinfo{person}{Aidan Roy}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{Next-Generation Topology of D-Wave Quantum
+  Processors}}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2003.00133}}
+  (\bibinfo{year}{2020}).
+\newblock
+\href{https://doi.org/10.48550/arXiv.2003.00133}{doi:\nolinkurl{10.48550/arXiv.2003.00133}}
+
+
+\bibitem[Chiang et~al\mbox{.}(2024)]%
+        {10609617}
+\bibfield{author}{\bibinfo{person}{Hao-Wei Chiang}, \bibinfo{person}{Chin-Fu
+  Nien}, \bibinfo{person}{Hsiang-Yun Cheng}, {and} \bibinfo{person}{Kuei-Po
+  Huang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{ReAIM: A ReRAM-based Adaptive Ising Machine for
+  Solving Combinatorial Optimization Problems}}. In
+  \bibinfo{booktitle}{\emph{2024 ACM/IEEE 51st Annual International Symposium
+  on Computer Architecture (ISCA)}}. \bibinfo{pages}{58--72}.
+\newblock
+\href{https://doi.org/10.1109/ISCA59077.2024.00015}{doi:\nolinkurl{10.1109/ISCA59077.2024.00015}}
+
+
+\bibitem[Coolen(2001)]%
+        {coolen2001statistical}
+\bibfield{author}{\bibinfo{person}{A.~C.~C. Coolen}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{{Statistical mechanics of recurrent neural networks
+  II---Dynamics}}.
+\newblock In \bibinfo{booktitle}{\emph{Handbook of Biological Physics}}.
+  Vol.~\bibinfo{volume}{4}. \bibinfo{publisher}{Elsevier},
+  \bibinfo{pages}{619--684}.
+\newblock
+\href{https://doi.org/10.1016/S1383-8121(01)80018-X}{doi:\nolinkurl{10.1016/S1383-8121(01)80018-X}}
+
+
+\bibitem[{D-Wave Quantum Inc.}(0000)]%
+        {dwave_neal}
+\bibfield{author}{\bibinfo{person}{{D-Wave Quantum Inc.}}}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{dwave-neal}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/dwavesystems/dwave-neal}
+\showURL{%
+Retrieved September 24, 2026 from \tempurl}
+
+
+\bibitem[Dai~Pra et~al\mbox{.}(2012)]%
+        {daipra2012sampling}
+\bibfield{author}{\bibinfo{person}{Paolo Dai~Pra}, \bibinfo{person}{Benedetto
+  Scoppola}, {and} \bibinfo{person}{Elisabetta Scoppola}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{{Sampling from a Gibbs Measure with Pair
+  Interaction by Means of PCA}}.
+\newblock \bibinfo{journal}{\emph{Journal of Statistical Physics}}
+  \bibinfo{volume}{149}, \bibinfo{number}{4} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{722--737}.
+\newblock
+\href{https://doi.org/10.1007/s10955-012-0612-9}{doi:\nolinkurl{10.1007/s10955-012-0612-9}}
+
+
+\bibitem[de~Moura and Ullrich(2021)]%
+        {demoura2021lean4}
+\bibfield{author}{\bibinfo{person}{Leonardo de Moura} {and}
+  \bibinfo{person}{Sebastian Ullrich}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{The Lean 4 Theorem Prover and Programming
+  Language}}. In \bibinfo{booktitle}{\emph{Automated Deduction -- CADE 28}}
+  \emph{(\bibinfo{series}{Lecture Notes in Computer Science},
+  Vol.~\bibinfo{volume}{12699})}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{625--635}.
+\newblock
+\href{https://doi.org/10.1007/978-3-030-79876-5_37}{doi:\nolinkurl{10.1007/978-3-030-79876-5_37}}
+
+
+\bibitem[Du et~al\mbox{.}(2026)]%
+        {du2026tec}
+\bibfield{author}{\bibinfo{person}{Zhengyu Du}, \bibinfo{person}{Haijie Xu},
+  \bibinfo{person}{Kaiming Cai}, \bibinfo{person}{Zhe Yuan}, {and}
+  \bibinfo{person}{Yue Zhang}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{High-Efficiency Ising Machine with Time-Dimensional
+  Exchange Coupling}}.
+\newblock \bibinfo{howpublished}{arXiv:2608.21753}.
+\newblock
+
+
+\bibitem[Eissfeller and Opper(1992)]%
+        {eissfeller1992new}
+\bibfield{author}{\bibinfo{person}{H. Eissfeller} {and}
+  \bibinfo{person}{Manfred Opper}.} \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{{New method for studying the dynamics of disordered
+  spin systems without finite-size effects}}.
+\newblock \bibinfo{journal}{\emph{Physical Review Letters}}
+  \bibinfo{volume}{68}, \bibinfo{number}{13} (\bibinfo{year}{1992}),
+  \bibinfo{pages}{2094--2097}.
+\newblock
+\href{https://doi.org/10.1103/PhysRevLett.68.2094}{doi:\nolinkurl{10.1103/PhysRevLett.68.2094}}
+
+
+\bibitem[Glauber(1963)]%
+        {glauber1963time}
+\bibfield{author}{\bibinfo{person}{Roy~J Glauber}.}
+  \bibinfo{year}{1963}\natexlab{}.
+\newblock \showarticletitle{{Time-dependent statistics of the Ising model}}.
+\newblock \bibinfo{journal}{\emph{Journal of mathematical physics}}
+  \bibinfo{volume}{4}, \bibinfo{number}{2} (\bibinfo{year}{1963}),
+  \bibinfo{pages}{294--307}.
+\newblock
+\href{https://doi.org/10.1063/1.1703954}{doi:\nolinkurl{10.1063/1.1703954}}
+
+
+\bibitem[Goto et~al\mbox{.}(2021)]%
+        {goto2021high}
+\bibfield{author}{\bibinfo{person}{Hayato Goto}, \bibinfo{person}{Kotaro Endo},
+  \bibinfo{person}{Masaru Suzuki}, \bibinfo{person}{Yoshisato Sakai},
+  \bibinfo{person}{Taro Kanao}, \bibinfo{person}{Yohei Hamakawa},
+  \bibinfo{person}{Ryo Hidaka}, \bibinfo{person}{Masaya Yamasaki}, {and}
+  \bibinfo{person}{Kosuke Tatsumura}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{High-performance combinatorial optimization based
+  on classical mechanics}}.
+\newblock \bibinfo{journal}{\emph{Science Advances}} \bibinfo{volume}{7},
+  \bibinfo{number}{6} (\bibinfo{year}{2021}), \bibinfo{pages}{eabe7953}.
+\newblock
+\href{https://doi.org/10.1126/sciadv.abe7953}{doi:\nolinkurl{10.1126/sciadv.abe7953}}
+
+
+\bibitem[Goto et~al\mbox{.}(2026)]%
+        {goto2026edge}
+\bibfield{author}{\bibinfo{person}{Hayato Goto}, \bibinfo{person}{Ryo Hidaka},
+  {and} \bibinfo{person}{Kosuke Tatsumura}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{Edge-of-chaos-enhanced quantum-inspired algorithm
+  for combinatorial optimization}}.
+\newblock \bibinfo{journal}{\emph{Physical Review Applied}}
+  \bibinfo{volume}{25} (\bibinfo{year}{2026}), \bibinfo{pages}{044011}.
+\newblock
+\href{https://doi.org/10.1103/2qd9-x6v8}{doi:\nolinkurl{10.1103/2qd9-x6v8}}
+
+
+\bibitem[Goto et~al\mbox{.}(2019)]%
+        {goto2019combinatorial}
+\bibfield{author}{\bibinfo{person}{Hayato Goto}, \bibinfo{person}{Kosuke
+  Tatsumura}, {and} \bibinfo{person}{Alexander~R Dixon}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{Combinatorial optimization by simulating adiabatic
+  bifurcations in nonlinear Hamiltonian systems}}.
+\newblock \bibinfo{journal}{\emph{Science advances}} \bibinfo{volume}{5},
+  \bibinfo{number}{4} (\bibinfo{year}{2019}), \bibinfo{pages}{eaav2372}.
+\newblock
+\href{https://doi.org/10.1126/sciadv.aav2372}{doi:\nolinkurl{10.1126/sciadv.aav2372}}
+
+
+\bibitem[Heermann and Burkitt(1990)]%
+        {heermann1990parallelization}
+\bibfield{author}{\bibinfo{person}{Dieter~W Heermann} {and}
+  \bibinfo{person}{Anthony~N Burkitt}.} \bibinfo{year}{1990}\natexlab{}.
+\newblock \showarticletitle{{Parallelization of the Ising model and its
+  performance evaluation}}.
+\newblock \bibinfo{journal}{\emph{Parallel Comput.}} \bibinfo{volume}{13},
+  \bibinfo{number}{3} (\bibinfo{year}{1990}), \bibinfo{pages}{345--357}.
+\newblock
+\href{https://doi.org/10.1016/0167-8191(90)90137-x}{doi:\nolinkurl{10.1016/0167-8191(90)90137-x}}
+
+
+\bibitem[Helmberg and Rendl(2000)]%
+        {helmberg2000spectral}
+\bibfield{author}{\bibinfo{person}{Christoph Helmberg} {and}
+  \bibinfo{person}{Franz Rendl}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{{A Spectral Bundle Method for Semidefinite
+  Programming}}.
+\newblock \bibinfo{journal}{\emph{SIAM Journal on Optimization}}
+  \bibinfo{volume}{10}, \bibinfo{number}{3} (\bibinfo{year}{2000}),
+  \bibinfo{pages}{673--696}.
+\newblock
+\href{https://doi.org/10.1137/S1052623497328987}{doi:\nolinkurl{10.1137/S1052623497328987}}
+
+
+\bibitem[Hong et~al\mbox{.}(2026)]%
+        {hong2026snowball}
+\bibfield{author}{\bibinfo{person}{Seungki Hong}, \bibinfo{person}{Kyeongwon
+  Jeong}, {and} \bibinfo{person}{Taekwang Jang}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{Snowball: A Scalable All-to-All Ising Machine with
+  Dual-Mode Markov Chain Monte Carlo Spin Selection and Asynchronous Spin
+  Updates for Fast Combinatorial Optimization}}.
+\newblock \bibinfo{howpublished}{arXiv:2601.21058}.
+\newblock
+
+
+\bibitem[Imanaga et~al\mbox{.}(2021)]%
+        {9643932}
+\bibfield{author}{\bibinfo{person}{Tomohiro Imanaga}, \bibinfo{person}{Koji
+  Nakano}, \bibinfo{person}{Ryota Yasudo}, \bibinfo{person}{Yasuaki Ito},
+  \bibinfo{person}{Yuya Kawamata}, \bibinfo{person}{Ryota Katsuki},
+  \bibinfo{person}{Shiro Ozaki}, \bibinfo{person}{Takashi Yazane}, {and}
+  \bibinfo{person}{Kenichiro Hamano}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{Solving the sparse QUBO on multiple GPUs for
+  Simulating a Quantum Annealer}}. In \bibinfo{booktitle}{\emph{2021 Ninth
+  International Symposium on Computing and Networking (CANDAR)}}.
+  \bibinfo{pages}{19--28}.
+\newblock
+\href{https://doi.org/10.1109/CANDAR53791.2021.00011}{doi:\nolinkurl{10.1109/CANDAR53791.2021.00011}}
+
+
+\bibitem[Inagaki et~al\mbox{.}(2016)]%
+        {doi:10.1126/science.aah4243}
+\bibfield{author}{\bibinfo{person}{Takahiro Inagaki},
+  \bibinfo{person}{Yoshitaka Haribara}, \bibinfo{person}{Koji Igarashi},
+  \bibinfo{person}{Tomohiro Sonobe}, \bibinfo{person}{Shuhei Tamate},
+  \bibinfo{person}{Toshimori Honjo}, \bibinfo{person}{Alireza Marandi},
+  \bibinfo{person}{Peter~L. McMahon}, \bibinfo{person}{Takeshi Umeki},
+  \bibinfo{person}{Koji Enbutsu}, \bibinfo{person}{Osamu Tadanaga},
+  \bibinfo{person}{Hirokazu Takenouchi}, \bibinfo{person}{Kazuyuki Aihara},
+  \bibinfo{person}{{Ken-ichi} Kawarabayashi}, \bibinfo{person}{Kyo Inoue},
+  \bibinfo{person}{Shoko Utsunomiya}, {and} \bibinfo{person}{Hiroki Takesue}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{A coherent Ising machine for 2000-node
+  optimization problems}}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{354},
+  \bibinfo{number}{6312} (\bibinfo{year}{2016}), \bibinfo{pages}{603--606}.
+\newblock
+\href{https://doi.org/10.1126/science.aah4243}{doi:\nolinkurl{10.1126/science.aah4243}}
+
+
+\bibitem[Kabashima(2026)]%
+        {kabashima2026synchronous}
+\bibfield{author}{\bibinfo{person}{Yoshiyuki Kabashima}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{Synchronous Monte Carlo method and its application
+  to a mean-field spin glass model}}.
+\newblock \bibinfo{howpublished}{arXiv:2609.38790}.
+\newblock
+
+
+\bibitem[Kawamura et~al\mbox{.}(2023)]%
+        {10067504}
+\bibfield{author}{\bibinfo{person}{Kazushi Kawamura}, \bibinfo{person}{Jaehoon
+  Yu}, \bibinfo{person}{Daiki Okonogi}, \bibinfo{person}{Satoru Jimbo},
+  \bibinfo{person}{Genta Inoue}, \bibinfo{person}{Akira Hyodo},
+  \bibinfo{person}{{\'A}ngel L{\'o}pez Garc{\'i}a-Arias}, \bibinfo{person}{Kota
+  Ando}, \bibinfo{person}{Bruno~Hideki Fukushima-Kimura},
+  \bibinfo{person}{Ryota Yasudo}, \bibinfo{person}{Thiem Van~Chu}, {and}
+  \bibinfo{person}{Masato Motomura}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{Amorphica: 4-Replica 512 Fully Connected Spin
+  336MHz Metamorphic Annealer with Programmable Optimization Strategy and
+  Compressed-Spin-Transfer Multi-Chip Extension}}. In
+  \bibinfo{booktitle}{\emph{{2023 IEEE International Solid-State Circuits
+  Conference (ISSCC)}}}. \bibinfo{pages}{42--44}.
+\newblock
+\href{https://doi.org/10.1109/ISSCC42615.2023.10067504}{doi:\nolinkurl{10.1109/ISSCC42615.2023.10067504}}
+
+
+\bibitem[Kirkpatrick et~al\mbox{.}(1983)]%
+        {kirkpatrick1983optimization}
+\bibfield{author}{\bibinfo{person}{Scott Kirkpatrick}, \bibinfo{person}{C.~D.
+  Gelatt}, {and} \bibinfo{person}{M.~P. Vecchi}.}
+  \bibinfo{year}{1983}\natexlab{}.
+\newblock \showarticletitle{{Optimization by Simulated Annealing}}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{220},
+  \bibinfo{number}{4598} (\bibinfo{year}{1983}), \bibinfo{pages}{671--680}.
+\newblock
+\href{https://doi.org/10.1126/science.220.4598.671}{doi:\nolinkurl{10.1126/science.220.4598.671}}
+
+
+\bibitem[Lucas(2014)]%
+        {lucas2014ising}
+\bibfield{author}{\bibinfo{person}{Andrew Lucas}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{Ising formulations of many NP problems}}.
+\newblock \bibinfo{journal}{\emph{Frontiers in physics}}  \bibinfo{volume}{2}
+  (\bibinfo{year}{2014}), \bibinfo{pages}{5}.
+\newblock
+\href{https://doi.org/10.3389/fphy.2014.00005}{doi:\nolinkurl{10.3389/fphy.2014.00005}}
+
+
+\bibitem[Ma and Hao(2017)]%
+        {ma2017multiple}
+\bibfield{author}{\bibinfo{person}{Fuda Ma} {and} \bibinfo{person}{Jin-Kao
+  Hao}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{A Multiple Search Operator Heuristic for the
+  Max-k-cut Problem}}.
+\newblock \bibinfo{journal}{\emph{Annals of Operations Research}}
+  \bibinfo{volume}{248}, \bibinfo{number}{1--2} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{365--403}.
+\newblock
+\href{https://doi.org/10.1007/s10479-016-2234-0}{doi:\nolinkurl{10.1007/s10479-016-2234-0}}
+
+
+\bibitem[Metropolis et~al\mbox{.}(1953)]%
+        {metropolis1953equation}
+\bibfield{author}{\bibinfo{person}{Nicholas Metropolis},
+  \bibinfo{person}{Arianna~W Rosenbluth}, \bibinfo{person}{Marshall~N
+  Rosenbluth}, \bibinfo{person}{Augusta~H Teller}, {and}
+  \bibinfo{person}{Edward Teller}.} \bibinfo{year}{1953}\natexlab{}.
+\newblock \showarticletitle{{Equation of state calculations by fast computing
+  machines}}.
+\newblock \bibinfo{journal}{\emph{The journal of chemical physics}}
+  \bibinfo{volume}{21}, \bibinfo{number}{6} (\bibinfo{year}{1953}),
+  \bibinfo{pages}{1087--1092}.
+\newblock
+\href{https://doi.org/10.1063/1.1699114}{doi:\nolinkurl{10.1063/1.1699114}}
+
+
+\bibitem[{NVIDIA}(0000)]%
+        {nvidia_gh200}
+\bibfield{author}{\bibinfo{person}{{NVIDIA}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{NVIDIA GH200 Grace Hopper Superchip}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/}}.
+\newblock
+\newblock
+\shownote{Accessed October 7, 2026}.
+
+
+\bibitem[Okonogi et~al\mbox{.}(2023)]%
+        {okonogi2023apc}
+\bibfield{author}{\bibinfo{person}{Daiki Okonogi}, \bibinfo{person}{Satoru
+  Jimbo}, \bibinfo{person}{Kota Ando}, \bibinfo{person}{Thiem Van~Chu},
+  \bibinfo{person}{Jaehoon Yu}, \bibinfo{person}{Masato Motomura}, {and}
+  \bibinfo{person}{Kazushi Kawamura}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{A Fully-Parallel Annealing Algorithm with
+  Autonomous Pinning Effect Control for Various Combinatorial Optimization
+  Problems}}.
+\newblock \bibinfo{journal}{\emph{IEICE Transactions on Information and
+  Systems}} \bibinfo{volume}{E106-D}, \bibinfo{number}{12}
+  (\bibinfo{year}{2023}), \bibinfo{pages}{1969--1978}.
+\newblock
+\href{https://doi.org/10.1587/transinf.2023PAP0003}{doi:\nolinkurl{10.1587/transinf.2023PAP0003}}
+
+
+\bibitem[Onizawa et~al\mbox{.}(2026)]%
+        {onizawa2026dssa}
+\bibfield{author}{\bibinfo{person}{Naoya Onizawa},
+  \bibinfo{person}{Md~Mohaimenul Alam}, \bibinfo{person}{Sean~C. Smithson},
+  \bibinfo{person}{Duckgyu Shin}, {and} \bibinfo{person}{Takahiro Hanyu}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{Differential Stochastic Simulated Annealing
+  Processor for Fully Connected 2048-Spin Optimization}}.
+\newblock \bibinfo{journal}{\emph{IEEE Access}}  \bibinfo{volume}{14}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{141719--141732}.
+\newblock
+\href{https://doi.org/10.1109/ACCESS.2026.3731035}{doi:\nolinkurl{10.1109/ACCESS.2026.3731035}}
+
+
+\bibitem[Reinelt(1991)]%
+        {reinelt1991tsplib}
+\bibfield{author}{\bibinfo{person}{Gerhard Reinelt}.}
+  \bibinfo{year}{1991}\natexlab{}.
+\newblock \showarticletitle{{TSPLIB—A traveling salesman problem library}}.
+\newblock \bibinfo{journal}{\emph{ORSA Journal on Computing}}
+  \bibinfo{volume}{3}, \bibinfo{number}{4} (\bibinfo{year}{1991}),
+  \bibinfo{pages}{376--384}.
+\newblock
+\href{https://doi.org/10.1287/ijoc.3.4.376}{doi:\nolinkurl{10.1287/ijoc.3.4.376}}
+
+
+\bibitem[Robert and Casella(1999)]%
+        {robert1999monte}
+\bibfield{author}{\bibinfo{person}{Christian~P Robert} {and}
+  \bibinfo{person}{George Casella}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Monte Carlo Statistical Methods}}}.
+\newblock \bibinfo{publisher}{Springer}.
+\newblock
+\href{https://doi.org/10.1007/978-1-4757-3071-5}{doi:\nolinkurl{10.1007/978-1-4757-3071-5}}
+
+
+\bibitem[Sompolinsky and Zippelius(1982)]%
+        {sompolinsky1982relaxational}
+\bibfield{author}{\bibinfo{person}{Haim Sompolinsky} {and}
+  \bibinfo{person}{Annette Zippelius}.} \bibinfo{year}{1982}\natexlab{}.
+\newblock \showarticletitle{{Relaxational dynamics of the Edwards-Anderson
+  model and the mean-field theory of spin-glasses}}.
+\newblock \bibinfo{journal}{\emph{Physical Review B}} \bibinfo{volume}{25},
+  \bibinfo{number}{11} (\bibinfo{year}{1982}), \bibinfo{pages}{6860--6875}.
+\newblock
+\href{https://doi.org/10.1103/PhysRevB.25.6860}{doi:\nolinkurl{10.1103/PhysRevB.25.6860}}
+
+
+\bibitem[Steele et~al\mbox{.}(2014)]%
+        {steele2014splitmix}
+\bibfield{author}{\bibinfo{person}{Guy~L. Steele}, \bibinfo{person}{Doug Lea},
+  {and} \bibinfo{person}{Christine~H. Flood}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{Fast Splittable Pseudorandom Number Generators}}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 2014 ACM International
+  Conference on Object Oriented Programming Systems Languages \& Applications
+  (OOPSLA)}}. \bibinfo{pages}{453--472}.
+\newblock
+\href{https://doi.org/10.1145/2660193.2660195}{doi:\nolinkurl{10.1145/2660193.2660195}}
+
+
+\bibitem[{The mathlib Community}(2020)]%
+        {mathlib2020}
+\bibfield{author}{\bibinfo{person}{{The mathlib Community}}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{The Lean Mathematical Library}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 9th ACM SIGPLAN International
+  Conference on Certified Programs and Proofs (CPP)}}.
+  \bibinfo{pages}{367--381}.
+\newblock
+\href{https://doi.org/10.1145/3372885.3373824}{doi:\nolinkurl{10.1145/3372885.3373824}}
+
+
+\bibitem[{The Rocq Development Team}(2026)]%
+        {rocq2026}
+\bibfield{author}{\bibinfo{person}{{The Rocq Development Team}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{The Rocq Prover, version 9.3.0}}.
+\newblock \bibinfo{howpublished}{Zenodo}.
+\newblock
+\href{https://doi.org/10.5281/zenodo.22845760}{doi:\nolinkurl{10.5281/zenodo.22845760}}
+
+
+\bibitem[Thouless et~al\mbox{.}(1977)]%
+        {thouless1977solution}
+\bibfield{author}{\bibinfo{person}{David~J. Thouless},
+  \bibinfo{person}{Philip~W. Anderson}, {and} \bibinfo{person}{Richard~G.
+  Palmer}.} \bibinfo{year}{1977}\natexlab{}.
+\newblock \showarticletitle{{Solution of `Solvable model of a spin glass'}}.
+\newblock \bibinfo{journal}{\emph{Philos. Mag.}} \bibinfo{volume}{35},
+  \bibinfo{number}{3} (\bibinfo{year}{1977}), \bibinfo{pages}{593--601}.
+\newblock
+\href{https://doi.org/10.1080/14786437708235992}{doi:\nolinkurl{10.1080/14786437708235992}}
+
+
+\bibitem[Wilson(1927)]%
+        {wilson1927probable}
+\bibfield{author}{\bibinfo{person}{Edwin~B. Wilson}.}
+  \bibinfo{year}{1927}\natexlab{}.
+\newblock \showarticletitle{{Probable Inference, the Law of Succession, and
+  Statistical Inference}}.
+\newblock \bibinfo{journal}{\emph{J. Amer. Statist. Assoc.}}
+  \bibinfo{volume}{22}, \bibinfo{number}{158} (\bibinfo{year}{1927}),
+  \bibinfo{pages}{209--212}.
+\newblock
+\href{https://doi.org/10.1080/01621459.1927.10502953}{doi:\nolinkurl{10.1080/01621459.1927.10502953}}
+
+
+\bibitem[Yamamoto et~al\mbox{.}(2020)]%
+        {9062965}
+\bibfield{author}{\bibinfo{person}{Kasho Yamamoto}, \bibinfo{person}{Kota
+  Ando}, \bibinfo{person}{Normann Mertig}, \bibinfo{person}{Takashi Takemoto},
+  \bibinfo{person}{Masanao Yamaoka}, \bibinfo{person}{Hiroshi Teramoto},
+  \bibinfo{person}{Akira Sakai}, \bibinfo{person}{Shinya Takamaeda-Yamazaki},
+  {and} \bibinfo{person}{Masato Motomura}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{7.3 STATICA: A 512-Spin 0.25M-Weight Full-Digital
+  Annealing Processor with a Near-Memory All-Spin-Updates-at-Once Architecture
+  for Combinatorial Optimization with Complete Spin-Spin Interactions}}. In
+  \bibinfo{booktitle}{\emph{2020 IEEE International Solid-State Circuits
+  Conference - (ISSCC)}}. \bibinfo{pages}{138--140}.
+\newblock
+\href{https://doi.org/10.1109/ISSCC19947.2020.9062965}{doi:\nolinkurl{10.1109/ISSCC19947.2020.9062965}}
+
+
+\bibitem[Yamamoto et~al\mbox{.}(2021)]%
+        {yamamoto2021statica}
+\bibfield{author}{\bibinfo{person}{Kasho Yamamoto}, \bibinfo{person}{Kazushi
+  Kawamura}, \bibinfo{person}{Kota Ando}, \bibinfo{person}{Normann Mertig},
+  \bibinfo{person}{Takashi Takemoto}, \bibinfo{person}{Masanao Yamaoka},
+  \bibinfo{person}{Hiroshi Teramoto}, \bibinfo{person}{Akira Sakai},
+  \bibinfo{person}{Shinya Takamaeda-Yamazaki}, {and} \bibinfo{person}{Masato
+  Motomura}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{STATICA: A 512-Spin 0.25M-Weight Annealing
+  Processor With an All-Spin-Updates-at-Once Architecture for Combinatorial
+  Optimization With Complete Spin--Spin Interactions}}.
+\newblock \bibinfo{journal}{\emph{IEEE Journal of Solid-State Circuits}}
+  \bibinfo{volume}{56}, \bibinfo{number}{1} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{165--178}.
+\newblock
+\href{https://doi.org/10.1109/JSSC.2020.3027702}{doi:\nolinkurl{10.1109/JSSC.2020.3027702}}
+
+
+\bibitem[Ye(0000)]%
+        {ye_gset}
+\bibfield{author}{\bibinfo{person}{Yinyu Ye}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{The G-set Max-Cut Instances}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://web.stanford.edu/~yyye/yyye/Gset/}}.
+\newblock
+\newblock
+\shownote{Accessed October 7, 2026}.
+
+
+\end{thebibliography}

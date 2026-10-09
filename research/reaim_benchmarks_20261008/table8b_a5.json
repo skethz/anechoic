@@ -1,0 +1,1889 @@
+{
+ "main": {
+  "SA (Neal defaults)": {
+   "mcp": {
+    "quality": 0.9953579356728405,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 20,
+    "n": 20,
+    "mcs": {
+     "G1": 250.0,
+     "G2": 250.0,
+     "G3": 250.0,
+     "G4": 250.0,
+     "G5": 250.0,
+     "G6": 4045.093791983251,
+     "G7": 5393.547365413714,
+     "G8": 4050.682740707194,
+     "G9": 4951.492805587736,
+     "G10": 5390.152899527538,
+     "G11": 10201.356365913029,
+     "G12": 8443.423008572281,
+     "G13": 20281.96024002748,
+     "G14": 811.5903501927602,
+     "G15": 1515.0322905906407,
+     "G16": 1190.4219961678148,
+     "G17": 1090.6573218148906,
+     "G18": 15722.454891780411,
+     "G19": 14662.933029084457,
+     "G20": 8200.5154100824
+    },
+    "geo_own": 2260.5768147234176
+   },
+   "gpp": {
+    "quality": 0.9790116832235074,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 5,
+    "n": 9,
+    "mcs": {
+     "G1": 3887.6049933310387,
+     "G2": 4535.539158886212,
+     "G3": 3477.696677264769,
+     "G4": 3552.572072813862,
+     "G5": 3887.6049933310387,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": 3850.9293963181635
+   },
+   "tsp": {
+    "quality": 0.5279129287014186,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "STATICA, K2000 setting x \u03c3-transfer [our rule]": {
+   "mcp": {
+    "quality": 0.5423302975636037,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 11,
+    "n": 20,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G6": 3890.94186589618,
+     "G7": 4358.72328682442,
+     "G8": 4266.933262897991,
+     "G9": 5466.551484950579,
+     "G10": 5170.73462562923,
+     "G11": 587156.1887859837,
+     "G12": 588309.7402529845,
+     "G13": 1176619.480505969,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity,
+     "G18": 43351.21360951613,
+     "G19": 18356.348074676353,
+     "G20": 26384.700271389265
+    },
+    "geo_own": 29959.818814245664
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "TEC sequential p-bit, K2000 setting x \u03c3-transfer [our rule]": {
+   "mcp": {
+    "quality": 0.9857560346120813,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 19,
+    "n": 20,
+    "mcs": {
+     "G1": 1770.716374371631,
+     "G2": 1660.9640474436812,
+     "G3": 1660.9640474436812,
+     "G4": 1660.9640474436812,
+     "G5": 1504.8244076884823,
+     "G6": 48425.58829467284,
+     "G7": 159029.54348459878,
+     "G8": 108421.33711526361,
+     "G9": 114640.32677482083,
+     "G10": 70314.99588349386,
+     "G11": Infinity,
+     "G12": 1562669.6546397384,
+     "G13": 2353238.961011938,
+     "G14": 35336.25446236215,
+     "G15": 34460.67018427519,
+     "G16": 41365.87700503384,
+     "G17": 36712.696149352705,
+     "G18": 179259.7161795173,
+     "G19": 179259.7161795173,
+     "G20": 62889.819567121645
+    },
+    "geo_own": 38170.59696170168
+   },
+   "gpp": {
+    "quality": 0.43332511358371234,
+    "feasible": 0.6176215277777778,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.05189690678150444,
+    "feasible": 0.10611979166666667,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "APC-SCA (GPP: TSP-column settings [our choice])": {
+   "mcp": {
+    "quality": 0.960431335699746,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 15,
+    "n": 20,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G6": 4405.311030116364,
+     "G7": 7032.637519870195,
+     "G8": 5451.859965167141,
+     "G9": 6537.338062857818,
+     "G10": 6336.334016129965,
+     "G11": 32316.96956288022,
+     "G12": 27436.935664999226,
+     "G13": 64031.38223720875,
+     "G14": 6019.297630753929,
+     "G15": 6792.376322782752,
+     "G16": 10867.466919552799,
+     "G17": 9789.820408664931,
+     "G18": 23853.4372734675,
+     "G19": 19085.528509529857,
+     "G20": 8200.5154100824
+    },
+    "geo_own": 11323.316223074085
+   },
+   "gpp": {
+    "quality": 0.16590073977840525,
+    "feasible": 0.2625868055555556,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.5416608965081547,
+    "feasible": 0.9817708333333334,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "ReAIM ASA (Table I k)": {
+   "mcp": {
+    "quality": 0.9619332612340543,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 11,
+    "n": 20,
+    "mcs": {
+     "G1": 48543.893676928,
+     "G2": 58368.63973000385,
+     "G3": 15662.2733652787,
+     "G4": 40942.32975660985,
+     "G5": 36262.66926251595,
+     "G6": 35157.49794174693,
+     "G7": 57320.163387410415,
+     "G8": 34460.67018427519,
+     "G9": 45406.20889363282,
+     "G10": 47643.14710292767,
+     "G11": Infinity,
+     "G12": Infinity,
+     "G13": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": 1176619.480505969
+    },
+    "geo_own": 54111.690469356625
+   },
+   "gpp": {
+    "quality": 0.5668692593518517,
+    "feasible": 0.5759548611111112,
+    "invalid_frac": 0.0,
+    "solved": 9,
+    "n": 9,
+    "mcs": {
+     "G1": 15364.454676261354,
+     "G2": 20498.459193044473,
+     "G3": 21165.187698914582,
+     "G4": 21165.187698914582,
+     "G5": 21856.04513696725,
+     "G14": 680363.7365594025,
+     "G15": 2404991.749267389,
+     "G16": 956311.793336383,
+     "G17": 527053.5706011372
+    },
+    "geo_own": 110927.78913451284
+   },
+   "tsp": {
+    "quality": 0.41623438863994977,
+    "feasible": 0.5234375,
+    "invalid_frac": 0.0,
+    "solved": 1,
+    "n": 6,
+    "mcs": {
+     "gr17": 4819433.392152448,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": 4819433.39215245
+   }
+  },
+  "aSB (\u0394t 0.9, M 2)": {
+   "mcp": {
+    "quality": 0.14760346863629797,
+    "feasible": 0.1505859375,
+    "invalid_frac": 0.8494140625,
+    "solved": 7,
+    "n": 20,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G6": 5544.67380367198,
+     "G7": 16754.87305120898,
+     "G8": 19067.287236249576,
+     "G9": 293578.09439299186,
+     "G10": 13450.947326290314,
+     "G11": Infinity,
+     "G12": 73105.56579497321,
+     "G13": 145050.6770500638,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": Infinity
+    },
+    "geo_own": 35718.50337736624
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 1.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 1.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "bSB (\u0394t by TTT)": {
+   "mcp": {
+    "quality": 0.9882970374132333,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 17,
+    "n": 20,
+    "mcs": {
+     "G1": 250.0,
+     "G2": 250.0,
+     "G3": 250.0,
+     "G4": 250.0,
+     "G5": 250.0,
+     "G6": 486.3677332370225,
+     "G7": 1553.3732784215376,
+     "G8": 477.7775488729293,
+     "G9": 1319.7620002784445,
+     "G10": 1101.327757529091,
+     "G11": Infinity,
+     "G12": 23980.655507601015,
+     "G13": 58368.63973000385,
+     "G14": 8621.886762870408,
+     "G15": 3729.058093179051,
+     "G16": 5298.139842214018,
+     "G17": 3544.383987184309,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": 97087.787353856
+    },
+    "geo_own": 1870.5933197928728
+   },
+   "gpp": {
+    "quality": 0.6397383608502526,
+    "feasible": 0.6566840277777778,
+    "invalid_frac": 0.0,
+    "solved": 5,
+    "n": 9,
+    "mcs": {
+     "G1": 48851.83953606144,
+     "G2": 64399.17523673255,
+     "G3": 58071.187246027715,
+     "G4": 59051.22113487268,
+     "G5": 65568.13541090176,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": 58874.70306689239
+   },
+   "tsp": {
+    "quality": 0.31694742493329436,
+    "feasible": 0.3802083333333333,
+    "invalid_frac": 0.0,
+    "solved": 1,
+    "n": 6,
+    "mcs": {
+     "gr17": 9638866.784304896,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": 9638866.784304883
+   }
+  },
+  "dSB (\u0394t by TTT)": {
+   "mcp": {
+    "quality": 0.9951499885729476,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 20,
+    "n": 20,
+    "mcs": {
+     "G1": 545.3286609074453,
+     "G2": 500.0,
+     "G3": 376.2061019221206,
+     "G4": 451.58552912869595,
+     "G5": 386.3102128028697,
+     "G6": 1937.4386992866853,
+     "G7": 3710.5183759195716,
+     "G8": 2529.0669418873335,
+     "G9": 3072.62523060747,
+     "G10": 3429.6169581249032,
+     "G11": 13438.590871795712,
+     "G12": 17017.388166028133,
+     "G13": 41938.38786295724,
+     "G14": 1170.090182160687,
+     "G15": 1420.2124987676425,
+     "G16": 1463.2212603702246,
+     "G17": 1341.4137708844858,
+     "G18": 12849.144674582092,
+     "G19": 10671.897039534791,
+     "G20": 5297.820618124371
+    },
+    "geo_own": 2480.740105030328
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.28829132618082204,
+    "feasible": 0.5833333333333334,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "Onsager-\u03baT (ours)": {
+   "mcp": {
+    "quality": 0.9939649971733454,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 20,
+    "n": 20,
+    "mcs": {
+     "G1": 752.4122038442412,
+     "G2": 585.0450910803435,
+     "G3": 664.3856189774725,
+     "G4": 710.1062493838213,
+     "G5": 474.5611564124804,
+     "G6": 1916.6295282632013,
+     "G7": 2819.8007952407174,
+     "G8": 2025.341370353597,
+     "G9": 2585.367312814615,
+     "G10": 2853.167092387471,
+     "G11": 51396.57869832837,
+     "G12": 60774.309226164136,
+     "G13": 125298.1869222296,
+     "G14": 5230.212450499846,
+     "G15": 5881.417042255048,
+     "G16": 4961.671250940732,
+     "G17": 6421.472063821802,
+     "G18": 8404.12937190037,
+     "G19": 9798.158778855588,
+     "G20": 5100.678182956514
+    },
+    "geo_own": 4030.840957868074
+   },
+   "gpp": {
+    "quality": 0.026006474573173167,
+    "feasible": 0.047309027777777776,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.47606365825323477,
+    "feasible": 0.9993489583333334,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "Onsager-online (ours)": {
+   "mcp": {
+    "quality": 0.9901459755403254,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 20,
+    "n": 20,
+    "mcs": {
+     "G1": 1107.3093649624543,
+     "G2": 1307.5531126249616,
+     "G3": 1035.6691119142488,
+     "G4": 949.1223128249608,
+     "G5": 1226.9270878843463,
+     "G6": 839.8751084180142,
+     "G7": 2449.539694713897,
+     "G8": 1717.725594425779,
+     "G9": 2156.3003207614624,
+     "G10": 2025.341370353597,
+     "G11": 97087.787353856,
+     "G12": 77754.00113807787,
+     "G13": 163769.3190264394,
+     "G14": 7749.754797146741,
+     "G15": 14206.010315734165,
+     "G16": 11262.48130542786,
+     "G17": 9291.168400165529,
+     "G18": 8615.167546068798,
+     "G19": 8615.167546068798,
+     "G20": 6053.198536834105
+    },
+    "geo_own": 5150.298199326606
+   },
+   "gpp": {
+    "quality": 0.026208249244717693,
+    "feasible": 0.043402777777777776,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.47446485414053724,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  }
+ },
+ "supplement": {
+  "aSB \u0394t 0.5, M 2 [our choice]": {
+   "mcp": {
+    "quality": 0.9353988348938238,
+    "feasible": 0.9990234375,
+    "invalid_frac": 0.0009765625,
+    "solved": 11,
+    "n": 20,
+    "mcs": {
+     "G1": 250.0,
+     "G2": 250.0,
+     "G3": 250.0,
+     "G4": 250.0,
+     "G5": 250.0,
+     "G6": 56612.37918714691,
+     "G7": 128675.1881350433,
+     "G8": 146211.13158994642,
+     "G9": Infinity,
+     "G10": 76269.1489449983,
+     "G11": Infinity,
+     "G12": 116737.2794600077,
+     "G13": 466949.1178400308,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": Infinity
+    },
+    "geo_own": 7516.094779381245
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 1.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 1.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "aSB stability-margin \u0394t [our rule] (TSP: frozen ancilla)": {
+   "mcp": {
+    "quality": 0.5862431710078975,
+    "feasible": 0.60234375,
+    "invalid_frac": 0.39765625,
+    "solved": 12,
+    "n": 20,
+    "mcs": {
+     "G1": 250.0,
+     "G2": 250.0,
+     "G3": 250.0,
+     "G4": 250.0,
+     "G5": 250.0,
+     "G6": 5182.093357950182,
+     "G7": 11695.364637540473,
+     "G8": 41526.106967736974,
+     "G9": 294154.8701264922,
+     "G10": 7596.788653270517,
+     "G11": Infinity,
+     "G12": 83052.21393547395,
+     "G13": 257350.3762700866,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": Infinity
+    },
+    "geo_own": 4704.013190204167
+   },
+   "gpp": {
+    "quality": 0.09134314737486687,
+    "feasible": 0.09418402777777778,
+    "invalid_frac": 0.0,
+    "solved": 5,
+    "n": 9,
+    "mcs": {
+     "G1": 90484.57608773898,
+     "G2": 78099.60851967825,
+     "G3": 50092.89163473944,
+     "G4": 55095.08024848512,
+     "G5": 91780.97468391285,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": 70888.04514766698
+   },
+   "tsp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 1.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "ReAIM k {1,2,6,16} (A3.1) [superseded]": {
+   "mcp": {
+    "quality": 0.979264190787133,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 16,
+    "n": 20,
+    "mcs": {
+     "G1": 1841.5855739980452,
+     "G2": 1375.518225236389,
+     "G3": 1660.9640474436812,
+     "G4": 1734.6543324286438,
+     "G5": 1375.518225236389,
+     "G6": 137950.18820592653,
+     "G7": 121548.61845232827,
+     "G8": 95286.29420585535,
+     "G9": 125298.1869222296,
+     "G10": 195675.35794820095,
+     "G11": Infinity,
+     "G12": Infinity,
+     "G13": Infinity,
+     "G14": 153215.29541037514,
+     "G15": 933898.2356800616,
+     "G16": 179259.7161795173,
+     "G17": 133477.70668352934,
+     "G18": 4706477.922023876,
+     "G19": Infinity,
+     "G20": 1562669.6546397384
+    },
+    "geo_own": 56199.65010903793
+   },
+   "gpp": {
+    "quality": 0.6969687407191674,
+    "feasible": 0.7256944444444444,
+    "invalid_frac": 0.0,
+    "solved": 5,
+    "n": 9,
+    "mcs": {
+     "G1": 146135.801915875,
+     "G2": 156892.46250022412,
+     "G3": 183561.9493678257,
+     "G4": 214743.9218748053,
+     "G5": 200371.56653895776,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": 178475.93603428098
+   },
+   "tsp": {
+    "quality": 0.13984372809687154,
+    "feasible": 0.265625,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "bSB per-budget \u0394t by pilot mean quality (A3) [superseded]": {
+   "mcp": {
+    "quality": 0.9886011841396659,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 17,
+    "n": 20,
+    "mcs": {
+     "G1": 250.0,
+     "G2": 250.0,
+     "G3": 250.0,
+     "G4": 250.0,
+     "G5": 250.0,
+     "G6": 511.83558306561685,
+     "G7": 1519.485644136706,
+     "G8": 500.0,
+     "G9": 1502.8870283105043,
+     "G10": 1224.7698473569485,
+     "G11": Infinity,
+     "G12": 20471.164878304924,
+     "G13": 97666.85341498365,
+     "G14": 6260.92830376148,
+     "G15": 3374.5346619431134,
+     "G16": 4663.745374075305,
+     "G17": 3604.2005087202565,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": 933898.2356800616
+    },
+    "geo_own": 2154.2587315039937
+   },
+   "gpp": {
+    "quality": 0.6346593092285236,
+    "feasible": 0.6519097222222222,
+    "invalid_frac": 0.0,
+    "solved": 5,
+    "n": 9,
+    "mcs": {
+     "G1": 52720.005290144,
+     "G2": 88783.28547228903,
+     "G3": 54409.69943167187,
+     "G4": 51907.24826013667,
+     "G5": 60059.37368712993,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": 60250.18127614061
+   },
+   "tsp": {
+    "quality": 0.9418599006067577,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 3,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": 4096.0,
+     "gr24": 602429.174019056,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": 956311.793336383
+    },
+    "geo_own": 133133.84808510152
+   }
+  },
+  "dSB per-budget \u0394t by pilot mean quality (A3) [superseded]": {
+   "mcp": {
+    "quality": 0.9951820402399806,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 20,
+    "n": 20,
+    "mcs": {
+     "G1": 415.2410118609203,
+     "G2": 376.2061019221206,
+     "G3": 460.3963934995113,
+     "G4": 474.5611564124804,
+     "G5": 355.0531246919106,
+     "G6": 2013.5580569031779,
+     "G7": 3551.5025789335414,
+     "G8": 2556.193922867228,
+     "G9": 3516.3187599350977,
+     "G10": 3665.7332572711143,
+     "G11": 11751.305096119593,
+     "G12": 17893.206095264617,
+     "G13": 33212.044226034224,
+     "G14": 1107.3093649624543,
+     "G15": 1623.1807003855204,
+     "G16": 1427.2058184810674,
+     "G17": 1279.474350749845,
+     "G18": 15627.953382302738,
+     "G19": 8459.853691810336,
+     "G20": 6060.129162362563
+    },
+    "geo_own": 2432.101370712016
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.539990614587651,
+    "feasible": 0.9967447916666666,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "bSB fixed \u0394t 0.25 (A5 finals)": {
+   "mcp": {
+    "quality": 0.9874847882920175,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 17,
+    "n": 20,
+    "mcs": {
+     "G1": 250.0,
+     "G2": 250.0,
+     "G3": 250.0,
+     "G4": 250.0,
+     "G5": 250.0,
+     "G6": 2380.8439923356295,
+     "G7": 4695.1802995755825,
+     "G8": 1660.9640474436812,
+     "G9": 4648.668359420781,
+     "G10": 4648.668359420781,
+     "G11": Infinity,
+     "G12": 145050.6770500638,
+     "G13": 257350.3762700866,
+     "G14": 10329.621747837415,
+     "G15": 7596.788653270517,
+     "G16": 10749.88411811411,
+     "G17": 6104.700170595856,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": 588309.7402529845
+    },
+    "geo_own": 4229.282492587168
+   },
+   "gpp": {
+    "quality": 0.29456023084349137,
+    "feasible": 0.3090277777777778,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "bSB fixed \u0394t 0.5 (A5 finals)": {
+   "mcp": {
+    "quality": 0.9877983019681207,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 16,
+    "n": 20,
+    "mcs": {
+     "G1": 250.0,
+     "G2": 250.0,
+     "G3": 250.0,
+     "G4": 250.0,
+     "G5": 250.0,
+     "G6": 1341.4137708844858,
+     "G7": 2973.023162374478,
+     "G8": 1000.0,
+     "G9": 2153.7918865171996,
+     "G10": 2516.040376734853,
+     "G11": Infinity,
+     "G12": 95922.62203040406,
+     "G13": 294154.8701264922,
+     "G14": 7831.13668263935,
+     "G15": 4310.943381435204,
+     "G16": 5544.67380367198,
+     "G17": 4570.931717852384,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": Infinity
+    },
+    "geo_own": 2273.5124479630977
+   },
+   "gpp": {
+    "quality": 0.6397383608502526,
+    "feasible": 0.6566840277777778,
+    "invalid_frac": 0.0,
+    "solved": 5,
+    "n": 9,
+    "mcs": {
+     "G1": 48851.83953606144,
+     "G2": 64399.17523673255,
+     "G3": 58071.187246027715,
+     "G4": 59051.22113487268,
+     "G5": 65568.13541090176,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": 58874.70306689239
+   },
+   "tsp": {
+    "quality": 0.0702559940859317,
+    "feasible": 0.08072916666666667,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "bSB fixed \u0394t 0.75 (A5 finals)": {
+   "mcp": {
+    "quality": 0.9879848655842611,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 17,
+    "n": 20,
+    "mcs": {
+     "G1": 250.0,
+     "G2": 250.0,
+     "G3": 250.0,
+     "G4": 250.0,
+     "G5": 250.0,
+     "G6": 1022.1565245859776,
+     "G7": 1519.485644136706,
+     "G8": 639.7371753749225,
+     "G9": 1553.3732784215376,
+     "G10": 2180.9012387652533,
+     "G11": Infinity,
+     "G12": 31582.596067176415,
+     "G13": 72525.3385250319,
+     "G14": 8621.886762870408,
+     "G15": 3729.058093179051,
+     "G16": 5298.139842214018,
+     "G17": 3544.383987184309,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": 294154.8701264922
+    },
+    "geo_own": 2292.794349796361
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.20468850549681847,
+    "feasible": 0.24088541666666666,
+    "invalid_frac": 0.0,
+    "solved": 1,
+    "n": 6,
+    "mcs": {
+     "gr17": 9638866.784304896,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": 9638866.784304883
+   }
+  },
+  "bSB fixed \u0394t 1 (A5 finals)": {
+   "mcp": {
+    "quality": 0.7380692312370788,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 13,
+    "n": 20,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G6": 545.3286609074453,
+     "G7": 1553.3732784215376,
+     "G8": 415.2410118609203,
+     "G9": 1624.065162705883,
+     "G10": 1698.9662058784327,
+     "G11": 588309.7402529845,
+     "G12": 47961.31101520203,
+     "G13": 58368.63973000385,
+     "G14": 9575.955963148446,
+     "G15": 6424.572337291046,
+     "G16": 7596.788653270517,
+     "G17": 5544.67380367198,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": 294154.8701264922
+    },
+    "geo_own": 8505.062609112863
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.2781529225662843,
+    "feasible": 0.3326822916666667,
+    "invalid_frac": 0.0,
+    "solved": 1,
+    "n": 6,
+    "mcs": {
+     "gr17": 9638866.784304896,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": 9638866.784304883
+   }
+  },
+  "bSB fixed \u0394t 1.25 (A5 finals)": {
+   "mcp": {
+    "quality": 0.7368341170973747,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 8,
+    "n": 20,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G6": 486.3677332370225,
+     "G7": 4001.961389825547,
+     "G8": 477.7775488729293,
+     "G9": 1319.7620002784445,
+     "G10": 1101.327757529091,
+     "G11": Infinity,
+     "G12": 23980.655507601015,
+     "G13": 83052.21393547395,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity,
+     "G18": Infinity,
+     "G19": Infinity,
+     "G20": 97087.787353856
+    },
+    "geo_own": 4755.06609009933
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.2275053578870886,
+    "feasible": 0.2740885416666667,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "dSB fixed \u0394t 0.25 (A5 finals)": {
+   "mcp": {
+    "quality": 0.9916080691686563,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 20,
+    "n": 20,
+    "mcs": {
+     "G1": 545.3286609074453,
+     "G2": 332.19280948873626,
+     "G3": 376.2061019221206,
+     "G4": 451.58552912869595,
+     "G5": 386.3102128028697,
+     "G6": 6794.678064268423,
+     "G7": 12705.742494047794,
+     "G8": 8810.622060232728,
+     "G9": 11509.396164510004,
+     "G10": 12848.105267098856,
+     "G11": 93000.90253019375,
+     "G12": 257350.3762700866,
+     "G13": 584844.5263597857,
+     "G14": 2854.4116369621347,
+     "G15": 4221.711504286141,
+     "G16": 3321.9280948873625,
+     "G17": 3469.3086648572876,
+     "G18": 71355.37202923583,
+     "G19": 51396.57869832837,
+     "G20": 42385.118737712146
+    },
+    "geo_own": 7591.439528151714
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "dSB fixed \u0394t 0.5 (A5 finals)": {
+   "mcp": {
+    "quality": 0.9936351883961944,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 20,
+    "n": 20,
+    "mcs": {
+     "G1": 553.6546824812272,
+     "G2": 500.0,
+     "G3": 474.5611564124804,
+     "G4": 474.5611564124804,
+     "G5": 415.2410118609203,
+     "G6": 3959.2202035757027,
+     "G7": 6213.4931136861505,
+     "G8": 4547.966089875939,
+     "G9": 5335.948519767396,
+     "G10": 5881.417042255048,
+     "G11": 35850.39717262315,
+     "G12": 56710.14379494894,
+     "G13": 152538.2978899966,
+     "G14": 1660.9640474436812,
+     "G15": 1876.4942444686299,
+     "G16": 1806.3421165147838,
+     "G17": 1835.1415113841317,
+     "G18": 41318.48699134966,
+     "G19": 27810.02639001915,
+     "G20": 18837.68534255901
+    },
+    "geo_own": 4364.974340748811
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.0017683660673931314,
+    "feasible": 0.0032552083333333335,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "dSB fixed \u0394t 0.75 (A5 finals)": {
+   "mcp": {
+    "quality": 0.9941628920083264,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 20,
+    "n": 20,
+    "mcs": {
+     "G1": 949.1223128249608,
+     "G2": 710.1062493838213,
+     "G3": 849.047040347844,
+     "G4": 752.4122038442412,
+     "G5": 830.4820237218406,
+     "G6": 2414.1283422690594,
+     "G7": 4473.301523816154,
+     "G8": 3065.7678812799236,
+     "G9": 4150.7101166061275,
+     "G10": 3860.6930281642813,
+     "G11": 20402.712731826057,
+     "G12": 30354.043230219042,
+     "G13": 64633.93912576044,
+     "G14": 1170.090182160687,
+     "G15": 1420.2124987676425,
+     "G16": 1463.2212603702246,
+     "G17": 830.4820237218406,
+     "G18": 23250.225632548438,
+     "G19": 16202.730962828777,
+     "G20": 10484.59696573931
+    },
+    "geo_own": 3460.2796353305785
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.034930662440023276,
+    "feasible": 0.06575520833333333,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "dSB fixed \u0394t 1 (A5 finals)": {
+   "mcp": {
+    "quality": 0.7458930012519052,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 15,
+    "n": 20,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G6": 1937.4386992866853,
+     "G7": 3710.5183759195716,
+     "G8": 2854.4116369621347,
+     "G9": 3072.62523060747,
+     "G10": 3429.6169581249032,
+     "G11": 12106.39707366821,
+     "G12": 17017.388166028133,
+     "G13": 41938.38786295724,
+     "G14": 1107.3093649624543,
+     "G15": 1642.3073728695574,
+     "G16": 1420.2124987676425,
+     "G17": 1341.4137708844858,
+     "G18": 16007.845559302188,
+     "G19": 10671.897039534791,
+     "G20": 5297.820618124371
+    },
+    "geo_own": 4479.033864091835
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.15955539677941658,
+    "feasible": 0.3131510416666667,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  },
+  "dSB fixed \u0394t 1.25 (A5 finals)": {
+   "mcp": {
+    "quality": 0.7430927206062037,
+    "feasible": 1.0,
+    "invalid_frac": 0.0,
+    "solved": 13,
+    "n": 20,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G6": 2080.9880295421294,
+     "G7": 3916.8616808438464,
+     "G8": 2529.0669418873335,
+     "G9": 3436.796137474061,
+     "G10": 3544.383987184309,
+     "G11": 13438.590871795712,
+     "G12": 16606.022113017112,
+     "G13": 40563.92048005496,
+     "G14": 2353238.961011938,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": 2353238.961011938,
+     "G18": 12849.144674582092,
+     "G19": 9669.176803093578,
+     "G20": 6719.000867344113
+    },
+    "geo_own": 17077.51997058873
+   },
+   "gpp": {
+    "quality": 0.0,
+    "feasible": 0.0,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 9,
+    "mcs": {
+     "G1": Infinity,
+     "G2": Infinity,
+     "G3": Infinity,
+     "G4": Infinity,
+     "G5": Infinity,
+     "G14": Infinity,
+     "G15": Infinity,
+     "G16": Infinity,
+     "G17": Infinity
+    },
+    "geo_own": null
+   },
+   "tsp": {
+    "quality": 0.28829132618082204,
+    "feasible": 0.5833333333333334,
+    "invalid_frac": 0.0,
+    "solved": 0,
+    "n": 6,
+    "mcs": {
+     "gr17": Infinity,
+     "gr21": Infinity,
+     "gr24": Infinity,
+     "fri26": Infinity,
+     "bayg29": Infinity,
+     "bays29": Infinity
+    },
+    "geo_own": null
+   }
+  }
+ },
+ "common_sets": {
+  "all reported rows": {
+   "instances": [
+    "G6",
+    "G7",
+    "G8",
+    "G9",
+    "G10"
+   ],
+   "geo": {
+    "SA (Neal defaults)": 4726.435242049868,
+    "STATICA, K2000 setting x \u03c3-transfer [our rule]": 4593.662844492635,
+    "TEC sequential p-bit, K2000 setting x \u03c3-transfer [our rule]": 92386.93716795523,
+    "APC-SCA (GPP: TSP-column settings [our choice])": 5874.564841508032,
+    "ReAIM ASA (Table I k)": 43186.992039707,
+    "aSB (\u0394t 0.9, M 2)": 23386.030633960025,
+    "bSB (\u0394t by TTT)": 878.9733457631276,
+    "dSB (\u0394t by TTT)": 2860.721753408554,
+    "Onsager-\u03baT (ours)": 2406.693912481091,
+    "Onsager-online (ours)": 1728.590380993151
+   }
+  },
+  "all reported rows except aSB": {
+   "instances": [
+    "G6",
+    "G7",
+    "G8",
+    "G9",
+    "G10",
+    "G20"
+   ],
+   "geo": {
+    "SA (Neal defaults)": 5181.055980101305,
+    "STATICA, K2000 setting x \u03c3-transfer [our rule]": 6147.397432062828,
+    "TEC sequential p-bit, K2000 setting x \u03c3-transfer [our rule]": 86650.72472370554,
+    "APC-SCA (GPP: TSP-column settings [our choice])": 6210.405288477655,
+    "ReAIM ASA (Table I k)": 74914.65829483667,
+    "bSB (\u0394t by TTT)": 1925.338913709832,
+    "dSB (\u0394t by TTT)": 3170.145705084309,
+    "Onsager-\u03baT (ours)": 2727.650380916612,
+    "Onsager-online (ours)": 2130.1371324921483
+   }
+  },
+  "SA, dSB, Onsager-online (C3)": {
+   "instances": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8",
+    "G9",
+    "G10",
+    "G11",
+    "G12",
+    "G13",
+    "G14",
+    "G15",
+    "G16",
+    "G17",
+    "G18",
+    "G19",
+    "G20"
+   ],
+   "geo": {
+    "SA (Neal defaults)": 2260.5768147234176,
+    "dSB (\u0394t by TTT)": 2480.740105030328,
+    "Onsager-online (ours)": 5150.298199326606
+   }
+  }
+ },
+ "paired": {
+  "SA (Neal defaults) / Onsager-\u03baT (ours)": {
+   "geo": 0.5608201460568284,
+   "n": 20,
+   "ref_fewer": 8
+  },
+  "STATICA, K2000 setting x \u03c3-transfer [our rule] / Onsager-\u03baT (ours)": {
+   "geo": 3.5997249929299837,
+   "n": 11,
+   "ref_fewer": 11
+  },
+  "TEC sequential p-bit, K2000 setting x \u03c3-transfer [our rule] / Onsager-\u03baT (ours)": {
+   "geo": 10.827284002373704,
+   "n": 19,
+   "ref_fewer": 19
+  },
+  "APC-SCA (GPP: TSP-column settings [our choice]) / Onsager-\u03baT (ours)": {
+   "geo": 1.5124864057223046,
+   "n": 15,
+   "ref_fewer": 12
+  },
+  "ReAIM ASA (Table I k) / Onsager-\u03baT (ours)": {
+   "geo": 38.64307924557639,
+   "n": 11,
+   "ref_fewer": 11
+  },
+  "aSB (\u0394t 0.9, M 2) / Onsager-\u03baT (ours)": {
+   "geo": 5.320178906729734,
+   "n": 7,
+   "ref_fewer": 7
+  },
+  "bSB (\u0394t by TTT) / Onsager-\u03baT (ours)": {
+   "geo": 0.5930303465581205,
+   "n": 17,
+   "ref_fewer": 3
+  },
+  "dSB (\u0394t by TTT) / Onsager-\u03baT (ours)": {
+   "geo": 0.6154398377311321,
+   "n": 20,
+   "ref_fewer": 8
+  },
+  "Onsager-\u03baT (ours) / Onsager-\u03baT (ours)": {
+   "geo": 1.0,
+   "n": 20,
+   "ref_fewer": 0
+  },
+  "Onsager-online (ours) / Onsager-\u03baT (ours)": {
+   "geo": 1.2777229995327368,
+   "n": 20,
+   "ref_fewer": 14
+  },
+  "SA (Neal defaults) / Onsager-online (ours)": {
+   "geo": 0.4389215395370674,
+   "n": 20,
+   "ref_fewer": 8
+  },
+  "STATICA, K2000 setting x \u03c3-transfer [our rule] / Onsager-online (ours)": {
+   "geo": 3.7456806962371942,
+   "n": 11,
+   "ref_fewer": 11
+  },
+  "TEC sequential p-bit, K2000 setting x \u03c3-transfer [our rule] / Onsager-online (ours)": {
+   "geo": 8.650064100141584,
+   "n": 19,
+   "ref_fewer": 19
+  },
+  "APC-SCA (GPP: TSP-column settings [our choice]) / Onsager-online (ours)": {
+   "geo": 1.3213052297355394,
+   "n": 15,
+   "ref_fewer": 9
+  },
+  "ReAIM ASA (Table I k) / Onsager-online (ours)": {
+   "geo": 34.05269565547301,
+   "n": 11,
+   "ref_fewer": 11
+  },
+  "aSB (\u0394t 0.9, M 2) / Onsager-online (ours)": {
+   "geo": 6.261681932759433,
+   "n": 7,
+   "ref_fewer": 5
+  },
+  "bSB (\u0394t by TTT) / Onsager-online (ours)": {
+   "geo": 0.4586195757538638,
+   "n": 17,
+   "ref_fewer": 2
+  },
+  "dSB (\u0394t by TTT) / Onsager-online (ours)": {
+   "geo": 0.48166921778523075,
+   "n": 20,
+   "ref_fewer": 7
+  },
+  "Onsager-\u03baT (ours) / Onsager-online (ours)": {
+   "geo": 0.7826422474712438,
+   "n": 20,
+   "ref_fewer": 6
+  },
+  "Onsager-online (ours) / Onsager-online (ours)": {
+   "geo": 1.0,
+   "n": 20,
+   "ref_fewer": 0
+  }
+ },
+ "C3": {
+  "n": 20,
+  "online_over_SA": 2.278311520220005,
+  "online_over_dSB": 2.0761135714632393
+ },
+ "sb_dt_selected_counts": {
+  "mcp/bSB": {
+   "0.75": 9,
+   "0.25": 1,
+   "1.25": 7,
+   "1.0": 3
+  },
+  "mcp/dSB": {
+   "0.25": 4,
+   "0.5": 1,
+   "1.0": 9,
+   "1.25": 3,
+   "0.75": 3
+  },
+  "gpp/bSB": {
+   "0.5": 9
+  },
+  "gpp/dSB": {
+   "0.25": 9
+  },
+  "tsp/bSB": {
+   "1.0": 2,
+   "1.25": 4
+  },
+  "tsp/dSB": {
+   "1.25": 6
+  }
+ }
+}

@@ -1,0 +1,72 @@
+=== S = 250
+SA (Neal)              k=0 mean_cut=  32539.6 p33000=0.012 mcs99=    97667  best-visited p=0.012  cfg={'family': 'SA_neal', 'S': 250, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+SCA (STATICA)          k=2 mean_cut=  32599.6 p33000=0.012 mcs99=    97667  best-visited p=0.012  cfg={'family': 'plain', 'q': 4.0, 'T0': 50.0, 'S': 250}
+TEC (published)        k=0 mean_cut=  30694.1 p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 250}
+TEC on STATICA         k=2 mean_cut=  25762.7 p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 250}
+APC-SCA (published)    k=0 mean_cut=  32102.6 p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 250}
+ReAIM ASA              k=0 mean_cut=  31322.0 p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 250}
+aSB                    k=0 mean_cut=     -inf p33000=0.000 mcs99=      inf  best-visited p=0.055  cfg={'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 250}
+bSB                    k=4 mean_cut=  33143.9 p33000=0.992 mcs99=      237  best-visited p=0.992  cfg={'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 250}
+dSB                    k=4 mean_cut=  32822.1 p33000=0.129 mcs99=     8342  best-visited p=0.133  cfg={'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 250}
+TEC-T (ours)           k=13 mean_cut=  32977.1 p33000=0.441 mcs99=     1977  best-visited p=nan  cfg={'family': 'tecT', 'kappa': 2.0, 'q': 6.0, 'T0': 15.0, 'ramp': True, 'S': 250}
+Onsager SCA (ours)     k=7 mean_cut=  32943.2 p33000=0.383 mcs99=     2386  best-visited p=nan  cfg={'family': 'onsager', 'lam': 0.9, 'q': 6.0, 'T0': 15.0, 'ramp': True, 'S': 250}
+=== S = 500
+SA (Neal)              k=0 mean_cut=  32774.0 p33000=0.078 mcs99=    28306  best-visited p=0.078  cfg={'family': 'SA_neal', 'S': 500, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+SCA (STATICA)          k=1 mean_cut=  32869.8 p33000=0.156 mcs99=    13553  best-visited p=0.195  cfg={'family': 'plain', 'q': 4.0, 'T0': 40.0, 'S': 500}
+TEC (published)        k=0 mean_cut=  31472.6 p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 500}
+TEC on STATICA         k=2 mean_cut=  31615.6 p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 500}
+APC-SCA (published)    k=0 mean_cut=  32462.1 p33000=0.004 mcs99=   588310  best-visited p=0.004  cfg={'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 500}
+ReAIM ASA              k=0 mean_cut=  32126.8 p33000=0.008 mcs99=   293578  best-visited p=0.016  cfg={'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 500}
+aSB                    k=0 mean_cut=     -inf p33000=0.000 mcs99=      inf  best-visited p=0.070  cfg={'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 500}
+bSB                    k=4 mean_cut=  33184.8 p33000=1.000 mcs99=      500  best-visited p=1.000  cfg={'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 500}
+dSB                    k=4 mean_cut=  32993.0 p33000=0.500 mcs99=     3322  best-visited p=0.500  cfg={'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 500}
+TEC-T (ours)           k=13 mean_cut=  33098.8 p33000=0.867 mcs99=     1141  best-visited p=nan  cfg={'family': 'tecT', 'kappa': 2.0, 'q': 6.0, 'T0': 15.0, 'ramp': True, 'S': 500}
+Onsager SCA (ours)     k=8 mean_cut=  33079.4 p33000=0.816 mcs99=     1358  best-visited p=nan  cfg={'family': 'onsager', 'lam': 0.9, 'q': 6.0, 'T0': 20.0, 'ramp': True, 'S': 500}
+=== S = 1000
+SA (Neal)              k=0 mean_cut=  32963.7 p33000=0.402 mcs99=     8947  best-visited p=0.402  cfg={'family': 'SA_neal', 'S': 1000, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+SCA (STATICA)          k=1 mean_cut=  33022.3 p33000=0.578 mcs99=     5336  best-visited p=0.645  cfg={'family': 'plain', 'q': 4.0, 'T0': 40.0, 'S': 1000}
+TEC (published)        k=0 mean_cut=  32043.0 p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 1000}
+TEC on STATICA         k=2 mean_cut=  32522.3 p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 1000}
+APC-SCA (published)    k=0 mean_cut=  32694.3 p33000=0.074 mcs99=    59716  best-visited p=0.074  cfg={'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 1000}
+ReAIM ASA              k=0 mean_cut=  32519.6 p33000=0.031 mcs99=   145051  best-visited p=0.086  cfg={'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 1000}
+aSB                    k=0 mean_cut=     -inf p33000=0.000 mcs99=      inf  best-visited p=0.023  cfg={'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 1000}
+bSB                    k=4 mean_cut=  33207.8 p33000=1.000 mcs99=     1000  best-visited p=1.000  cfg={'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 1000}
+dSB                    k=4 mean_cut=  33104.7 p33000=0.844 mcs99=     2481  best-visited p=0.848  cfg={'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 1000}
+TEC-T (ours)           k=16 mean_cut=  33185.3 p33000=0.996 mcs99=      830  best-visited p=nan  cfg={'family': 'tecT', 'kappa': 2.0, 'q': 8.0, 'T0': 15.0, 'ramp': True, 'S': 1000}
+Onsager SCA (ours)     k=15 mean_cut=  33138.0 p33000=0.934 mcs99=     1698  best-visited p=nan  cfg={'family': 'onsager', 'lam': 1.05, 'q': 8.0, 'T0': 12.0, 'ramp': True, 'S': 1000}
+=== S = 2000
+SA (Neal)              k=0 mean_cut=  33081.9 p33000=0.770 mcs99=     6276  best-visited p=0.773  cfg={'family': 'SA_neal', 'S': 2000, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+SCA (STATICA)          k=1 mean_cut=  33120.2 p33000=0.902 mcs99=     3959  best-visited p=0.930  cfg={'family': 'plain', 'q': 4.0, 'T0': 40.0, 'S': 2000}
+TEC (published)        k=0 mean_cut=  32464.5 p33000=0.012 mcs99=   781335  best-visited p=0.012  cfg={'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 2000}
+TEC on STATICA         k=2 mean_cut=  32826.7 p33000=0.117 mcs99=    73894  best-visited p=0.117  cfg={'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 2000}
+APC-SCA (published)    k=0 mean_cut=  32888.1 p33000=0.223 mcs99=    36567  best-visited p=0.223  cfg={'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 2000}
+ReAIM ASA              k=0 mean_cut=  32730.2 p33000=0.168 mcs99=    50087  best-visited p=0.297  cfg={'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 2000}
+aSB                    k=0 mean_cut=     -inf p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 2000}
+bSB                    k=4 mean_cut=  33209.0 p33000=1.000 mcs99=     2000  best-visited p=1.000  cfg={'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 2000}
+dSB                    k=4 mean_cut=  33174.7 p33000=0.988 mcs99=     2071  best-visited p=0.988  cfg={'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 2000}
+TEC-T (ours)           k=14 mean_cut=  33204.1 p33000=1.000 mcs99=     2000  best-visited p=nan  cfg={'family': 'tecT', 'kappa': 2.0, 'q': 6.0, 'T0': 20.0, 'ramp': True, 'S': 2000}
+Onsager SCA (ours)     k=8 mean_cut=  33204.9 p33000=0.996 mcs99=     1661  best-visited p=nan  cfg={'family': 'onsager', 'lam': 0.9, 'q': 6.0, 'T0': 20.0, 'ramp': True, 'S': 2000}
+=== S = 4000
+SA (Neal)              k=0 mean_cut=  33155.6 p33000=0.949 mcs99=     6181  best-visited p=0.957  cfg={'family': 'SA_neal', 'S': 4000, 'beta_range': [0.00017337348188092679, 6.103036322765087]}
+SCA (STATICA)          k=0 mean_cut=  33153.0 p33000=0.969 mcs99=     5315  best-visited p=0.969  cfg={'family': 'plain', 'q': 4.0, 'T0': 30.0, 'S': 4000}
+TEC (published)        k=0 mean_cut=  32707.0 p33000=0.016 mcs99=  1169689  best-visited p=0.016  cfg={'family': 'TEC_glauber', 'jv': 30.0, 'T0': 100.0, 'T1': 0.1, 'S': 4000}
+TEC on STATICA         k=2 mean_cut=  32991.5 p33000=0.473 mcs99=    28787  best-visited p=0.477  cfg={'family': 'tec', 'jv': 30.0, 'q': 4.0, 'T0': 50.0, 'S': 4000}
+APC-SCA (published)    k=0 mean_cut=  33018.3 p33000=0.586 mcs99=    20891  best-visited p=0.586  cfg={'family': 'APC_pub', 'lam': 88.9057908343783, 'r_q': 0.45, 'q_limit': 0.0, 'T0': 10.0, 'T1': 0.1, 'S': 4000}
+ReAIM ASA              k=0 mean_cut=  32986.1 p33000=0.512 mcs99=    25696  best-visited p=0.656  cfg={'family': 'ReAIM', 'kset': [128, 256, 512, 1024], 'T1': 0.1, 'S': 4000}
+aSB                    k=0 mean_cut=     -inf p33000=0.000 mcs99=      inf  best-visited p=0.000  cfg={'family': 'aSB', 'dt': 0.9, 'xi': 1.0, 'M': 2, 'S': 4000}
+bSB                    k=4 mean_cut=  33209.0 p33000=1.000 mcs99=     4000  best-visited p=1.000  cfg={'family': 'bSB', 'dt': 1.25, 'xi': 1.0, 'S': 4000}
+dSB                    k=4 mean_cut=  33218.6 p33000=1.000 mcs99=     4000  best-visited p=1.000  cfg={'family': 'dSB', 'dt': 1.25, 'xi': 1.0, 'S': 4000}
+TEC-T (ours)           k=10 mean_cut=  33236.4 p33000=1.000 mcs99=     4000  best-visited p=nan  cfg={'family': 'tecT', 'kappa': 1.75, 'q': 8.0, 'T0': 15.0, 'ramp': True, 'S': 4000}
+Onsager SCA (ours)     k=15 mean_cut=  33232.7 p33000=1.000 mcs99=     4000  best-visited p=nan  cfg={'family': 'onsager', 'lam': 1.05, 'q': 8.0, 'T0': 12.0, 'ramp': True, 'S': 4000}
+=== steps to solution (min over S of S ln0.01/ln(1-p), final state)
+SA (Neal)                   6181 (at S = 4000)
+SCA (STATICA)               3959 (at S = 2000)
+TEC (published)           781335 (at S = 2000)
+TEC on STATICA             28787 (at S = 4000)
+APC-SCA (published)        20891 (at S = 4000)
+ReAIM ASA                  25696 (at S = 4000)
+aSB                          inf (at S = 250)
+bSB                          237 (at S = 250)
+dSB                         2071 (at S = 2000)
+TEC-T (ours)                 830 (at S = 1000)
+Onsager SCA (ours)          1358 (at S = 500)

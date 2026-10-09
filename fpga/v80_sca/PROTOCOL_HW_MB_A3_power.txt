@@ -1,0 +1,6 @@
+# PROTOCOL_HW_MB Amendment 3 power (frozen): key host-arguments (scripts/measure_power_mb3.sh: 150 s load, 512 trials per launch, 60 s idle between)
+X5 --q 8 --tecT 1.75 --ramp --t0 15 --steps 280
+G22_ons --matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G22 --target 13226 --q 5 --lambda 0.5 --ramp --t0 5 --t1 0.5 --steps 1024 --corr-scale auto
+G32_tecT --matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G32 --target 1396 --q 1 --tecT 2 --ramp --t0 2 --t1 0.5 --steps 4096 --corr-scale auto
+G1_ons_o --matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G1 --target 11508 --q 14.95556297837029 --t0 12.462969148641907 --t1 4.652841815492979 --steps 500 --lambda 0.029977488744372185 --ramp --corr-scale 1
+G43_ons_o --matrix gset:/scratch/USER/sca_v80_20261003/data/gset/G43 --target 6594 --q 6.4366550319245786 --t0 6.034364092429294 --t1 3.0037723482314704 --steps 250 --lambda 0.01998999499749875 --ramp --corr-scale 1

@@ -1,0 +1,39 @@
+{
+ "prefix": "G17_OnsagerkT",
+ "B": 32,
+ "batches": 1,
+ "trials": 32,
+ "t_batch_ms": 7.31040001,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.7934506856227626
+ ],
+ "feasible": 6,
+ "feasibility": 0.1875,
+ "feasibility_wilson95": [
+  0.08889544689565954,
+  0.3530915520137596
+ ],
+ "mean_quality": 0.08544740821510292,
+ "mean_quality_feasible": 0.45571951048054893,
+ "best_value": 2296,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  21.34497390910273,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  9.279851883368513,
+  Infinity
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "gset": {
+  "G22_ons": {
+   "validation_hits": 220,
+   "validation_trials": 512,
+   "p": 0.4296875,
+   "predicted_t_round_ms": 0.101397008,
+   "predicted_tts99_ms": 0.06929231055335368,
+   "G3_band_ms": [
+    0.054684014012637575,
+    0.11153670880000001
+   ],
+   "config": {
+    "t0": 5,
+    "t1": 0.5,
+    "q": 5,
+    "S": 1024,
+    "lam": 0.5,
+    "ramp": 1,
+    "kappa": 0,
+    "corr_scale": "auto"
+   },
+   "target": 13226
+  },
+  "G22_plain": {
+   "validation_hits": 211,
+   "validation_trials": 512,
+   "p": 0.412109375,
+   "predicted_t_round_ms": 0.101397008,
+   "predicted_tts99_ms": 0.0732520480581079,
+   "G3_band_ms": [
+    0.057655739573320416,
+    0.11153670880000001
+   ],
+   "config": {
+    "t0": 5,
+    "t1": 0.7,
+    "q": 5,
+    "S": 1024,
+    "lam": 0,
+    "ramp": 0,
+    "kappa": 0,
+    "corr_scale": "1"
+   },
+   "target": 13226
+  },
+  "G22_tecT": {
+   "validation_hits": 209,
+   "validation_trials": 512,
+   "p": 0.408203125,
+   "predicted_t_round_ms": 0.101397008,
+   "predicted_tts99_ms": 0.07417679498704206,
+   "G3_band_ms": [
+    0.05834768794697469,
+    0.11153670880000001
+   ],
+   "config": {
+    "t0": 5,
+    "t1": 0.7,
+    "q": 5,
+    "S": 1024,
+    "lam": 0,
+    "ramp": 1,
+    "kappa": 1.5,
+    "corr_scale": "auto"
+   },
+   "target": 13226
+  },
+  "G32_ons": {
+   "validation_hits": 1,
+   "validation_trials": 512,
+   "p": 0.001953125,
+   "predicted_t_round_ms": 0.38743707200000005,
+   "predicted_tts99_ms": 76.0520827321457,
+   "G3_band_ms": [
+    12.120711583318649,
+    474.1923810179125
+   ],
+   "config": {
+    "t0": 1.5,
+    "t1": 0.5,
+    "q": 1.5,
+    "S": 4096,
+    "lam": 0.9,
+    "ramp": 1,
+    "kappa": 0,
+    "corr_scale": "auto"
+   },
+   "target": 1396
+  },
+  "G32_plain": {
+   "validation_hits": 5,
+   "validation_trials": 512,
+   "p": 0.009765625,
+   "predicted_t_round_ms": 0.5516868941216,
+   "predicted_tts99_ms": 21.57385740309364,
+   "G3_band_ms": [
+    8.315202185392204,
+    55.622118193817606
+   ],
+   "config": {
+    "t0": 2,
+    "t1": 0.5,
+    "q": 1,
+    "S": 4096,
+    "lam": 0,
+    "ramp": 0,
+    "kappa": 0,
+    "corr_scale": "1"
+   },
+   "target": 1396
+  },
+  "G32_tecT": {
+   "validation_hits": 6,
+   "validation_trials": 512,
+   "p": 0.01171875,
+   "predicted_t_round_ms": 0.5534345130024,
+   "predicted_tts99_ms": 18.017402485399423,
+   "G3_band_ms": [
+    7.450770934906779,
+    43.29611737220984
+   ],
+   "config": {
+    "t0": 2,
+    "t1": 0.5,
+    "q": 1,
+    "S": 4096,
+    "lam": 0,
+    "ramp": 1,
+    "kappa": 2,
+    "corr_scale": "auto"
+   },
+   "target": 1396
+  }
+ },
+ "k2000": {
+  "X5": {
+   "v64_tts99_ms": 0.0503,
+   "tol": 0.02
+  },
+  "O4": {
+   "v64_tts99_ms": 0.0528,
+   "tol": 0.05
+  }
+ },
+ "C1_tol": 0.01,
+ "G2_tol": 0.1,
+ "cycle_model": "tR = (1.03*(max(22.6 S, 0.1424 F + 18.09 S) + 886) + 600) / f"
+}

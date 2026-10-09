@@ -1,0 +1,34 @@
+beats 65662 words 512 DRAIN 2 K 2
+trial start: cycle 69982
+trial out: cycle 80503
+MISMATCH word 32: got 4000000000000000 expected 0000000000000000 (cycle 80602)
+trial end: word 33 cycle 80603 flips 75104
+trial start: cycle 80725
+trial out: cycle 91074
+MISMATCH word 106: got 4000000000000000 expected 0000000000000000 (cycle 91173)
+trial end: word 107 cycle 91175 flips 73661
+trial start: cycle 91296
+trial out: cycle 100961
+MISMATCH word 180: got 4000000000000000 expected 0000000000000000 (cycle 101060)
+trial end: word 181 cycle 101061 flips 67892
+trial start: cycle 101229
+trial out: cycle 111820
+MISMATCH word 254: got 4000000000000000 expected 0000000000000000 (cycle 111920)
+trial end: word 255 cycle 111921 flips 75532
+trial start: cycle 112042
+trial out: cycle 122771
+MISMATCH word 328: got 4000000000000000 expected 0000000000000000 (cycle 122870)
+trial end: word 329 cycle 122871 flips 76844
+trial start: cycle 122993
+trial out: cycle 133677
+MISMATCH word 402: got 4000000000000000 expected 0000000000000000 (cycle 133776)
+trial end: word 403 cycle 133777 flips 76492
+trial start: cycle 133944
+trial out: cycle 144453
+MISMATCH word 476: got 4000000000000000 expected 0000000000000000 (cycle 144552)
+trial end: word 477 cycle 144553 flips 75067
+trial start: cycle 144555
+trial out: cycle 154872
+MISMATCH word 510: got 4000000000000000 expected 0000000000000000 (cycle 154971)
+DONE: 512 words, 8 errors, 0 residue violations, cycle 154972
+TESTBENCH FAILED

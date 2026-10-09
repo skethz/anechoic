@@ -1,0 +1,39 @@
+{
+ "prefix": "G5_TEC_b60",
+ "B": 60,
+ "batches": 128,
+ "trials": 7680,
+ "t_batch_ms": 6.229227732890625,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0004999398857044752
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.029136956273508416
+ ],
+ "feasible": 260,
+ "feasibility": 0.033854166666666664,
+ "feasibility_wilson95": [
+  0.030036733227355485,
+  0.03813768989525441
+ ],
+ "mean_quality": 0.026789453710634608,
+ "mean_quality_feasible": 0.791319248067976,
+ "best_value": 9312,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  970.1313022700575,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  956.0976982248699,
+  Infinity
+ ]
+}

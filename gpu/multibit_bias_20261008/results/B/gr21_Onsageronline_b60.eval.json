@@ -1,0 +1,39 @@
+{
+ "prefix": "gr21_Onsageronline_b60",
+ "B": 60,
+ "batches": 128,
+ "trials": 7680,
+ "t_batch_ms": 14.991014009375,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0004999398857044752
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.029136956273508416
+ ],
+ "feasible": 4649,
+ "feasibility": 0.6053385416666667,
+ "feasibility_wilson95": [
+  0.5943570037782319,
+  0.6162147536781394
+ ],
+ "mean_quality": 0.2919709585785707,
+ "mean_quality_feasible": 0.48232672873379717,
+ "best_value": 3877,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  2334.6797655951104,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  2300.907047071332,
+  Infinity
+ ]
+}

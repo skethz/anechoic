@@ -1,0 +1,18 @@
+K 4 matrix ising:/scratch/USER/sca_v80_20261003/data/ising_20261008/tsp4.ising n 16 nfield 16 bias_mode 1 maxabs 6 sumw 376 field_bound 92 fingerprint dca7f4d16bcd73b3 auto_scale 15.0625
+case 0 plain_S300 S 300 t0 40 t1 1 q 8 lambda 0 ramp 0 jv 0 kappa 0 scale 1 trials 3 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 sum_sh 224 flips 1015 energy2 -504
+  trial 1001 sum_sh 136 flips 892 energy2 -496
+  trial 1002 sum_sh -192 flips 2988 energy2 -368
+case 1 ons_ramp_S300 S 300 t0 40 t1 1 q 8 lambda 0.5 ramp 1 jv 0 kappa 0 scale 15.0625 trials 3 trace 1 keep 0 seed 12648431 offset 1100
+  trial 1100 sum_sh 224 flips 1183 energy2 -504
+  trial 1101 sum_sh 216 flips 1222 energy2 -496
+  trial 1102 sum_sh 224 flips 950 energy2 -504
+case 2 tecT_ramp_S300 S 300 t0 40 t1 1 q 8 lambda 0 ramp 1 jv 0 kappa 1 scale 15.0625 trials 2 trace 1 keep 0 seed 12648432 offset 1200
+  trial 1200 sum_sh -192 flips 2717 energy2 -368
+  trial 1201 sum_sh 196 flips 2366 energy2 -488
+case 3 tec_S100 S 100 t0 40 t1 1 q 8 lambda 0 ramp 0 jv -1 kappa 0 scale 1 trials 2 trace 1 keep 0 seed 12648433 offset 1300
+  trial 1300 sum_sh -192 flips 993 energy2 -368
+  trial 1301 sum_sh 136 flips 309 energy2 -496
+case 4 tec_S100_keep S 100 t0 40 t1 1 q 8 lambda 0 ramp 0 jv -1 kappa 0 scale 1 trials 2 trace 1 keep 1 seed 12648434 offset 1400
+  trial 1400 sum_sh -1312 flips 1012 energy2 1872
+  trial 1401 sum_sh -192 flips 1010 energy2 -368

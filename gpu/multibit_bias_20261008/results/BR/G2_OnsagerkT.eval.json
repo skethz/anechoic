@@ -1,0 +1,39 @@
+{
+ "prefix": "G2_OnsagerkT",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 0.402301001375,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 27,
+ "feasibility": 0.0263671875,
+ "feasibility_wilson95": [
+  0.018183454017356528,
+  0.038091235356488354
+ ],
+ "mean_quality": 0.020827171445924747,
+ "mean_quality_feasible": 0.7898897615047012,
+ "best_value": 9332,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  16.34184154162402,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  15.461938277520156,
+  Infinity
+ ]
+}

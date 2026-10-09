@@ -1,0 +1,3572 @@
+{
+ "G1_plainpub": {
+  "instance": "G1",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.5999626502254285,
+  "model_mean_cut": 0.0
+ },
+ "G1_tecpub": {
+  "instance": "G1",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.19040059072224472,
+  "model_mean_cut": 0.0
+ },
+ "G2_plainpub": {
+  "instance": "G2",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17484645713371721,
+  "model_mean_cut": 0.0
+ },
+ "G2_tecpub": {
+  "instance": "G2",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.19044291246829337,
+  "model_mean_cut": 0.0
+ },
+ "G3_plainpub": {
+  "instance": "G3",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17486376431994874,
+  "model_mean_cut": 0.0
+ },
+ "G3_tecpub": {
+  "instance": "G3",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.19037790070508528,
+  "model_mean_cut": 0.0
+ },
+ "G4_plainpub": {
+  "instance": "G4",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17483488210701312,
+  "model_mean_cut": 0.0
+ },
+ "G4_tecpub": {
+  "instance": "G4",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.19039207231798919,
+  "model_mean_cut": 0.0
+ },
+ "G5_plainpub": {
+  "instance": "G5",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17491327078760488,
+  "model_mean_cut": 0.0
+ },
+ "G5_tecpub": {
+  "instance": "G5",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.19036317179387074,
+  "model_mean_cut": 0.0
+ },
+ "G6_plainpub": {
+  "instance": "G6",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.31669620095670126,
+  "model_mean_cut": 1937.3720703125
+ },
+ "G6_tecpub": {
+  "instance": "G6",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1709249656459308,
+  "model_mean_cut": 1999.4580078125
+ },
+ "G7_plainpub": {
+  "instance": "G7",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3633245670202988,
+  "model_mean_cut": 1755.7197265625
+ },
+ "G7_tecpub": {
+  "instance": "G7",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17113051110661512,
+  "model_mean_cut": 1831.72265625
+ },
+ "G8_plainpub": {
+  "instance": "G8",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3166896265261336,
+  "model_mean_cut": 1758.697265625
+ },
+ "G8_tecpub": {
+  "instance": "G8",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17094010194171755,
+  "model_mean_cut": 1844.568359375
+ },
+ "G9_plainpub": {
+  "instance": "G9",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.36309342032647846,
+  "model_mean_cut": 1803.046875
+ },
+ "G9_tecpub": {
+  "instance": "G9",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17111107865760372,
+  "model_mean_cut": 1876.1376953125
+ },
+ "G10_plainpub": {
+  "instance": "G10",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.36325367220084576,
+  "model_mean_cut": 1754.96484375
+ },
+ "G10_tecpub": {
+  "instance": "G10",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.171084391931369,
+  "model_mean_cut": 1827.7041015625
+ },
+ "G11_plainpub": {
+  "instance": "G11",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1497031980926083,
+  "model_mean_cut": 105.099609375
+ },
+ "G11_tecpub": {
+  "instance": "G11",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.18852216206918918,
+  "model_mean_cut": 424.72265625
+ },
+ "G12_plainpub": {
+  "instance": "G12",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 960
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.2539538449387029,
+  "model_mean_cut": 86.751953125
+ },
+ "G12_tecpub": {
+  "instance": "G12",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1885111960523811,
+  "model_mean_cut": 414.5234375
+ },
+ "G13_plainpub": {
+  "instance": "G13",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 760
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.20185298023298567,
+  "model_mean_cut": 106.9921875
+ },
+ "G13_tecpub": {
+  "instance": "G13",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.18850481951668718,
+  "model_mean_cut": 437.02734375
+ },
+ "G14_plainpub": {
+  "instance": "G14",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.09914919562667622,
+  "model_mean_cut": 1739.8681640625
+ },
+ "G14_tecpub": {
+  "instance": "G14",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.10247022388446872,
+  "model_mean_cut": 2210.8466796875
+ },
+ "G15_plainpub": {
+  "instance": "G15",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.0990725317860094,
+  "model_mean_cut": 1746.7314453125
+ },
+ "G15_tecpub": {
+  "instance": "G15",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.10334969173617038,
+  "model_mean_cut": 2131.7744140625
+ },
+ "G16_plainpub": {
+  "instance": "G16",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 960
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.258437371122913,
+  "model_mean_cut": 1728.1650390625
+ },
+ "G16_tecpub": {
+  "instance": "G16",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1029477028744552,
+  "model_mean_cut": 2189.279296875
+ },
+ "G17_plainpub": {
+  "instance": "G17",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.10097739762903601,
+  "model_mean_cut": 1727.6962890625
+ },
+ "G17_tecpub": {
+  "instance": "G17",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.10330208220033123,
+  "model_mean_cut": 2165.89453125
+ },
+ "G18_plainpub": {
+  "instance": "G18",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.34663218877454155,
+  "model_mean_cut": 449.9423828125
+ },
+ "G18_tecpub": {
+  "instance": "G18",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1843204760867587,
+  "model_mean_cut": 838.162109375
+ },
+ "G19_plainpub": {
+  "instance": "G19",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.40462579072446264,
+  "model_mean_cut": 369.4736328125
+ },
+ "G19_tecpub": {
+  "instance": "G19",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.18436789754015112,
+  "model_mean_cut": 753.7275390625
+ },
+ "G20_plainpub": {
+  "instance": "G20",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3533151971062934,
+  "model_mean_cut": 393.3759765625
+ },
+ "G20_tecpub": {
+  "instance": "G20",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.18442558918798013,
+  "model_mean_cut": 781.3974609375
+ },
+ "G21_plainpub": {
+  "instance": "G21",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 1160
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30185300669693005,
+  "model_mean_cut": 388.0693359375
+ },
+ "G21_tecpub": {
+  "instance": "G21",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.184285773090537,
+  "model_mean_cut": 777.1806640625
+ },
+ "G22_plainpub": {
+  "instance": "G22",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 760
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.5242619771836734,
+  "model_mean_cut": 189.6533203125
+ },
+ "G22_tecpub": {
+  "instance": "G22",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3048609672471817,
+  "model_mean_cut": 10007.107421875
+ },
+ "G23_plainpub": {
+  "instance": "G23",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.9610847389936913,
+  "model_mean_cut": 144.470703125
+ },
+ "G23_tecpub": {
+  "instance": "G23",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3062480977566755,
+  "model_mean_cut": 9984.455078125
+ },
+ "G24_plainpub": {
+  "instance": "G24",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 960
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.6771744700053226,
+  "model_mean_cut": 179.2109375
+ },
+ "G24_tecpub": {
+  "instance": "G24",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30645023855714065,
+  "model_mean_cut": 9923.23046875
+ },
+ "G25_plainpub": {
+  "instance": "G25",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 960
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.6562744599020203,
+  "model_mean_cut": 153.1748046875
+ },
+ "G25_tecpub": {
+  "instance": "G25",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30819316280418607,
+  "model_mean_cut": 9821.3076171875
+ },
+ "G26_plainpub": {
+  "instance": "G26",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1160
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.8197914238106251,
+  "model_mean_cut": 159.748046875
+ },
+ "G26_tecpub": {
+  "instance": "G26",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30825798141937377,
+  "model_mean_cut": 9833.8662109375
+ },
+ "G27_plainpub": {
+  "instance": "G27",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.8178395896195939,
+  "model_mean_cut": 2119.8173828125
+ },
+ "G27_tecpub": {
+  "instance": "G27",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.27469445021526,
+  "model_mean_cut": 2876.6572265625
+ },
+ "G28_plainpub": {
+  "instance": "G28",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.7961401737602075,
+  "model_mean_cut": 2080.7548828125
+ },
+ "G28_tecpub": {
+  "instance": "G28",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.2747942508658575,
+  "model_mean_cut": 2839.99609375
+ },
+ "G29_plainpub": {
+  "instance": "G29",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.7958664876732103,
+  "model_mean_cut": 2190.8896484375
+ },
+ "G29_tecpub": {
+  "instance": "G29",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.2747076710509314,
+  "model_mean_cut": 2940.04296875
+ },
+ "G30_plainpub": {
+  "instance": "G30",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.7960661056390885,
+  "model_mean_cut": 2205.8564453125
+ },
+ "G30_tecpub": {
+  "instance": "G30",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.2748835676049158,
+  "model_mean_cut": 2944.755859375
+ },
+ "G31_plainpub": {
+  "instance": "G31",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.7960486259716424,
+  "model_mean_cut": 2092.10546875
+ },
+ "G31_tecpub": {
+  "instance": "G31",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.2747467790758901,
+  "model_mean_cut": 2854.029296875
+ },
+ "G32_plainpub": {
+  "instance": "G32",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.7276812362601995,
+  "model_mean_cut": 235.7578125
+ },
+ "G32_tecpub": {
+  "instance": "G32",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.2959631749157192,
+  "model_mean_cut": 1048.205078125
+ },
+ "G33_plainpub": {
+  "instance": "G33",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1160
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.6212616406807983,
+  "model_mean_cut": 207.650390625
+ },
+ "G33_tecpub": {
+  "instance": "G33",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.29596232700710623,
+  "model_mean_cut": 1023.83203125
+ },
+ "G34_plainpub": {
+  "instance": "G34",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 760
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.41644444347848447,
+  "model_mean_cut": 199.138671875
+ },
+ "G34_tecpub": {
+  "instance": "G34",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.295937891222809,
+  "model_mean_cut": 1022.4453125
+ },
+ "G35_plainpub": {
+  "instance": "G35",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.20857282391450907,
+  "model_mean_cut": 4314.8046875
+ },
+ "G35_tecpub": {
+  "instance": "G35",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.21600708079429395,
+  "model_mean_cut": 4889.03125
+ },
+ "G36_plainpub": {
+  "instance": "G36",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.32182817761327737,
+  "model_mean_cut": 4367.541015625
+ },
+ "G36_tecpub": {
+  "instance": "G36",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.2110898790486784,
+  "model_mean_cut": 5180.8896484375
+ },
+ "G37_plainpub": {
+  "instance": "G37",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.20853723152476442,
+  "model_mean_cut": 4327.3486328125
+ },
+ "G37_tecpub": {
+  "instance": "G37",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.21574439940999338,
+  "model_mean_cut": 4912.6982421875
+ },
+ "G38_plainpub": {
+  "instance": "G38",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3153417419978579,
+  "model_mean_cut": 4350.55859375
+ },
+ "G38_tecpub": {
+  "instance": "G38",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.2144573922255019,
+  "model_mean_cut": 4911.4658203125
+ },
+ "G39_plainpub": {
+  "instance": "G39",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.7298145708741959,
+  "model_mean_cut": 1055.162109375
+ },
+ "G39_tecpub": {
+  "instance": "G39",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.28570201931868494,
+  "model_mean_cut": 2028.84375
+ },
+ "G40_plainpub": {
+  "instance": "G40",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.7126689291336594,
+  "model_mean_cut": 1043.4833984375
+ },
+ "G40_tecpub": {
+  "instance": "G40",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.28515806876402394,
+  "model_mean_cut": 2012.0390625
+ },
+ "G41_plainpub": {
+  "instance": "G41",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.7133185022424714,
+  "model_mean_cut": 1032.7587890625
+ },
+ "G41_tecpub": {
+  "instance": "G41",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.2855349795119415,
+  "model_mean_cut": 2012.662109375
+ },
+ "G42_plainpub": {
+  "instance": "G42",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.8173579835528733,
+  "model_mean_cut": 1129.775390625
+ },
+ "G42_tecpub": {
+  "instance": "G42",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.28548778943042435,
+  "model_mean_cut": 2094.826171875
+ },
+ "G43_plainpub": {
+  "instance": "G43",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.5236149252383373,
+  "model_mean_cut": 80.34765625
+ },
+ "G43_tecpub": {
+  "instance": "G43",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17989903624474654,
+  "model_mean_cut": 3918.7470703125
+ },
+ "G44_plainpub": {
+  "instance": "G44",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1385565727662181,
+  "model_mean_cut": 85.7744140625
+ },
+ "G44_tecpub": {
+  "instance": "G44",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1798284765307506,
+  "model_mean_cut": 3924.7626953125
+ },
+ "G45_plainpub": {
+  "instance": "G45",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.5330071868068679,
+  "model_mean_cut": 71.640625
+ },
+ "G45_tecpub": {
+  "instance": "G45",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1795192377155995,
+  "model_mean_cut": 3977.17578125
+ },
+ "G46_plainpub": {
+  "instance": "G46",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 30.0,
+   "S": 560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.21928129455731507,
+  "model_mean_cut": 66.4453125
+ },
+ "G46_tecpub": {
+  "instance": "G46",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17859645906957464,
+  "model_mean_cut": 4193.8056640625
+ },
+ "G47_plainpub": {
+  "instance": "G47",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 1360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.5181631273646127,
+  "model_mean_cut": 77.1708984375
+ },
+ "G47_tecpub": {
+  "instance": "G47",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.17969091500622417,
+  "model_mean_cut": 4038.4365234375
+ },
+ "G51_plainpub": {
+  "instance": "G51",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.18195252366053838,
+  "model_mean_cut": 2170.0947265625
+ },
+ "G51_tecpub": {
+  "instance": "G51",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.12587794849848624,
+  "model_mean_cut": 2506.490234375
+ },
+ "G52_plainpub": {
+  "instance": "G52",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 760
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.24742620363737536,
+  "model_mean_cut": 2160.2734375
+ },
+ "G52_tecpub": {
+  "instance": "G52",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1233957668629917,
+  "model_mean_cut": 2621.1181640625
+ },
+ "G53_plainpub": {
+  "instance": "G53",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 40.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.11812907411162674,
+  "model_mean_cut": 2180.0263671875
+ },
+ "G53_tecpub": {
+  "instance": "G53",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1244205255849975,
+  "model_mean_cut": 2568.6650390625
+ },
+ "G54_plainpub": {
+  "instance": "G54",
+  "rule": "SCA-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "plain",
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 560
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1832357543109444,
+  "model_mean_cut": 2185.111328125
+ },
+ "G54_tecpub": {
+  "instance": "G54",
+  "rule": "TEC-pub",
+  "reading": "K2000 values unchanged",
+  "cfg": {
+   "family": "tec",
+   "jv": 30.0,
+   "q": 4.0,
+   "T0": 50.0,
+   "S": 360
+  },
+  "tfin": 5.0,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.12434344595442653,
+  "model_mean_cut": 2563.064453125
+ },
+ "G1_plainpubs": {
+  "instance": "G1",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1350645428820981,
+  "model_mean_cut": 0.0
+ },
+ "G1_tecpubs": {
+  "instance": "G1",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13503598789942,
+  "model_mean_cut": 0.0
+ },
+ "G2_plainpubs": {
+  "instance": "G2",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13506813949140573,
+  "model_mean_cut": 0.0
+ },
+ "G2_tecpubs": {
+  "instance": "G2",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1350298178326542,
+  "model_mean_cut": 0.052734375
+ },
+ "G3_plainpubs": {
+  "instance": "G3",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13506426283255538,
+  "model_mean_cut": 0.0
+ },
+ "G3_tecpubs": {
+  "instance": "G3",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13503229889752003,
+  "model_mean_cut": 0.0
+ },
+ "G4_plainpubs": {
+  "instance": "G4",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13506158193252304,
+  "model_mean_cut": 0.048828125
+ },
+ "G4_tecpubs": {
+  "instance": "G4",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13503471334368605,
+  "model_mean_cut": 0.0
+ },
+ "G5_plainpubs": {
+  "instance": "G5",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13506633035404847,
+  "model_mean_cut": 0.0
+ },
+ "G5_tecpubs": {
+  "instance": "G5",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 250
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13503748198191476,
+  "model_mean_cut": 0.0
+ },
+ "G6_plainpubs": {
+  "instance": "G6",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 500
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.3740234375,
+  "model_tts12_ms": 0.06744170919307906,
+  "model_tts12_secondary_ms": 0.055250581945324166,
+  "model_t_round12_ms": 0.06744170919307906,
+  "model_mean_cut": 2152.2470703125
+ },
+ "G6_tecpubs": {
+  "instance": "G6",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 4000
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.1962890625,
+  "model_tts12_ms": 0.6002121891090717,
+  "model_tts12_secondary_ms": 0.6002121891090718,
+  "model_t_round12_ms": 0.3417612577724507,
+  "model_mean_cut": 2142.681640625
+ },
+ "G7_plainpubs": {
+  "instance": "G7",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 500
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.302734375,
+  "model_tts12_ms": 0.07292714563435151,
+  "model_tts12_secondary_ms": 0.07292714563435149,
+  "model_t_round12_ms": 0.06852310952558431,
+  "model_mean_cut": 1978.23828125
+ },
+ "G7_tecpubs": {
+  "instance": "G7",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 4000
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.21875,
+  "model_tts12_ms": 0.5354768767766107,
+  "model_tts12_secondary_ms": 0.5354768767766107,
+  "model_t_round12_ms": 0.3444507582381348,
+  "model_mean_cut": 1974.2255859375
+ },
+ "G8_plainpubs": {
+  "instance": "G8",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 500
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.4189453125,
+  "model_tts12_ms": 0.0673431952689358,
+  "model_tts12_secondary_ms": 0.04760252567319456,
+  "model_t_round12_ms": 0.0673431952689358,
+  "model_mean_cut": 1981.3212890625
+ },
+ "G8_tecpubs": {
+  "instance": "G8",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 4000
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.353515625,
+  "model_tts12_ms": 0.3007077855862613,
+  "model_tts12_secondary_ms": 0.3007077855862609,
+  "model_t_round12_ms": 0.34180004672310454,
+  "model_mean_cut": 1979.0
+ },
+ "G9_plainpubs": {
+  "instance": "G9",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 500
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.3515625,
+  "model_tts12_ms": 0.06040364618699171,
+  "model_tts12_secondary_ms": 0.06040364618699176,
+  "model_t_round12_ms": 0.06818310810732017,
+  "model_mean_cut": 2027.1376953125
+ },
+ "G9_tecpubs": {
+  "instance": "G9",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 4000
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.2099609375,
+  "model_tts12_ms": 0.5595204310168473,
+  "model_tts12_secondary_ms": 0.5595204310168473,
+  "model_t_round12_ms": 0.343606314250811,
+  "model_mean_cut": 2020.58984375
+ },
+ "G10_plainpubs": {
+  "instance": "G10",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 500
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.3076171875,
+  "model_tts12_ms": 0.07127704785667327,
+  "model_tts12_secondary_ms": 0.07127704785667326,
+  "model_t_round12_ms": 0.06827787566861054,
+  "model_mean_cut": 1972.5322265625
+ },
+ "G10_tecpubs": {
+  "instance": "G10",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 4.645835973853142,
+   "q": 0.6194447965137523,
+   "T0": 6.194447965137523,
+   "S": 4000
+  },
+  "tfin": 0.7743059956421904,
+  "model_p": 0.21875,
+  "model_tts12_ms": 0.5344319228276252,
+  "model_tts12_secondary_ms": 0.5344319228276252,
+  "model_t_round12_ms": 0.3437785813512098,
+  "model_mean_cut": 1968.06640625
+ },
+ "G11_plainpubs": {
+  "instance": "G11",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 2000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.0205078125,
+  "model_tts12_ms": 5.119372188096399,
+  "model_tts12_secondary_ms": 5.119372188096398,
+  "model_t_round12_ms": 0.27641610742288436,
+  "model_mean_cut": 546.89453125
+ },
+ "G11_tecpubs": {
+  "instance": "G11",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 1.3419763225277532,
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.0078125,
+  "model_tts12_ms": 20.600945290712335,
+  "model_tts12_secondary_ms": 20.60094529071233,
+  "model_t_round12_ms": 0.4210316576917758,
+  "model_mean_cut": 540.947265625
+ },
+ "G12_plainpubs": {
+  "instance": "G12",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 2000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.009765625,
+  "model_tts12_ms": 10.66346458441843,
+  "model_tts12_secondary_ms": 10.663464584418433,
+  "model_t_round12_ms": 0.2726862214408578,
+  "model_mean_cut": 538.939453125
+ },
+ "G12_tecpubs": {
+  "instance": "G12",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 1.3419763225277532,
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.00390625,
+  "model_tts12_ms": 41.87839361017617,
+  "model_tts12_secondary_ms": 41.8783936101762,
+  "model_t_round12_ms": 0.4271055610145196,
+  "model_mean_cut": 530.185546875
+ },
+ "G13_plainpubs": {
+  "instance": "G13",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.009765625,
+  "model_tts12_ms": 20.715710743446436,
+  "model_tts12_secondary_ms": 20.71571074344644,
+  "model_t_round12_ms": 0.5297423592840932,
+  "model_mean_cut": 565.201171875
+ },
+ "G13_tecpubs": {
+  "instance": "G13",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 1.3419763225277532,
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.0009765625,
+  "model_tts12_ms": 172.62475565567593,
+  "model_tts12_secondary_ms": 172.6247556556763,
+  "model_t_round12_ms": 0.43949185022995335,
+  "model_mean_cut": 551.890625
+ },
+ "G14_plainpubs": {
+  "instance": "G14",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.30647506176154177,
+   "T0": 3.0647506176154176,
+   "S": 250
+  },
+  "tfin": 0.3830938272019272,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13471918874912384,
+  "model_mean_cut": 0.0
+ },
+ "G14_tecpubs": {
+  "instance": "G14",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.2985629632115634,
+   "q": 0.30647506176154177,
+   "T0": 3.0647506176154176,
+   "S": 250
+  },
+  "tfin": 0.3830938272019272,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1346062823683679,
+  "model_mean_cut": 0.0
+ },
+ "G15_plainpubs": {
+  "instance": "G15",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3053958632932973,
+   "T0": 3.0539586329329733,
+   "S": 250
+  },
+  "tfin": 0.38174482911662166,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.134729727283918,
+  "model_mean_cut": 0.0
+ },
+ "G15_tecpubs": {
+  "instance": "G15",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.29046897469973,
+   "q": 0.3053958632932973,
+   "T0": 3.0539586329329733,
+   "S": 250
+  },
+  "tfin": 0.38174482911662166,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13461207741241113,
+  "model_mean_cut": 0.0
+ },
+ "G16_plainpubs": {
+  "instance": "G16",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3057560193547886,
+   "T0": 3.0575601935478858,
+   "S": 250
+  },
+  "tfin": 0.3821950241934857,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13471370131967864,
+  "model_mean_cut": 0.0
+ },
+ "G16_tecpubs": {
+  "instance": "G16",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.2931701451609143,
+   "q": 0.3057560193547886,
+   "T0": 3.0575601935478858,
+   "S": 250
+  },
+  "tfin": 0.3821950241934857,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13459356441675938,
+  "model_mean_cut": 0.0
+ },
+ "G17_plainpubs": {
+  "instance": "G17",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.30559236467338863,
+   "T0": 3.0559236467338864,
+   "S": 250
+  },
+  "tfin": 0.3819904558417358,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.13473573851851614,
+  "model_mean_cut": 0.0
+ },
+ "G17_tecpubs": {
+  "instance": "G17",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.291942735050415,
+   "q": 0.30559236467338863,
+   "T0": 3.0559236467338864,
+   "S": 250
+  },
+  "tfin": 0.3819904558417358,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1346019227962232,
+  "model_mean_cut": 0.005859375
+ },
+ "G18_plainpubs": {
+  "instance": "G18",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.30647506176154177,
+   "T0": 3.0647506176154176,
+   "S": 2000
+  },
+  "tfin": 0.3830938272019272,
+  "model_p": 0.189453125,
+  "model_tts12_ms": 0.557460969952852,
+  "model_tts12_secondary_ms": 0.557460969952852,
+  "model_t_round12_ms": 0.30511577360022496,
+  "model_mean_cut": 964.96484375
+ },
+ "G18_tecpubs": {
+  "instance": "G18",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.2985629632115634,
+   "q": 0.30647506176154177,
+   "T0": 3.0647506176154176,
+   "S": 4000
+  },
+  "tfin": 0.3830938272019272,
+  "model_p": 0.0068359375,
+  "model_tts12_ms": 40.668530021882034,
+  "model_tts12_secondary_ms": 40.66853002188202,
+  "model_t_round12_ms": 0.7269102126171111,
+  "model_mean_cut": 851.1708984375
+ },
+ "G19_plainpubs": {
+  "instance": "G19",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3053958632932973,
+   "T0": 3.0539586329329733,
+   "S": 2000
+  },
+  "tfin": 0.38174482911662166,
+  "model_p": 0.3984375,
+  "model_tts12_ms": 0.31666127978169933,
+  "model_tts12_secondary_ms": 0.23911317787018774,
+  "model_t_round12_ms": 0.31666127978169933,
+  "model_mean_cut": 879.9853515625
+ },
+ "G19_tecpubs": {
+  "instance": "G19",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.29046897469973,
+   "q": 0.3053958632932973,
+   "T0": 3.0539586329329733,
+   "S": 4000
+  },
+  "tfin": 0.38174482911662166,
+  "model_p": 0.0361328125,
+  "model_tts12_ms": 7.0264388858013165,
+  "model_tts12_secondary_ms": 7.026438885801316,
+  "model_t_round12_ms": 0.673813171921073,
+  "model_mean_cut": 796.6474609375
+ },
+ "G20_plainpubs": {
+  "instance": "G20",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3057560193547886,
+   "T0": 3.0575601935478858,
+   "S": 2000
+  },
+  "tfin": 0.3821950241934857,
+  "model_p": 0.318359375,
+  "model_tts12_ms": 0.2846957145898962,
+  "model_tts12_secondary_ms": 0.2846957145898965,
+  "model_t_round12_ms": 0.28431627330871656,
+  "model_mean_cut": 923.8388671875
+ },
+ "G20_tecpubs": {
+  "instance": "G20",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.2931701451609143,
+   "q": 0.3057560193547886,
+   "T0": 3.0575601935478858,
+   "S": 4000
+  },
+  "tfin": 0.3821950241934857,
+  "model_p": 0.0419921875,
+  "model_tts12_ms": 4.924339907159622,
+  "model_tts12_secondary_ms": 4.924339907159622,
+  "model_t_round12_ms": 0.5504707616916695,
+  "model_mean_cut": 876.4404296875
+ },
+ "G21_plainpubs": {
+  "instance": "G21",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.30559236467338863,
+   "T0": 3.0559236467338864,
+   "S": 2000
+  },
+  "tfin": 0.3819904558417358,
+  "model_p": 0.1474609375,
+  "model_tts12_ms": 0.7352034127670499,
+  "model_tts12_secondary_ms": 0.7352034127670498,
+  "model_t_round12_ms": 0.3056345556315181,
+  "model_mean_cut": 897.34765625
+ },
+ "G21_tecpubs": {
+  "instance": "G21",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.291942735050415,
+   "q": 0.30559236467338863,
+   "T0": 3.0559236467338864,
+   "S": 4000
+  },
+  "tfin": 0.3819904558417358,
+  "model_p": 0.01171875,
+  "model_tts12_ms": 21.363307515427255,
+  "model_tts12_secondary_ms": 21.363307515427245,
+  "model_t_round12_ms": 0.6562095563165685,
+  "model_mean_cut": 826.7578125
+ },
+ "G22_plainpubs": {
+  "instance": "G22",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3043177242611451,
+  "model_mean_cut": 0.0
+ },
+ "G22_tecpubs": {
+  "instance": "G22",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30389834809048316,
+  "model_mean_cut": 0.0
+ },
+ "G23_plainpubs": {
+  "instance": "G23",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3043016776431924,
+  "model_mean_cut": 0.0
+ },
+ "G23_tecpubs": {
+  "instance": "G23",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3038732342907855,
+  "model_mean_cut": 0.0185546875
+ },
+ "G24_plainpubs": {
+  "instance": "G24",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30426826361036946,
+  "model_mean_cut": 0.0
+ },
+ "G24_tecpubs": {
+  "instance": "G24",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3038896760708908,
+  "model_mean_cut": 0.0
+ },
+ "G25_plainpubs": {
+  "instance": "G25",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3042782540357552,
+  "model_mean_cut": 0.0
+ },
+ "G25_tecpubs": {
+  "instance": "G25",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30384424849391184,
+  "model_mean_cut": 0.0
+ },
+ "G26_plainpubs": {
+  "instance": "G26",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30431987743118344,
+  "model_mean_cut": 0.0
+ },
+ "G26_tecpubs": {
+  "instance": "G26",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 250
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30384260335996055,
+  "model_mean_cut": 0.0
+ },
+ "G27_plainpubs": {
+  "instance": "G27",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 1000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.49609375,
+  "model_tts12_ms": 0.20536148091148831,
+  "model_tts12_secondary_ms": 0.114990371783149,
+  "model_t_round12_ms": 0.20536148091148831,
+  "model_mean_cut": 3306.421875
+ },
+ "G27_tecpubs": {
+  "instance": "G27",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 4000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.056640625,
+  "model_tts12_ms": 2.7315045464567547,
+  "model_tts12_secondary_ms": 2.731504546456755,
+  "model_t_round12_ms": 0.4150165553212729,
+  "model_mean_cut": 3277.44921875
+ },
+ "G28_plainpubs": {
+  "instance": "G28",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 1000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.6357421875,
+  "model_tts12_ms": 0.20638808308837908,
+  "model_tts12_secondary_ms": 0.07842843117563729,
+  "model_t_round12_ms": 0.20638808308837908,
+  "model_mean_cut": 3269.2666015625
+ },
+ "G28_tecpubs": {
+  "instance": "G28",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 4000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.091796875,
+  "model_tts12_ms": 1.655915880726693,
+  "model_tts12_secondary_ms": 1.6559158807266925,
+  "model_t_round12_ms": 0.41547268664327985,
+  "model_mean_cut": 3241.908203125
+ },
+ "G29_plainpubs": {
+  "instance": "G29",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 1000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.2958984375,
+  "model_tts12_ms": 0.22470631384622158,
+  "model_tts12_secondary_ms": 0.22470631384622158,
+  "model_t_round12_ms": 0.20542384969046656,
+  "model_mean_cut": 3364.2109375
+ },
+ "G29_tecpubs": {
+  "instance": "G29",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 4000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.025390625,
+  "model_tts12_ms": 6.189312102204194,
+  "model_tts12_secondary_ms": 6.189312102204194,
+  "model_t_round12_ms": 0.41478598569244457,
+  "model_mean_cut": 3341.27734375
+ },
+ "G30_plainpubs": {
+  "instance": "G30",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 1000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.599609375,
+  "model_tts12_ms": 0.20504733837239444,
+  "model_tts12_secondary_ms": 0.08597024473290545,
+  "model_t_round12_ms": 0.20504733837239444,
+  "model_mean_cut": 3381.1357421875
+ },
+ "G30_tecpubs": {
+  "instance": "G30",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 4000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.072265625,
+  "model_tts12_ms": 2.1252128030684445,
+  "model_tts12_secondary_ms": 2.125212803068445,
+  "model_t_round12_ms": 0.4153900738099507,
+  "model_mean_cut": 3353.8115234375
+ },
+ "G31_plainpubs": {
+  "instance": "G31",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 1000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.59375,
+  "model_tts12_ms": 0.20669547005438732,
+  "model_tts12_secondary_ms": 0.088058950739535,
+  "model_t_round12_ms": 0.20669547005438732,
+  "model_mean_cut": 3278.5166015625
+ },
+ "G31_tecpubs": {
+  "instance": "G31",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.9999999999999996,
+   "q": 0.39999999999999997,
+   "T0": 3.9999999999999996,
+   "S": 4000
+  },
+  "tfin": 0.49999999999999994,
+  "model_p": 0.103515625,
+  "model_tts12_ms": 1.459851313259442,
+  "model_tts12_secondary_ms": 1.4598513132594415,
+  "model_t_round12_ms": 0.4156833952362646,
+  "model_mean_cut": 3254.3837890625
+ },
+ "G32_plainpubs": {
+  "instance": "G32",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.8737680575316511,
+  "model_mean_cut": 1367.74609375
+ },
+ "G32_tecpubs": {
+  "instance": "G32",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 1.3419763225277532,
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.5493046541043243,
+  "model_mean_cut": 1343.1171875
+ },
+ "G33_plainpubs": {
+  "instance": "G33",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.8700489406978655,
+  "model_mean_cut": 1341.078125
+ },
+ "G33_tecpubs": {
+  "instance": "G33",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 1.3419763225277532,
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.5583219741743168,
+  "model_mean_cut": 1316.19140625
+ },
+ "G34_plainpubs": {
+  "instance": "G34",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.8575786231799354,
+  "model_mean_cut": 1346.3671875
+ },
+ "G34_tecpubs": {
+  "instance": "G34",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 1.3419763225277532,
+   "q": 0.17893017633703376,
+   "T0": 1.7893017633703376,
+   "S": 4000
+  },
+  "tfin": 0.2236627204212922,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.5635536893341189,
+  "model_mean_cut": 1314.197265625
+ },
+ "G35_plainpubs": {
+  "instance": "G35",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3070360492967949,
+   "T0": 3.070360492967949,
+   "S": 500
+  },
+  "tfin": 0.38379506162099364,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.6067946190291299,
+  "model_mean_cut": 0.0
+ },
+ "G35_tecpubs": {
+  "instance": "G35",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.3027703697259616,
+   "q": 0.3070360492967949,
+   "T0": 3.070360492967949,
+   "S": 250
+  },
+  "tfin": 0.38379506162099364,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30366893467785977,
+  "model_mean_cut": 3.0517578125
+ },
+ "G36_plainpubs": {
+  "instance": "G36",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.30687959779654933,
+   "T0": 3.068795977965493,
+   "S": 250
+  },
+  "tfin": 0.38359949724568665,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3040867015569053,
+  "model_mean_cut": 0.0
+ },
+ "G36_tecpubs": {
+  "instance": "G36",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.30159698347412,
+   "q": 0.30687959779654933,
+   "T0": 3.068795977965493,
+   "S": 250
+  },
+  "tfin": 0.38359949724568665,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3036790135365215,
+  "model_mean_cut": 0.009765625
+ },
+ "G37_plainpubs": {
+  "instance": "G37",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3071272758674991,
+   "T0": 3.071272758674991,
+   "S": 250
+  },
+  "tfin": 0.38390909483437385,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3040950735667438,
+  "model_mean_cut": 0.0
+ },
+ "G37_tecpubs": {
+  "instance": "G37",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.3034545690062433,
+   "q": 0.3071272758674991,
+   "T0": 3.071272758674991,
+   "S": 250
+  },
+  "tfin": 0.38390909483437385,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3036431133616541,
+  "model_mean_cut": 12.111328125
+ },
+ "G38_plainpubs": {
+  "instance": "G38",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3070490833234727,
+   "T0": 3.070490833234727,
+   "S": 250
+  },
+  "tfin": 0.38381135415434087,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.30410252116551506,
+  "model_mean_cut": 0.0
+ },
+ "G38_tecpubs": {
+  "instance": "G38",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.302868124926045,
+   "q": 0.3070490833234727,
+   "T0": 3.070490833234727,
+   "S": 250
+  },
+  "tfin": 0.38381135415434087,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.3037033085078022,
+  "model_mean_cut": 2.9501953125
+ },
+ "G39_plainpubs": {
+  "instance": "G39",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3070360492967949,
+   "T0": 3.070360492967949,
+   "S": 4000
+  },
+  "tfin": 0.38379506162099364,
+  "model_p": 0.0439453125,
+  "model_tts12_ms": 9.475625652403496,
+  "model_tts12_secondary_ms": 9.475625652403496,
+  "model_t_round12_ms": 1.1096297721068524,
+  "model_mean_cut": 2327.7705078125
+ },
+ "G39_tecpubs": {
+  "instance": "G39",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.3027703697259616,
+   "q": 0.3070360492967949,
+   "T0": 3.070360492967949,
+   "S": 4000
+  },
+  "tfin": 0.38379506162099364,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 1.288856360506191,
+  "model_mean_cut": 1989.6767578125
+ },
+ "G40_plainpubs": {
+  "instance": "G40",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.30687959779654933,
+   "T0": 3.068795977965493,
+   "S": 4000
+  },
+  "tfin": 0.38359949724568665,
+  "model_p": 0.0361328125,
+  "model_tts12_ms": 10.326735178135987,
+  "model_tts12_secondary_ms": 10.326735178135987,
+  "model_t_round12_ms": 0.9903011040243599,
+  "model_mean_cut": 2329.947265625
+ },
+ "G40_tecpubs": {
+  "instance": "G40",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.30159698347412,
+   "q": 0.30687959779654933,
+   "T0": 3.068795977965493,
+   "S": 4000
+  },
+  "tfin": 0.38359949724568665,
+  "model_p": 0.0009765625,
+  "model_tts12_ms": 340.3412230505415,
+  "model_tts12_secondary_ms": 340.34122305054217,
+  "model_t_round12_ms": 0.8664875049923907,
+  "model_mean_cut": 2203.3994140625
+ },
+ "G41_plainpubs": {
+  "instance": "G41",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3071272758674991,
+   "T0": 3.071272758674991,
+   "S": 2000
+  },
+  "tfin": 0.38390909483437385,
+  "model_p": 0.0078125,
+  "model_tts12_ms": 28.438225865245588,
+  "model_tts12_secondary_ms": 28.438225865245577,
+  "model_t_round12_ms": 0.5812060179226597,
+  "model_mean_cut": 2276.1220703125
+ },
+ "G41_tecpubs": {
+  "instance": "G41",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.3034545690062433,
+   "q": 0.3071272758674991,
+   "T0": 3.071272758674991,
+   "S": 4000
+  },
+  "tfin": 0.38390909483437385,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 1.1387058764847338,
+  "model_mean_cut": 2065.8505859375
+ },
+ "G42_plainpubs": {
+  "instance": "G42",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3070490833234727,
+   "T0": 3.070490833234727,
+   "S": 4000
+  },
+  "tfin": 0.38381135415434087,
+  "model_p": 0.029296875,
+  "model_tts12_ms": 13.386448715327823,
+  "model_tts12_secondary_ms": 13.386448715327823,
+  "model_t_round12_ms": 1.037201235335334,
+  "model_mean_cut": 2401.134765625
+ },
+ "G42_tecpubs": {
+  "instance": "G42",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.302868124926045,
+   "q": 0.3070490833234727,
+   "T0": 3.070490833234727,
+   "S": 4000
+  },
+  "tfin": 0.38381135415434087,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 1.160880673019369,
+  "model_mean_cut": 2114.1220703125
+ },
+ "G43_plainpubs": {
+  "instance": "G43",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16309945974872375,
+  "model_mean_cut": 0.0
+ },
+ "G43_tecpubs": {
+  "instance": "G43",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.999249530945106,
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16293670407764343,
+  "model_mean_cut": 0.0
+ },
+ "G44_plainpubs": {
+  "instance": "G44",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16308861324405038,
+  "model_mean_cut": 0.0
+ },
+ "G44_tecpubs": {
+  "instance": "G44",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.999249530945106,
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16291732634797867,
+  "model_mean_cut": 0.0
+ },
+ "G45_plainpubs": {
+  "instance": "G45",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16309196734320067,
+  "model_mean_cut": 0.0
+ },
+ "G45_tecpubs": {
+  "instance": "G45",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.999249530945106,
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16293775357969062,
+  "model_mean_cut": 0.0
+ },
+ "G46_plainpubs": {
+  "instance": "G46",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1630988663965561,
+  "model_mean_cut": 0.0
+ },
+ "G46_tecpubs": {
+  "instance": "G46",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.999249530945106,
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16292494930454055,
+  "model_mean_cut": 0.0
+ },
+ "G47_plainpubs": {
+  "instance": "G47",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16309175591762506,
+  "model_mean_cut": 0.0
+ },
+ "G47_tecpubs": {
+  "instance": "G47",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.999249530945106,
+   "q": 0.39989993745934743,
+   "T0": 3.9989993745934744,
+   "S": 250
+  },
+  "tfin": 0.4998749218241843,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16293535038646367,
+  "model_mean_cut": 0.0
+ },
+ "G51_plainpubs": {
+  "instance": "G51",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.30755697951407945,
+   "T0": 3.0755697951407948,
+   "S": 250
+  },
+  "tfin": 0.38444622439259934,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16301942411175852,
+  "model_mean_cut": 0.0
+ },
+ "G51_tecpubs": {
+  "instance": "G51",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.306677346355596,
+   "q": 0.30755697951407945,
+   "T0": 3.0755697951407948,
+   "S": 250
+  },
+  "tfin": 0.38444622439259934,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1628089027758115,
+  "model_mean_cut": 1.560546875
+ },
+ "G52_plainpubs": {
+  "instance": "G52",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3077390967619128,
+   "T0": 3.0773909676191282,
+   "S": 250
+  },
+  "tfin": 0.38467387095239103,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16298022160119066,
+  "model_mean_cut": 0.0
+ },
+ "G52_tecpubs": {
+  "instance": "G52",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.308043225714346,
+   "q": 0.3077390967619128,
+   "T0": 3.0773909676191282,
+   "S": 250
+  },
+  "tfin": 0.38467387095239103,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1628057831661876,
+  "model_mean_cut": 1.5849609375
+ },
+ "G53_plainpubs": {
+  "instance": "G53",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.30768707426187714,
+   "T0": 3.0768707426187714,
+   "S": 250
+  },
+  "tfin": 0.3846088428273464,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1630063866948137,
+  "model_mean_cut": 0.0
+ },
+ "G53_tecpubs": {
+  "instance": "G53",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.3076530569640785,
+   "q": 0.30768707426187714,
+   "T0": 3.0768707426187714,
+   "S": 500
+  },
+  "tfin": 0.3846088428273464,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.32330688067885044,
+  "model_mean_cut": 0.0
+ },
+ "G54_plainpubs": {
+  "instance": "G54",
+  "rule": "SCA-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "plain",
+   "q": 0.3077390967619128,
+   "T0": 3.0773909676191282,
+   "S": 250
+  },
+  "tfin": 0.38467387095239103,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.1629820241142604,
+  "model_mean_cut": 0.0
+ },
+ "G54_tecpubs": {
+  "instance": "G54",
+  "rule": "TEC-pub-sigma",
+  "reading": "sigma transfer (COP rule)",
+  "cfg": {
+   "family": "tec",
+   "jv": 2.308043225714346,
+   "q": 0.3077390967619128,
+   "T0": 3.0773909676191282,
+   "S": 250
+  },
+  "tfin": 0.38467387095239103,
+  "model_p": 0.0,
+  "model_tts12_ms": null,
+  "model_tts12_secondary_ms": null,
+  "model_t_round12_ms": 0.16282512624188636,
+  "model_mean_cut": 0.0
+ }
+}

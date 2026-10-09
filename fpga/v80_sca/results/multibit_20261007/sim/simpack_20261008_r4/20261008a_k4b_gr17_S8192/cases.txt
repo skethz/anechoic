@@ -1,0 +1,5 @@
+K 4 matrix jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/gr17_K4.jint8:/scratch/USER/sca_v80_20261003/data/a4_problems/gr17_K4.bias.bin n 289 nfield 289 bias_mode 1 maxabs 7 sumw 38250 field_bound 581 fingerprint 76f6bd408e00e05b auto_scale 5.6820679829
+case 0 gr17_ons_S8192 S 8192 t0 112 t1 2.1 q 42 lambda 0.0222067 ramp 1 jv 0 kappa 0 scale 1 trials 1 trace 1 keep 0 seed 12648430 offset 1000
+  trial 1000 sum_sh 5475 flips 209599 energy2 -69570
+case 1 gr17_tec_S8192 S 8192 t0 56 t1 2.1 q 56 lambda 0 ramp 0 jv -28 kappa 0 scale 1 trials 1 trace 0 keep 0 seed 12648431 offset 1100
+  trial 1100 sum_sh 5507 flips 68168 energy2 -69602

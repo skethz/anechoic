@@ -1,0 +1,22 @@
+
+**Geometric-mean primary TTS99 (ms), pre-registered (original) grid, 12 engines.** In brackets: the number of instances.
+
+| Rule | random +1 | random ±1 | toroidal ±1 | planar +1 | planar ±1 | all |
+|---|---:|---:|---:|---:|---:|---:|
+| SCA | 0.055 (15) | 0.121 (10) | 6.070 (6) | 0.249 (12) | 0.767 (8) | 0.241 (51) |
+| TEC | 0.036 (15) | 0.096 (10) | 6.119 (6) | 0.203 (12) | 0.654 (8) | 0.188 (51) |
+| Onsager-kT | 0.029 (15) | 0.054 (10) | 1.409 (6) | 0.162 (12) | 0.489 (8) | 0.121 (51) |
+| Onsager-online | 0.040 (15) | 0.072 (10) | 4.311 (6) | 0.364 (12) | 0.440 (8) | 0.191 (51) |
+
+**Geometric-mean primary TTS99 (ms), extended grid (extended_amendment1), 12 engines.** In brackets: the number of instances.
+
+| Rule | random +1 | random ±1 | toroidal ±1 | planar +1 | planar ±1 | all |
+|---|---:|---:|---:|---:|---:|---:|
+| SCA | 0.053 (15) | 0.119 (10) | 7.409 (6) | 0.249 (12) | 0.707 (8) | 0.240 (51) |
+| TEC | 0.030 (15) | 0.102 (10) | 6.216 (6) | 0.197 (12) | 0.774 (8) | 0.186 (51) |
+| Onsager-kT | 0.031 (15) | 0.054 (10) | 1.624 (6) | 0.092 (12) | 0.508 (8) | 0.111 (51) |
+| Onsager-online | 0.040 (15) | 0.072 (10) | 5.114 (6) | 0.306 (12) | 0.488 (8) | 0.190 (51) |
+
+Onsager-kT TTS99 below plain SCA on 48 of 51 instances, below TEC on 41, below both on 41 (original grid).
+  not below SCA: ['G15', 'G40', 'G47']
+  not below TEC: ['G14', 'G15', 'G22', 'G24', 'G26', 'G37', 'G39', 'G40', 'G47', 'G53']

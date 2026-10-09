@@ -1,0 +1,39 @@
+{
+ "prefix": "bays29_OnsagerkT",
+ "B": 32,
+ "batches": 32,
+ "trials": 1024,
+ "t_batch_ms": 12.57015103125,
+ "successes": 0,
+ "p": 0.0,
+ "p_wilson95": [
+  0.0,
+  0.0037374040400176777
+ ],
+ "batches_with_success": 0,
+ "P_batch": 0.0,
+ "P_batch_wilson95": [
+  0.0,
+  0.1071791982550706
+ ],
+ "feasible": 694,
+ "feasibility": 0.677734375,
+ "feasibility_wilson95": [
+  0.6484916301073808,
+  0.7056485895502692
+ ],
+ "mean_quality": 0.3019745505582344,
+ "mean_quality_feasible": 0.4455647547141672,
+ "best_value": 3465,
+ "optimum_hits": 0,
+ "tts_primary_ms": Infinity,
+ "tts_primary_ci_ms": [
+  510.61124780917464,
+  Infinity
+ ],
+ "tts_secondary_ms": Infinity,
+ "tts_secondary_ci_ms": [
+  483.1181098729718,
+  Infinity
+ ]
+}
