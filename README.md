@@ -1,96 +1,49 @@
-# Anechoic
+# Anechoic: Onsager-Corrected Parallel Annealing for Sub-0.1 ms Dense Max-Cut on an FPGA
 
-Code and summary data for **"Anechoic: Onsager-Corrected Parallel Annealing for Sub-0.1 ms Dense Max-Cut on an FPGA"** by Seungki Hong (ETH Zurich), Kyeongwon Jeong (Yonsei University) and Taekwang Jang (ETH Zurich). The preprint link will be added here; the LaTeX source is in [`paper/`](paper/).
+This repository is the official implementation of the paper "Anechoic: Onsager-Corrected Parallel Annealing for Sub-0.1 ms Dense Max-Cut on an FPGA".
 
-Stochastic cellular automata (SCA) update all spins of an Ising machine at once. This makes each spin's previous state return to it through its neighbours, an echo that undoes about two-thirds of all flips on K2000. Anechoic subtracts this echo from every decision. Dynamical mean-field theory gives the coefficient as the number of spins with a fractional flip probability, divided by twice the temperature. The engine counts it online (Onsager-online) or scales it with the temperature (Onsager-κT). This repository holds:
-- the RTL engine for the AMD Alveo V80;
-- the bit-exact GPU kernel;
-- the RTL of the ASIC variant;
-- the golden models;
-- the theory and algorithm studies and the machine-checked proofs;
-- the summary data behind the paper's tables and figures.
+By Seungki Hong, Kyeongwon Jeong and Taekwang Jang.
 
-## Main results
+> **Abstract:** Ising machines solve combinatorial optimization problems by annealing a network of spins. On dense problems, where every spin couples to every other, the least expensive hardware step updates all spins at once: stochastic cellular automata (SCA) decide every spin in parallel and read couplings only for the spins that flip. Such synchronous updates, however, *create an echo: the previous state of each spin returns to it through its neighbors*. On K2000, the Max-Cut benchmark on a complete graph of 2,000 nodes, two-thirds of all flips undo a flip that the same spin made one step earlier. This paper presents *Anechoic*, an FPGA Ising machine that *subtracts this echo from every decision*. Dynamical mean-field theory identifies the echo as an Onsager reaction and gives the strength of its one-step part: *the number of spins whose flip probability lies strictly between 0 and 1, divided by twice the temperature*. The decision logic already flags these spins, so this Onsager correction costs one population count per step, and a temperature-scaled approximation needs no count. A hand-written RTL engine executes a dense 2,000-spin step in 18.1 cycles plus 0.14 cycles per flip, so every step and flip that the correction saves is saved time. In experiments, the counted and the temperature-scaled correction both find better K2000 cuts at every step budget than each of five published binary-spin algorithms run at its paper's settings. Twelve engines at 250 MHz on an AMD Alveo V80 reach a cut of at least 33,000 on K2000 with 99% probability in **0.05 ms, 5.2× faster than the fastest published hardware**, at 5.4 mJ per solution; with 2-bit couplings, the temperature-scaled form is also faster than uncorrected SCA on 49 of 51 sparse G-set graphs. On an NVIDIA GH200 GPU, the identical engine is 2.3× slower and needs 8.0× more energy per solution, though its 240 concurrent anneals give 2.3× higher throughput. As a GlobalFoundries 22 nm ASIC routed at 1.25 GHz (typical corner), twelve engines would reach the target in about **10 µs, 26× faster than the fastest published hardware**, with 0.20 mJ of engine energy per solution.
+>
+> <img width="980" src="docs/table4.png" alt="Table 4: TTS99 on the K2000 Max-Cut instance">
+>
+> <br>
+>
+> <img width="520" src="docs/table5.png" alt="Table 5: the same bit-exact engine on three platforms">
+>
+> <br>
+>
+> <img width="980" src="docs/figure5.png" alt="Figure 5: ASIC implementation of one engine in GlobalFoundries 22FDX">
+>
+> <sub>Tables 4 and 5 and Figure 5 of the paper. Bracketed numbers are the paper's references.</sub>
 
-- **FPGA.** On an AMD Alveo V80, twelve engines at 250 MHz reach a cut of at least 33,000 on K2000 with 99% probability in **0.05 ms**. That is 5.2× faster than the fastest published hardware, at 5.4 mJ per solution.
-- **ASIC (simulation).** As a GlobalFoundries 22 nm ASIC routed at 1.25 GHz, twelve engines would reach the same target in about **10 µs**, 26× faster than the fastest published hardware.
+## Contents
+1. [Environment](#environment)
+1. [Data](#data)
+1. [Repository structure](#repository-structure)
+1. [Paper results and their code](#paper-results-and-their-code)
+1. [Notes](#notes)
+1. [Citation](#citation)
 
-### TTS<sub>99</sub> on K2000 (Table 4 of the paper)
+## Environment
+- **Python 3.12** with numpy, numba, scipy and matplotlib. `dmft_torch.py` also needs PyTorch. The Neal reference runs need dimod and dwave-samplers. Exact versions are in the protocol files.
+- **A C++17 compiler** for the golden models, the vector generators and the host programs.
+- **For the GPU kernels:** CUDA 13.3 and an NVIDIA GH200 (sm_90).
+- **For the V80 builds:** AMD Vivado/Vitis 2025.1, the [AVED](https://github.com/Xilinx/AVED) shell and an AMD Alveo V80.
+- **For the RTL regressions:** a Verilog simulator (Siemens Questa or AMD Vivado xsim).
+- **For the proofs:** Lean 4 (v4.35.0-rc4, as pinned in `SnowballFormal/lean-toolchain`) with Mathlib, and the Rocq Prover 9.3.
 
-Time to reach the target cut with 99% probability. t<sub>a</sub> is the time of one anneal or round, and P<sub>a</sub> its success probability. Values of other machines are quoted from the cited publications. **All CMOS and ReRAM results are simulations.**
+## Data
+```bash
+git clone https://github.com/skethz/anechoic.git
+cd anechoic
+python3 data/fetch_data.py
+```
+`fetch_data.py` downloads K2000, the G-set and the TSPLIB instances from their original sources. It checks every file against the SHA-256 recorded in the experiments and places it where the scripts expect it; see [`data/README.md`](data/README.md).
 
-| Machine | Hardware | Target cut | t<sub>a</sub> [ms] | P<sub>a</sub> | TTS<sub>99</sub> [ms] |
-|---|---|---:|---:|---:|---:|
-| Neal SA [[1]](#ref1) <sup>a</sup> | CPU | 33,000 | 4,610 | 0.38 | 44,413 |
-| Neal SA [[1]](#ref1) <sup>a</sup> | CPU | 33,000 | 5,646 | 0.77 | 17,693 |
-| CIM [[2]](#ref2) <sup>b</sup> | Optics | 33,000 | 5.0 | 0.02 | 1,139.74 |
-| SB [[3]](#ref3) <sup>b</sup> | FPGA | 33,000 | 0.5 | 0.04 | 56.41 |
-| STATICA [[4]](#ref4) <sup>c</sup> | CMOS | 33,000 | 0.13 | 0.07 | 8.23 |
-| STATICA [[4]](#ref4) <sup>c</sup> | CMOS | 33,000 | 0.48 | 0.77 | 1.50 |
-| bSB [[5]](#ref5) <sup>d</sup> | FPGA | 33,004 | – | – | 0.26 |
-| ReAIM [[6]](#ref6) <sup>e</sup> | ReRAM | 33,000 | 0.15 | 0.47 | 1.11 |
-| ReAIM [[6]](#ref6) <sup>e</sup> | ReRAM | 33,000 | 0.23 | 0.8 | 0.68 |
-| GbSB [[7]](#ref7) <sup>f</sup> | FPGA | 33,337 | 9.42 | 0.989 | 9.61 |
-| DSSA [[8]](#ref8) <sup>g</sup> | CMOS | n/s | 2.30 | 0.98 | 2.7 |
-| **Anechoic** <sup>h</sup> | **FPGA** | **33,000** | **0.05** | **1.00** | **0.05** |
-| **Anechoic** <sup>h</sup> | **GPU** | **33,000** | **0.11** | **1.00** | **0.11** |
-| **Anechoic** <sup>h</sup> | **CMOS** | **33,000** | **0.01** | **1.00** | **0.01** |
-
-<sup>a</sup> Simulated annealing on an Intel Core i9-12900KF, as reported by ReAIM.
-<sup>b</sup> Compiled by STATICA. SB ran on an Intel Arria 10 GX FPGA.
-<sup>c</sup> Cycle-level simulation of a 2K-spin STATICA at 300 MHz; the fabricated 65-nm chip has 512 spins.
-<sup>d</sup> Time to target at 99% of the best-known cut (≥ 33,004); t<sub>a</sub> and P<sub>a</sub> are not reported.
-<sup>e</sup> Simulation of a ReRAM processing-in-memory design, with digital logic scaled from 130 to 32 nm.
-<sup>f</sup> Intel Agilex 7 FPGA at 591 MHz. The target is the best-known cut; t<sub>a</sub> is 21,400 steps of 0.440 µs.
-<sup>g</sup> Post-layout simulation of a 28-nm processor at 500 MHz, annealing phase only; target not stated (n/s).
-<sup>h</sup> Onsager-κT, primary estimator. t<sub>a</sub> is the mean round time and P<sub>a</sub> the fraction of successful rounds.
-- FPGA: AMD Alveo V80, 12 engines at 250 MHz, 171 rounds.
-- GPU: NVIDIA GH200, 120 chains with their own schedule, 128 rounds.
-- CMOS: simulation of 12 GlobalFoundries 22FDX engines, routed at 1.25 GHz and cycle-exact to the FPGA in RTL.
-
-### The same engine on three platforms (Table 5 of the paper)
-
-K2000, target cut ≥ 33,000. The FPGA and GPU values are measured; the ASIC values are estimates. Each round starts one anneal on every engine or chain.
-- The **primary** TTS<sub>99</sub> treats a round as one run, so its P<sub>a</sub> is the fraction of rounds in which at least one engine reaches the target.
-- The **secondary** TTS<sub>99</sub> treats every anneal as a run, with P<sub>a</sub> = 1 − (1 − p)<sup>E</sup>, where p is the success probability of one anneal and E the number of engines or chains. It measures throughput.
-
-The GPU uses 120 chains for the primary estimator and 240 for the secondary.
-
-| | FPGA (AMD Alveo V80) | GPU (NVIDIA GH200) | ASIC (GlobalFoundries 22FDX, simulation) |
-|---|---:|---:|---:|
-| Engines or concurrent chains | 12 | 120–240 | 12 |
-| Step latency, one chain [µs] | 0.15–0.18 | 0.63–0.72 | 0.031–0.035 |
-| Primary TTS<sub>99</sub> [ms] | 0.050 | 0.114 | 0.010 |
-| Secondary TTS<sub>99</sub> [ms] | 0.018 | 0.0078 | 0.0036 |
-| Power [W] | 108 <sup>a</sup> | 382 | 19.9 <sup>b</sup> |
-| Energy per solution [mJ] | 5.4 <sup>a</sup> | 43 | 0.20 <sup>b</sup> |
-| Area [mm²] | – | – | 43 <sup>b</sup> |
-
-<sup>a</sup> Board. The engines alone draw 39 W, which is 2.0 mJ per solution.
-<sup>b</sup> Engines only.
-
-### ASIC implementation (Figure 5 of the paper)
-
-![ASIC implementation of one engine in GlobalFoundries 22FDX](docs/figure5_asic.png)
-
-One engine (v6) in GlobalFoundries 22FDX, placed and routed at 1.25 GHz.
-- **(a)** SRAM macros and standard cells by design hierarchy. Each of the eight slices holds four groups next to their coupling macros, so every coupling read stays within its slice.
-- **(b)** Signal and clock wiring by metal layer.
-- **(c)** Clock tree: 2,798 buffers and 756 clock gates drive about 162,000 flip-flops, with a mean insertion delay of 597 ps and a skew of 81 ps. Enlarged markers show the 1,894 buffers that clock-tree synthesis placed.
-- **(d)** Area and power at the typical corner (0.80 V, 25 °C), with O1 activity.
-
-### References for Table 4
-
-1. <a id="ref1"></a>D-Wave, dwave-neal, simulated-annealing sampler. https://github.com/dwavesystems/dwave-neal
-2. <a id="ref2"></a>T. Inagaki et al., Science, 2016. https://doi.org/10.1126/science.aah4243
-3. <a id="ref3"></a>H. Goto et al., Science Advances, 2019. https://doi.org/10.1126/sciadv.aav2372
-4. <a id="ref4"></a>K. Yamamoto et al., STATICA, IEEE Journal of Solid-State Circuits, 2021. https://doi.org/10.1109/JSSC.2020.3027702
-5. <a id="ref5"></a>H. Goto et al., Science Advances, 2021. https://doi.org/10.1126/sciadv.abe7953
-6. <a id="ref6"></a>H.-W. Chiang et al., ReAIM, ISCA, 2024. https://doi.org/10.1109/ISCA59077.2024.00015
-7. <a id="ref7"></a>H. Goto et al., Physical Review Applied, 2026. https://doi.org/10.1103/2qd9-x6v8
-8. <a id="ref8"></a>N. Onizawa et al., DSSA, IEEE Access, 2026. https://doi.org/10.1109/ACCESS.2026.3731035
-
-## Layout
+## Repository structure
+The repository holds the RTL engine for the AMD Alveo V80, the bit-exact GPU kernel, the RTL of the ASIC variant, the golden models, the theory and algorithm studies, the machine-checked proofs, and the summary data behind the paper's tables and figures.
 
 | Folder | Contents |
 |---|---|
@@ -111,8 +64,7 @@ One engine (v6) in GlobalFoundries 22FDX, placed and routed at 1.25 GHz.
 | `paper/` | LaTeX source of the preprint. |
 | `data/` | Download and verification of the benchmark instances. |
 
-## Where the paper's results come from
-
+## Paper results and their code
 | Paper | Source |
 |---|---|
 | Figure 1 (theory and simulation) | `research/dmft_sca_20261004/` (`dmft.py`, `dmft_torch.py`, `plot_theory_vs_sim_v2.py`) |
@@ -124,34 +76,25 @@ One engine (v6) in GlobalFoundries 22FDX, placed and routed at 1.25 GHz.
 | Figure 4 (flips per step) | `research/algorithm_compare_20261007/flips_profile_v2.py` |
 | Tables 4 and 5 (Anechoic on FPGA, GPU and ASIC) | `fpga/v80_sca/`, `gpu/onsager_v2_20261007/` (`REPORT.md`), `asic/gf22_engine_v64_1p25_20261007/results/` |
 | Table 6 (FPGA resources) | `fpga/v80_sca/results/util_20261007/` |
-| Table 7 and the ASIC results | `asic/` (RTL, regression, derived totals). The layout figure is in `paper/`. |
+| Table 7 and the ASIC results | `asic/` (RTL, regression, derived totals). The layout figure is `docs/figure5.png`. |
 | Table 8 (G-set, measured) | `fpga/v80_sca/RESULTS_MULTIBIT.md` and `PROTOCOL_HW_MB_A3*`, `research/gset_20261007/`, `research/fairness_audit_20261008/gset/` |
 | Table 9 (software benchmarks) | `research/reaim_benchmarks_20261008/` (`run_a5*.py`, `analyze_a5.py`, `compact_table*.md`) |
 | Comparison with GbSB at the best-known cut | `research/optimum_mitigation_20261007/` |
 
-## Requirements
-
-- **Python 3.11 or newer** with numpy, numba, scipy and matplotlib. `dmft_torch.py` also needs PyTorch. The Neal reference runs need dimod and dwave-samplers. Exact versions are in the protocol files.
-- **A C++17 compiler** for the golden models, the vector generators and the host programs.
-- **For the GPU kernels:** CUDA 13 and an NVIDIA GH200 (sm_90).
-- **For the V80 builds:** AMD Vivado/Vitis 2025.1, the [AVED](https://github.com/Xilinx/AVED) shell and an AMD Alveo V80.
-- **For the RTL regressions:** a Verilog simulator (Siemens Questa or AMD Vivado xsim).
-- **For the proofs:** Lean 4, at the version in `SnowballFormal/lean-toolchain`, with Mathlib; and the Rocq Prover 8.20.
-
-Run `python3 data/fetch_data.py` once to obtain the benchmark instances; see [`data/README.md`](data/README.md).
-
 ## Notes
-
 - **Placeholders.** The experiments ran on the authors' servers. For publication, user names, host names, local paths and device identifiers were replaced by placeholders: `/scratch/USER`, `gpu-host`, `fpga-host` and `GPU-xxxxxxxx-…`. Set them for your environment.
 - **Hash records.** The SHA-256 records of the frozen protocols and inputs (`*.sha256`, `SHA256SUMS*.txt`) refer to the unredacted originals. The self-test in `research/fairness_audit_20261008/k2000_pub/pub_methods.py` checks the published files.
+- **Protocol gates.** The V80 bring-up and run scripts (`fpga/v80_sca/scripts/bringup_*.sh`, `run_hw_v6_a5.sh`) stop unless the frozen protocol files match their records. In this release that check fails, because paths were replaced and some inputs are not included. Regenerate the records for your setup, or remove the check.
 - **Raw data.** Per-trial records, spin states and traces are not included because of their size. The summaries, and the scripts that produced them, are included.
 - **ASIC.** The ASIC folders contain the RTL, its regression against the golden model and the derived totals. Synthesis and place-and-route scripts and reports are not included, because they depend on a foundry design kit under a non-disclosure agreement.
 - **FPGA platform.** The V80 builds use AMD's AVED shell, together with the platform-integration and programming scripts of the authors' earlier V80 design (`fpga/v80_snowball/`). Neither is part of this repository.
 
 ## Citation
-
-The preprint entry will be added here.
-
-## License
-
-To be added.
+```bibtex
+@misc{hong2026anechoic,
+      title={Anechoic: Onsager-Corrected Parallel Annealing for Sub-0.1 ms Dense Max-Cut on an FPGA},
+      author={Seungki Hong and Kyeongwon Jeong and Taekwang Jang},
+      year={2026},
+      url={https://github.com/skethz/anechoic},
+}
+```
