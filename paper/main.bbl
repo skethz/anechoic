@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{44}
+\begin{thebibliography}{43}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -360,24 +360,6 @@ Retrieved September 24, 2026 from \tempurl}
   to a mean-field spin glass model}}.
 \newblock \bibinfo{howpublished}{arXiv:2609.38790}.
 \newblock
-
-
-\bibitem[Kawamura et~al\mbox{.}(2023)]%
-        {10067504}
-\bibfield{author}{\bibinfo{person}{Kazushi Kawamura}, \bibinfo{person}{Jaehoon
-  Yu}, \bibinfo{person}{Daiki Okonogi}, \bibinfo{person}{Satoru Jimbo},
-  \bibinfo{person}{Genta Inoue}, \bibinfo{person}{Akira Hyodo},
-  \bibinfo{person}{{\'A}ngel L{\'o}pez Garc{\'i}a-Arias}, \bibinfo{person}{Kota
-  Ando}, \bibinfo{person}{Bruno~Hideki Fukushima-Kimura},
-  \bibinfo{person}{Ryota Yasudo}, \bibinfo{person}{Thiem Van~Chu}, {and}
-  \bibinfo{person}{Masato Motomura}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{{Amorphica: 4-Replica 512 Fully Connected Spin
-  336MHz Metamorphic Annealer with Programmable Optimization Strategy and
-  Compressed-Spin-Transfer Multi-Chip Extension}}. In
-  \bibinfo{booktitle}{\emph{{2023 IEEE International Solid-State Circuits
-  Conference (ISSCC)}}}. \bibinfo{pages}{42--44}.
-\newblock
-\href{https://doi.org/10.1109/ISSCC42615.2023.10067504}{doi:\nolinkurl{10.1109/ISSCC42615.2023.10067504}}
 
 
 \bibitem[Kirkpatrick et~al\mbox{.}(1983)]%
