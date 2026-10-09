@@ -6,6 +6,14 @@ By Seungki Hong, Kyeongwon Jeong and Taekwang Jang.
 
 > **Abstract:** Ising machines solve combinatorial optimization problems by annealing a network of spins. On dense problems, where every spin couples to every other, the least expensive hardware step updates all spins at once: stochastic cellular automata (SCA) decide every spin in parallel and read couplings only for the spins that flip. Such synchronous updates, however, *create an echo: the previous state of each spin returns to it through its neighbors*. On K2000, the Max-Cut benchmark on a complete graph of 2,000 nodes, two-thirds of all flips undo a flip that the same spin made one step earlier. This paper presents *Anechoic*, an FPGA Ising machine that *subtracts this echo from every decision*. Dynamical mean-field theory identifies the echo as an Onsager reaction and gives the strength of its one-step part: *the number of spins whose flip probability lies strictly between 0 and 1, divided by twice the temperature*. The decision logic already flags these spins, so this Onsager correction costs one population count per step, and a temperature-scaled approximation needs no count. A hand-written RTL engine executes a dense 2,000-spin step in 18.1 cycles plus 0.14 cycles per flip, so every step and flip that the correction saves is saved time. In experiments, the counted and the temperature-scaled correction both find better K2000 cuts at every step budget than each of five published binary-spin algorithms run at its paper's settings. Twelve engines at 250 MHz on an AMD Alveo V80 reach a cut of at least 33,000 on K2000 with 99% probability in **0.05 ms, 5.2× faster than the fastest published hardware**, at 5.4 mJ per solution; with 2-bit couplings, the temperature-scaled form is also faster than uncorrected SCA on 49 of 51 sparse G-set graphs. On an NVIDIA GH200 GPU, the identical engine is 2.3× slower and needs 8.0× more energy per solution, though its 240 concurrent anneals give 2.3× higher throughput. As a GlobalFoundries 22 nm ASIC routed at 1.25 GHz (typical corner), twelve engines would reach the target in about **10 µs, 26× faster than the fastest published hardware**, with 0.20 mJ of engine energy per solution.
 >
+> <img width="980" src="docs/figure2.png" alt="Figure 2: algorithm-level comparison on K2000">
+>
+> <br>
+>
+> <img width="980" src="docs/figure3.png" alt="Figure 3: twelve engines on the AMD Alveo V80 and one engine">
+>
+> <br>
+>
 > <img width="980" src="docs/table4.png" alt="Table 4: TTS99 on the K2000 Max-Cut instance">
 >
 > <br>
@@ -16,7 +24,7 @@ By Seungki Hong, Kyeongwon Jeong and Taekwang Jang.
 >
 > <img width="980" src="docs/figure5.png" alt="Figure 5: ASIC implementation of one engine in GlobalFoundries 22FDX">
 >
-> <sub>Tables 4 and 5 and Figure 5 of the paper. Bracketed numbers are the paper's references.</sub>
+> <sub>Figures 2, 3 and 5 and Tables 4 and 5 of the paper. Bracketed numbers are the paper's references.</sub>
 
 ## Contents
 1. [Environment](#environment)
