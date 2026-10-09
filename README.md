@@ -92,7 +92,7 @@ The repository holds the RTL engine for the AMD Alveo V80, the bit-exact GPU ker
 ## Citation
 ```bibtex
 @misc{hong2026anechoic,
-      title={Anechoic: Onsager-Corrected Parallel Annealing for Sub-0.1 ms Dense Max-Cut on an FPGA},
+      title={{Anechoic: Onsager-Corrected Parallel Annealing for Sub-0.1 ms Dense Max-Cut on an FPGA}},
       author={Seungki Hong and Kyeongwon Jeong and Taekwang Jang},
       year={2026},
       url={https://github.com/skethz/anechoic},
