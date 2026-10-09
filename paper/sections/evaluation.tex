@@ -3,7 +3,7 @@
 \subsection{Experimental methodology}\label{subsec:setup}
 \textbf{Platform.} Anechoic runs on an AMD Alveo V80 (Versal HBM, xcv80, three SLRs)~\cite{amd_v80} with the AVED shell~\cite{amd_aved}, implemented with Vivado 2025.1. Twelve eight-extractor engines run at \fClk{}; after routing, the setup slack is $+0.022$\,ns and the hold slack $+0.010$\,ns.
 
-\noindent\textbf{Timing.} Each engine's start-to-done cycle counter, divided by the kernel clock, gives the device time. For 64-trial launches, host wall-clock time agrees with the counters to within 0.3\%.
+\noindent\textbf{Timing.} Each engine's start-to-done cycle counter, divided by the kernel clock, gives the device time. Mean round times exclude the first round, which also loads the couplings (0.58\,ms). For 64-trial launches, host wall-clock time agrees with the counters to within 0.3\%.
 
 \noindent\textbf{Problem and scoring.} Unless stated otherwise, the hardware experiments use K2000~\cite{doi:10.1126/science.aah4243} (Section~\ref{sec:background}), as do all works in Table~\ref{tab:comp}. A trial succeeds if its final state has a cut of at least 33{,}000. The host rescores every returned state independently of the device.
 
@@ -121,7 +121,7 @@ Figure~\ref{fig:flips} shows where the gain comes from: (1)~O1 and O2 start cool
 
 Table~\ref{tab:comp} compares Anechoic with published results, at the 33{,}000 target except where the table lists another. On the primary estimator, Anechoic is \spdBSB{} faster than bSB, the fastest measured hardware~\cite{goto2021high}; with 95\% confidence, it is at least $4.2\times$ faster. That comparison mixes targets: bSB reports the same measure, as time to target (TTT), for a cut of at least 33{,}004, 99\% of the best known.
 
-Figure~\ref{fig:alg} and Table~\ref{tab:comp} rank bSB differently because they measure different quantities. Figure~\ref{fig:alg} counts Monte Carlo steps: bSB needs the fewest, 293 steps to reach the target with 99\% probability, against 830 for Onsager-$\kappa T$ (Section~\ref{subsec:algcomp}). Table~\ref{tab:comp} measures time on hardware, where step costs differ: a bSB step multiplies the full coupling matrix by a real-valued vector, and GbSB takes 0.44\,\textmu s per step~\cite{goto2026edge}. A step of this engine processes only the 126--169 spins that flip and takes 0.15--0.18\,\textmu s (Section~\ref{subsec:update}). Part of the advantage is parallelism: the V80 runs twelve engines, and with O1 every 50\,\textmu s round has a success; one engine would need about 0.22\,ms (O5).
+Figure~\ref{fig:alg} and Table~\ref{tab:comp} rank bSB differently because they measure different quantities. Figure~\ref{fig:alg} counts Monte Carlo steps: bSB needs the fewest, 293 steps to reach the target with 99\% probability, against 830 for Onsager-$\kappa T$ (Section~\ref{subsec:algcomp}). Table~\ref{tab:comp} measures time on hardware, where step costs differ: a bSB step multiplies the coupling matrix by real-valued amplitude changes, dense until the amplitudes settle, and GbSB takes 0.44\,\textmu s per step~\cite{goto2026edge}. A step of this engine processes only the 126--169 spins that flip and takes 0.15--0.18\,\textmu s (Section~\ref{subsec:update}). Part of the advantage is parallelism: the V80 runs twelve engines, and with O1 every 50\,\textmu s round has a success; one engine would need about 0.22\,ms (O5).
 
 At the best-known cut, however, the proposed dynamics lag the state of the art: GbSB~\cite{goto2026edge} reaches 33{,}337 in 9.61\,ms. In a pre-registered study with the engine's floating-point model, the best Onsager-online schedule needs 54\,ms on twelve engines (95\% CI 44--65\,ms), 5.6 times GbSB's time, but its 16{,}000 steps exceed the 4{,}096-entry table, within which the best pre-registered schedule needs 105\,ms. With a larger table, the ASIC would need 11\,ms (95\% CI 9--13\,ms), 1.1 times GbSB's time, or 21\,ms with the present one.
 
@@ -138,8 +138,8 @@ At the best-known cut, however, the proposed dynamics lag the state of the art: 
 Board input power is sampled every 0.25\,s through the AVED Management Interface driver while all engines run back to back for 150\,s, over 99\% busy and without clock throttling. With O1, the board draws \pBoard{}, so the energy per solution, power times primary TTS$_{99}$, is \ets{} (Table~\ref{tab:platform}). The engines add 36--41\,W to the 66--73\,W the board draws at idle. The multi-bit images draw more on K2000: 126\,W for twelve 2-bit engines (6.4\,mJ per solution) and 94\,W for six 4-bit engines at 225\,MHz, which need 0.098\,ms (9.2\,mJ). Block RAM is the scarcest resource (89\%, Table~\ref{tab:hw}), because each engine stores its couplings four times (Section~\ref{subsec:layout}).
 
 \subsection{The same engine on a GPU}\label{subsec:gpu}
-To separate the platform from the algorithm, the engine is also implemented bit-exactly on an NVIDIA GH200~\cite{nvidia_gh200}. The GPU version reproduces the reference model, and therefore the V80, in 424 of 424 traced trials. Each chain, an independent anneal, runs on eight thread blocks that hold $J$ in registers and exchange flip masks through distributed shared memory.
-Up to 240 chains run concurrently, and the primary schedule is re-selected for the GPU (Table~\ref{tab:platform}).
+To separate the platform from the algorithm, the engine is also implemented bit-exactly on an NVIDIA GH200~\cite{nvidia_gh200}. The GPU version reproduces the reference model, and therefore the V80, in 424 of 424 traced trials. Each chain, an independent anneal, runs on eight thread blocks that hold $J$ in registers and exchange flip masks via distributed shared memory.
+Up to 240 chains run concurrently; the primary schedule is re-selected for the GPU (Table~\ref{tab:platform}).
 
 \begin{table}[t]
 \centering
@@ -168,7 +168,7 @@ The V80 reaches the target \gpuSpd{} sooner on the primary estimator and uses \g
 
 \subsection{ASIC estimate}\label{subsec:asic}
 
-The eight-extractor engine (v6) is synthesized, placed and routed in GlobalFoundries 22FDX, a 22\,nm fully depleted silicon-on-insulator process, using 8-track low-threshold-voltage standard cells, with Cadence Genus and Innovus at the typical corner (Table~\ref{tab:asic}, Figure~\ref{fig:asic}). The memories are replaced by SRAM macros, and the logic is unchanged except that the step-table read takes two cycles, which changes no cycle count. As in the multi-bit engine (Section~\ref{subsec:multibit}), each coupling is stored once, in single-port SRAM (4 instead of 16\,Mbit per engine on the FPGA). In RTL simulation, this variant reproduces the FPGA engine bit- and cycle-exactly on all eight test sets.
+The eight-extractor engine (v6) is synthesized, placed and routed in GlobalFoundries 22FDX, a 22\,nm fully depleted silicon-on-insulator process, using 8-track low-threshold-voltage standard cells, with Cadence Genus and Innovus at the typical corner (Table~\ref{tab:asic}, Figure~\ref{fig:asic}). The memories are replaced by SRAM macros, and the logic is unchanged except that the step-table read takes two cycles, which changes no cycle count. As in the multi-bit engine (Section~\ref{subsec:multibit}), each coupling is stored once, in single-port SRAM (4 instead of 16\,Mbit per engine on the FPGA). In RTL simulation, this variant reproduces the FPGA engine bit- and cycle-exactly on eight test sets.
 
 \begin{table}[t]
 \centering
