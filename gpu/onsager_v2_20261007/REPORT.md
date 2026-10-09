@@ -1,3 +1,5 @@
+> **Note (9 October 2026).** This report compares with an earlier V80 result (v6.2, primary TTS99 0.0686 ms). The paper compares with the final v6.4 V80: 0.0503 ms primary and 0.0181 ms secondary. On that basis the V80 is 2.3× faster on the primary estimator and needs 8.0× less energy per solution, and the GPU's secondary TTS99 (0.0078 ms, with the V80's O5 schedule at 240 chains) is 2.3× lower. Links to `onsager_20261005` and `research/tts_platform_20261003` refer to folders that are not in this repository.
+
 # GPU v2 (GH200): bit-exact V80 SCA engine and measured TTS99
 
 7 October 2026. gpu-host, GPU `GPU-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` (GH200 144G HBM3e, 132 SMs, SM clock 1980 MHz during runs). Remote directory: `/scratch/USER/snowball_gpu_v2_20261007`.

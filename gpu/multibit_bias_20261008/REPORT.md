@@ -1,3 +1,5 @@
+> **Note (9 October 2026).** The final GPU G-set tables are `results/GS_tables.md`. They supersede the numbers that this report calls final.
+
 ## GPU multi-bit kernel with bias and runtime n (GH200): final report
 
 Bias (external field) and runtime-n support are done on the K-bit GH200 kernel and match `run_trial_bias` bit for bit. The G-set Max-Cut measurements (K = 2, all 51 instances, the software study's schedules) are done with TTS99, power and energy. Everything finished by about 05:05 CEST.

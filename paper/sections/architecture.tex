@@ -1,6 +1,6 @@
 \section{Engine and System Architecture}\label{sec:arch}
 
-The engine is designed so that a step costs what the algorithm needs and no more: $N$ decisions, plus one coupling row for each spin that flips. All spin and field state lives on chip exactly once, and the datapath contains no handshakes. Earlier versions of the engine (v1--v3 in Table~\ref{tab:evo}) are written in high-level synthesis (HLS), which outlines every pipelined loop into its own module and copies the register-resident state into each one (355\,k flip-flops for 100\,k bits of state); the loop-exit handshakes also become clock enables with 32--43\,k fanout, which limits timing at 250--300\,MHz. The engine described here is hand-written RTL, and its only HLS part is a small front end that moves data (Figure~\ref{fig:arch}).
+The engine is designed so that a step costs what the algorithm needs and no more: $N$ decisions, plus one coupling row for each spin that flips. All spin and field state lives on chip exactly once, and the datapath contains no handshakes. Earlier versions of the engine (v1--v3 in Table~\ref{tab:evo}) are written in high-level synthesis (HLS), which outlines every pipelined loop into its own module and copies the register-resident state into each one (356\,k flip-flops for 100\,k bits of state); the loop-exit handshakes also become clock enables with 32--43\,k fanout, which limits timing at 250--300\,MHz. The engine described here is hand-written RTL, and its only HLS part is a small front end that moves data (Figure~\ref{fig:arch}).
 
 \input{figures/fig3_v2}
 

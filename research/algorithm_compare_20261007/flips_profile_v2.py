@@ -30,7 +30,7 @@ ROOT = Path(__file__).resolve().parent
 # curves are bit-identical to v1. Board p and round times for B5/B7: Table 2 (A5 run, hwv6_board_v64_e12_250mhz_a5).
 CFGS = [  # key, label, cfg (identical to scripts/run_hw_v6.sh), on-board p, on-board mean round time [ms]
     ('S7', 'STATICA (B7)', dict(family='plain', q=4.0, T0=40.0, S=1560), 0.824, 0.302),
-    ('S5', 'STATICA (B5)', dict(family='plain', q=4.0, T0=30.0, S=560), 0.134, 0.095),
+    ('S5', 'STATICA (B5)', dict(family='plain', q=4.0, T0=30.0, S=560), 0.134, 0.094),  # 0.094473 ms (a5_summary.json); was 0.095
     ('P3', 'Plain SCA (B3)', dict(family='plain', q=8.0, T0=30.0, S=1560), 0.439, 0.1993),
     ('B1', 'Plain SCA (B2)', dict(family='plain', q=8.0, T0=40.0, S=960), 0.461, 0.1568),
     ('T2', 'TEC-style (B1)', dict(family='tec', q=8.0, jv=-4.0, T0=30.0, S=960), 0.392, 0.1366),

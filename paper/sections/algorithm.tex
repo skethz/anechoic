@@ -93,7 +93,7 @@ The correction is evaluated in two forms, named after how the coefficient is obt
 \begin{equation*}
   z_i(t)=s_i(t)\bigl[h_i(t)-\kappa\,T_{t-1}\,\rho_t\,s_i(t{-}1)\bigr]+q .
 \end{equation*}
-For plain SCA on K2000, $n_{\mathrm{lin}}/4T^2$ stays near 0.3 for $8\le T\le25$, as the theory predicts, so $c=n_{\mathrm{lin}}/2T$ is nearly proportional to $T$ (Figure~\ref{fig:theory}b), and a coupling $\kappa T$ follows it without a population count. Onsager-$\kappa T$ retains the gain: in pre-registered ablations at equal hardware cost, the online coefficient gives a further 4--9\% reduction in projected time-to-solution, but on the board the best Onsager-$\kappa T$ schedule is the faster one (Section~\ref{subsec:ttsres}).
+For plain SCA on K2000, $n_{\mathrm{lin}}/4T^2$ stays near 0.3 for $8\le T\le25$, as the theory predicts, so $c=n_{\mathrm{lin}}/2T$ is nearly proportional to $T$ (Figure~\ref{fig:theory}b), and a coupling $\kappa T$ follows it without a population count. Onsager-$\kappa T$ retains the gain: in pre-registered ablations at equal hardware cost, the online coefficient gives a further 4--9\% speed-up in projected time-to-solution, but on the board the best Onsager-$\kappa T$ schedule is the faster one (Section~\ref{subsec:ttsres}).
 
 The correction is inexpensive: $n_{\mathrm{lin}}$ is a population count of flags that the lanes already compute, $\lambda_t/(2T_{t-1})$ is a table entry, and each lane adds or subtracts their product $\lambda_t c(t{-}1)$ depending on whether $s_i(t)=s_i(t{-}1)$. Both forms run on the same engine and differ only in two per-step tables (Algorithm~\ref{alg:anneal}).
 

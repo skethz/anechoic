@@ -1,3 +1,5 @@
+> **Note (9 October 2026).** This report covers the engine-model study. The measured board results of the paper's Table 8 are in `fpga/v80_sca/RESULTS_MULTIBIT.md` and `research/fairness_audit_20261008/gset/`.
+
 ## G-set transfer test (software model of the engine): final report
 
 `selected_configs.json` (for the FPGA and GPU ternary engines) is written and holds both the frozen-grid and the extended selections.

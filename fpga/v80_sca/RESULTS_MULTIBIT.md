@@ -1,3 +1,5 @@
+> **Note (9 October 2026).** Some values here come from revision 1 of the K = 2 image (for example 124 W and 88.6% LUT); the paper uses revision 3, which has no bias. The G-set counts in the Amendment 3 section (48 and 41 of 51) use the pre-registered grids. The paper reports these and, in Table 8, the extended grids of Amendment 1 (49 and 42).
+
 # Multi-bit couplings on the V80 engine (K = 2): design, verification and board results
 
 **Status (8 October 2026, 19:00 UTC).**

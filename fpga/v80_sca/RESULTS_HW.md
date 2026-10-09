@@ -1,3 +1,5 @@
+> **Note (9 October 2026).** The cycles per trial in the final v6.4 section (13,047 for X5, 46.6 per step) include round 0, which also loads the couplings. The paper uses steady-state rounds: 12,371 cycles per X5 trial and 38–44 cycles per step (153–177 ns). The sustained throughput is 242,648 trials per second, so 242,600 when rounded, not 242,700.
+
 # Physical V80 results: Onsager-SCA engine
 
 4 October 2026, fpga-host. The board run followed [PROTOCOL_HW.md](PROTOCOL_HW.md), which was frozen before any board data; its SHA256 is in `results/protocol_hw_frozen.sha256` on fpga-host.

@@ -1,3 +1,5 @@
+> **Note (9 October 2026).** Superseded by `table8b_a5.md` (Addendum 5), the source of the paper's Table 9.
+
 | | SA | SCA | TEC | APC | ReAIM | aSB | bSB | dSB | Ons-κT | Ons-onl |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Max-Cut G1–G20 (20): quality | 0.997 | 0.991 | 0.993 | 0.994 | 0.976 | 0.984 | 0.989 | 0.995 | 0.994 | 0.991 |

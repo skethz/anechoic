@@ -1,3 +1,5 @@
+> **Note (9 October 2026).** This report covers the earlier runs with tuned baselines. Addendum 5 (`PROTOCOL_ADDENDUM5.md`, `table8b_a5.md`) supersedes it and is the source of the paper's Table 9.
+
 ## ReAIM benchmark suite at the software level: all ten methods on Max-Cut, graph partitioning (GPP) and TSP
 
 Folder: `research/reaim_benchmarks_20261008/`. Heavy runs were done on gpu-host under `/scratch/USER/anechoic_cpu_20261008` and copied back.
